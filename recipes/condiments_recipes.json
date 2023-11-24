@@ -1,0 +1,236 @@
+[
+    {
+        "title": "Lechon Sauce",
+        "recipe-link": "https://www.kawalingpinoy.com/lechon-sauce/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/10/lechon-sauce-1-680x884.jpg",
+        "meal": "condiment",
+        "nutrions": {
+            "Calories": "96kcal",
+            "Carbohydrates": "14g",
+            "Protein": "3g",
+            "Fat": "3g",
+            "Saturated Fat": "0.4g",
+            "Polyunsaturated Fat": "1g",
+            "Monounsaturated Fat": "1g",
+            "Trans Fat": "0.02g",
+            "Cholesterol": "51mg",
+            "Sodium": "485mg",
+            "Potassium": "70mg",
+            "Fiber": "0.3g",
+            "Sugar": "11g",
+            "Vitamin A": "1638IU",
+            "Vitamin C": "3mg",
+            "Calcium": "23mg",
+            "Iron": "2mg"
+        }
+    },
+    {
+        "title": "Ginisang Bagoong",
+        "recipe-link": "https://www.kawalingpinoy.com/how-to-make-ginisang-bagoong/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/06/how-to-make-ginisang-bagoong-10-680x884.jpg",
+        "meal": "condiment",
+        "nutrions": {
+            "Calories": "54kcal",
+            "Carbohydrates": "3g",
+            "Protein": "6g",
+            "Fat": "2g",
+            "Saturated Fat": "1g",
+            "Cholesterol": "89mg",
+            "Sodium": "275mg",
+            "Sugar": "3g",
+            "Vitamin A": "2IU",
+            "Vitamin C": "1mg",
+            "Calcium": "31mg",
+            "Iron": "1mg"
+        }
+    },
+    {
+        "title": "Minatamis na Bao (Coconut Jam)",
+        "recipe-link": "https://www.kawalingpinoy.com/minatamis-na-bao-coconut-jam/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/10/minatamis-na-bao-8-680x884.jpg",
+        "meal": "condiment",
+        "nutrions": {
+            "Calories": "151kcal",
+            "Carbohydrates": "15g",
+            "Protein": "1g",
+            "Fat": "10g",
+            "Saturated Fat": "9g",
+            "Polyunsaturated Fat": "1g",
+            "Monounsaturated Fat": "1g",
+            "Sodium": "5mg",
+            "Potassium": "116mg",
+            "Fiber": "1g",
+            "Sugar": "13g",
+            "Vitamin C": "1mg",
+            "Calcium": "15mg",
+            "Iron": "1mg"
+        }
+    },
+    {
+        "title": "Pineapple Salsa",
+        "recipe-link": "https://www.kawalingpinoy.com/pineapple-salsa/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/08/pineapple-salsa-1-1-680x884.jpg",
+        "meal": "condiment",
+        "nutrions": {
+            "Calories": "249kcal",
+            "Carbohydrates": "65g",
+            "Protein": "3g",
+            "Fat": "1g",
+            "Saturated Fat": "1g",
+            "Sodium": "298mg",
+            "Potassium": "574mg",
+            "Fiber": "7g",
+            "Sugar": "47g",
+            "Vitamin A": "324IU",
+            "Vitamin C": "222mg",
+            "Calcium": "71mg",
+            "Iron": "1mg"
+        }
+    },
+    {
+        "title": "Tomato Grilled Eggplant and Salted Egg Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/tomato-grilled-eggplant-and-salted-egg-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/05/grilled-eggplant-with-salted-egg-salad-7-680x884.jpg",
+        "meal": "condiment",
+        "nutrions": {
+            "Calories": "103kcal",
+            "Carbohydrates": "16g",
+            "Protein": "5g",
+            "Fat": "2g",
+            "Cholesterol": "81mg",
+            "Sodium": "156mg",
+            "Potassium": "663mg",
+            "Fiber": "7g",
+            "Sugar": "9g",
+            "Vitamin A": "495IU",
+            "Vitamin C": "10.9mg",
+            "Calcium": "37mg",
+            "Iron": "1.1mg"
+        }
+    },
+    {
+        "title": "Peppered Strawberry Jam",
+        "recipe-link": "https://www.kawalingpinoy.com/peppered-strawberry-jam/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/06/Peppered-strawberry-jam-11.jpg",
+        "meal": "condiment",
+        "nutrions": {
+            "Calories": "56kcal",
+            "Carbohydrates": "14g",
+            "Protein": "1g",
+            "Fat": "1g",
+            "Saturated Fat": "1g",
+            "Cholesterol": "1mg",
+            "Sodium": "3mg",
+            "Potassium": "21mg",
+            "Fiber": "1g",
+            "Sugar": "13g",
+            "Vitamin A": "13IU",
+            "Vitamin C": "8mg",
+            "Calcium": "2mg",
+            "Iron": "1mg"
+        }
+    },
+    {
+        "title": "Chicken Salad Sandwich Spread",
+        "recipe-link": "https://www.kawalingpinoy.com/chicken-salad-sandwich-spread/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/creamy-chicken-salad-sandwich-spread-6-680x884.jpg",
+        "meal": "condiment",
+        "nutrions": {
+            "Calories": "282kcal",
+            "Carbohydrates": "15g",
+            "Protein": "19g",
+            "Fat": "16g",
+            "Saturated Fat": "3g",
+            "Cholesterol": "82mg",
+            "Sodium": "184mg",
+            "Potassium": "285mg",
+            "Fiber": "1g",
+            "Sugar": "13g",
+            "Vitamin A": "160IU",
+            "Vitamin C": "7.7mg",
+            "Calcium": "33mg",
+            "Iron": "1.2mg"
+        }
+    },
+    {
+        "title": "Pickled Mangoes (Burong Mangga)",
+        "recipe-link": "https://www.kawalingpinoy.com/pickled-mangoes/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/pickled-mangoes-12-680x884.jpg",
+        "meal": "condiment",
+        "nutrions": {
+            "Calories": "190kcal",
+            "Carbohydrates": "45g",
+            "Sodium": "390mg",
+            "Potassium": "138mg",
+            "Fiber": "1g",
+            "Sugar": "44g",
+            "Vitamin A": "895IU",
+            "Vitamin C": "31.3mg",
+            "Calcium": "13mg",
+            "Iron": "0.1mg"
+        }
+    },
+    {
+        "title": "Easy Yema Spread",
+        "recipe-link": "https://www.kawalingpinoy.com/easy-yema-spread/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/07/easy-yema-spread-2-680x884.jpg",
+        "meal": "condiment",
+        "nutrions": {
+            "Calories": "219kcal",
+            "Carbohydrates": "28g",
+            "Protein": "5g",
+            "Fat": "9g",
+            "Saturated Fat": "5g",
+            "Cholesterol": "122mg",
+            "Sodium": "94mg",
+            "Potassium": "200mg",
+            "Sugar": "28g",
+            "Vitamin A": "355IU",
+            "Vitamin C": "1.3mg",
+            "Calcium": "158mg",
+            "Iron": "0.3mg"
+        }
+    },
+    {
+        "title": "Toast Garlic",
+        "recipe-link": "https://www.kawalingpinoy.com/how-to-toast-garlic/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/10/how-to-toast-garlic-680x884.jpg",
+        "meal": "condiment",
+        "nutrions": {
+            "Calories": "21kcal",
+            "Carbohydrates": "1g",
+            "Protein": "1g",
+            "Fat": "2g",
+            "Saturated Fat": "1g",
+            "Sodium": "1mg",
+            "Potassium": "14mg",
+            "Fiber": "1g",
+            "Sugar": "1g",
+            "Vitamin C": "1mg",
+            "Calcium": "6mg",
+            "Iron": "1mg"
+        }
+    },
+    {
+        "title": "Cheese Pineapple Sandwich Spread",
+        "recipe-link": "https://www.kawalingpinoy.com/cheese-pineapple-sandwich-spread/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/09/creamy-cheese-pineapple-spread-1-680x884.jpg",
+        "meal": "condiment",
+        "nutrions": {
+            "Calories": "193kcal",
+            "Carbohydrates": "15g",
+            "Protein": "5g",
+            "Fat": "12g",
+            "Saturated Fat": "5g",
+            "Cholesterol": "30mg",
+            "Sodium": "504mg",
+            "Potassium": "154mg",
+            "Fiber": "1g",
+            "Sugar": "14g",
+            "Vitamin A": "315IU",
+            "Vitamin C": "8.8mg",
+            "Calcium": "311mg",
+            "Iron": "0.5mg"
+        }
+    }
+]

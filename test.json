@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Baby Back Ribs with Adobo Glaze",
+        "recipe-link": "https://www.kawalingpinoy.com/baby-back-ribs-adobo-glaze/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/04/baby-back-ribs-adobo-glaze-1-680x884.jpg",
+        "meal": "appetizer",
+        "nutrions": {
+            "Calories": "317kcal",
+            "Carbohydrates": "69g",
+            "Protein": "4g",
+            "Fat": "3g",
+            "Saturated Fat": "2g",
+            "Cholesterol": "8mg",
+            "Sodium": "1711mg",
+            "Potassium": "135mg",
+            "Fiber": "1g",
+            "Sugar": "62g",
+            "Vitamin A": "90IU",
+            "Vitamin C": "0.2mg",
+            "Calcium": "49mg",
+            "Iron": "1.4mg"
+        }
+    },
+    {
+        "title": "Beef Salpicao",
+        "recipe-link": "https://www.kawalingpinoy.com/beef-salpicao/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/10/beef-salpicao-8-680x884.jpg",
+        "meal": "appetizer",
+        "nutrions": {
+            "Calories": "590kcal",
+            "Carbohydrates": "8g",
+            "Protein": "48g",
+            "Fat": "41g",
+            "Saturated Fat": "18g",
+            "Cholesterol": "153mg",
+            "Sodium": "1150mg",
+            "Potassium": "804mg",
+            "Fiber": "1g",
+            "Sugar": "3g",
+            "Vitamin A": "260IU",
+            "Vitamin C": "4mg",
+            "Calcium": "50mg",
+            "Iron": "5mg"
+        }
+    }
+]

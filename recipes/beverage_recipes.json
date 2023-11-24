@@ -1,0 +1,260 @@
+[
+    {
+        "title": "Mango Shake",
+        "recipe-link": "https://www.kawalingpinoy.com/mango-shake/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/04/mango-shake-2-1-680x884.jpg",
+        "meal": "beverage",
+        "nutrions": {
+            "Calories": "245kcal",
+            "Carbohydrates": "47g",
+            "Protein": "5g",
+            "Fat": "5g",
+            "Saturated Fat": "3g",
+            "Polyunsaturated Fat": "0.2g",
+            "Monounsaturated Fat": "2g",
+            "Cholesterol": "19mg",
+            "Sodium": "75mg",
+            "Potassium": "368mg",
+            "Fiber": "2g",
+            "Sugar": "46g",
+            "Vitamin A": "1273IU",
+            "Vitamin C": "39mg",
+            "Calcium": "182mg",
+            "Iron": "0.3mg"
+        },
+        "ingredients": [
+            "Mangoes",
+            "Milk",
+            "Sugar"
+        ]
+    },
+    {
+        "title": "Buko Pandan Drink",
+        "recipe-link": "https://www.kawalingpinoy.com/buko-pandan-drink/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/07/buko-pandan-drink-1-1-680x884.jpg",
+        "meal": "beverage",
+        "nutrions": {
+            "Calories": "508kcal",
+            "Carbohydrates": "76g",
+            "Protein": "8g",
+            "Fat": "21g",
+            "Saturated Fat": "18g",
+            "Cholesterol": "16mg",
+            "Sodium": "309mg",
+            "Potassium": "1061mg",
+            "Fiber": "5g",
+            "Sugar": "59g",
+            "Vitamin A": "150IU",
+            "Vitamin C": "7.4mg",
+            "Calcium": "300mg",
+            "Iron": "6.1mg"
+        },
+        "ingredients": [
+            "Agar",
+            "Young coconut",
+            "Coconut juice",
+            "Coconut milk",
+            "Pandan extract"
+        ]
+    },
+    {
+        "title": "Buko Lychee Juice",
+        "recipe-link": "https://www.kawalingpinoy.com/buko-lychee-juice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/07/buko-lychee-juice-6-680x884.jpg",
+        "meal": "beverage",
+        "nutrions": {
+            "Calories": "273kcal",
+            "Carbohydrates": "48g",
+            "Protein": "3g",
+            "Fat": "9g",
+            "Saturated Fat": "8g",
+            "Polyunsaturated Fat": "0.1g",
+            "Monounsaturated Fat": "0.4g",
+            "Sodium": "175mg",
+            "Potassium": "657mg",
+            "Fiber": "5g",
+            "Sugar": "42g",
+            "Vitamin C": "72mg",
+            "Calcium": "47mg",
+            "Iron": "1mg"
+        },
+        "ingredients": [
+            "Buko",
+            "Coconut juice",
+            "Lychee",
+            "Sugar"
+        ]
+    },
+    {
+        "title": "Melon Juice",
+        "recipe-link": "https://www.kawalingpinoy.com/melon-juice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/melon-juice-12-680x884.jpg",
+        "meal": "beverage",
+        "nutrions": {
+            "Calories": "311kcal",
+            "Carbohydrates": "81g",
+            "Sodium": "58mg",
+            "Potassium": "281mg",
+            "Sugar": "81g",
+            "Vitamin A": "3110IU",
+            "Vitamin C": "33.7mg",
+            "Calcium": "21mg",
+            "Iron": "2.2mg"
+        },
+        "ingredients": [
+            "Tamarind Drink",
+            "Cucumber Lime Smoothie",
+            "Mango Nectar",
+            "Horchata",
+            "Buko Lychee Juice"
+        ]
+    },
+    {
+        "title": "Instant Pot Boba Milk Tea",
+        "recipe-link": "https://www.kawalingpinoy.com/instant-pot-boba-milk-tea/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2022/05/boba-milk-tea-8-680x884.jpg",
+        "meal": "beverage",
+        "nutrions": {
+            "Calories": "164kcal",
+            "Carbohydrates": "42g",
+            "Protein": "1g",
+            "Fat": "1g",
+            "Sodium": "9mg",
+            "Potassium": "3mg",
+            "Fiber": "1g",
+            "Sugar": "26g",
+            "Calcium": "9mg",
+            "Iron": "1mg"
+        },
+        "ingredients": [
+            "Tapioca Pearls",
+            "Tea",
+            "Water",
+            "Sugar",
+            "Milk"
+        ]
+    },
+    {
+        "title": "Homemade Mango Nectar",
+        "recipe-link": "https://www.kawalingpinoy.com/mango-nectar/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/mango-nectar-juice-6-680x884.jpg",
+        "meal": "beverage",
+        "nutrions": {
+            "Calories": "292kcal",
+            "Carbohydrates": "74g",
+            "Protein": "1g",
+            "Sodium": "5mg",
+            "Potassium": "277mg",
+            "Fiber": "2g",
+            "Sugar": "72g",
+            "Vitamin A": "1785IU",
+            "Vitamin C": "60.1mg",
+            "Calcium": "18mg",
+            "Iron": "0.3mg"
+        },
+        "ingredients": [
+            "4 large mangoes (about 2 cups pulp)",
+            "1 cup water",
+            "1 cup sugar"
+        ]
+    },
+    {
+        "title": "Dalgona Coffee",
+        "recipe-link": "https://www.kawalingpinoy.com/dalgona-coffee/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/05/dalgona-coffee-1-680x884.jpg",
+        "meal": "beverage",
+        "nutrions": {
+            "Calories": "361kcal",
+            "Carbohydrates": "65g",
+            "Protein": "9g",
+            "Fat": "8g",
+            "Saturated Fat": "5g",
+            "Cholesterol": "24mg",
+            "Sodium": "108mg",
+            "Potassium": "587mg",
+            "Sugar": "60g",
+            "Vitamin A": "395IU",
+            "Calcium": "286mg",
+            "Iron": "1mg"
+        },
+        "ingredients": [
+            "instant coffee granules",
+            "white granulated sugar",
+            "water",
+            "milk"
+        ]
+    },
+    {
+        "title": "Sago at Gulaman",
+        "recipe-link": "https://www.kawalingpinoy.com/sago-at-gulaman/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/sago-at-gulaman-680x884.jpg",
+        "meal": "beverage",
+        "nutrions": {
+            "Calories": "248kcal",
+            "Carbohydrates": "63g",
+            "Sodium": "28mg",
+            "Potassium": "67mg",
+            "Sugar": "52g",
+            "Vitamin C": "0.4mg",
+            "Calcium": "41mg",
+            "Iron": "0.6mg"
+        },
+        "ingredients": [
+            "Simple syrup",
+            "Sago",
+            "Gulaman"
+        ]
+    },
+    {
+        "title": "Tsokolate",
+        "recipe-link": "https://www.kawalingpinoy.com/tsokolate/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/12/tsokolate-5-1-680x884.jpg",
+        "meal": "beverage",
+        "nutrions": {
+            "Calories": "464kcal",
+            "Carbohydrates": "41g",
+            "Protein": "14g",
+            "Fat": "28g",
+            "Saturated Fat": "20g",
+            "Cholesterol": "25mg",
+            "Sodium": "195mg",
+            "Potassium": "688mg",
+            "Fiber": "2g",
+            "Sugar": "30g",
+            "Vitamin A": "395IU",
+            "Vitamin C": "1mg",
+            "Calcium": "429mg",
+            "Iron": "1mg"
+        },
+        "ingredients": [
+            "milk",
+            "tablea de cacao",
+            "peanut butter"
+        ]
+    },
+    {
+        "title": "Calamansi Juice",
+        "recipe-link": "https://www.kawalingpinoy.com/calamansi-juice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/05/calamansi-juice-with-simple-syrup-3-680x884.jpg",
+        "meal": "beverage",
+        "nutrions": {
+            "Calories": "106kcal",
+            "Carbohydrates": "28g",
+            "Protein": "1g",
+            "Fat": "1g",
+            "Saturated Fat": "1g",
+            "Sodium": "9mg",
+            "Potassium": "42mg",
+            "Fiber": "1g",
+            "Sugar": "26g",
+            "Vitamin C": "16mg",
+            "Calcium": "7mg",
+            "Iron": "1mg"
+        },
+        "ingredients": [
+            "simple syrup",
+            "calamansi juice",
+            "water"
+        ]
+    }
+]

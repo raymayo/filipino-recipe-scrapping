@@ -1,0 +1,3689 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<script>
+			if (
+				navigator.userAgent.match(/MSIE|Internet Explorer/i) ||
+				navigator.userAgent.match(/Trident\/7\..*?rv:11/i)
+			) {
+				var href = document.location.href;
+				if (!href.match(/[?&]nowprocket/)) {
+					if (href.indexOf('?') == -1) {
+						if (href.indexOf('#') == -1) {
+							document.location.href = href + '?nowprocket=1';
+						} else {
+							document.location.href = href.replace('#', '?nowprocket=1#');
+						}
+					} else {
+						if (href.indexOf('#') == -1) {
+							document.location.href = href + '&nowprocket=1';
+						} else {
+							document.location.href = href.replace('#', '&nowprocket=1#');
+						}
+					}
+				}
+			}
+		</script>
+		<script>
+			class RocketLazyLoadScripts {
+				constructor() {
+					(this.v = '1.2.4'),
+						(this.triggerEvents = [
+							'keydown',
+							'mousedown',
+							'mousemove',
+							'touchmove',
+							'touchstart',
+							'touchend',
+							'wheel',
+						]),
+						(this.userEventHandler = this._triggerListener.bind(this)),
+						(this.touchStartHandler = this._onTouchStart.bind(this)),
+						(this.touchMoveHandler = this._onTouchMove.bind(this)),
+						(this.touchEndHandler = this._onTouchEnd.bind(this)),
+						(this.clickHandler = this._onClick.bind(this)),
+						(this.interceptedClicks = []),
+						window.addEventListener('pageshow', (t) => {
+							this.persisted = t.persisted;
+						}),
+						window.addEventListener('DOMContentLoaded', () => {
+							this._preconnect3rdParties();
+						}),
+						(this.delayedScripts = { normal: [], async: [], defer: [] }),
+						(this.trash = []),
+						(this.allJQueries = []);
+				}
+				_addUserInteractionListener(t) {
+					if (document.hidden) {
+						t._triggerListener();
+						return;
+					}
+					this.triggerEvents.forEach((e) =>
+						window.addEventListener(e, t.userEventHandler, { passive: !0 })
+					),
+						window.addEventListener('touchstart', t.touchStartHandler, {
+							passive: !0,
+						}),
+						window.addEventListener('mousedown', t.touchStartHandler),
+						document.addEventListener('visibilitychange', t.userEventHandler);
+				}
+				_removeUserInteractionListener() {
+					this.triggerEvents.forEach((t) =>
+						window.removeEventListener(t, this.userEventHandler, {
+							passive: !0,
+						})
+					),
+						document.removeEventListener(
+							'visibilitychange',
+							this.userEventHandler
+						);
+				}
+				_onTouchStart(t) {
+					'HTML' !== t.target.tagName &&
+						(window.addEventListener('touchend', this.touchEndHandler),
+						window.addEventListener('mouseup', this.touchEndHandler),
+						window.addEventListener('touchmove', this.touchMoveHandler, {
+							passive: !0,
+						}),
+						window.addEventListener('mousemove', this.touchMoveHandler),
+						t.target.addEventListener('click', this.clickHandler),
+						this._renameDOMAttribute(t.target, 'onclick', 'rocket-onclick'),
+						this._pendingClickStarted());
+				}
+				_onTouchMove(t) {
+					window.removeEventListener('touchend', this.touchEndHandler),
+						window.removeEventListener('mouseup', this.touchEndHandler),
+						window.removeEventListener('touchmove', this.touchMoveHandler, {
+							passive: !0,
+						}),
+						window.removeEventListener('mousemove', this.touchMoveHandler),
+						t.target.removeEventListener('click', this.clickHandler),
+						this._renameDOMAttribute(t.target, 'rocket-onclick', 'onclick'),
+						this._pendingClickFinished();
+				}
+				_onTouchEnd() {
+					window.removeEventListener('touchend', this.touchEndHandler),
+						window.removeEventListener('mouseup', this.touchEndHandler),
+						window.removeEventListener('touchmove', this.touchMoveHandler, {
+							passive: !0,
+						}),
+						window.removeEventListener('mousemove', this.touchMoveHandler);
+				}
+				_onClick(t) {
+					t.target.removeEventListener('click', this.clickHandler),
+						this._renameDOMAttribute(t.target, 'rocket-onclick', 'onclick'),
+						this.interceptedClicks.push(t),
+						t.preventDefault(),
+						t.stopPropagation(),
+						t.stopImmediatePropagation(),
+						this._pendingClickFinished();
+				}
+				_replayClicks() {
+					window.removeEventListener('touchstart', this.touchStartHandler, {
+						passive: !0,
+					}),
+						window.removeEventListener('mousedown', this.touchStartHandler),
+						this.interceptedClicks.forEach((t) => {
+							t.target.dispatchEvent(
+								new MouseEvent('click', {
+									view: t.view,
+									bubbles: !0,
+									cancelable: !0,
+								})
+							);
+						});
+				}
+				_waitForPendingClicks() {
+					return new Promise((t) => {
+						this._isClickPending ? (this._pendingClickFinished = t) : t();
+					});
+				}
+				_pendingClickStarted() {
+					this._isClickPending = !0;
+				}
+				_pendingClickFinished() {
+					this._isClickPending = !1;
+				}
+				_renameDOMAttribute(t, e, r) {
+					t.hasAttribute &&
+						t.hasAttribute(e) &&
+						(event.target.setAttribute(r, event.target.getAttribute(e)),
+						event.target.removeAttribute(e));
+				}
+				_triggerListener() {
+					this._removeUserInteractionListener(this),
+						'loading' === document.readyState
+							? document.addEventListener(
+									'DOMContentLoaded',
+									this._loadEverythingNow.bind(this)
+							  )
+							: this._loadEverythingNow();
+				}
+				_preconnect3rdParties() {
+					let t = [];
+					document
+						.querySelectorAll(
+							'script[type=rocketlazyloadscript][data-rocket-src]'
+						)
+						.forEach((e) => {
+							let r = e.getAttribute('data-rocket-src');
+							if (r && 0 !== r.indexOf('data:')) {
+								0 === r.indexOf('//') && (r = location.protocol + r);
+								try {
+									let i = new URL(r).origin;
+									i !== location.origin &&
+										t.push({
+											src: i,
+											crossOrigin:
+												e.crossOrigin ||
+												'module' === e.getAttribute('data-rocket-type'),
+										});
+								} catch (n) {}
+							}
+						}),
+						(t = [...new Map(t.map((t) => [JSON.stringify(t), t])).values()]),
+						this._batchInjectResourceHints(t, 'preconnect');
+				}
+				async _loadEverythingNow() {
+					(this.lastBreath = Date.now()),
+						this._delayEventListeners(),
+						this._delayJQueryReady(this),
+						this._handleDocumentWrite(),
+						this._registerAllDelayedScripts(),
+						this._preloadAllScripts(),
+						await this._loadScriptsFromList(this.delayedScripts.normal),
+						await this._loadScriptsFromList(this.delayedScripts.defer),
+						await this._loadScriptsFromList(this.delayedScripts.async);
+					try {
+						await this._triggerDOMContentLoaded(),
+							await this._pendingWebpackRequests(this),
+							await this._triggerWindowLoad();
+					} catch (t) {
+						console.error(t);
+					}
+					window.dispatchEvent(new Event('rocket-allScriptsLoaded')),
+						this._waitForPendingClicks().then(() => {
+							this._replayClicks();
+						}),
+						this._emptyTrash();
+				}
+				_registerAllDelayedScripts() {
+					document
+						.querySelectorAll('script[type=rocketlazyloadscript]')
+						.forEach((t) => {
+							t.hasAttribute('data-rocket-src')
+								? t.hasAttribute('async') && !1 !== t.async
+									? this.delayedScripts.async.push(t)
+									: (t.hasAttribute('defer') && !1 !== t.defer) ||
+									  'module' === t.getAttribute('data-rocket-type')
+									? this.delayedScripts.defer.push(t)
+									: this.delayedScripts.normal.push(t)
+								: this.delayedScripts.normal.push(t);
+						});
+				}
+				async _transformScript(t) {
+					if (
+						(await this._littleBreath(),
+						!0 === t.noModule && 'noModule' in HTMLScriptElement.prototype)
+					) {
+						t.setAttribute('data-rocket-status', 'skipped');
+						return;
+					}
+					return new Promise(
+						navigator.userAgent.indexOf('Firefox/') > 0 ||
+						'' === navigator.vendor
+							? (e) => {
+									let r = document.createElement('script');
+									[...t.attributes].forEach((t) => {
+										let e = t.nodeName;
+										'type' !== e &&
+											('data-rocket-type' === e && (e = 'type'),
+											'data-rocket-src' === e && (e = 'src'),
+											r.setAttribute(e, t.nodeValue));
+									}),
+										t.text && (r.text = t.text),
+										r.hasAttribute('src')
+											? (r.addEventListener('load', e),
+											  r.addEventListener('error', e))
+											: ((r.text = t.text), e());
+									try {
+										t.parentNode.replaceChild(r, t);
+									} catch (i) {
+										e();
+									}
+							  }
+							: (e) => {
+									function r() {
+										t.setAttribute('data-rocket-status', 'failed'), e();
+									}
+									try {
+										let i = t.getAttribute('data-rocket-type'),
+											n = t.getAttribute('data-rocket-src');
+										i
+											? ((t.type = i), t.removeAttribute('data-rocket-type'))
+											: t.removeAttribute('type'),
+											t.addEventListener('load', function r() {
+												t.setAttribute('data-rocket-status', 'executed'), e();
+											}),
+											t.addEventListener('error', r),
+											n
+												? (t.removeAttribute('data-rocket-src'), (t.src = n))
+												: (t.src =
+														'data:text/javascript;base64,' +
+														window.btoa(unescape(encodeURIComponent(t.text))));
+									} catch (s) {
+										r();
+									}
+							  }
+					);
+				}
+				async _loadScriptsFromList(t) {
+					let e = t.shift();
+					return e && e.isConnected
+						? (await this._transformScript(e), this._loadScriptsFromList(t))
+						: Promise.resolve();
+				}
+				_preloadAllScripts() {
+					this._batchInjectResourceHints(
+						[
+							...this.delayedScripts.normal,
+							...this.delayedScripts.defer,
+							...this.delayedScripts.async,
+						],
+						'preload'
+					);
+				}
+				_batchInjectResourceHints(t, e) {
+					var r = document.createDocumentFragment();
+					t.forEach((t) => {
+						let i =
+							(t.getAttribute && t.getAttribute('data-rocket-src')) || t.src;
+						if (i) {
+							let n = document.createElement('link');
+							(n.href = i),
+								(n.rel = e),
+								'preconnect' !== e && (n.as = 'script'),
+								t.getAttribute &&
+									'module' === t.getAttribute('data-rocket-type') &&
+									(n.crossOrigin = !0),
+								t.crossOrigin && (n.crossOrigin = t.crossOrigin),
+								t.integrity && (n.integrity = t.integrity),
+								r.appendChild(n),
+								this.trash.push(n);
+						}
+					}),
+						document.head.appendChild(r);
+				}
+				_delayEventListeners() {
+					let t = {};
+					function e(e, r) {
+						!(function e(r) {
+							!t[r] &&
+								((t[r] = {
+									originalFunctions: {
+										add: r.addEventListener,
+										remove: r.removeEventListener,
+									},
+									eventsToRewrite: [],
+								}),
+								(r.addEventListener = function () {
+									(arguments[0] = i(arguments[0])),
+										t[r].originalFunctions.add.apply(r, arguments);
+								}),
+								(r.removeEventListener = function () {
+									(arguments[0] = i(arguments[0])),
+										t[r].originalFunctions.remove.apply(r, arguments);
+								}));
+							function i(e) {
+								return t[r].eventsToRewrite.indexOf(e) >= 0 ? 'rocket-' + e : e;
+							}
+						})(e),
+							t[e].eventsToRewrite.push(r);
+					}
+					function r(t, e) {
+						let r = t[e];
+						Object.defineProperty(t, e, {
+							get: () => r || function () {},
+							set(i) {
+								t['rocket' + e] = r = i;
+							},
+						});
+					}
+					e(document, 'DOMContentLoaded'),
+						e(window, 'DOMContentLoaded'),
+						e(window, 'load'),
+						e(window, 'pageshow'),
+						e(document, 'readystatechange'),
+						r(document, 'onreadystatechange'),
+						r(window, 'onload'),
+						r(window, 'onpageshow');
+				}
+				_delayJQueryReady(t) {
+					let e;
+					function r(t) {
+						return t
+							.split(' ')
+							.map((t) =>
+								'load' === t || 0 === t.indexOf('load.')
+									? 'rocket-jquery-load'
+									: t
+							)
+							.join(' ');
+					}
+					function i(i) {
+						if (i && i.fn && !t.allJQueries.includes(i)) {
+							i.fn.ready = i.fn.init.prototype.ready = function (e) {
+								return (
+									t.domReadyFired
+										? e.bind(document)(i)
+										: document.addEventListener('rocket-DOMContentLoaded', () =>
+												e.bind(document)(i)
+										  ),
+									i([])
+								);
+							};
+							let n = i.fn.on;
+							(i.fn.on = i.fn.init.prototype.on =
+								function () {
+									return (
+										this[0] === window &&
+											('string' == typeof arguments[0] ||
+											arguments[0] instanceof String
+												? (arguments[0] = r(arguments[0]))
+												: 'object' == typeof arguments[0] &&
+												  Object.keys(arguments[0]).forEach((t) => {
+														let e = arguments[0][t];
+														delete arguments[0][t], (arguments[0][r(t)] = e);
+												  })),
+										n.apply(this, arguments),
+										this
+									);
+								}),
+								t.allJQueries.push(i);
+						}
+						e = i;
+					}
+					i(window.jQuery),
+						Object.defineProperty(window, 'jQuery', {
+							get: () => e,
+							set(t) {
+								i(t);
+							},
+						});
+				}
+				async _pendingWebpackRequests(t) {
+					let e = document.querySelector('script[data-webpack]');
+					async function r() {
+						return new Promise((t) => {
+							e.addEventListener('load', t), e.addEventListener('error', t);
+						});
+					}
+					e &&
+						(await r(),
+						await t._requestAnimFrame(),
+						await t._pendingWebpackRequests(t));
+				}
+				async _triggerDOMContentLoaded() {
+					(this.domReadyFired = !0),
+						await this._littleBreath(),
+						document.dispatchEvent(new Event('rocket-DOMContentLoaded')),
+						await this._littleBreath(),
+						window.dispatchEvent(new Event('rocket-DOMContentLoaded')),
+						await this._littleBreath(),
+						document.dispatchEvent(new Event('rocket-readystatechange')),
+						await this._littleBreath(),
+						document.rocketonreadystatechange &&
+							document.rocketonreadystatechange();
+				}
+				async _triggerWindowLoad() {
+					await this._littleBreath(),
+						window.dispatchEvent(new Event('rocket-load')),
+						await this._littleBreath(),
+						window.rocketonload && window.rocketonload(),
+						await this._littleBreath(),
+						this.allJQueries.forEach((t) =>
+							t(window).trigger('rocket-jquery-load')
+						),
+						await this._littleBreath();
+					let t = new Event('rocket-pageshow');
+					(t.persisted = this.persisted),
+						window.dispatchEvent(t),
+						await this._littleBreath(),
+						window.rocketonpageshow &&
+							window.rocketonpageshow({ persisted: this.persisted });
+				}
+				_handleDocumentWrite() {
+					let t = new Map();
+					document.write = document.writeln = function (e) {
+						let r = document.currentScript;
+						r || console.error('WPRocket unable to document.write this: ' + e);
+						let i = document.createRange(),
+							n = r.parentElement,
+							s = t.get(r);
+						void 0 === s && ((s = r.nextSibling), t.set(r, s));
+						let a = document.createDocumentFragment();
+						i.setStart(a, 0),
+							a.appendChild(i.createContextualFragment(e)),
+							n.insertBefore(a, s);
+					};
+				}
+				async _littleBreath() {
+					Date.now() - this.lastBreath > 45 &&
+						(await this._requestAnimFrame(), (this.lastBreath = Date.now()));
+				}
+				async _requestAnimFrame() {
+					return document.hidden
+						? new Promise((t) => setTimeout(t))
+						: new Promise((t) => requestAnimationFrame(t));
+				}
+				_emptyTrash() {
+					this.trash.forEach((t) => t.remove());
+				}
+				static run() {
+					let t = new RocketLazyLoadScripts();
+					t._addUserInteractionListener(t);
+				}
+			}
+			RocketLazyLoadScripts.run();
+		</script>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta
+			name="robots"
+			content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+		<!-- This site is optimized with the Yoast SEO Premium plugin v21.5 (Yoast SEO v21.5) - https://yoast.com/wordpress/plugins/seo/ -->
+		<title>Breakfast Recipes Archives - Panlasang Pinoy</title>
+		<link
+			rel="preload"
+			as="font"
+			href="https://panlasangpinoy.com/wp-content/themes/once-coupled-panlasang-pinoy/assets/fonts/poppins-v20-latin-800.woff2"
+			crossorigin />
+		<link
+			rel="canonical"
+			href="https://panlasangpinoy.com/categories/recipes/breakfast-recipes/" />
+		<link
+			rel="next"
+			href="https://panlasangpinoy.com/categories/recipes/breakfast-recipes/page/2/" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Breakfast Recipes Archives" />
+		<meta
+			property="og:description"
+			content="If you disagree that this is the best meal of the day, this might be because you haven’t tried some of the best breakfast dishes out there. And Filipino breakfast, in particular, is one that’s hard to say no to. Tapsilog, anyone? How about some of the simple, but definitely flavorful Corned Beef Omelet? Refine your morning cooking skills by taking a look at these recipes! I also have some handy videos to help you as you follow the steps one by one. Rest assured a lot of these dishes are quick and easy enough to cook on the go as you start your day." />
+		<meta
+			property="og:url"
+			content="https://panlasangpinoy.com/categories/recipes/breakfast-recipes/" />
+		<meta property="og:site_name" content="Panlasang Pinoy" />
+		<meta
+			property="og:image"
+			content="https://panlasangpinoy.com/wp-content/uploads/2021/04/PP-Logo-jpeg-4-21-2021.jpg" />
+		<meta property="og:image:width" content="1847" />
+		<meta property="og:image:height" content="1877" />
+		<meta property="og:image:type" content="image/jpeg" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@panlasangpinoy" />
+		<script type="application/ld+json" class="yoast-schema-graph">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "CollectionPage",
+						"@id": "https://panlasangpinoy.com/categories/recipes/breakfast-recipes/",
+						"url": "https://panlasangpinoy.com/categories/recipes/breakfast-recipes/",
+						"name": "Breakfast Recipes Archives - Panlasang Pinoy",
+						"isPartOf": { "@id": "https://panlasangpinoy.com/#website" },
+						"primaryImageOfPage": {
+							"@id": "https://panlasangpinoy.com/categories/recipes/breakfast-recipes/#primaryimage"
+						},
+						"image": {
+							"@id": "https://panlasangpinoy.com/categories/recipes/breakfast-recipes/#primaryimage"
+						},
+						"thumbnailUrl": "https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice.jpg",
+						"breadcrumb": {
+							"@id": "https://panlasangpinoy.com/categories/recipes/breakfast-recipes/#breadcrumb"
+						},
+						"inLanguage": "en-US"
+					},
+					{
+						"@type": "ImageObject",
+						"inLanguage": "en-US",
+						"@id": "https://panlasangpinoy.com/categories/recipes/breakfast-recipes/#primaryimage",
+						"url": "https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice.jpg",
+						"contentUrl": "https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice.jpg",
+						"width": 1500,
+						"height": 2250,
+						"caption": "Pinoy Breakfast Omelet and Bacon Garlic Fried Rice"
+					},
+					{
+						"@type": "BreadcrumbList",
+						"@id": "https://panlasangpinoy.com/categories/recipes/breakfast-recipes/#breadcrumb",
+						"itemListElement": [
+							{
+								"@type": "ListItem",
+								"position": 1,
+								"name": "Home",
+								"item": "https://panlasangpinoy.com/"
+							},
+							{
+								"@type": "ListItem",
+								"position": 2,
+								"name": "Recipes",
+								"item": "https://panlasangpinoy.com/categories/recipes/"
+							},
+							{
+								"@type": "ListItem",
+								"position": 3,
+								"name": "Breakfast Recipes"
+							}
+						]
+					},
+					{
+						"@type": "WebSite",
+						"@id": "https://panlasangpinoy.com/#website",
+						"url": "https://panlasangpinoy.com/",
+						"name": "Panlasang Pinoy",
+						"description": "Your Top Source of Filipino Recipes",
+						"publisher": { "@id": "https://panlasangpinoy.com/#organization" },
+						"potentialAction": [
+							{
+								"@type": "SearchAction",
+								"target": {
+									"@type": "EntryPoint",
+									"urlTemplate": "https://panlasangpinoy.com/?s={search_term_string}"
+								},
+								"query-input": "required name=search_term_string"
+							}
+						],
+						"inLanguage": "en-US"
+					},
+					{
+						"@type": "Organization",
+						"@id": "https://panlasangpinoy.com/#organization",
+						"name": "Panlasang Pinoy",
+						"url": "https://panlasangpinoy.com/",
+						"logo": {
+							"@type": "ImageObject",
+							"inLanguage": "en-US",
+							"@id": "https://panlasangpinoy.com/#/schema/logo/image/",
+							"url": "https://panlasangpinoy.com/wp-content/uploads/2015/10/cropped-PPlogopng.png",
+							"contentUrl": "https://panlasangpinoy.com/wp-content/uploads/2015/10/cropped-PPlogopng.png",
+							"width": 512,
+							"height": 512,
+							"caption": "Panlasang Pinoy"
+						},
+						"image": {
+							"@id": "https://panlasangpinoy.com/#/schema/logo/image/"
+						},
+						"sameAs": [
+							"https://www.facebook.com/panlasangpinoy/",
+							"https://twitter.com/panlasangpinoy",
+							"https://www.instagram.com/panlasangpinoy/",
+							"https://www.pinterest.com/panlasangpinoy/",
+							"https://www.youtube.com/user/panlasangpinoy"
+						]
+					}
+				]
+			}
+		</script>
+		<!-- / Yoast SEO Premium plugin. -->
+
+		<link
+			rel="alternate"
+			type="application/rss+xml"
+			title="Panlasang Pinoy &raquo; Feed"
+			href="https://panlasangpinoy.com/feed/" />
+		<link
+			rel="alternate"
+			type="application/rss+xml"
+			title="Panlasang Pinoy &raquo; Comments Feed"
+			href="https://panlasangpinoy.com/comments/feed/" />
+		<link
+			rel="alternate"
+			type="application/rss+xml"
+			title="Panlasang Pinoy &raquo; Breakfast Recipes Category Feed"
+			href="https://panlasangpinoy.com/categories/recipes/breakfast-recipes/feed/" />
+		<!-- panlasangpinoy.com is managing ads with Advanced Ads -->
+		<!--noptimize-->
+		<script id="panla-ready">
+			(window.advanced_ads_ready = function (e, a) {
+				a = a || 'complete';
+				var d = function (e) {
+					return 'interactive' === a ? 'loading' !== e : 'complete' === e;
+				};
+				d(document.readyState)
+					? e()
+					: document.addEventListener(
+							'readystatechange',
+							function (a) {
+								d(a.target.readyState) && e();
+							},
+							{ once: 'interactive' === a }
+					  );
+			}),
+				(window.advanced_ads_ready_queue =
+					window.advanced_ads_ready_queue || []);
+		</script>
+		<!--/noptimize-->
+		<link
+			rel="stylesheet"
+			id="panlasang-pinoy-css"
+			href="https://panlasangpinoy.com/wp-content/themes/once-coupled-panlasang-pinoy/style.css?ver=1682451717"
+			type="text/css"
+			media="all" />
+		<style id="wp-emoji-styles-inline-css" type="text/css">
+			img.wp-smiley,
+			img.emoji {
+				display: inline !important;
+				border: none !important;
+				box-shadow: none !important;
+				height: 1em !important;
+				width: 1em !important;
+				margin: 0 0.07em !important;
+				vertical-align: -0.1em !important;
+				background: none !important;
+				padding: 0 !important;
+			}
+		</style>
+		<link
+			rel="stylesheet"
+			id="wp-block-library-css"
+			href="https://panlasangpinoy.com/wp-includes/css/dist/block-library/style.min.css?ver=6.4.1"
+			type="text/css"
+			media="all" />
+		<style id="global-styles-inline-css" type="text/css">
+			body {
+				--wp--preset--color--black: #474747;
+				--wp--preset--color--cyan-bluish-gray: #abb8c3;
+				--wp--preset--color--white: #fff;
+				--wp--preset--color--pale-pink: #f78da7;
+				--wp--preset--color--vivid-red: #cf2e2e;
+				--wp--preset--color--luminous-vivid-orange: #ff6900;
+				--wp--preset--color--luminous-vivid-amber: #fcb900;
+				--wp--preset--color--light-green-cyan: #7bdcb5;
+				--wp--preset--color--vivid-green-cyan: #00d084;
+				--wp--preset--color--pale-cyan-blue: #8ed1fc;
+				--wp--preset--color--vivid-cyan-blue: #0693e3;
+				--wp--preset--color--vivid-purple: #9b51e0;
+				--wp--preset--color--brand-one: #2e2e2e;
+				--wp--preset--color--brand-two: #535e50;
+				--wp--preset--color--tan: #f8f7f2;
+				--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+					135deg,
+					rgba(6, 147, 227, 1) 0%,
+					rgb(155, 81, 224) 100%
+				);
+				--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+					135deg,
+					rgb(122, 220, 180) 0%,
+					rgb(0, 208, 130) 100%
+				);
+				--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+					135deg,
+					rgba(252, 185, 0, 1) 0%,
+					rgba(255, 105, 0, 1) 100%
+				);
+				--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+					135deg,
+					rgba(255, 105, 0, 1) 0%,
+					rgb(207, 46, 46) 100%
+				);
+				--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+					135deg,
+					rgb(238, 238, 238) 0%,
+					rgb(169, 184, 195) 100%
+				);
+				--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+					135deg,
+					rgb(74, 234, 220) 0%,
+					rgb(151, 120, 209) 20%,
+					rgb(207, 42, 186) 40%,
+					rgb(238, 44, 130) 60%,
+					rgb(251, 105, 98) 80%,
+					rgb(254, 248, 76) 100%
+				);
+				--wp--preset--gradient--blush-light-purple: linear-gradient(
+					135deg,
+					rgb(255, 206, 236) 0%,
+					rgb(152, 150, 240) 100%
+				);
+				--wp--preset--gradient--blush-bordeaux: linear-gradient(
+					135deg,
+					rgb(254, 205, 165) 0%,
+					rgb(254, 45, 45) 50%,
+					rgb(107, 0, 62) 100%
+				);
+				--wp--preset--gradient--luminous-dusk: linear-gradient(
+					135deg,
+					rgb(255, 203, 112) 0%,
+					rgb(199, 81, 192) 50%,
+					rgb(65, 88, 208) 100%
+				);
+				--wp--preset--gradient--pale-ocean: linear-gradient(
+					135deg,
+					rgb(255, 245, 203) 0%,
+					rgb(182, 227, 212) 50%,
+					rgb(51, 167, 181) 100%
+				);
+				--wp--preset--gradient--electric-grass: linear-gradient(
+					135deg,
+					rgb(202, 248, 128) 0%,
+					rgb(113, 206, 126) 100%
+				);
+				--wp--preset--gradient--midnight: linear-gradient(
+					135deg,
+					rgb(2, 3, 129) 0%,
+					rgb(40, 116, 252) 100%
+				);
+				--wp--preset--font-size--small: 18px;
+				--wp--preset--font-size--medium: 20px;
+				--wp--preset--font-size--large: 28px;
+				--wp--preset--font-size--x-large: 42px;
+				--wp--preset--font-size--tiny: 16px;
+				--wp--preset--font-size--normal: 20px;
+				--wp--preset--font-size--huge: 32px;
+				--wp--preset--font-family--primary: 'Source Sans Pro', sans-serif;
+				--wp--preset--font-family--secondary: 'Baskervville', serif;
+				--wp--preset--spacing--20: 0.44rem;
+				--wp--preset--spacing--30: 0.67rem;
+				--wp--preset--spacing--40: 1rem;
+				--wp--preset--spacing--50: 1.5rem;
+				--wp--preset--spacing--60: 2.25rem;
+				--wp--preset--spacing--70: 3.38rem;
+				--wp--preset--spacing--80: 5.06rem;
+				--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+				--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+				--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+				--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+					6px 6px rgba(0, 0, 0, 1);
+				--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+			}
+			body {
+				margin: 0;
+				--wp--style--global--content-size: 730px;
+				--wp--style--global--wide-size: 800px;
+			}
+			.wp-site-blocks > .alignleft {
+				float: left;
+				margin-right: 2em;
+			}
+			.wp-site-blocks > .alignright {
+				float: right;
+				margin-left: 2em;
+			}
+			.wp-site-blocks > .aligncenter {
+				justify-content: center;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			:where(.is-layout-flex) {
+				gap: 0.5em;
+			}
+			:where(.is-layout-grid) {
+				gap: 0.5em;
+			}
+			body .is-layout-flow > .alignleft {
+				float: left;
+				margin-inline-start: 0;
+				margin-inline-end: 2em;
+			}
+			body .is-layout-flow > .alignright {
+				float: right;
+				margin-inline-start: 2em;
+				margin-inline-end: 0;
+			}
+			body .is-layout-flow > .aligncenter {
+				margin-left: auto !important;
+				margin-right: auto !important;
+			}
+			body .is-layout-constrained > .alignleft {
+				float: left;
+				margin-inline-start: 0;
+				margin-inline-end: 2em;
+			}
+			body .is-layout-constrained > .alignright {
+				float: right;
+				margin-inline-start: 2em;
+				margin-inline-end: 0;
+			}
+			body .is-layout-constrained > .aligncenter {
+				margin-left: auto !important;
+				margin-right: auto !important;
+			}
+			body
+				.is-layout-constrained
+				> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+				max-width: var(--wp--style--global--content-size);
+				margin-left: auto !important;
+				margin-right: auto !important;
+			}
+			body .is-layout-constrained > .alignwide {
+				max-width: var(--wp--style--global--wide-size);
+			}
+			body .is-layout-flex {
+				display: flex;
+			}
+			body .is-layout-flex {
+				flex-wrap: wrap;
+				align-items: center;
+			}
+			body .is-layout-flex > * {
+				margin: 0;
+			}
+			body .is-layout-grid {
+				display: grid;
+			}
+			body .is-layout-grid > * {
+				margin: 0;
+			}
+			body {
+				padding-top: 0px;
+				padding-right: 0px;
+				padding-bottom: 0px;
+				padding-left: 0px;
+			}
+			a:where(:not(.wp-element-button)) {
+				text-decoration: underline;
+			}
+			.wp-element-button,
+			.wp-block-button__link {
+				background-color: #32373c;
+				border-width: 0;
+				color: #fff;
+				font-family: inherit;
+				font-size: inherit;
+				line-height: inherit;
+				padding: calc(0.667em + 2px) calc(1.333em + 2px);
+				text-decoration: none;
+			}
+			.has-black-color {
+				color: var(--wp--preset--color--black) !important;
+			}
+			.has-cyan-bluish-gray-color {
+				color: var(--wp--preset--color--cyan-bluish-gray) !important;
+			}
+			.has-white-color {
+				color: var(--wp--preset--color--white) !important;
+			}
+			.has-pale-pink-color {
+				color: var(--wp--preset--color--pale-pink) !important;
+			}
+			.has-vivid-red-color {
+				color: var(--wp--preset--color--vivid-red) !important;
+			}
+			.has-luminous-vivid-orange-color {
+				color: var(--wp--preset--color--luminous-vivid-orange) !important;
+			}
+			.has-luminous-vivid-amber-color {
+				color: var(--wp--preset--color--luminous-vivid-amber) !important;
+			}
+			.has-light-green-cyan-color {
+				color: var(--wp--preset--color--light-green-cyan) !important;
+			}
+			.has-vivid-green-cyan-color {
+				color: var(--wp--preset--color--vivid-green-cyan) !important;
+			}
+			.has-pale-cyan-blue-color {
+				color: var(--wp--preset--color--pale-cyan-blue) !important;
+			}
+			.has-vivid-cyan-blue-color {
+				color: var(--wp--preset--color--vivid-cyan-blue) !important;
+			}
+			.has-vivid-purple-color {
+				color: var(--wp--preset--color--vivid-purple) !important;
+			}
+			.has-brand-one-color {
+				color: var(--wp--preset--color--brand-one) !important;
+			}
+			.has-brand-two-color {
+				color: var(--wp--preset--color--brand-two) !important;
+			}
+			.has-tan-color {
+				color: var(--wp--preset--color--tan) !important;
+			}
+			.has-black-background-color {
+				background-color: var(--wp--preset--color--black) !important;
+			}
+			.has-cyan-bluish-gray-background-color {
+				background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+			}
+			.has-white-background-color {
+				background-color: var(--wp--preset--color--white) !important;
+			}
+			.has-pale-pink-background-color {
+				background-color: var(--wp--preset--color--pale-pink) !important;
+			}
+			.has-vivid-red-background-color {
+				background-color: var(--wp--preset--color--vivid-red) !important;
+			}
+			.has-luminous-vivid-orange-background-color {
+				background-color: var(
+					--wp--preset--color--luminous-vivid-orange
+				) !important;
+			}
+			.has-luminous-vivid-amber-background-color {
+				background-color: var(
+					--wp--preset--color--luminous-vivid-amber
+				) !important;
+			}
+			.has-light-green-cyan-background-color {
+				background-color: var(--wp--preset--color--light-green-cyan) !important;
+			}
+			.has-vivid-green-cyan-background-color {
+				background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+			}
+			.has-pale-cyan-blue-background-color {
+				background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+			}
+			.has-vivid-cyan-blue-background-color {
+				background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+			}
+			.has-vivid-purple-background-color {
+				background-color: var(--wp--preset--color--vivid-purple) !important;
+			}
+			.has-brand-one-background-color {
+				background-color: var(--wp--preset--color--brand-one) !important;
+			}
+			.has-brand-two-background-color {
+				background-color: var(--wp--preset--color--brand-two) !important;
+			}
+			.has-tan-background-color {
+				background-color: var(--wp--preset--color--tan) !important;
+			}
+			.has-black-border-color {
+				border-color: var(--wp--preset--color--black) !important;
+			}
+			.has-cyan-bluish-gray-border-color {
+				border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+			}
+			.has-white-border-color {
+				border-color: var(--wp--preset--color--white) !important;
+			}
+			.has-pale-pink-border-color {
+				border-color: var(--wp--preset--color--pale-pink) !important;
+			}
+			.has-vivid-red-border-color {
+				border-color: var(--wp--preset--color--vivid-red) !important;
+			}
+			.has-luminous-vivid-orange-border-color {
+				border-color: var(
+					--wp--preset--color--luminous-vivid-orange
+				) !important;
+			}
+			.has-luminous-vivid-amber-border-color {
+				border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+			}
+			.has-light-green-cyan-border-color {
+				border-color: var(--wp--preset--color--light-green-cyan) !important;
+			}
+			.has-vivid-green-cyan-border-color {
+				border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+			}
+			.has-pale-cyan-blue-border-color {
+				border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+			}
+			.has-vivid-cyan-blue-border-color {
+				border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+			}
+			.has-vivid-purple-border-color {
+				border-color: var(--wp--preset--color--vivid-purple) !important;
+			}
+			.has-brand-one-border-color {
+				border-color: var(--wp--preset--color--brand-one) !important;
+			}
+			.has-brand-two-border-color {
+				border-color: var(--wp--preset--color--brand-two) !important;
+			}
+			.has-tan-border-color {
+				border-color: var(--wp--preset--color--tan) !important;
+			}
+			.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+				background: var(
+					--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+				) !important;
+			}
+			.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+				background: var(
+					--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+				) !important;
+			}
+			.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+				background: var(
+					--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+				) !important;
+			}
+			.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+				background: var(
+					--wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+				) !important;
+			}
+			.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+				background: var(
+					--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+				) !important;
+			}
+			.has-cool-to-warm-spectrum-gradient-background {
+				background: var(
+					--wp--preset--gradient--cool-to-warm-spectrum
+				) !important;
+			}
+			.has-blush-light-purple-gradient-background {
+				background: var(--wp--preset--gradient--blush-light-purple) !important;
+			}
+			.has-blush-bordeaux-gradient-background {
+				background: var(--wp--preset--gradient--blush-bordeaux) !important;
+			}
+			.has-luminous-dusk-gradient-background {
+				background: var(--wp--preset--gradient--luminous-dusk) !important;
+			}
+			.has-pale-ocean-gradient-background {
+				background: var(--wp--preset--gradient--pale-ocean) !important;
+			}
+			.has-electric-grass-gradient-background {
+				background: var(--wp--preset--gradient--electric-grass) !important;
+			}
+			.has-midnight-gradient-background {
+				background: var(--wp--preset--gradient--midnight) !important;
+			}
+			.has-small-font-size {
+				font-size: var(--wp--preset--font-size--small) !important;
+			}
+			.has-medium-font-size {
+				font-size: var(--wp--preset--font-size--medium) !important;
+			}
+			.has-large-font-size {
+				font-size: var(--wp--preset--font-size--large) !important;
+			}
+			.has-x-large-font-size {
+				font-size: var(--wp--preset--font-size--x-large) !important;
+			}
+			.has-tiny-font-size {
+				font-size: var(--wp--preset--font-size--tiny) !important;
+			}
+			.has-normal-font-size {
+				font-size: var(--wp--preset--font-size--normal) !important;
+			}
+			.has-huge-font-size {
+				font-size: var(--wp--preset--font-size--huge) !important;
+			}
+			.has-primary-font-family {
+				font-family: var(--wp--preset--font-family--primary) !important;
+			}
+			.has-secondary-font-family {
+				font-family: var(--wp--preset--font-family--secondary) !important;
+			}
+			.wp-block-navigation a:where(:not(.wp-element-button)) {
+				color: inherit;
+			}
+			:where(.wp-block-post-template.is-layout-flex) {
+				gap: 1.25em;
+			}
+			:where(.wp-block-post-template.is-layout-grid) {
+				gap: 1.25em;
+			}
+			:where(.wp-block-columns.is-layout-flex) {
+				gap: 2em;
+			}
+			:where(.wp-block-columns.is-layout-grid) {
+				gap: 2em;
+			}
+			.wp-block-pullquote {
+				font-size: 1.5em;
+				line-height: 1.6;
+			}
+		</style>
+		<link
+			rel="stylesheet"
+			id="once-coupled-acf-helper-lity-css"
+			href="https://panlasangpinoy.com/wp-content/mu-plugins/once-coupled-acf-helper/lib/helpers/lity/assets/lity.min.css?ver=2.0.1"
+			type="text/css"
+			media="all" />
+		<link
+			data-minify="1"
+			rel="stylesheet"
+			id="once-coupled-custom-theme-critical-css"
+			href="https://panlasangpinoy.com/wp-content/cache/min/1/wp-content/themes/once-coupled-panlasang-pinoy/assets/css/critical.css?ver=1697039160"
+			type="text/css"
+			media="all" />
+		<link
+			data-minify="1"
+			rel="stylesheet"
+			id="once-coupled-custom-theme-non-critical-css"
+			href="https://panlasangpinoy.com/wp-content/cache/min/1/wp-content/themes/once-coupled-panlasang-pinoy/assets/css/non-critical.css?ver=1697039160"
+			type="text/css"
+			media="all" />
+		<link
+			rel="stylesheet"
+			id="once-coupled-custom-theme-social-icons-css"
+			href="https://panlasangpinoy.com/wp-content/themes/once-coupled-panlasang-pinoy/lib/components/theme/social-icons/assets/css/social-icons.css?ver=1682451717"
+			type="text/css"
+			media="all" />
+		<style id="rocket-lazyload-inline-css" type="text/css">
+			.rll-youtube-player {
+				position: relative;
+				padding-bottom: 56.23%;
+				height: 0;
+				overflow: hidden;
+				max-width: 100%;
+			}
+			.rll-youtube-player:focus-within {
+				outline: 2px solid currentColor;
+				outline-offset: 5px;
+			}
+			.rll-youtube-player iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				z-index: 100;
+				background: 0 0;
+			}
+			.rll-youtube-player img {
+				bottom: 0;
+				display: block;
+				left: 0;
+				margin: auto;
+				max-width: 100%;
+				width: 100%;
+				position: absolute;
+				right: 0;
+				top: 0;
+				border: none;
+				height: auto;
+				-webkit-transition: 0.4s all;
+				-moz-transition: 0.4s all;
+				transition: 0.4s all;
+			}
+			.rll-youtube-player img:hover {
+				-webkit-filter: brightness(75%);
+			}
+			.rll-youtube-player .play {
+				height: 100%;
+				width: 100%;
+				left: 0;
+				top: 0;
+				position: absolute;
+				background: url(https://panlasangpinoy.com/wp-content/plugins/wp-rocket/assets/img/youtube.png)
+					no-repeat center;
+				background-color: transparent !important;
+				cursor: pointer;
+				border: none;
+			}
+			.wp-embed-responsive .wp-has-aspect-ratio .rll-youtube-player {
+				position: absolute;
+				padding-bottom: 0;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+			}
+		</style>
+		<script
+			type="text/javascript"
+			src="https://panlasangpinoy.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+			id="jquery-core-js"
+			defer></script>
+		<script
+			type="text/javascript"
+			src="https://panlasangpinoy.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+			id="jquery-migrate-js"
+			defer></script>
+		<script type="text/javascript" id="advanced-ads-advanced-js-js-extra">
+			/* <![CDATA[ */
+			var advads_options = {
+				blog_id: '1',
+				privacy: { enabled: false, state: 'not_needed' },
+			};
+			/* ]]> */
+		</script>
+		<script
+			type="text/javascript"
+			src="https://panlasangpinoy.com/wp-content/plugins/advanced-ads/public/assets/js/advanced.min.js?ver=1.47.5"
+			id="advanced-ads-advanced-js-js"
+			defer></script>
+		<link rel="https://api.w.org/" href="https://panlasangpinoy.com/wp-json/" />
+		<link
+			rel="alternate"
+			type="application/json"
+			href="https://panlasangpinoy.com/wp-json/wp/v2/categories/63" />
+		<link
+			rel="EditURI"
+			type="application/rsd+xml"
+			title="RSD"
+			href="https://panlasangpinoy.com/xmlrpc.php?rsd" />
+		<meta name="generator" content="WordPress 6.4.1" />
+		<script type="rocketlazyloadscript">
+			// Block presence of other buttons
+			window.__Marker = {};
+		</script>
+		<style type="text/css">
+			.tippy-box[data-theme~='wprm'] {
+				background-color: #333333;
+				color: #ffffff;
+			}
+			.tippy-box[data-theme~='wprm'][data-placement^='top']
+				> .tippy-arrow::before {
+				border-top-color: #333333;
+			}
+			.tippy-box[data-theme~='wprm'][data-placement^='bottom']
+				> .tippy-arrow::before {
+				border-bottom-color: #333333;
+			}
+			.tippy-box[data-theme~='wprm'][data-placement^='left']
+				> .tippy-arrow::before {
+				border-left-color: #333333;
+			}
+			.tippy-box[data-theme~='wprm'][data-placement^='right']
+				> .tippy-arrow::before {
+				border-right-color: #333333;
+			}
+			.tippy-box[data-theme~='wprm'] a {
+				color: #ffffff;
+			}
+			.wprm-comment-rating svg {
+				width: 18px !important;
+				height: 18px !important;
+			}
+			img.wprm-comment-rating {
+				width: 90px !important;
+				height: 18px !important;
+			}
+			.wprm-comment-rating svg path {
+				fill: #343434;
+			}
+			.wprm-comment-rating svg polygon {
+				stroke: #343434;
+			}
+			.wprm-comment-ratings-container svg .wprm-star-full {
+				fill: #343434;
+			}
+			.wprm-comment-ratings-container svg .wprm-star-empty {
+				stroke: #343434;
+			}
+		</style>
+		<style type="text/css">
+			.wprm-glossary-term {
+				color: #5a822b;
+				text-decoration: underline;
+				cursor: help;
+			}
+		</style>
+		<script type="text/javascript">
+			var advadsCfpQueue = [];
+			var advadsCfpAd = function (adID) {
+				if ('undefined' == typeof advadsProCfp) {
+					advadsCfpQueue.push(adID);
+				} else {
+					advadsProCfp.addElement(adID);
+				}
+			};
+		</script>
+		<meta name="robots" content="max-image-preview:large" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-1VYJB4HR2C"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-1VYJB4HR2C');
+		</script>
+		<script
+			type="text/javascript"
+			async
+			src="//c.pubguru.net/pg.panlasangpinoy.category.lazy.js"></script>
+		<script type="text/javascript">
+			!(function (o, _name) {
+				(o[_name] =
+					o[_name] ||
+					function n() {
+						(n.q = n.q || []).push(arguments);
+					}),
+					(o[_name].v = o[_name].v || 2);
+				!(function (o, t, n, f, e, i) {
+					function c(f, e) {
+						(f = (function (t, n) {
+							try {
+								if (
+									(n = (t = o.localStorage).getItem(
+										'_aQS02NTBEQjVBQ0Y3M0NFM0YyQkQ4RDFGQzgtMQ'
+									))
+								)
+									return JSON.parse(n).lgk || [];
+								if ((t.getItem('v4ac1eiZr0') || '').split(',')[4] > 0)
+									return [[_name + '-engaged', 'true']];
+							} catch (f) {}
+						})()) &&
+							typeof f.forEach === n &&
+							(e = o[t].pubads()) &&
+							f.forEach(function (o) {
+								o && o[0] && e.setTargeting(o[0], o[1] || '');
+							});
+					}
+					((i = o[t] = o[t] || {}).cmd = i.cmd || []),
+						typeof i.pubads === n
+							? c()
+							: typeof i.cmd.unshift === n
+							? i.cmd.unshift(c)
+							: i.cmd.push(c);
+				})(window, 'googletag', 'function');
+			})(window, String.fromCharCode(97, 100, 109, 105, 114, 97, 108));
+			!(function (t, c, i) {
+				(i = t.createElement(c)),
+					(t = t.getElementsByTagName(c)[0]),
+					(i.async = 1),
+					(i.src =
+						'https://truculentrate.com/files/5a2865a5f0a/1392ea673b7d65dcecff23098'),
+					t.parentNode.insertBefore(i, t);
+			})(document, 'script');
+		</script>
+		<link
+			rel="icon"
+			href="https://panlasangpinoy.com/wp-content/uploads/2015/10/cropped-PPlogopng-60x60.png"
+			sizes="32x32" />
+		<link
+			rel="icon"
+			href="https://panlasangpinoy.com/wp-content/uploads/2015/10/cropped-PPlogopng-201x201.png"
+			sizes="192x192" />
+		<link
+			rel="apple-touch-icon"
+			href="https://panlasangpinoy.com/wp-content/uploads/2015/10/cropped-PPlogopng-201x201.png" />
+		<meta
+			name="msapplication-TileImage"
+			content="https://panlasangpinoy.com/wp-content/uploads/2015/10/cropped-PPlogopng-300x300.png" />
+		<noscript
+			><style id="rocket-lazyload-nojs-css">
+				.rll-youtube-player,
+				[data-lazy-src] {
+					display: none !important;
+				}
+			</style></noscript
+		>
+	</head>
+	<body
+		class="archive category category-breakfast-recipes category-63 wp-embed-responsive avatars-disabled site-desktop oc-theme header-full-width content-sidebar genesis-breadcrumbs-visible aa-prefix-panla-">
+		<div class="site-container">
+			<span id="top-of-page"></span>
+			<ul class="genesis-skip-link">
+				<li>
+					<a href="#genesis-nav-primary" class="screen-reader-shortcut">
+						Skip to primary navigation</a
+					>
+				</li>
+				<li>
+					<a href="#genesis-content" class="screen-reader-shortcut">
+						Skip to main content</a
+					>
+				</li>
+				<li>
+					<a href="#genesis-sidebar-primary" class="screen-reader-shortcut">
+						Skip to primary sidebar</a
+					>
+				</li>
+			</ul>
+			<div class="before-header">
+				<div class="wrap">
+					<div class="desktop-left before-header-desktop-left">
+						<div
+							class="featured-content block-cta-button"
+							id="acf-helper-block_63298d6904ccc">
+							<div class="wrap">
+								<div class="section-content">
+									<span class="more-link-container"
+										><a href="/recipes/" class="more-link"
+											>Your Top Source of Filipino Recipes</a
+										></span
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="desktop-right before-header-desktop-right">
+						<div
+							class="featured-content block-text-links"
+							id="acf-helper-block_6329c0223b584">
+							<div class="wrap">
+								<div class="entries-container sm-grid-2">
+									<div class="entry">
+										<div class="entry-content">
+											<span class="more-link-container"
+												><a href="/about-2/" class="more-link">About</a></span
+											>
+										</div>
+									</div>
+
+									<div class="entry">
+										<div class="entry-content">
+											<span class="more-link-container"
+												><a href="/cooking-schools/" class="more-link"
+													>Cooking Schools</a
+												></span
+											>
+										</div>
+									</div>
+
+									<div class="entry">
+										<div class="entry-content">
+											<span class="more-link-container"
+												><a href="/contact/" class="more-link">Contact</a></span
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div
+							class="featured-content block-social"
+							id="acf-helper-block_632995482dcc1">
+							<div class="wrap">
+								<div class="entries-container">
+									<div class="entry">
+										<div class="entry-content">
+											<span class="entry-title">
+												<a
+													href="https://www.facebook.com/panlasangpinoy"
+													target="_blank"
+													rel="nofollow noopener"
+													class="icon-social icon-facebook">
+													<span class="screen-reader-text">Facebook</span>
+												</a>
+											</span>
+										</div>
+									</div>
+
+									<div class="entry">
+										<div class="entry-content">
+											<span class="entry-title">
+												<a
+													href="https://www.instagram.com/panlasangpinoy/"
+													target="_blank"
+													rel="nofollow noopener"
+													class="icon-social icon-instagram">
+													<span class="screen-reader-text">Instagram</span>
+												</a>
+											</span>
+										</div>
+									</div>
+
+									<div class="entry">
+										<div class="entry-content">
+											<span class="entry-title">
+												<a
+													href="https://www.pinterest.com/panlasangpinoy"
+													target="_blank"
+													rel="nofollow noopener"
+													class="icon-social icon-pinterest">
+													<span class="screen-reader-text">Pinterest</span>
+												</a>
+											</span>
+										</div>
+									</div>
+
+									<div class="entry">
+										<div class="entry-content">
+											<span class="entry-title">
+												<a
+													href="https://www.youtube.com/user/panlasangpinoy"
+													target="_blank"
+													rel="nofollow noopener"
+													class="icon-social icon-youtube">
+													<span class="screen-reader-text">YouTube</span>
+												</a>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<header class="site-header">
+				<div class="wrap">
+					<div class="title-area">
+						<p class="site-title">
+							<a href="https://panlasangpinoy.com/">Panlasang Pinoy</a>
+						</p>
+						<p class="site-description">Your Top Source of Filipino Recipes</p>
+					</div>
+					<nav class="nav-primary" aria-label="Main" id="genesis-nav-primary">
+						<div class="wrap">
+							<ul
+								id="menu-2022-primary-menu"
+								class="menu genesis-nav-menu limit-depth-3">
+								<li
+									data-depth="1"
+									class="menu-item menu-item-type-post_type menu-item-object-page">
+									<a
+										class="menu-item-title"
+										data-depth="1"
+										href="https://panlasangpinoy.com/quick-guide/"
+										><span>New? Start Here</span></a
+									>
+								</li>
+								<li
+									data-depth="1"
+									class="menu-item menu-item-type-post_type menu-item-object-page">
+									<a
+										class="menu-item-title"
+										data-depth="1"
+										href="https://panlasangpinoy.com/recipes/"
+										><span>All Recipes</span></a
+									>
+								</li>
+								<li
+									data-depth="1"
+									class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children">
+									<details class="sub-menu-toggle" data-depth="1">
+										<summary class="menu-item-title" data-depth="1">
+											<span>Course</span>
+										</summary>
+										<ul class="sub-menu" data-depth="2">
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/breakfast-recipes/"
+													><span>Breakfast</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/lunch-recipes/"
+													><span>Lunch</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/appetizer-recipes/"
+													><span>Appetizers</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/dessert-and-pastry-recipes/"
+													><span>Dessert</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/easy-dinner-recipes/"
+													><span>Dinner</span></a
+												>
+											</li>
+										</ul>
+									</details>
+								</li>
+								<li
+									data-depth="1"
+									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+									<details class="sub-menu-toggle" data-depth="1">
+										<summary class="menu-item-title" data-depth="1">
+											<span>Ingredient</span>
+										</summary>
+										<ul class="sub-menu" data-depth="2">
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/chicken-recipes/"
+													><span>Chicken</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/pork-recipes/"
+													><span>Pork</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/beef-recipes/"
+													><span>Beef</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/turkey-recipes-2/"
+													><span>Turkey</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/vegetable-recipes/"
+													><span>Vegetable</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/fish-recipes-recipes/"
+													><span>Fish</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/rice-recipes/"
+													><span>Rice</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/eggs/"
+													><span>Egg</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/tofu-recipes-recipes/"
+													><span>Tofu</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/noodle-recipes/"
+													><span>Noodles</span></a
+												>
+											</li>
+										</ul>
+									</details>
+								</li>
+								<li
+									data-depth="1"
+									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+									<details class="sub-menu-toggle" data-depth="1">
+										<summary class="menu-item-title" data-depth="1">
+											<span>Type</span>
+										</summary>
+										<ul class="sub-menu" data-depth="2">
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/adobo-recipes/"
+													><span>Adobo</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/bread-recipes/"
+													><span>Bread</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/fried-chicken-recipes-recipes/"
+													><span>Fried Chicken</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/sinigang-recipes/"
+													><span>Sinigang</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/kilawin-recipes/"
+													><span>Kilawin</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/ginataan-recipes/"
+													><span>Ginataan</span></a
+												>
+											</li>
+											<li
+												data-depth="2"
+												class="menu-item menu-item-type-taxonomy menu-item-object-category">
+												<a
+													class="menu-item-title"
+													data-depth="2"
+													href="https://panlasangpinoy.com/categories/recipes/kaldereta-caldereta-recipes/"
+													><span>Kaldereta</span></a
+												>
+											</li>
+										</ul>
+									</details>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<form
+						class="search-form"
+						method="get"
+						action="https://panlasangpinoy.com/"
+						role="search">
+						<label
+							class="search-form-label screen-reader-text"
+							for="searchform-1"
+							>Search...</label
+						><input
+							class="search-form-input"
+							type="search"
+							name="s"
+							id="searchform-1"
+							placeholder="Search..." /><input
+							class="search-form-submit"
+							type="submit"
+							value="Search" /><meta
+							content="https://panlasangpinoy.com/?s={s}" />
+						<div class="search-submit-icon"></div>
+					</form>
+				</div>
+			</header>
+			<div class="site-inner" id="genesis-content">
+				<div class="archive-nav">
+					<div class="wrap">
+						<div class="section-content">
+							<div class="breadcrumb">
+								<span
+									><span
+										><a
+											class="breadcrumb-link"
+											href="https://panlasangpinoy.com/"
+											>Home</a
+										></span
+									>
+									<span class="breadcrumb-separator"></span>
+									<span
+										><a
+											class="breadcrumb-link"
+											href="https://panlasangpinoy.com/categories/recipes/"
+											>Recipes</a
+										></span
+									>
+									<span class="breadcrumb-separator"></span>
+									<span class="breadcrumb_last" aria-current="page"
+										>Breakfast Recipes</span
+									></span
+								>
+							</div>
+							<div
+								class="archive-description taxonomy-archive-description taxonomy-description">
+								<h1 class="archive-title">Breakfast Recipes</h1>
+								<p>
+									If you disagree that this is the best meal of the day, this
+									might be because you haven’t tried some of the best breakfast
+									dishes out there. And Filipino breakfast, in particular, is
+									one that’s hard to say no to. Tapsilog, anyone? How about some
+									of the simple, but definitely flavorful Corned Beef Omelet?
+									Refine your morning cooking skills by taking a look at these
+									recipes! I also have some handy videos to help you as you
+									follow the steps one by one. Rest assured a lot of these
+									dishes are quick and easy enough to cook on the go as you
+									start your day.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="panla-mm-category-recipes-archives-pp_billboard"
+					id="panla-1693188932">
+					<pubguru data-pg-ad="pp_billboard"></pubguru>
+				</div>
+				<div class="content-sidebar-wrap">
+					<main class="content entries-container sm-grid-2 md-grid-3">
+						<article
+							class="post-80967 post type-post status-publish format-standard has-post-thumbnail category-breakfast-recipes category-eggs category-fried-rice-recipes category-recipes category-rice-recipes entry"
+							aria-label="Pinoy Breakfast Omelet and Bacon Garlic Fried Rice">
+							<header class="entry-header">
+								<a
+									class="entry-image-link"
+									href="https://panlasangpinoy.com/pinoy-breakfast-omelet-and-bacon-garlic-fried-rice/"
+									aria-hidden="true"
+									tabindex="-1"
+									><img
+										width="750"
+										height="750"
+										src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20750%20750'%3E%3C/svg%3E"
+										class="aligncenter post-image entry-image"
+										alt="Pinoy Breakfast Omelet and Bacon Garlic Fried Rice"
+										decoding="async"
+										data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-750x750.jpg 750w, https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-257x257.jpg 257w, https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-227x227.jpg 227w, https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-224x224.jpg 224w, https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-222x222.jpg 222w, https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-210x210.jpg 210w, https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-201x201.jpg 201w, https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-163x163.jpg 163w, https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-158x158.jpg 158w, https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-155x155.jpg 155w, https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-152x152.jpg 152w, https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-134x134.jpg 134w, https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-112x112.jpg 112w, https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-108x108.jpg 108w, https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-91x91.jpg 91w, https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-500x500.jpg 500w"
+										data-lazy-sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)"
+										data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-750x750.jpg" /><noscript
+										><img
+											width="750"
+											height="750"
+											src="https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-750x750.jpg"
+											class="aligncenter post-image entry-image"
+											alt="Pinoy Breakfast Omelet and Bacon Garlic Fried Rice"
+											decoding="async"
+											srcset="
+												https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-750x750.jpg 750w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-257x257.jpg 257w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-227x227.jpg 227w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-224x224.jpg 224w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-222x222.jpg 222w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-210x210.jpg 210w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-201x201.jpg 201w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-163x163.jpg 163w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-158x158.jpg 158w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-155x155.jpg 155w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-152x152.jpg 152w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-134x134.jpg 134w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-112x112.jpg 112w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-108x108.jpg 108w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-91x91.jpg    91w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/07/Pinoy-Breakfast-Omelet-and-Bacon-Garlic-Fried-Rice-500x500.jpg 500w
+											"
+											sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)" /></noscript
+								></a>
+								<h2 class="entry-title">
+									<a
+										class="entry-title-link"
+										rel="bookmark"
+										href="https://panlasangpinoy.com/pinoy-breakfast-omelet-and-bacon-garlic-fried-rice/"
+										>Pinoy Breakfast Omelet and Bacon Garlic Fried Rice</a
+									>
+								</h2>
+							</header>
+							<div class="entry-content"></div>
+						</article>
+						<article
+							class="post-78074 post type-post status-publish format-standard has-post-thumbnail category-air-fryer-recipes category-breakfast-recipes category-eggs category-pork-recipes category-recipes tag-breakfast-recipes tag-eggs tag-longganisa entry"
+							aria-label="Air Fryer Longganisa Frittata Recipe">
+							<header class="entry-header">
+								<a
+									class="entry-image-link"
+									href="https://panlasangpinoy.com/air-fryer-longganisa-frittata-recipe/"
+									aria-hidden="true"
+									tabindex="-1"
+									><img
+										width="750"
+										height="750"
+										src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20750%20750'%3E%3C/svg%3E"
+										class="aligncenter post-image entry-image"
+										alt="longganisa frittata"
+										decoding="async"
+										data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-750x750.webp 750w, https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-257x257.webp 257w, https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-227x227.webp 227w, https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-224x224.webp 224w, https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-222x222.webp 222w, https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-210x210.webp 210w, https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-201x201.webp 201w, https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-163x163.webp 163w, https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-158x158.webp 158w, https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-155x155.webp 155w, https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-152x152.webp 152w, https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-134x134.webp 134w, https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-112x112.webp 112w, https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-108x108.webp 108w, https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-91x91.webp 91w, https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-500x500.webp 500w"
+										data-lazy-sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)"
+										data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-750x750.webp" /><noscript
+										><img
+											width="750"
+											height="750"
+											src="https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-750x750.webp"
+											class="aligncenter post-image entry-image"
+											alt="longganisa frittata"
+											decoding="async"
+											srcset="
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-750x750.webp 750w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-257x257.webp 257w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-227x227.webp 227w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-224x224.webp 224w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-222x222.webp 222w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-210x210.webp 210w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-201x201.webp 201w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-163x163.webp 163w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-158x158.webp 158w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-155x155.webp 155w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-152x152.webp 152w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-134x134.webp 134w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-112x112.webp 112w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-108x108.webp 108w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-91x91.webp    91w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/longganisa-frittata-jpg-webp-500x500.webp 500w
+											"
+											sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)" /></noscript
+								></a>
+								<h2 class="entry-title">
+									<a
+										class="entry-title-link"
+										rel="bookmark"
+										href="https://panlasangpinoy.com/air-fryer-longganisa-frittata-recipe/"
+										>Air Fryer Longganisa Frittata Recipe</a
+									>
+								</h2>
+							</header>
+							<div class="entry-content"></div>
+						</article>
+						<article
+							class="post-77869 post type-post status-publish format-standard has-post-thumbnail category-breakfast-recipes category-recipes category-rice-recipes tag-breakfast tag-burrito tag-tocino entry"
+							aria-label="Breakfast Burrito">
+							<header class="entry-header">
+								<a
+									class="entry-image-link"
+									href="https://panlasangpinoy.com/breakfast-burrito/"
+									aria-hidden="true"
+									tabindex="-1"
+									><img
+										width="750"
+										height="750"
+										src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20750%20750'%3E%3C/svg%3E"
+										class="aligncenter post-image entry-image"
+										alt=""
+										decoding="async"
+										data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-750x750.webp 750w, https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-257x257.webp 257w, https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-227x227.webp 227w, https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-224x224.webp 224w, https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-222x222.webp 222w, https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-210x210.webp 210w, https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-201x201.webp 201w, https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-163x163.webp 163w, https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-158x158.webp 158w, https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-155x155.webp 155w, https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-152x152.webp 152w, https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-134x134.webp 134w, https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-112x112.webp 112w, https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-108x108.webp 108w, https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-91x91.webp 91w, https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-500x500.webp 500w"
+										data-lazy-sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)"
+										data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-750x750.webp" /><noscript
+										><img
+											width="750"
+											height="750"
+											src="https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-750x750.webp"
+											class="aligncenter post-image entry-image"
+											alt=""
+											decoding="async"
+											srcset="
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-750x750.webp 750w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-257x257.webp 257w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-227x227.webp 227w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-224x224.webp 224w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-222x222.webp 222w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-210x210.webp 210w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-201x201.webp 201w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-163x163.webp 163w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-158x158.webp 158w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-155x155.webp 155w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-152x152.webp 152w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-134x134.webp 134w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-112x112.webp 112w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-108x108.webp 108w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-91x91.webp    91w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/burrito-wrap-jpg-webp-500x500.webp 500w
+											"
+											sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)" /></noscript
+								></a>
+								<h2 class="entry-title">
+									<a
+										class="entry-title-link"
+										rel="bookmark"
+										href="https://panlasangpinoy.com/breakfast-burrito/"
+										>Breakfast Burrito</a
+									>
+								</h2>
+							</header>
+							<div class="entry-content"></div>
+						</article>
+						<article
+							class="post-77893 post type-post status-publish format-standard has-post-thumbnail category-breakfast-recipes category-recipes category-sandwiches tag-bacon-recipe tag-breakfast-recipes tag-egg-recipe tag-sandwich-recipes entry"
+							aria-label="One Pan Sandwich">
+							<header class="entry-header">
+								<a
+									class="entry-image-link"
+									href="https://panlasangpinoy.com/one-pan-sandwich/"
+									aria-hidden="true"
+									tabindex="-1"
+									><img
+										width="750"
+										height="750"
+										src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20750%20750'%3E%3C/svg%3E"
+										class="aligncenter post-image entry-image"
+										alt="one pan sandwich recipe"
+										decoding="async"
+										data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-750x750.webp 750w, https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-257x257.webp 257w, https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-227x227.webp 227w, https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-224x224.webp 224w, https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-222x222.webp 222w, https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-210x210.webp 210w, https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-201x201.webp 201w, https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-163x163.webp 163w, https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-158x158.webp 158w, https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-155x155.webp 155w, https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-152x152.webp 152w, https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-134x134.webp 134w, https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-112x112.webp 112w, https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-108x108.webp 108w, https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-91x91.webp 91w, https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-500x500.webp 500w"
+										data-lazy-sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)"
+										data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-750x750.webp" /><noscript
+										><img
+											width="750"
+											height="750"
+											src="https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-750x750.webp"
+											class="aligncenter post-image entry-image"
+											alt="one pan sandwich recipe"
+											decoding="async"
+											srcset="
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-750x750.webp 750w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-257x257.webp 257w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-227x227.webp 227w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-224x224.webp 224w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-222x222.webp 222w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-210x210.webp 210w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-201x201.webp 201w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-163x163.webp 163w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-158x158.webp 158w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-155x155.webp 155w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-152x152.webp 152w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-134x134.webp 134w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-112x112.webp 112w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-108x108.webp 108w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-91x91.webp    91w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/one-pan-sandwich-recipe-jpg-webp-500x500.webp 500w
+											"
+											sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)" /></noscript
+								></a>
+								<h2 class="entry-title">
+									<a
+										class="entry-title-link"
+										rel="bookmark"
+										href="https://panlasangpinoy.com/one-pan-sandwich/"
+										>One Pan Sandwich</a
+									>
+								</h2>
+							</header>
+							<div class="entry-content"></div>
+						</article>
+						<article
+							class="post-77887 post type-post status-publish format-standard has-post-thumbnail category-breakfast-recipes category-recipes tag-bacon tag-pancake-recipe entry"
+							aria-label="Bacon Stuffed Pancake">
+							<header class="entry-header">
+								<a
+									class="entry-image-link"
+									href="https://panlasangpinoy.com/bacon-stuffed-pancake/"
+									aria-hidden="true"
+									tabindex="-1"
+									><img
+										width="750"
+										height="750"
+										src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20750%20750'%3E%3C/svg%3E"
+										class="aligncenter post-image entry-image"
+										alt=""
+										decoding="async"
+										data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-750x750.webp 750w, https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-257x257.webp 257w, https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-227x227.webp 227w, https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-224x224.webp 224w, https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-222x222.webp 222w, https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-210x210.webp 210w, https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-201x201.webp 201w, https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-163x163.webp 163w, https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-158x158.webp 158w, https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-155x155.webp 155w, https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-152x152.webp 152w, https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-134x134.webp 134w, https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-112x112.webp 112w, https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-108x108.webp 108w, https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-91x91.webp 91w, https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-500x500.webp 500w"
+										data-lazy-sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)"
+										data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-750x750.webp" /><noscript
+										><img
+											width="750"
+											height="750"
+											src="https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-750x750.webp"
+											class="aligncenter post-image entry-image"
+											alt=""
+											decoding="async"
+											srcset="
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-750x750.webp 750w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-257x257.webp 257w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-227x227.webp 227w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-224x224.webp 224w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-222x222.webp 222w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-210x210.webp 210w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-201x201.webp 201w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-163x163.webp 163w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-158x158.webp 158w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-155x155.webp 155w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-152x152.webp 152w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-134x134.webp 134w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-112x112.webp 112w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-108x108.webp 108w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-91x91.webp    91w,
+												https://panlasangpinoy.com/wp-content/uploads/2023/01/bacon-pancake-jpg-webp-500x500.webp 500w
+											"
+											sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)" /></noscript
+								></a>
+								<h2 class="entry-title">
+									<a
+										class="entry-title-link"
+										rel="bookmark"
+										href="https://panlasangpinoy.com/bacon-stuffed-pancake/"
+										>Bacon Stuffed Pancake</a
+									>
+								</h2>
+							</header>
+							<div class="entry-content"></div>
+						</article>
+						<article
+							class="post-77044 post type-post status-publish format-standard has-post-thumbnail category-breakfast-recipes category-recipes category-rice-recipes tag-fried-rice tag-tapa-recipe entry"
+							aria-label="Tapa and Egg Fried Rice">
+							<header class="entry-header">
+								<a
+									class="entry-image-link"
+									href="https://panlasangpinoy.com/tapa-and-egg-fried-rice/"
+									aria-hidden="true"
+									tabindex="-1"
+									><img
+										width="750"
+										height="750"
+										src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20750%20750'%3E%3C/svg%3E"
+										class="aligncenter post-image entry-image"
+										alt="tapa and egg fried rice recipe_"
+										decoding="async"
+										data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-750x750.jpg 750w, https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-257x257.jpg 257w, https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-227x227.jpg 227w, https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-224x224.jpg 224w, https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-222x222.jpg 222w, https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-210x210.jpg 210w, https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-201x201.jpg 201w, https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-163x163.jpg 163w, https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-158x158.jpg 158w, https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-155x155.jpg 155w, https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-152x152.jpg 152w, https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-134x134.jpg 134w, https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-112x112.jpg 112w, https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-108x108.jpg 108w, https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-91x91.jpg 91w, https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-500x500.jpg 500w"
+										data-lazy-sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)"
+										data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-750x750.jpg" /><noscript
+										><img
+											width="750"
+											height="750"
+											src="https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-750x750.jpg"
+											class="aligncenter post-image entry-image"
+											alt="tapa and egg fried rice recipe_"
+											decoding="async"
+											srcset="
+												https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-750x750.jpg 750w,
+												https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-257x257.jpg 257w,
+												https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-227x227.jpg 227w,
+												https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-224x224.jpg 224w,
+												https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-222x222.jpg 222w,
+												https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-210x210.jpg 210w,
+												https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-201x201.jpg 201w,
+												https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-163x163.jpg 163w,
+												https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-158x158.jpg 158w,
+												https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-155x155.jpg 155w,
+												https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-152x152.jpg 152w,
+												https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-134x134.jpg 134w,
+												https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-112x112.jpg 112w,
+												https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-108x108.jpg 108w,
+												https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-91x91.jpg    91w,
+												https://panlasangpinoy.com/wp-content/uploads/2022/07/tapa-and-egg-fried-rice-recipe_-500x500.jpg 500w
+											"
+											sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)" /></noscript
+								></a>
+								<h2 class="entry-title">
+									<a
+										class="entry-title-link"
+										rel="bookmark"
+										href="https://panlasangpinoy.com/tapa-and-egg-fried-rice/"
+										>Tapa and Egg Fried Rice</a
+									>
+								</h2>
+							</header>
+							<div class="entry-content"></div>
+						</article>
+						<article
+							class="post-1367 post type-post status-publish format-standard has-post-thumbnail category-breakfast-recipes category-porridgecongee category-recipes category-rice-recipes category-snacks-recipes tag-arroz-caldo tag-arroz-caldo-recipe tag-congee tag-congee-recipe tag-goto tag-goto-recipe tag-lugaw tag-lugaw-recipe entry"
+							aria-label="Arroz Caldo Recipe">
+							<header class="entry-header">
+								<a
+									class="entry-image-link"
+									href="https://panlasangpinoy.com/arroz-caldo/"
+									aria-hidden="true"
+									tabindex="-1"
+									><img
+										width="728"
+										height="750"
+										src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20728%20750'%3E%3C/svg%3E"
+										class="aligncenter post-image entry-image"
+										alt="Arroz Caldo"
+										decoding="async"
+										data-lazy-sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)"
+										data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2019/03/arroz-caldo-jpg-728x750.webp" /><noscript
+										><img
+											width="728"
+											height="750"
+											src="https://panlasangpinoy.com/wp-content/uploads/2019/03/arroz-caldo-jpg-728x750.webp"
+											class="aligncenter post-image entry-image"
+											alt="Arroz Caldo"
+											decoding="async"
+											sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)" /></noscript
+								></a>
+								<h2 class="entry-title">
+									<a
+										class="entry-title-link"
+										rel="bookmark"
+										href="https://panlasangpinoy.com/arroz-caldo/"
+										>Arroz Caldo Recipe</a
+									>
+								</h2>
+							</header>
+							<div class="entry-content"></div>
+						</article>
+						<article
+							class="post-5795 post type-post status-publish format-standard has-post-thumbnail category-breakfast-recipes category-eggs category-potato-recipes-recipes category-recipes tag-breakfast-recipes tag-egg-recipes tag-omelet-recipe entry"
+							aria-label="Tortilla Espanola Recipe (Spanish Potato Omelet)">
+							<header class="entry-header">
+								<a
+									class="entry-image-link"
+									href="https://panlasangpinoy.com/tortilla-espanola-potato-omelet-recipe/"
+									aria-hidden="true"
+									tabindex="-1"
+									><img
+										width="750"
+										height="750"
+										src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20750%20750'%3E%3C/svg%3E"
+										class="aligncenter post-image entry-image"
+										alt="Tortilla Espanola"
+										decoding="async"
+										data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-750x750.webp 750w, https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-257x257.webp 257w, https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-227x227.webp 227w, https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-224x224.webp 224w, https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-222x222.webp 222w, https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-210x210.webp 210w, https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-201x201.webp 201w, https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-163x163.webp 163w, https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-158x158.webp 158w, https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-155x155.webp 155w, https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-152x152.webp 152w, https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-134x134.webp 134w, https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-112x112.webp 112w, https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-108x108.webp 108w, https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-91x91.webp 91w, https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-500x500.webp 500w"
+										data-lazy-sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)"
+										data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-750x750.webp" /><noscript
+										><img
+											width="750"
+											height="750"
+											src="https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-750x750.webp"
+											class="aligncenter post-image entry-image"
+											alt="Tortilla Espanola"
+											decoding="async"
+											srcset="
+												https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-750x750.webp 750w,
+												https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-257x257.webp 257w,
+												https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-227x227.webp 227w,
+												https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-224x224.webp 224w,
+												https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-222x222.webp 222w,
+												https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-210x210.webp 210w,
+												https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-201x201.webp 201w,
+												https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-163x163.webp 163w,
+												https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-158x158.webp 158w,
+												https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-155x155.webp 155w,
+												https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-152x152.webp 152w,
+												https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-134x134.webp 134w,
+												https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-112x112.webp 112w,
+												https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-108x108.webp 108w,
+												https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-91x91.webp    91w,
+												https://panlasangpinoy.com/wp-content/uploads/2010/08/Tortilla-Espanola-1-jpg-500x500.webp 500w
+											"
+											sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)" /></noscript
+								></a>
+								<h2 class="entry-title">
+									<a
+										class="entry-title-link"
+										rel="bookmark"
+										href="https://panlasangpinoy.com/tortilla-espanola-potato-omelet-recipe/"
+										>Tortilla Espanola Recipe (Spanish Potato Omelet)</a
+									>
+								</h2>
+							</header>
+							<div class="entry-content"></div>
+						</article>
+						<article
+							class="post-75191 post type-post status-publish format-standard has-post-thumbnail category-breakfast-recipes category-recipes category-silog-recipes tag-breakfast-recipes tag-longanisa tag-tapsilog entry"
+							aria-label="How to Cook Longsilog">
+							<header class="entry-header">
+								<a
+									class="entry-image-link"
+									href="https://panlasangpinoy.com/how-to-cook-longsilog/"
+									aria-hidden="true"
+									tabindex="-1"
+									><img
+										width="728"
+										height="490"
+										src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20728%20490'%3E%3C/svg%3E"
+										class="aligncenter post-image entry-image"
+										alt="longsilog"
+										decoding="async"
+										data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2021/06/longsilog-jpg.webp 728w, https://panlasangpinoy.com/wp-content/uploads/2021/06/longsilog-jpg-300x202.webp 300w, https://panlasangpinoy.com/wp-content/uploads/2021/06/longsilog-jpg-89x60.webp 89w, https://panlasangpinoy.com/wp-content/uploads/2021/06/longsilog-jpg-540x363.webp 540w, https://panlasangpinoy.com/wp-content/uploads/2021/06/longsilog-jpg-141x95.webp 141w"
+										data-lazy-sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)"
+										data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2021/06/longsilog-jpg.webp" /><noscript
+										><img
+											width="728"
+											height="490"
+											src="https://panlasangpinoy.com/wp-content/uploads/2021/06/longsilog-jpg.webp"
+											class="aligncenter post-image entry-image"
+											alt="longsilog"
+											decoding="async"
+											srcset="
+												https://panlasangpinoy.com/wp-content/uploads/2021/06/longsilog-jpg.webp         728w,
+												https://panlasangpinoy.com/wp-content/uploads/2021/06/longsilog-jpg-300x202.webp 300w,
+												https://panlasangpinoy.com/wp-content/uploads/2021/06/longsilog-jpg-89x60.webp    89w,
+												https://panlasangpinoy.com/wp-content/uploads/2021/06/longsilog-jpg-540x363.webp 540w,
+												https://panlasangpinoy.com/wp-content/uploads/2021/06/longsilog-jpg-141x95.webp  141w
+											"
+											sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)" /></noscript
+								></a>
+								<h2 class="entry-title">
+									<a
+										class="entry-title-link"
+										rel="bookmark"
+										href="https://panlasangpinoy.com/how-to-cook-longsilog/"
+										>How to Cook Longsilog</a
+									>
+								</h2>
+							</header>
+							<div class="entry-content"></div>
+						</article>
+						<article
+							class="post-13616 post type-post status-publish format-standard has-post-thumbnail category-banana-recipes category-breakfast-recipes category-recipes category-snacks-recipes tag-banana-fritter tag-banana-fritter-recipe tag-banana-fritters entry"
+							aria-label="Banana Fritter Recipe (Maruya)">
+							<header class="entry-header">
+								<a
+									class="entry-image-link"
+									href="https://panlasangpinoy.com/banana-fritter-recipe/"
+									aria-hidden="true"
+									tabindex="-1"
+									><img
+										width="728"
+										height="485"
+										src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20728%20485'%3E%3C/svg%3E"
+										class="aligncenter post-image entry-image"
+										alt="maruya banana fritter"
+										decoding="async"
+										data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2012/12/maruya-banana-fritter.jpg 728w, https://panlasangpinoy.com/wp-content/uploads/2012/12/maruya-banana-fritter-300x200.jpg 300w, https://panlasangpinoy.com/wp-content/uploads/2012/12/maruya-banana-fritter-90x60.jpg 90w, https://panlasangpinoy.com/wp-content/uploads/2012/12/maruya-banana-fritter-540x360.jpg 540w, https://panlasangpinoy.com/wp-content/uploads/2012/12/maruya-banana-fritter-141x94.jpg 141w"
+										data-lazy-sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)"
+										data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2012/12/maruya-banana-fritter.jpg" /><noscript
+										><img
+											width="728"
+											height="485"
+											src="https://panlasangpinoy.com/wp-content/uploads/2012/12/maruya-banana-fritter.jpg"
+											class="aligncenter post-image entry-image"
+											alt="maruya banana fritter"
+											decoding="async"
+											srcset="
+												https://panlasangpinoy.com/wp-content/uploads/2012/12/maruya-banana-fritter.jpg         728w,
+												https://panlasangpinoy.com/wp-content/uploads/2012/12/maruya-banana-fritter-300x200.jpg 300w,
+												https://panlasangpinoy.com/wp-content/uploads/2012/12/maruya-banana-fritter-90x60.jpg    90w,
+												https://panlasangpinoy.com/wp-content/uploads/2012/12/maruya-banana-fritter-540x360.jpg 540w,
+												https://panlasangpinoy.com/wp-content/uploads/2012/12/maruya-banana-fritter-141x94.jpg  141w
+											"
+											sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)" /></noscript
+								></a>
+								<h2 class="entry-title">
+									<a
+										class="entry-title-link"
+										rel="bookmark"
+										href="https://panlasangpinoy.com/banana-fritter-recipe/"
+										>Banana Fritter Recipe (Maruya)</a
+									>
+								</h2>
+							</header>
+							<div class="entry-content"></div>
+						</article>
+						<article
+							class="post-22918 post type-post status-publish format-standard has-post-thumbnail category-beef-recipes category-breakfast-recipes category-eggs category-recipes tag-breakfast tag-corned-beef tag-omelet entry"
+							aria-label="Corned Beef Omelet">
+							<header class="entry-header">
+								<a
+									class="entry-image-link"
+									href="https://panlasangpinoy.com/tortang-corned-beef-omelet/"
+									aria-hidden="true"
+									tabindex="-1"
+									><img
+										width="728"
+										height="485"
+										src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20728%20485'%3E%3C/svg%3E"
+										class="aligncenter post-image entry-image"
+										alt="tortang corned beef omelet"
+										decoding="async"
+										data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2014/12/tortang-corned-beef-omelet.jpg 728w, https://panlasangpinoy.com/wp-content/uploads/2014/12/tortang-corned-beef-omelet-300x200.jpg 300w, https://panlasangpinoy.com/wp-content/uploads/2014/12/tortang-corned-beef-omelet-90x60.jpg 90w, https://panlasangpinoy.com/wp-content/uploads/2014/12/tortang-corned-beef-omelet-540x360.jpg 540w, https://panlasangpinoy.com/wp-content/uploads/2014/12/tortang-corned-beef-omelet-141x94.jpg 141w"
+										data-lazy-sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)"
+										data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2014/12/tortang-corned-beef-omelet.jpg" /><noscript
+										><img
+											width="728"
+											height="485"
+											src="https://panlasangpinoy.com/wp-content/uploads/2014/12/tortang-corned-beef-omelet.jpg"
+											class="aligncenter post-image entry-image"
+											alt="tortang corned beef omelet"
+											decoding="async"
+											srcset="
+												https://panlasangpinoy.com/wp-content/uploads/2014/12/tortang-corned-beef-omelet.jpg         728w,
+												https://panlasangpinoy.com/wp-content/uploads/2014/12/tortang-corned-beef-omelet-300x200.jpg 300w,
+												https://panlasangpinoy.com/wp-content/uploads/2014/12/tortang-corned-beef-omelet-90x60.jpg    90w,
+												https://panlasangpinoy.com/wp-content/uploads/2014/12/tortang-corned-beef-omelet-540x360.jpg 540w,
+												https://panlasangpinoy.com/wp-content/uploads/2014/12/tortang-corned-beef-omelet-141x94.jpg  141w
+											"
+											sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)" /></noscript
+								></a>
+								<h2 class="entry-title">
+									<a
+										class="entry-title-link"
+										rel="bookmark"
+										href="https://panlasangpinoy.com/tortang-corned-beef-omelet/"
+										>Corned Beef Omelet</a
+									>
+								</h2>
+							</header>
+							<div class="entry-content"></div>
+						</article>
+						<article
+							class="post-71209 post type-post status-publish format-standard has-post-thumbnail category-breakfast-recipes category-recipes entry"
+							aria-label="Chicken Adobo Fried Rice and Tortang Corned Beef">
+							<header class="entry-header">
+								<a
+									class="entry-image-link"
+									href="https://panlasangpinoy.com/chicken-adobo-fried-rice-and-tortang-corned-beef/"
+									aria-hidden="true"
+									tabindex="-1"
+									><img
+										width="728"
+										height="461"
+										src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20728%20461'%3E%3C/svg%3E"
+										class="aligncenter post-image entry-image"
+										alt="Chicken Adobo Fried Rice and Tortang Corned Beef Recipe"
+										decoding="async"
+										data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2019/08/Chicken-Adobo-Fried-Rice-and-Tortang-Corned-Beef-Recipe.jpg 728w, https://panlasangpinoy.com/wp-content/uploads/2019/08/Chicken-Adobo-Fried-Rice-and-Tortang-Corned-Beef-Recipe-300x190.jpg 300w, https://panlasangpinoy.com/wp-content/uploads/2019/08/Chicken-Adobo-Fried-Rice-and-Tortang-Corned-Beef-Recipe-95x60.jpg 95w, https://panlasangpinoy.com/wp-content/uploads/2019/08/Chicken-Adobo-Fried-Rice-and-Tortang-Corned-Beef-Recipe-540x342.jpg 540w, https://panlasangpinoy.com/wp-content/uploads/2019/08/Chicken-Adobo-Fried-Rice-and-Tortang-Corned-Beef-Recipe-141x89.jpg 141w"
+										data-lazy-sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)"
+										data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2019/08/Chicken-Adobo-Fried-Rice-and-Tortang-Corned-Beef-Recipe.jpg" /><noscript
+										><img
+											width="728"
+											height="461"
+											src="https://panlasangpinoy.com/wp-content/uploads/2019/08/Chicken-Adobo-Fried-Rice-and-Tortang-Corned-Beef-Recipe.jpg"
+											class="aligncenter post-image entry-image"
+											alt="Chicken Adobo Fried Rice and Tortang Corned Beef Recipe"
+											decoding="async"
+											srcset="
+												https://panlasangpinoy.com/wp-content/uploads/2019/08/Chicken-Adobo-Fried-Rice-and-Tortang-Corned-Beef-Recipe.jpg         728w,
+												https://panlasangpinoy.com/wp-content/uploads/2019/08/Chicken-Adobo-Fried-Rice-and-Tortang-Corned-Beef-Recipe-300x190.jpg 300w,
+												https://panlasangpinoy.com/wp-content/uploads/2019/08/Chicken-Adobo-Fried-Rice-and-Tortang-Corned-Beef-Recipe-95x60.jpg    95w,
+												https://panlasangpinoy.com/wp-content/uploads/2019/08/Chicken-Adobo-Fried-Rice-and-Tortang-Corned-Beef-Recipe-540x342.jpg 540w,
+												https://panlasangpinoy.com/wp-content/uploads/2019/08/Chicken-Adobo-Fried-Rice-and-Tortang-Corned-Beef-Recipe-141x89.jpg  141w
+											"
+											sizes="(min-width: 1200px) 227px, (min-width: 1080px) 201px, (min-width: 1024px) 194px, (min-width: 768px) calc((100vw - 40px) * 1/3 - 16px), calc((100vw - 20px) * 1/2 - 8px)" /></noscript
+								></a>
+								<h2 class="entry-title">
+									<a
+										class="entry-title-link"
+										rel="bookmark"
+										href="https://panlasangpinoy.com/chicken-adobo-fried-rice-and-tortang-corned-beef/"
+										>Chicken Adobo Fried Rice and Tortang Corned Beef</a
+									>
+								</h2>
+							</header>
+							<div class="entry-content"></div>
+						</article>
+						<div
+							class="archive-pagination full-grid pagination"
+							role="navigation"
+							aria-label="Pagination">
+							<ul>
+								<li class="active">
+									<a
+										href="https://panlasangpinoy.com/categories/recipes/breakfast-recipes/"
+										aria-label="Current page"
+										aria-current="page"
+										><span class="screen-reader-text">Go to page</span> 1</a
+									>
+								</li>
+								<li>
+									<a
+										href="https://panlasangpinoy.com/categories/recipes/breakfast-recipes/page/2/"
+										><span class="screen-reader-text">Go to page</span> 2</a
+									>
+								</li>
+								<li>
+									<a
+										href="https://panlasangpinoy.com/categories/recipes/breakfast-recipes/page/3/"
+										><span class="screen-reader-text">Go to page</span> 3</a
+									>
+								</li>
+								<li class="pagination-omission">
+									<span class="screen-reader-text">Interim pages omitted</span>
+									&#x02026;
+								</li>
+								<li>
+									<a
+										href="https://panlasangpinoy.com/categories/recipes/breakfast-recipes/page/8/"
+										><span class="screen-reader-text">Go to page</span> 8</a
+									>
+								</li>
+								<li class="pagination-next">
+									<a
+										href="https://panlasangpinoy.com/categories/recipes/breakfast-recipes/page/2/"
+										>Next</a
+									>
+								</li>
+							</ul>
+						</div>
+					</main>
+					<div
+						class="panla-mm-category-recipes-pp_sidebar_bottom"
+						id="panla-173760230">
+						<pubguru data-pg-ad="pp_sidebar_bottom"></pubguru>
+					</div>
+					<aside
+						class="sidebar sidebar-primary widget-area"
+						role="complementary"
+						aria-label="Primary Sidebar"
+						id="genesis-sidebar-primary">
+						<h2 class="genesis-sidebar-title screen-reader-text">sidebar</h2>
+					</aside>
+				</div>
+			</div>
+			<footer class="site-footer">
+				<div class="wrap">
+					<div class="footer-logos-block">
+						<div class="wrap">
+							<div
+								class="featured-content block-logos"
+								id="acf-helper-block_771b9d485480df08e23079f3ad2c7e4f">
+								<div class="wrap">
+									<div class="section-content">
+										<h2 class="section-title">As Seen In:</h2>
+									</div>
+									<div class="entries-container sm-grid-3 md-grid-6">
+										<div class="entry">
+											<img
+												width="288"
+												height="60"
+												src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20288%2060'%3E%3C/svg%3E"
+												class="attachment-placement-block-logos size-placement-block-logos entry-image"
+												alt="good housekeeping"
+												data-pin-nopin="nopin"
+												decoding="async"
+												data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-288x60.png 288w, https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-300x63.png 300w, https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-1024x213.png 1024w, https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-1536x320.png 1536w, https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-2048x427.png 2048w, https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-800x167.png 800w, https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-1440x300.png 1440w, https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-750x156.png 750w, https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-730x152.png 730w, https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-540x113.png 540w, https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-141x29.png 141w, https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-663x138.png 663w"
+												data-lazy-sizes="(min-width: 1200px) 141px, (min-width: 1080px) 127px, (min-width: 1024px) 124px, (min-width: 768px) calc((100vw - 40px) * 1/6 - 36px), calc((100vw - 20px) * 1/3 - 26.666px)"
+												data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-288x60.png" /><noscript
+												><img
+													width="288"
+													height="60"
+													src="https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-288x60.png"
+													class="attachment-placement-block-logos size-placement-block-logos entry-image"
+													alt="good housekeeping"
+													data-pin-nopin="nopin"
+													decoding="async"
+													srcset="
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-288x60.png    288w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-300x63.png    300w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-1024x213.png 1024w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-1536x320.png 1536w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-2048x427.png 2048w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-800x167.png   800w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-1440x300.png 1440w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-750x156.png   750w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-730x152.png   730w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-540x113.png   540w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-141x29.png    141w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/good-housekeeping-663x138.png   663w
+													"
+													sizes="(min-width: 1200px) 141px, (min-width: 1080px) 127px, (min-width: 1024px) 124px, (min-width: 768px) calc((100vw - 40px) * 1/6 - 36px), calc((100vw - 20px) * 1/3 - 26.666px)"
+											/></noscript>
+											<div class="entry-content"></div>
+										</div>
+
+										<div class="entry">
+											<img
+												width="305"
+												height="60"
+												src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20305%2060'%3E%3C/svg%3E"
+												class="attachment-placement-block-logos size-placement-block-logos entry-image"
+												alt="parents"
+												data-pin-nopin="nopin"
+												decoding="async"
+												data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2023/03/parents-305x60.png 305w, https://panlasangpinoy.com/wp-content/uploads/2023/03/parents-300x59.png 300w, https://panlasangpinoy.com/wp-content/uploads/2023/03/parents-540x106.png 540w, https://panlasangpinoy.com/wp-content/uploads/2023/03/parents-141x28.png 141w, https://panlasangpinoy.com/wp-content/uploads/2023/03/parents.png 640w"
+												data-lazy-sizes="(min-width: 1200px) 141px, (min-width: 1080px) 127px, (min-width: 1024px) 124px, (min-width: 768px) calc((100vw - 40px) * 1/6 - 36px), calc((100vw - 20px) * 1/3 - 26.666px)"
+												data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2023/03/parents-305x60.png" /><noscript
+												><img
+													width="305"
+													height="60"
+													src="https://panlasangpinoy.com/wp-content/uploads/2023/03/parents-305x60.png"
+													class="attachment-placement-block-logos size-placement-block-logos entry-image"
+													alt="parents"
+													data-pin-nopin="nopin"
+													decoding="async"
+													srcset="
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/parents-305x60.png  305w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/parents-300x59.png  300w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/parents-540x106.png 540w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/parents-141x28.png  141w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/parents.png         640w
+													"
+													sizes="(min-width: 1200px) 141px, (min-width: 1080px) 127px, (min-width: 1024px) 124px, (min-width: 768px) calc((100vw - 40px) * 1/6 - 36px), calc((100vw - 20px) * 1/3 - 26.666px)"
+											/></noscript>
+											<div class="entry-content"></div>
+										</div>
+
+										<div class="entry">
+											<img
+												width="441"
+												height="60"
+												src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20441%2060'%3E%3C/svg%3E"
+												class="attachment-placement-block-logos size-placement-block-logos entry-image"
+												alt="serious eats"
+												data-pin-nopin="nopin"
+												decoding="async"
+												data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-441x60.png 441w, https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-300x41.png 300w, https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-1024x139.png 1024w, https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-1536x209.png 1536w, https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-800x109.png 800w, https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-750x102.png 750w, https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-730x99.png 730w, https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-540x73.png 540w, https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-141x19.png 141w, https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats.png 2000w"
+												data-lazy-sizes="(min-width: 1200px) 141px, (min-width: 1080px) 127px, (min-width: 1024px) 124px, (min-width: 768px) calc((100vw - 40px) * 1/6 - 36px), calc((100vw - 20px) * 1/3 - 26.666px)"
+												data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-441x60.png" /><noscript
+												><img
+													width="441"
+													height="60"
+													src="https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-441x60.png"
+													class="attachment-placement-block-logos size-placement-block-logos entry-image"
+													alt="serious eats"
+													data-pin-nopin="nopin"
+													decoding="async"
+													srcset="
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-441x60.png    441w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-300x41.png    300w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-1024x139.png 1024w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-1536x209.png 1536w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-800x109.png   800w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-750x102.png   750w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-730x99.png    730w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-540x73.png    540w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats-141x19.png    141w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/serious-eats.png          2000w
+													"
+													sizes="(min-width: 1200px) 141px, (min-width: 1080px) 127px, (min-width: 1024px) 124px, (min-width: 768px) calc((100vw - 40px) * 1/6 - 36px), calc((100vw - 20px) * 1/3 - 26.666px)"
+											/></noscript>
+											<div class="entry-content"></div>
+										</div>
+
+										<div class="entry">
+											<img
+												width="300"
+												height="22"
+												src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%2022'%3E%3C/svg%3E"
+												class="attachment-placement-block-logos size-placement-block-logos entry-image"
+												alt="livestrong"
+												data-pin-nopin="nopin"
+												decoding="async"
+												data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2023/03/livestrong-jpg-webp.webp 300w, https://panlasangpinoy.com/wp-content/uploads/2023/03/livestrong-jpg-webp-141x10.webp 141w"
+												data-lazy-sizes="(min-width: 1200px) 141px, (min-width: 1080px) 127px, (min-width: 1024px) 124px, (min-width: 768px) calc((100vw - 40px) * 1/6 - 36px), calc((100vw - 20px) * 1/3 - 26.666px)"
+												data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2023/03/livestrong-jpg-webp.webp" /><noscript
+												><img
+													width="300"
+													height="22"
+													src="https://panlasangpinoy.com/wp-content/uploads/2023/03/livestrong-jpg-webp.webp"
+													class="attachment-placement-block-logos size-placement-block-logos entry-image"
+													alt="livestrong"
+													data-pin-nopin="nopin"
+													decoding="async"
+													srcset="
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/livestrong-jpg-webp.webp        300w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/livestrong-jpg-webp-141x10.webp 141w
+													"
+													sizes="(min-width: 1200px) 141px, (min-width: 1080px) 127px, (min-width: 1024px) 124px, (min-width: 768px) calc((100vw - 40px) * 1/6 - 36px), calc((100vw - 20px) * 1/3 - 26.666px)"
+											/></noscript>
+											<div class="entry-content"></div>
+										</div>
+
+										<div class="entry">
+											<img
+												width="244"
+												height="60"
+												src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20244%2060'%3E%3C/svg%3E"
+												class="attachment-placement-block-logos size-placement-block-logos entry-image"
+												alt="kitchn"
+												data-pin-nopin="nopin"
+												decoding="async"
+												data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-244x60.png 244w, https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-300x74.png 300w, https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-1024x252.png 1024w, https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-1536x378.png 1536w, https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-2048x504.png 2048w, https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-800x197.png 800w, https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-750x185.png 750w, https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-730x180.png 730w, https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-540x133.png 540w, https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-141x35.png 141w"
+												data-lazy-sizes="(min-width: 1200px) 141px, (min-width: 1080px) 127px, (min-width: 1024px) 124px, (min-width: 768px) calc((100vw - 40px) * 1/6 - 36px), calc((100vw - 20px) * 1/3 - 26.666px)"
+												data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-244x60.png" /><noscript
+												><img
+													width="244"
+													height="60"
+													src="https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-244x60.png"
+													class="attachment-placement-block-logos size-placement-block-logos entry-image"
+													alt="kitchn"
+													data-pin-nopin="nopin"
+													decoding="async"
+													srcset="
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-244x60.png    244w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-300x74.png    300w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-1024x252.png 1024w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-1536x378.png 1536w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-2048x504.png 2048w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-800x197.png   800w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-750x185.png   750w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-730x180.png   730w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-540x133.png   540w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/kitchn-141x35.png    141w
+													"
+													sizes="(min-width: 1200px) 141px, (min-width: 1080px) 127px, (min-width: 1024px) 124px, (min-width: 768px) calc((100vw - 40px) * 1/6 - 36px), calc((100vw - 20px) * 1/3 - 26.666px)"
+											/></noscript>
+											<div class="entry-content"></div>
+										</div>
+
+										<div class="entry">
+											<img
+												width="319"
+												height="60"
+												src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20319%2060'%3E%3C/svg%3E"
+												class="attachment-placement-block-logos size-placement-block-logos entry-image"
+												alt="sheknows"
+												data-pin-nopin="nopin"
+												decoding="async"
+												data-lazy-srcset="https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-319x60.png 319w, https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-300x56.png 300w, https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-1024x193.png 1024w, https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-1536x289.png 1536w, https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-2048x386.png 2048w, https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-800x151.png 800w, https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-750x141.png 750w, https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-730x137.png 730w, https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-540x102.png 540w, https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-141x27.png 141w"
+												data-lazy-sizes="(min-width: 1200px) 141px, (min-width: 1080px) 127px, (min-width: 1024px) 124px, (min-width: 768px) calc((100vw - 40px) * 1/6 - 36px), calc((100vw - 20px) * 1/3 - 26.666px)"
+												data-lazy-src="https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-319x60.png" /><noscript
+												><img
+													width="319"
+													height="60"
+													src="https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-319x60.png"
+													class="attachment-placement-block-logos size-placement-block-logos entry-image"
+													alt="sheknows"
+													data-pin-nopin="nopin"
+													decoding="async"
+													srcset="
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-319x60.png    319w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-300x56.png    300w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-1024x193.png 1024w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-1536x289.png 1536w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-2048x386.png 2048w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-800x151.png   800w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-750x141.png   750w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-730x137.png   730w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-540x102.png   540w,
+														https://panlasangpinoy.com/wp-content/uploads/2023/03/sheknows-141x27.png    141w
+													"
+													sizes="(min-width: 1200px) 141px, (min-width: 1080px) 127px, (min-width: 1024px) 124px, (min-width: 768px) calc((100vw - 40px) * 1/6 - 36px), calc((100vw - 20px) * 1/3 - 26.666px)"
+											/></noscript>
+											<div class="entry-content"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer-content">
+						<div class="wrap">
+							<a href="/" class="logo" aria-label="home"></a>
+
+							<form
+								class="search-form"
+								method="get"
+								action="https://panlasangpinoy.com/"
+								role="search">
+								<label
+									class="search-form-label screen-reader-text"
+									for="searchform-2"
+									>Search...</label
+								><input
+									class="search-form-input"
+									type="search"
+									name="s"
+									id="searchform-2"
+									placeholder="Search..." /><input
+									class="search-form-submit"
+									type="submit"
+									value="Search" /><meta
+									content="https://panlasangpinoy.com/?s={s}" />
+								<div class="search-submit-icon"></div>
+							</form>
+							<div class="footer-content-blocks">
+								<div class="wrap">
+									<div
+										class="featured-content block-social"
+										id="acf-helper-block_0ffb5fc7a158fdb09e357abc543f8a96">
+										<div class="wrap">
+											<div class="entries-container">
+												<div class="entry">
+													<div class="entry-content">
+														<span class="entry-title">
+															<a
+																href="https://www.facebook.com/panlasangpinoy"
+																target="_blank"
+																rel="nofollow noopener"
+																class="icon-social icon-facebook">
+																<span class="screen-reader-text">Facebook</span>
+															</a>
+														</span>
+													</div>
+												</div>
+
+												<div class="entry">
+													<div class="entry-content">
+														<span class="entry-title">
+															<a
+																href="https://www.instagram.com/panlasangpinoy/"
+																target="_blank"
+																rel="nofollow noopener"
+																class="icon-social icon-instagram">
+																<span class="screen-reader-text"
+																	>Instagram</span
+																>
+															</a>
+														</span>
+													</div>
+												</div>
+
+												<div class="entry">
+													<div class="entry-content">
+														<span class="entry-title">
+															<a
+																href="https://www.pinterest.com/panlasangpinoy"
+																target="_blank"
+																rel="nofollow noopener"
+																class="icon-social icon-pinterest">
+																<span class="screen-reader-text"
+																	>Pinterest</span
+																>
+															</a>
+														</span>
+													</div>
+												</div>
+
+												<div class="entry">
+													<div class="entry-content">
+														<span class="entry-title">
+															<a
+																href="https://www.youtube.com/user/panlasangpinoy"
+																target="_blank"
+																rel="nofollow noopener"
+																class="icon-social icon-youtube">
+																<span class="screen-reader-text">YouTube</span>
+															</a>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div
+										class="featured-content block-text-links"
+										id="acf-helper-block_b81446bb6e762f16ac4a011d9e748b91">
+										<div class="wrap">
+											<div class="entries-container sm-grid-2">
+												<div class="entry">
+													<div class="entry-content">
+														<span class="more-link-container"
+															><a
+																href="https://panlasangpinoy.com/about-2/"
+																class="more-link"
+																>About</a
+															></span
+														>
+													</div>
+												</div>
+
+												<div class="entry">
+													<div class="entry-content">
+														<span class="more-link-container"
+															><a href="/about-2/" class="more-link"
+																>Meet Vanjo</a
+															></span
+														>
+													</div>
+												</div>
+
+												<div class="entry">
+													<div class="entry-content">
+														<span class="more-link-container"
+															><a href="/quick-guide/" class="more-link"
+																>New? Start Here</a
+															></span
+														>
+													</div>
+												</div>
+
+												<div class="entry">
+													<div class="entry-content">
+														<span class="more-link-container"
+															><a href="/recipes/" class="more-link"
+																>Browse Recipes</a
+															></span
+														>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div
+										class="featured-content block-text-links"
+										id="acf-helper-block_39c42a11a8180303745049a592843b85">
+										<div class="wrap">
+											<div class="entries-container sm-grid-2">
+												<div class="entry">
+													<div class="entry-content">
+														<span class="more-link-container"
+															><a href="/blog/" class="more-link"
+																>Explore</a
+															></span
+														>
+													</div>
+												</div>
+
+												<div class="entry">
+													<div class="entry-content">
+														<span class="more-link-container"
+															><a
+																href="/categories/culinary-arts/ingredients/"
+																class="more-link"
+																>Ingredient 101</a
+															></span
+														>
+													</div>
+												</div>
+
+												<div class="entry">
+													<div class="entry-content">
+														<span class="more-link-container"
+															><a
+																href="/categories/philippines-did-you-know/"
+																class="more-link"
+																>Philippines</a
+															></span
+														>
+													</div>
+												</div>
+
+												<div class="entry">
+													<div class="entry-content">
+														<span class="more-link-container"
+															><a href="/cooking-schools/" class="more-link"
+																>Cooking Schools</a
+															></span
+														>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer-bottom">
+						<div class="wrap">
+							<div class="desktop-left footer-desktop-left">
+								<div
+									class="featured-content block-text-links"
+									id="acf-helper-block_6329e6b649222">
+									<div class="wrap">
+										<div class="entries-container sm-grid-2">
+											<div class="entry">
+												<div class="entry-content">
+													<span class="more-link-container"
+														><a href="/privacy-policy/" class="more-link"
+															>Privacy Policy</a
+														></span
+													>
+												</div>
+											</div>
+
+											<div class="entry">
+												<div class="entry-content">
+													<span class="more-link-container"
+														><a href="/disclaimer/" class="more-link"
+															>Disclaimers</a
+														></span
+													>
+												</div>
+											</div>
+
+											<div class="entry">
+												<div class="entry-content">
+													<span class="more-link-container"
+														><a href="/contact/" class="more-link"
+															>Contact</a
+														></span
+													>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="desktop-right footer-desktop-right">
+								<div class="copyright">
+									<span class="site-year">&#x000A9;&nbsp;2023</span>
+									<span class="site-name">Panlasang Pinoy</span>
+								</div>
+
+								<details class="site-credits-container">
+									<summary class="credits-text" tabindex="0">
+										Site Credits
+									</summary>
+
+									<div class="site-credits-box">
+										<span class="credit designer"
+											>Designed by Melissa Rose Design</span
+										>
+										<span class="credit developer"
+											>Developed by Once Coupled</span
+										>
+									</div>
+								</details>
+
+								<a
+									href="#top-of-page"
+									class="back-to-top hidden-on-mobile"
+									onclick="scrollToTop()">
+									<span>Back to Top</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<a
+						href="#top-of-page"
+						class="back-to-top visible-on-mobile"
+						onclick="scrollToTop()">
+						<span>Back to Top</span>
+					</a>
+				</div>
+			</footer>
+		</div>
+		<script>
+			window.advanced_ads_check_adblocker = (function (t) {
+				var n = [],
+					e = null;
+				function i(t) {
+					var n =
+						window.requestAnimationFrame ||
+						window.mozRequestAnimationFrame ||
+						window.webkitRequestAnimationFrame ||
+						function (t) {
+							return setTimeout(t, 16);
+						};
+					n.call(window, t);
+				}
+				return (
+					i(function () {
+						var t = document.createElement('div');
+						(t.innerHTML = '&nbsp;'),
+							t.setAttribute(
+								'class',
+								'ad_unit ad-unit text-ad text_ad pub_300x250'
+							),
+							t.setAttribute(
+								'style',
+								'width: 1px !important; height: 1px !important; position: absolute !important; left: 0px !important; top: 0px !important; overflow: hidden !important;'
+							),
+							document.body.appendChild(t),
+							i(function () {
+								var i = window.getComputedStyle && window.getComputedStyle(t),
+									o = i && i.getPropertyValue('-moz-binding');
+								e =
+									(i && 'none' === i.getPropertyValue('display')) ||
+									('string' == typeof o && -1 !== o.indexOf('about:'));
+								for (var a = 0, r = n.length; a < r; a++) n[a](e);
+								n = [];
+							});
+					}),
+					function (t) {
+						null !== e ? t(e) : n.push(t);
+					}
+				);
+			})();
+		</script>
+		<script
+			type="text/javascript"
+			src="https://panlasangpinoy.com/wp-content/mu-plugins/once-coupled-acf-helper/lib/helpers/lity/assets/lity.min.js?ver=2.0.1"
+			id="once-coupled-acf-helper-lity-js"
+			defer></script>
+		<script type="text/javascript" id="rocket-browser-checker-js-after">
+			/* <![CDATA[ */
+			'use strict';
+			var _createClass = (function () {
+				function defineProperties(target, props) {
+					for (var i = 0; i < props.length; i++) {
+						var descriptor = props[i];
+						(descriptor.enumerable = descriptor.enumerable || !1),
+							(descriptor.configurable = !0),
+							'value' in descriptor && (descriptor.writable = !0),
+							Object.defineProperty(target, descriptor.key, descriptor);
+					}
+				}
+				return function (Constructor, protoProps, staticProps) {
+					return (
+						protoProps && defineProperties(Constructor.prototype, protoProps),
+						staticProps && defineProperties(Constructor, staticProps),
+						Constructor
+					);
+				};
+			})();
+			function _classCallCheck(instance, Constructor) {
+				if (!(instance instanceof Constructor))
+					throw new TypeError('Cannot call a class as a function');
+			}
+			var RocketBrowserCompatibilityChecker = (function () {
+				function RocketBrowserCompatibilityChecker(options) {
+					_classCallCheck(this, RocketBrowserCompatibilityChecker),
+						(this.passiveSupported = !1),
+						this._checkPassiveOption(this),
+						(this.options = !!this.passiveSupported && options);
+				}
+				return (
+					_createClass(RocketBrowserCompatibilityChecker, [
+						{
+							key: '_checkPassiveOption',
+							value: function (self) {
+								try {
+									var options = {
+										get passive() {
+											return !(self.passiveSupported = !0);
+										},
+									};
+									window.addEventListener('test', null, options),
+										window.removeEventListener('test', null, options);
+								} catch (err) {
+									self.passiveSupported = !1;
+								}
+							},
+						},
+						{
+							key: 'initRequestIdleCallback',
+							value: function () {
+								!1 in window &&
+									(window.requestIdleCallback = function (cb) {
+										var start = Date.now();
+										return setTimeout(function () {
+											cb({
+												didTimeout: !1,
+												timeRemaining: function () {
+													return Math.max(0, 50 - (Date.now() - start));
+												},
+											});
+										}, 1);
+									}),
+									!1 in window &&
+										(window.cancelIdleCallback = function (id) {
+											return clearTimeout(id);
+										});
+							},
+						},
+						{
+							key: 'isDataSaverModeOn',
+							value: function () {
+								return (
+									'connection' in navigator &&
+									!0 === navigator.connection.saveData
+								);
+							},
+						},
+						{
+							key: 'supportsLinkPrefetch',
+							value: function () {
+								var elem = document.createElement('link');
+								return (
+									elem.relList &&
+									elem.relList.supports &&
+									elem.relList.supports('prefetch') &&
+									window.IntersectionObserver &&
+									'isIntersecting' in IntersectionObserverEntry.prototype
+								);
+							},
+						},
+						{
+							key: 'isSlowConnection',
+							value: function () {
+								return (
+									'connection' in navigator &&
+									'effectiveType' in navigator.connection &&
+									('2g' === navigator.connection.effectiveType ||
+										'slow-2g' === navigator.connection.effectiveType)
+								);
+							},
+						},
+					]),
+					RocketBrowserCompatibilityChecker
+				);
+			})();
+			/* ]]> */
+		</script>
+		<script type="text/javascript" id="rocket-preload-links-js-extra">
+			/* <![CDATA[ */
+			var RocketPreloadLinksConfig = {
+				excludeUris:
+					'\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/',
+				usesTrailingSlash: '1',
+				imageExt:
+					'jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php',
+				fileExt:
+					'jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm',
+				siteUrl: 'https:\/\/panlasangpinoy.com',
+				onHoverDelay: '100',
+				rateThrottle: '3',
+			};
+			/* ]]> */
+		</script>
+		<script type="text/javascript" id="rocket-preload-links-js-after">
+			/* <![CDATA[ */
+			(function () {
+				'use strict';
+				var r =
+						'function' == typeof Symbol && 'symbol' == typeof Symbol.iterator
+							? function (e) {
+									return typeof e;
+							  }
+							: function (e) {
+									return e &&
+										'function' == typeof Symbol &&
+										e.constructor === Symbol &&
+										e !== Symbol.prototype
+										? 'symbol'
+										: typeof e;
+							  },
+					e = (function () {
+						function i(e, t) {
+							for (var n = 0; n < t.length; n++) {
+								var i = t[n];
+								(i.enumerable = i.enumerable || !1),
+									(i.configurable = !0),
+									'value' in i && (i.writable = !0),
+									Object.defineProperty(e, i.key, i);
+							}
+						}
+						return function (e, t, n) {
+							return t && i(e.prototype, t), n && i(e, n), e;
+						};
+					})();
+				function i(e, t) {
+					if (!(e instanceof t))
+						throw new TypeError('Cannot call a class as a function');
+				}
+				var t = (function () {
+					function n(e, t) {
+						i(this, n),
+							(this.browser = e),
+							(this.config = t),
+							(this.options = this.browser.options),
+							(this.prefetched = new Set()),
+							(this.eventTime = null),
+							(this.threshold = 1111),
+							(this.numOnHover = 0);
+					}
+					return (
+						e(
+							n,
+							[
+								{
+									key: 'init',
+									value: function () {
+										!this.browser.supportsLinkPrefetch() ||
+											this.browser.isDataSaverModeOn() ||
+											this.browser.isSlowConnection() ||
+											((this.regex = {
+												excludeUris: RegExp(this.config.excludeUris, 'i'),
+												images: RegExp('.(' + this.config.imageExt + ')$', 'i'),
+												fileExt: RegExp('.(' + this.config.fileExt + ')$', 'i'),
+											}),
+											this._initListeners(this));
+									},
+								},
+								{
+									key: '_initListeners',
+									value: function (e) {
+										-1 < this.config.onHoverDelay &&
+											document.addEventListener(
+												'mouseover',
+												e.listener.bind(e),
+												e.listenerOptions
+											),
+											document.addEventListener(
+												'mousedown',
+												e.listener.bind(e),
+												e.listenerOptions
+											),
+											document.addEventListener(
+												'touchstart',
+												e.listener.bind(e),
+												e.listenerOptions
+											);
+									},
+								},
+								{
+									key: 'listener',
+									value: function (e) {
+										var t = e.target.closest('a'),
+											n = this._prepareUrl(t);
+										if (null !== n)
+											switch (e.type) {
+												case 'mousedown':
+												case 'touchstart':
+													this._addPrefetchLink(n);
+													break;
+												case 'mouseover':
+													this._earlyPrefetch(t, n, 'mouseout');
+											}
+									},
+								},
+								{
+									key: '_earlyPrefetch',
+									value: function (t, e, n) {
+										var i = this,
+											r = setTimeout(function () {
+												if (((r = null), 0 === i.numOnHover))
+													setTimeout(function () {
+														return (i.numOnHover = 0);
+													}, 1e3);
+												else if (i.numOnHover > i.config.rateThrottle) return;
+												i.numOnHover++, i._addPrefetchLink(e);
+											}, this.config.onHoverDelay);
+										t.addEventListener(
+											n,
+											function e() {
+												t.removeEventListener(n, e, { passive: !0 }),
+													null !== r && (clearTimeout(r), (r = null));
+											},
+											{ passive: !0 }
+										);
+									},
+								},
+								{
+									key: '_addPrefetchLink',
+									value: function (i) {
+										return (
+											this.prefetched.add(i.href),
+											new Promise(function (e, t) {
+												var n = document.createElement('link');
+												(n.rel = 'prefetch'),
+													(n.href = i.href),
+													(n.onload = e),
+													(n.onerror = t),
+													document.head.appendChild(n);
+											}).catch(function () {})
+										);
+									},
+								},
+								{
+									key: '_prepareUrl',
+									value: function (e) {
+										if (
+											null === e ||
+											'object' !== (void 0 === e ? 'undefined' : r(e)) ||
+											!1 in e ||
+											-1 === ['http:', 'https:'].indexOf(e.protocol)
+										)
+											return null;
+										var t = e.href.substring(0, this.config.siteUrl.length),
+											n = this._getPathname(e.href, t),
+											i = {
+												original: e.href,
+												protocol: e.protocol,
+												origin: t,
+												pathname: n,
+												href: t + n,
+											};
+										return this._isLinkOk(i) ? i : null;
+									},
+								},
+								{
+									key: '_getPathname',
+									value: function (e, t) {
+										var n = t ? e.substring(this.config.siteUrl.length) : e;
+										return (
+											n.startsWith('/') || (n = '/' + n),
+											this._shouldAddTrailingSlash(n) ? n + '/' : n
+										);
+									},
+								},
+								{
+									key: '_shouldAddTrailingSlash',
+									value: function (e) {
+										return (
+											this.config.usesTrailingSlash &&
+											!e.endsWith('/') &&
+											!this.regex.fileExt.test(e)
+										);
+									},
+								},
+								{
+									key: '_isLinkOk',
+									value: function (e) {
+										return (
+											null !== e &&
+											'object' === (void 0 === e ? 'undefined' : r(e)) &&
+											!this.prefetched.has(e.href) &&
+											e.origin === this.config.siteUrl &&
+											-1 === e.href.indexOf('?') &&
+											-1 === e.href.indexOf('#') &&
+											!this.regex.excludeUris.test(e.href) &&
+											!this.regex.images.test(e.href)
+										);
+									},
+								},
+							],
+							[
+								{
+									key: 'run',
+									value: function () {
+										'undefined' != typeof RocketPreloadLinksConfig &&
+											new n(
+												new RocketBrowserCompatibilityChecker({
+													capture: !0,
+													passive: !0,
+												}),
+												RocketPreloadLinksConfig
+											).init();
+									},
+								},
+							]
+						),
+						n
+					);
+				})();
+				t.run();
+			})();
+			/* ]]> */
+		</script>
+		<script type="text/javascript" id="advanced-ads-pro/front-js-extra">
+			/* <![CDATA[ */
+			var advanced_ads_cookies = { cookie_path: '\/', cookie_domain: '' };
+			var advadsCfpInfo = {
+				cfpExpHours: '3',
+				cfpClickLimit: '3',
+				cfpBan: '7',
+				cfpPath: '',
+				cfpDomain: '',
+			};
+			/* ]]> */
+		</script>
+		<script
+			type="text/javascript"
+			src="https://panlasangpinoy.com/wp-content/plugins/advanced-ads-pro/assets/js/advanced-ads-pro.min.js?ver=2.25.1"
+			id="advanced-ads-pro/front-js"
+			defer></script>
+		<script
+			data-minify="1"
+			type="text/javascript"
+			src="https://panlasangpinoy.com/wp-content/cache/min/1/wp-content/themes/once-coupled-panlasang-pinoy/assets/js/global.js?ver=1697039160"
+			id="once-coupled-custom-theme-global-js"
+			defer></script>
+		<script
+			type="text/javascript"
+			src="https://panlasangpinoy.com/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.4.0"
+			id="skip-links-js"
+			defer></script>
+		<!--noptimize-->
+		<script>
+			window.advads_admin_bar_items = [
+				{ title: 'MM Category-Recipes Head Code', type: 'ad' },
+				{ title: 'Category Recipes Head Code', type: 'placement' },
+				{ title: 'MM Admiral', type: 'ad' },
+				{ title: 'MM Admiral', type: 'placement' },
+				{ title: 'MM Category-Recipes pp_billboard', type: 'ad' },
+				{
+					title: 'MM Category-Recipes-Archives pp_billboard',
+					type: 'placement',
+				},
+				{ title: 'MM Category-Recipes pp_sidebar_bottom', type: 'ad' },
+				{ title: 'MM Category-Recipes pp_sidebar_bottom', type: 'placement' },
+			];
+		</script>
+		<!--/noptimize--><!--noptimize-->
+		<script>
+			!(function () {
+				(window.advanced_ads_ready_queue =
+					window.advanced_ads_ready_queue || []),
+					(advanced_ads_ready_queue.push = window.advanced_ads_ready);
+				for (var d = 0, a = advanced_ads_ready_queue.length; d < a; d++)
+					advanced_ads_ready(advanced_ads_ready_queue[d]);
+			})();
+		</script>
+		<!--/noptimize-->
+		<script>
+			window.lazyLoadOptions = [
+				{
+					elements_selector:
+						'img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]',
+					data_src: 'lazy-src',
+					data_srcset: 'lazy-srcset',
+					data_sizes: 'lazy-sizes',
+					class_loading: 'lazyloading',
+					class_loaded: 'lazyloaded',
+					threshold: 300,
+					callback_loaded: function (element) {
+						if (
+							element.tagName === 'IFRAME' &&
+							element.dataset.rocketLazyload == 'fitvidscompatible'
+						) {
+							if (element.classList.contains('lazyloaded')) {
+								if (typeof window.jQuery != 'undefined') {
+									if (jQuery.fn.fitVids) {
+										jQuery(element).parent().fitVids();
+									}
+								}
+							}
+						}
+					},
+				},
+				{
+					elements_selector: '.rocket-lazyload',
+					data_src: 'lazy-src',
+					data_srcset: 'lazy-srcset',
+					data_sizes: 'lazy-sizes',
+					class_loading: 'lazyloading',
+					class_loaded: 'lazyloaded',
+					threshold: 300,
+				},
+			];
+			window.addEventListener(
+				'LazyLoad::Initialized',
+				function (e) {
+					var lazyLoadInstance = e.detail.instance;
+					if (window.MutationObserver) {
+						var observer = new MutationObserver(function (mutations) {
+							var image_count = 0;
+							var iframe_count = 0;
+							var rocketlazy_count = 0;
+							mutations.forEach(function (mutation) {
+								for (var i = 0; i < mutation.addedNodes.length; i++) {
+									if (
+										typeof mutation.addedNodes[i].getElementsByTagName !==
+										'function'
+									) {
+										continue;
+									}
+									if (
+										typeof mutation.addedNodes[i].getElementsByClassName !==
+										'function'
+									) {
+										continue;
+									}
+									images = mutation.addedNodes[i].getElementsByTagName('img');
+									is_image = mutation.addedNodes[i].tagName == 'IMG';
+									iframes =
+										mutation.addedNodes[i].getElementsByTagName('iframe');
+									is_iframe = mutation.addedNodes[i].tagName == 'IFRAME';
+									rocket_lazy =
+										mutation.addedNodes[i].getElementsByClassName(
+											'rocket-lazyload'
+										);
+									image_count += images.length;
+									iframe_count += iframes.length;
+									rocketlazy_count += rocket_lazy.length;
+									if (is_image) {
+										image_count += 1;
+									}
+									if (is_iframe) {
+										iframe_count += 1;
+									}
+								}
+							});
+							if (image_count > 0 || iframe_count > 0 || rocketlazy_count > 0) {
+								lazyLoadInstance.update();
+							}
+						});
+						var b = document.getElementsByTagName('body')[0];
+						var config = { childList: !0, subtree: !0 };
+						observer.observe(b, config);
+					}
+				},
+				!1
+			);
+		</script>
+		<script
+			data-no-minify="1"
+			async
+			src="https://panlasangpinoy.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script>
+		<script>
+			function lazyLoadThumb(e, alt) {
+				var t =
+						'<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',
+					a = '<button class="play" aria-label="play Youtube video"></button>';
+				t = t.replace('alt=""', 'alt="' + alt + '"');
+				return t.replace('ID', e) + a;
+			}
+			function lazyLoadYoutubeIframe() {
+				var e = document.createElement('iframe'),
+					t = 'ID?autoplay=1';
+				t +=
+					0 === this.parentNode.dataset.query.length
+						? ''
+						: '&' + this.parentNode.dataset.query;
+				e.setAttribute('src', t.replace('ID', this.parentNode.dataset.src)),
+					e.setAttribute('frameborder', '0'),
+					e.setAttribute('allowfullscreen', '1'),
+					e.setAttribute(
+						'allow',
+						'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+					),
+					this.parentNode.parentNode.replaceChild(e, this.parentNode);
+			}
+			document.addEventListener('DOMContentLoaded', function () {
+				var e,
+					t,
+					p,
+					a = document.getElementsByClassName('rll-youtube-player');
+				for (t = 0; t < a.length; t++)
+					(e = document.createElement('div')),
+						e.setAttribute('data-id', a[t].dataset.id),
+						e.setAttribute('data-query', a[t].dataset.query),
+						e.setAttribute('data-src', a[t].dataset.src),
+						(e.innerHTML = lazyLoadThumb(a[t].dataset.id, a[t].dataset.alt)),
+						a[t].appendChild(e),
+						(p = e.querySelector('.play')),
+						(p.onclick = lazyLoadYoutubeIframe);
+			});
+		</script>
+	</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1700624932 -->
