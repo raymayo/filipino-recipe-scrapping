@@ -5,11 +5,12 @@ import re
 from colorama import init, Fore
 
 all_array = []  
+# all_array = ['','']  
         
         
 # json_file_path = './test.json'
 # json_file_path = './recipes/appetizer_recipes.json'
-json_file_path = './recipes/dessert_recipes.json'
+json_file_path = './recipes/lunch_recipes.json'
 
 # Open the JSON file for reading
 with open(json_file_path, 'r') as json_file:
@@ -74,7 +75,7 @@ for recipe in data:
                 all_array.append(final_ingr)
                 print(all_array)
                         
-                with open('dessert.json', 'w') as json_file:
+                with open('lunch.json', 'w') as json_file:
                     json.dump(all_array, json_file, indent=4)
                         
 print(Fore.RED + 'ALL INGREDIENTS HAVE BEEN SAVED!!!')
