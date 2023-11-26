@@ -6,7 +6,7 @@ from colorama import init, Fore
 
 all_ingredients = []
 
-with open("./all3.json", "r") as file:
+with open("./appetizer_test2.json", "r") as file:
     # Load the JSON array
     data = json.load(file)
     
@@ -14,8 +14,9 @@ with open("./all3.json", "r") as file:
         
         if ingredient not in all_ingredients:
             all_ingredients.append(ingredient)
+            all_ingredients.sort()
             
-            with open('all4.json', 'w') as json_file:
+            with open('appetizer_test3.json', 'w') as json_file:
                 json.dump(all_ingredients, json_file, indent=4)
                     
 print(Fore.RED + 'ALL INGREDIENTS HAVE BEEN SAVED!!!')
