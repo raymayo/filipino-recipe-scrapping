@@ -15,7 +15,7 @@ json_file_path = './test.json'
 with open(json_file_path, 'r') as json_file:
     data = json.load(json_file)
     
-all_ingredients_path = './all_ingredients.json'
+all_ingredients_path = './appetizer_test3.json'
 with open(all_ingredients_path, 'r') as all_ingredients:
     all_ingredients = json.load(all_ingredients)
 
@@ -44,8 +44,11 @@ for recipe in data:
             ingr_name = ingr.find('span', class_='wprm-recipe-ingredient-name').text.lower().strip().split(',')
             new_name = ingr_name[0].strip()
             
+            print(new_name)
             for checked_ingredient in all_ingredients:
-                    if is_exact_word_present(new_name, checked_ingredient):
+
+                    if new_name == checked_ingredient:
+
                         print(f"The exact word '{checked_ingredient}' is present in the sentence.")
                         
                         # Assuming you meant to use 'checked_ingredient' instead of 'active_ingredient'

@@ -21,13 +21,13 @@
             "Iron": "5mg"
         },
         "ingredients": [
-            "steak",
-            "pepper",
-            "salt",
-            "sugar",
-            "chili",
+            "ribeye steak",
+            "worcestershire sauce",
+            "soy sauce",
+            "brown sugar",
+            "red chili pepper flakes",
             "butter",
-            "oil",
+            "olive oil",
             "garlic"
         ]
     },
@@ -53,15 +53,15 @@
             "Iron": "0.4mg"
         },
         "ingredients": [
+            "crabs",
             "salt",
             "water",
             "butter",
             "onion",
             "garlic",
-            "pepper",
-            "panko",
+            "panko bread crumbs",
             "mayonnaise",
-            "lemon"
+            "green onions"
         ]
     }
 ]
