@@ -55,8 +55,6 @@ for recipe in data:
                         if checked_ingredient not in ingredient_array:
                             ingredient_array.append(checked_ingredient)
 
-                            
-
         json_key = 'ingredients'
         json_data = ingredient_array
         recipe[json_key] = json_data
