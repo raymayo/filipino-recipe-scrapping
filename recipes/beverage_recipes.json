@@ -29,7 +29,8 @@
             "sugar",
             "ice"
         ],
-        "summary": "This mango smoothie is so creamy, tangy, and rich in mango flavor; it's like drinking summer in a glass! It's easy to make with a handful of ingredients and so refreshing!"
+        "summary": "This mango smoothie is so creamy, tangy, and rich in mango flavor; it's like drinking summer in a glass! It's easy to make with a handful of ingredients and so refreshing!",
+        "prep_time": "5 minutes mins"
     },
     {
         "title": "Buko Pandan Drink",
@@ -63,7 +64,8 @@
             "sugar",
             "pandan"
         ],
-        "summary": "Buko Pandan Drink is a popular summer cooler with creamy coconut juice, pandan-flavored jelly cubes, and shredded young coconut. It's delicious, refreshing, and sure to be a hit!"
+        "summary": "Buko Pandan Drink is a popular summer cooler with creamy coconut juice, pandan-flavored jelly cubes, and shredded young coconut. It's delicious, refreshing, and sure to be a hit!",
+        "prep_time": "50 minutes mins"
     },
     {
         "title": "Buko Lychee Juice",
@@ -94,7 +96,8 @@
             "lychee",
             "sugar"
         ],
-        "summary": "Buko Lychee Juice is a delicious tropical drink made with shredded young coconut, coconut water, and lychee. It's easy to make and so refreshing!"
+        "summary": "Buko Lychee Juice is a delicious tropical drink made with shredded young coconut, coconut water, and lychee. It's easy to make and so refreshing!",
+        "prep_time": "10 minutes mins"
     },
     {
         "title": "Melon Juice",
@@ -118,7 +121,8 @@
             "water",
             "sugar"
         ],
-        "summary": "Melon juice made of shredded cantaloupe and simple syrup is a refreshing drink you'll love year round. Bursting with fresh fruit flavor, it's a tasty and healthy way to hydrate!"
+        "summary": "Melon juice made of shredded cantaloupe and simple syrup is a refreshing drink you'll love year round. Bursting with fresh fruit flavor, it's a tasty and healthy way to hydrate!",
+        "prep_time": "15 minutes mins"
     },
     {
         "title": "Instant Pot Boba Milk Tea",
@@ -147,7 +151,8 @@
             "milk",
             "ice"
         ],
-        "summary": "Make your favorite drink at home using the pressure cooker! This Instant Pot Boba Milk tea is ready in minutes and with only five ingredients!"
+        "summary": "Make your favorite drink at home using the pressure cooker! This Instant Pot Boba Milk tea is ready in minutes and with only five ingredients!",
+        "prep_time": "5 minutes mins"
     },
     {
         "title": "Homemade Mango Nectar",
@@ -171,7 +176,8 @@
             "mango",
             "sugar"
         ],
-        "summary": "Homemade mango nectar bursting with fresh mango flavor is the perfect thirst-quencher! With only three natural ingredients, it's a cool and refreshing drink you'll love all Summer long."
+        "summary": "Homemade mango nectar bursting with fresh mango flavor is the perfect thirst-quencher! With only three natural ingredients, it's a cool and refreshing drink you'll love all Summer long.",
+        "prep_time": "5 minutes mins"
     },
     {
         "title": "Dalgona Coffee",
@@ -198,7 +204,8 @@
             "water",
             "milk"
         ],
-        "summary": "Whipped Coffee is a fun and delicious way to enjoy your daily brew. This Dalgona coffee is all the rage for a good reason. It's easy to make with only four ingredients and so creamy with an intense flavor."
+        "summary": "Whipped Coffee is a fun and delicious way to enjoy your daily brew. This Dalgona coffee is all the rage for a good reason. It's easy to make with only four ingredients and so creamy with an intense flavor.",
+        "prep_time": "7 minutes mins"
     },
     {
         "title": "Sago at Gulaman",
@@ -220,7 +227,8 @@
             "Sago",
             "Gulaman"
         ],
-        "summary": "Black Gulaman Drink made with grass jelly, chewy pearls, and brown sugar syrup. It's refreshing, tasty, and a fun cooler you'll love year-round."
+        "summary": "Black Gulaman Drink made with grass jelly, chewy pearls, and brown sugar syrup. It's refreshing, tasty, and a fun cooler you'll love year-round.",
+        "prep_time": "10 minutes mins"
     },
     {
         "title": "Tsokolate",
@@ -248,7 +256,8 @@
             "tablea de cacao",
             "peanut butter"
         ],
-        "summary": "Tsokolate is the ultimate treat! Made of tablea cacao, milk, and peanut butter, this Filipino hot chocolate drink is creamy and decadent."
+        "summary": "Tsokolate is the ultimate treat! Made of tablea cacao, milk, and peanut butter, this Filipino hot chocolate drink is creamy and decadent.",
+        "prep_time": "5 minutes mins"
     },
     {
         "title": "Calamansi Juice",
@@ -274,6 +283,7 @@
             "calamansi juice",
             "water"
         ],
-        "summary": "Beat the heat with calamondin drink! This Filipino-style limeade is tart, fragrant, and so refreshing!"
+        "summary": "Beat the heat with calamondin drink! This Filipino-style limeade is tart, fragrant, and so refreshing!",
+        "prep_time": "5 minutes mins"
     }
 ]

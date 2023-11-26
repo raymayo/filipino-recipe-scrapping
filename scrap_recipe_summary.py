@@ -21,13 +21,13 @@ for recipe in data:
     response = requests.get(url, headers=headers)
 
     soup = BeautifulSoup(response.text, 'html.parser')
-    summary_container = soup.find('header', class_='wprm-entry-header')
-    summary = summary_container.find('div', class_='wprm-recipe-summary')
-    print(summary.text)
+    prep_time_container = soup.find('header', class_='wprm-entry-header')
+    prep_time = prep_time_container.find('span', class_='wprm-recipe-time')
+    print(prep_time.text)
     
-    if summary_container:
-        new_key = 'summary'
-        new_data = summary.text
+    if prep_time_container:
+        new_key = 'prep_time'
+        new_data = prep_time.text
         recipe[new_key] = new_data
         
         with open(json_file_path, 'w') as json_file:
