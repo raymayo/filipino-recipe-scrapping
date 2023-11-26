@@ -20,7 +20,28 @@
             "Vitamin C": "2mg",
             "Calcium": "39mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "bean",
+            "beans",
+            "mung bean",
+            "red mung bean",
+            "water",
+            "sugar",
+            "corn",
+            "cornstarch",
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "coconut",
+            "coconut cream",
+            "cream",
+            "sago",
+            "jackfruit"
+        ]
     },
     {
         "title": "Avocado Ice Candy",
@@ -44,7 +65,16 @@
             "Vitamin C": "4mg",
             "Calcium": "148mg",
             "Iron": "0.2mg"
-        }
+        },
+        "ingredients": [
+            "avocado",
+            "ice",
+            "lemon",
+            "lime",
+            "lime juice",
+            "milk",
+            "condensed milk"
+        ]
     },
     {
         "title": "Bibingkang Malagkit",
@@ -69,7 +99,25 @@
             "Vitamin C": "1mg",
             "Calcium": "72mg",
             "Iron": "6mg"
-        }
+        },
+        "ingredients": [
+            "butter",
+            "coconut",
+            "coconut oil",
+            "oil",
+            "glutinous rice",
+            "ice",
+            "rice",
+            "water",
+            "pandan",
+            "pandan leaf",
+            "coconut milk",
+            "milk",
+            "sugar",
+            "white sugar",
+            "salt",
+            "brown sugar"
+        ]
     },
     {
         "title": "Kapit",
@@ -89,7 +137,21 @@
             "Vitamin C": "1.8mg",
             "Calcium": "24mg",
             "Iron": "1.7mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut cream",
+            "cream",
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "water",
+            "sugar",
+            "jackfruit"
+        ]
     },
     {
         "title": "Mais con Queso Ice Candy",
@@ -113,7 +175,19 @@
             "Vitamin C": "2mg",
             "Calcium": "345mg",
             "Iron": "0.3mg"
-        }
+        },
+        "ingredients": [
+            "milk",
+            "condensed milk",
+            "cream",
+            "heavy cream",
+            "corn",
+            "cheddar cheese",
+            "cheese",
+            "gouda",
+            "sugar",
+            "candy bag"
+        ]
     },
     {
         "title": "Buko Lychee Sorbet",
@@ -133,7 +207,13 @@
             "Vitamin C": "70.1mg",
             "Calcium": "30mg",
             "Iron": "1.3mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut juice",
+            "ice",
+            "sugar"
+        ]
     },
     {
         "title": "Sapin-Sapin",
@@ -155,7 +235,24 @@
             "Vitamin C": "2.1mg",
             "Calcium": "113mg",
             "Iron": "2.8mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut cream",
+            "cream",
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "coconut milk",
+            "milk",
+            "condensed milk",
+            "sugar",
+            "ube",
+            "langka"
+        ]
     },
     {
         "title": "Kalamay Lansong",
@@ -175,7 +272,21 @@
             "Vitamin C": "1.6mg",
             "Calcium": "24mg",
             "Iron": "3.3mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut cream",
+            "cream",
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "sugar",
+            "coconut milk",
+            "milk"
+        ]
     },
     {
         "title": "Buko Pie (Filipino Coconut Pie)",
@@ -197,7 +308,26 @@
             "Vitamin C": "4.3mg",
             "Calcium": "39mg",
             "Iron": "3.3mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "salt",
+            "lard",
+            "water",
+            "ice",
+            "lemon",
+            "lemon juice",
+            "vinegar",
+            "corn",
+            "cornstarch",
+            "coconut",
+            "coconut water",
+            "cream",
+            "sugar",
+            "coconut meat",
+            "egg",
+            "milk"
+        ]
     },
     {
         "title": "Crema de Fruta",
@@ -218,7 +348,27 @@
             "Vitamin C": "2mg",
             "Calcium": "135mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "cake flour",
+            "flour",
+            "baking powder",
+            "salt",
+            "egg",
+            "egg yolk",
+            "sugar",
+            "oil",
+            "vanilla",
+            "cream",
+            "tartar",
+            "corn",
+            "cornstarch",
+            "milk",
+            "butter",
+            "gelatin",
+            "fruit cocktail",
+            "ice"
+        ]
     },
     {
         "title": "Mango Royale",
@@ -240,7 +390,17 @@
             "Vitamin C": "41.2mg",
             "Calcium": "133mg",
             "Iron": "0.3mg"
-        }
+        },
+        "ingredients": [
+            "cream",
+            "heavy cream",
+            "condensed milk",
+            "milk",
+            "mango",
+            "graham cracker",
+            "ham",
+            "sugar"
+        ]
     },
     {
         "title": "Yema Bread Rolls",
@@ -262,7 +422,19 @@
             "Vitamin C": "3mg",
             "Calcium": "82mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "yeast",
+            "milk",
+            "powdered sugar",
+            "sugar",
+            "butter",
+            "egg",
+            "flour",
+            "salt",
+            "potato",
+            "condensed milk"
+        ]
     },
     {
         "title": "Ginumis",
@@ -282,7 +454,22 @@
             "Vitamin C": "3.1mg",
             "Calcium": "8mg",
             "Iron": "0.9mg"
-        }
+        },
+        "ingredients": [
+            "sago",
+            "pinipig",
+            "gulaman",
+            "panutsa",
+            "coconut",
+            "coconut cream",
+            "cream",
+            "ice",
+            "agar",
+            "agar-agar",
+            "water",
+            "sugar",
+            "pandan"
+        ]
     },
     {
         "title": "Kalamay sa Latik",
@@ -302,7 +489,24 @@
             "Vitamin C": "1.7mg",
             "Calcium": "30mg",
             "Iron": "2.5mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut cream",
+            "cream",
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "coconut milk",
+            "milk",
+            "sugar",
+            "brown sugar",
+            "dark brown sugar",
+            "jackfruit"
+        ]
     },
     {
         "title": "Binignit",
@@ -323,7 +527,28 @@
             "Vitamin C": "14.4mg",
             "Calcium": "47mg",
             "Iron": "4.3mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut milk",
+            "milk",
+            "water",
+            "glutinous rice",
+            "ice",
+            "rice",
+            "gabi",
+            "purple yam",
+            "kamote",
+            "banana",
+            "saba",
+            "sago",
+            "jackfruit",
+            "coconut cream",
+            "cream",
+            "brown sugar",
+            "muscovado",
+            "sugar"
+        ]
     },
     {
         "title": "Ube Kalamay",
@@ -346,7 +571,23 @@
             "Vitamin C": "13mg",
             "Calcium": "45mg",
             "Iron": "6mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut milk",
+            "milk",
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "purple yam",
+            "sugar",
+            "ube",
+            "coconut cream",
+            "cream"
+        ]
     },
     {
         "title": "Pastillas de Ube",
@@ -370,7 +611,17 @@
             "Vitamin C": "0.4mg",
             "Calcium": "46mg",
             "Iron": "0.03mg"
-        }
+        },
+        "ingredients": [
+            "ube",
+            "condensed milk",
+            "milk",
+            "cream",
+            "powdered milk",
+            "lime",
+            "sugar",
+            "cellophane"
+        ]
     },
     {
         "title": "Palitaw",
@@ -390,7 +641,20 @@
             "Vitamin C": "0.2mg",
             "Calcium": "34mg",
             "Iron": "0.7mg"
-        }
+        },
+        "ingredients": [
+            "sesame seed",
+            "sugar",
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "coconut",
+            "mature coconut",
+            "water"
+        ]
     },
     {
         "title": "Ginataang Kamoteng Kahoy",
@@ -411,7 +675,17 @@
             "Vitamin C": "26mg",
             "Calcium": "55mg",
             "Iron": "3.6mg"
-        }
+        },
+        "ingredients": [
+            "cassava",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "sago",
+            "jackfruit",
+            "sugar",
+            "salt"
+        ]
     },
     {
         "title": "Minatamis na Kamote",
@@ -433,7 +707,16 @@
             "Vitamin C": "35mg",
             "Calcium": "73mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "potato",
+            "sweet potato",
+            "butter",
+            "brown sugar",
+            "sugar",
+            "ice",
+            "orange"
+        ]
     },
     {
         "title": "Pineapple Upside Down Cake",
@@ -455,7 +738,30 @@
             "Vitamin C": "5mg",
             "Calcium": "131mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "butter",
+            "brown sugar",
+            "light brown sugar",
+            "sugar",
+            "ice",
+            "lemon",
+            "lemon juice",
+            "pineapple",
+            "pineapple rings",
+            "maraschino cherries",
+            "oil",
+            "granulated sugar",
+            "egg",
+            "flour",
+            "baking powder",
+            "salt",
+            "milk",
+            "cream",
+            "sour cream",
+            "pineapple juice",
+            "vanilla"
+        ]
     },
     {
         "title": "Biko",
@@ -474,7 +780,22 @@
             "Vitamin C": "0.7mg",
             "Calcium": "33mg",
             "Iron": "3.1mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut cream",
+            "cream",
+            "coconut milk",
+            "milk",
+            "glutinous rice",
+            "ice",
+            "rice",
+            "water",
+            "brown sugar",
+            "dark brown sugar",
+            "sugar",
+            "salt"
+        ]
     },
     {
         "title": "White Buko Salad",
@@ -498,7 +819,21 @@
             "Vitamin C": "4mg",
             "Calcium": "167mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "agar",
+            "coconut",
+            "coconut juice",
+            "ice",
+            "sugar",
+            "nata de coco",
+            "white nata de coco",
+            "kaong",
+            "white kaong",
+            "cream",
+            "condensed milk",
+            "milk"
+        ]
     },
     {
         "title": "Ube Mamon",
@@ -518,7 +853,17 @@
             "Vitamin A": "150IU",
             "Calcium": "70mg",
             "Iron": "1.6mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "baking powder",
+            "sugar",
+            "milk",
+            "oil",
+            "ube",
+            "cream",
+            "tartar"
+        ]
     },
     {
         "title": "Maja Blanca Espesyal",
@@ -540,7 +885,19 @@
             "Vitamin C": "4mg",
             "Calcium": "142mg",
             "Iron": "5mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut cream",
+            "cream",
+            "coconut milk",
+            "milk",
+            "condensed milk",
+            "sugar",
+            "corn",
+            "sweet kernel corn",
+            "cornstarch"
+        ]
     },
     {
         "title": "Maja Blanca",
@@ -559,7 +916,17 @@
             "Vitamin C": "1.5mg",
             "Calcium": "17mg",
             "Iron": "3.4mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut milk",
+            "milk",
+            "corn",
+            "sugar",
+            "water",
+            "cornstarch",
+            "coconut flake"
+        ]
     },
     {
         "title": "Ginataang Bilo Bilo",
@@ -582,7 +949,25 @@
             "Vitamin C": "2mg",
             "Calcium": "36mg",
             "Iron": "5mg"
-        }
+        },
+        "ingredients": [
+            "water",
+            "pea",
+            "sago",
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "sugar",
+            "coconut cream",
+            "cream",
+            "jackfruit"
+        ]
     },
     {
         "title": "Ginataang Munggo",
@@ -603,7 +988,22 @@
             "Vitamin C": "2.8mg",
             "Calcium": "45mg",
             "Iron": "5.4mg"
-        }
+        },
+        "ingredients": [
+            "bean",
+            "beans",
+            "mung bean",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "water",
+            "glutinous rice",
+            "ice",
+            "rice",
+            "coconut cream",
+            "cream",
+            "sugar"
+        ]
     },
     {
         "title": "Maja Langka",
@@ -625,7 +1025,19 @@
             "Vitamin C": "5mg",
             "Calcium": "295mg",
             "Iron": "5mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut cream",
+            "cream",
+            "coconut milk",
+            "milk",
+            "condensed milk",
+            "sugar",
+            "jackfruit",
+            "corn",
+            "cornstarch"
+        ]
     },
     {
         "title": "Polvoron",
@@ -646,7 +1058,20 @@
             "Vitamin C": "0.2mg",
             "Calcium": "30mg",
             "Iron": "0.4mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "cream",
+            "milk",
+            "powdered full cream milk",
+            "sugar",
+            "butter",
+            "pinipig",
+            "cashew",
+            "pea",
+            "peanut",
+            "oreo"
+        ]
     },
     {
         "title": "Ube Maja Blanca",
@@ -668,7 +1093,19 @@
             "Vitamin C": "9.9mg",
             "Calcium": "251mg",
             "Iron": "4.5mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut cream",
+            "cream",
+            "coconut milk",
+            "milk",
+            "condensed milk",
+            "ube",
+            "sugar",
+            "corn",
+            "cornstarch"
+        ]
     },
     {
         "title": "Ginataang Mais",
@@ -688,7 +1125,21 @@
             "Vitamin C": "2.2mg",
             "Calcium": "28mg",
             "Iron": "4.6mg"
-        }
+        },
+        "ingredients": [
+            "corn",
+            "corn cob",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "water",
+            "glutinous rice",
+            "ice",
+            "rice",
+            "coconut cream",
+            "cream",
+            "sugar"
+        ]
     },
     {
         "title": "Ginataang Halo-halo",
@@ -709,7 +1160,26 @@
             "Vitamin C": "8.1mg",
             "Calcium": "36mg",
             "Iron": "4mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "water",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "banana",
+            "saba",
+            "sago",
+            "jackfruit",
+            "coconut cream",
+            "cream",
+            "sugar"
+        ]
     },
     {
         "title": "Guava in Coconut Cream",
@@ -730,7 +1200,18 @@
             "Vitamin C": "190.8mg",
             "Calcium": "35mg",
             "Iron": "4.1mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut milk",
+            "milk",
+            "sugar",
+            "salt",
+            "guava",
+            "sago",
+            "coconut cream",
+            "cream"
+        ]
     },
     {
         "title": "Tibok-Tibok",
@@ -752,7 +1233,20 @@
             "Vitamin C": "0.8mg",
             "Calcium": "108mg",
             "Iron": "0.8mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut cream",
+            "cream",
+            "carabao's milk",
+            "milk",
+            "flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "sugar",
+            "salt"
+        ]
     },
     {
         "title": "Biscocho",
@@ -770,7 +1264,12 @@
             "Sugar": "12g",
             "Vitamin A": "710IU",
             "Calcium": "9mg"
-        }
+        },
+        "ingredients": [
+            "pandesal roll",
+            "butter",
+            "sugar"
+        ]
     },
     {
         "title": "Mango Ice Cream",
@@ -791,7 +1290,15 @@
             "Vitamin C": "16.5mg",
             "Calcium": "180mg",
             "Iron": "0.2mg"
-        }
+        },
+        "ingredients": [
+            "mango",
+            "condensed milk",
+            "milk",
+            "cream",
+            "heavy cream",
+            "yellow food coloring"
+        ]
     },
     {
         "title": "Ube Macapuno Ice Cream",
@@ -813,7 +1320,15 @@
             "Vitamin C": "2.5mg",
             "Calcium": "190mg",
             "Iron": "0.5mg"
-        }
+        },
+        "ingredients": [
+            "cream",
+            "heavy cream",
+            "condensed milk",
+            "milk",
+            "ube",
+            "macapuno"
+        ]
     },
     {
         "title": "Avocado Sago Jelly",
@@ -835,7 +1350,20 @@
             "Vitamin C": "16mg",
             "Calcium": "132mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "jelly",
+            "sugar",
+            "water",
+            "avocado",
+            "ice",
+            "lemon",
+            "lemon juice",
+            "condensed milk",
+            "milk",
+            "cream",
+            "sago"
+        ]
     },
     {
         "title": "Bibingka",
@@ -857,7 +1385,29 @@
             "Vitamin C": "1mg",
             "Calcium": "98mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "sugar",
+            "baking powder",
+            "salt",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "egg",
+            "butter",
+            "salted egg",
+            "cheese",
+            "cream",
+            "cream cheese",
+            "margarine",
+            "mature coconut"
+        ]
     },
     {
         "title": "Royal Bibingka",
@@ -878,7 +1428,24 @@
             "Vitamin C": "0.6mg",
             "Calcium": "162mg",
             "Iron": "1.5mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "sugar",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "egg",
+            "butter",
+            "margarine",
+            "cheddar cheese",
+            "cheese"
+        ]
     },
     {
         "title": "Minatamis na Langka",
@@ -901,7 +1468,11 @@
             "Vitamin C": "16mg",
             "Calcium": "28mg",
             "Iron": "0.3mg"
-        }
+        },
+        "ingredients": [
+            "jackfruit",
+            "sugar"
+        ]
     },
     {
         "title": "Kababayan",
@@ -925,7 +1496,20 @@
             "Vitamin A": "73IU",
             "Calcium": "61mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "brown sugar",
+            "sugar",
+            "baking powder",
+            "baking soda",
+            "salt",
+            "egg",
+            "milk",
+            "canola oil",
+            "oil",
+            "vanilla"
+        ]
     },
     {
         "title": "Suman Malagkit with Coconut Caramel Sauce",
@@ -944,7 +1528,21 @@
             "Vitamin C": "0.3mg",
             "Calcium": "16mg",
             "Iron": "1.5mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut milk",
+            "milk",
+            "sugar",
+            "salt",
+            "glutinous rice",
+            "ice",
+            "rice",
+            "brown sugar",
+            "banana",
+            "banana leave",
+            "banana leaves"
+        ]
     },
     {
         "title": "Coffee Flan",
@@ -965,7 +1563,17 @@
             "Vitamin C": "0.8mg",
             "Calcium": "160mg",
             "Iron": "0.5mg"
-        }
+        },
+        "ingredients": [
+            "sugar",
+            "water",
+            "egg",
+            "condensed milk",
+            "milk",
+            "coffee",
+            "vanilla",
+            "salt"
+        ]
     },
     {
         "title": "Buko Pandan Salad",
@@ -987,7 +1595,21 @@
             "Vitamin C": "2.7mg",
             "Calcium": "120mg",
             "Iron": "0.9mg"
-        }
+        },
+        "ingredients": [
+            "agar",
+            "agar-agar",
+            "coconut",
+            "coconut juice",
+            "ice",
+            "sugar",
+            "pandan",
+            "nata de coco",
+            "kaong",
+            "cream",
+            "condensed milk",
+            "milk"
+        ]
     },
     {
         "title": "Banana Turon",
@@ -1012,7 +1634,16 @@
             "Vitamin C": "5mg",
             "Calcium": "14mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "banana",
+            "saba",
+            "sugar",
+            "spring roll wrapper",
+            "jackfruit",
+            "canola oil",
+            "oil"
+        ]
     },
     {
         "title": "Brazo de Mercedes",
@@ -1036,7 +1667,21 @@
             "Vitamin C": "2mg",
             "Calcium": "231mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "egg",
+            "egg yolk",
+            "condensed milk",
+            "milk",
+            "vanilla",
+            "calamansi",
+            "lemon",
+            "cream",
+            "tartar",
+            "sugar",
+            "super sugar",
+            "powdered sugar"
+        ]
     },
     {
         "title": "Sampalok Candy",
@@ -1059,7 +1704,12 @@
             "Vitamin C": "3mg",
             "Calcium": "57mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "tamarind",
+            "sugar",
+            "salt"
+        ]
     },
     {
         "title": "Pastillas de Leche",
@@ -1080,7 +1730,16 @@
             "Vitamin C": "1mg",
             "Calcium": "56mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "milk",
+            "sugar",
+            "calamansi",
+            "lime",
+            "butter",
+            "cream",
+            "powdered milk"
+        ]
     },
     {
         "title": "Taho",
@@ -1102,7 +1761,17 @@
             "Vitamin C": "1mg",
             "Calcium": "50mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "brown sugar",
+            "dark brown sugar",
+            "sugar",
+            "pandan",
+            "pandan leaf",
+            "pea",
+            "sago",
+            "tofu"
+        ]
     },
     {
         "title": "Halo-Halo",
@@ -1126,7 +1795,29 @@
             "Vitamin C": "6mg",
             "Calcium": "373mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "gulaman",
+            "sago",
+            "bean",
+            "beans",
+            "garbanzo",
+            "nata de coco",
+            "kaong",
+            "banana",
+            "saba",
+            "jackfruit",
+            "macapuno",
+            "ube",
+            "ube halaya",
+            "ice",
+            "shaved ice",
+            "milk",
+            "leche flan",
+            "cream",
+            "mango",
+            "vanilla"
+        ]
     },
     {
         "title": "Lengua de Gato",
@@ -1150,7 +1841,15 @@
             "Vitamin A": "81IU",
             "Calcium": "1mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "butter",
+            "sugar",
+            "egg",
+            "vanilla",
+            "flour",
+            "salt"
+        ]
     },
     {
         "title": "Peanut Tikoy Rolls",
@@ -1171,7 +1870,22 @@
             "Vitamin C": "1mg",
             "Calcium": "24mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "pea",
+            "peanut",
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "sugar",
+            "water",
+            "vanilla",
+            "ube",
+            "ube halaya"
+        ]
     },
     {
         "title": "Graham Balls",
@@ -1193,7 +1907,14 @@
             "Vitamin C": "1mg",
             "Calcium": "115mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "graham cracker",
+            "ham",
+            "condensed milk",
+            "milk",
+            "cream"
+        ]
     },
     {
         "title": "Moist Chocolate Cupcakes with Mocha Buttercream Frosting",
@@ -1214,7 +1935,22 @@
             "Vitamin A": "235IU",
             "Calcium": "11mg",
             "Iron": "1.2mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "sugar",
+            "cocoa",
+            "baking soda",
+            "salt",
+            "oil",
+            "vinegar",
+            "vanilla",
+            "chocolate chip",
+            "butter",
+            "milk",
+            "coffee",
+            "powdered sugar"
+        ]
     },
     {
         "title": "Maja Jubilee",
@@ -1236,7 +1972,19 @@
             "Vitamin C": "5mg",
             "Calcium": "329mg",
             "Iron": "4mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut milk",
+            "milk",
+            "condensed milk",
+            "sugar",
+            "fruit cocktail",
+            "corn",
+            "cornstarch",
+            "cheese",
+            "eden"
+        ]
     },
     {
         "title": "Calamansi Cheesecake Bars",
@@ -1258,7 +2006,25 @@
             "Vitamin C": "3mg",
             "Calcium": "46mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "graham cracker",
+            "ham",
+            "flour",
+            "brown sugar",
+            "sugar",
+            "salt",
+            "butter",
+            "cheese",
+            "cream",
+            "cream cheese",
+            "egg",
+            "calamansi",
+            "calamansi juice",
+            "ice",
+            "baking powder",
+            "powdered sugar"
+        ]
     },
     {
         "title": "Tropical Magic Bars",
@@ -1280,7 +2046,21 @@
             "Vitamin C": "7mg",
             "Calcium": "174mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "lime",
+            "sugar",
+            "graham cracker",
+            "ham",
+            "butter",
+            "condensed milk",
+            "milk",
+            "chocolate chip",
+            "white chocolate chip",
+            "mango",
+            "pineapple",
+            "coconut"
+        ]
     },
     {
         "title": "Mango Bravo Cake",
@@ -1302,7 +2082,21 @@
             "Vitamin C": "10mg",
             "Calcium": "48mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "egg",
+            "sugar",
+            "canola oil",
+            "oil",
+            "mango",
+            "vanilla",
+            "flour",
+            "baking powder",
+            "cream",
+            "tartar",
+            "whipping cream",
+            "chocolate chip"
+        ]
     },
     {
         "title": "Mango Bango",
@@ -1324,7 +2118,15 @@
             "Vitamin C": "58mg",
             "Calcium": "149mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "mango",
+            "nata de coco",
+            "kaong",
+            "cream",
+            "condensed milk",
+            "milk"
+        ]
     },
     {
         "title": "Almond Jello",
@@ -1343,7 +2145,13 @@
             "Vitamin C": "0.8mg",
             "Calcium": "40mg",
             "Iron": "0.4mg"
-        }
+        },
+        "ingredients": [
+            "gelatin",
+            "water",
+            "milk",
+            "almond"
+        ]
     },
     {
         "title": "Coconut Flan",
@@ -1364,7 +2172,16 @@
             "Vitamin C": "3mg",
             "Calcium": "378mg",
             "Iron": "3mg"
-        }
+        },
+        "ingredients": [
+            "sugar",
+            "egg",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "condensed milk",
+            "ramekin"
+        ]
     },
     {
         "title": "Leche Flan",
@@ -1385,7 +2202,14 @@
             "Vitamin C": "1mg",
             "Calcium": "194mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "sugar",
+            "egg",
+            "egg yolk",
+            "condensed milk",
+            "milk"
+        ]
     },
     {
         "title": "Mango and Cream Cheese Turon",
@@ -1407,7 +2231,17 @@
             "Vitamin C": "13mg",
             "Calcium": "22mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "mango",
+            "sugar",
+            "spring roll wrapper",
+            "cheese",
+            "cream",
+            "cream cheese",
+            "canola oil",
+            "oil"
+        ]
     },
     {
         "title": "No-Churn Buko Pandan Ice Cream",
@@ -1428,7 +2262,16 @@
             "Vitamin C": "1.7mg",
             "Calcium": "180mg",
             "Iron": "0.4mg"
-        }
+        },
+        "ingredients": [
+            "cream",
+            "heavy cream",
+            "condensed milk",
+            "milk",
+            "buko pandan",
+            "pandan",
+            "coconut"
+        ]
     },
     {
         "title": "Christmas Fruitcake",
@@ -1450,7 +2293,31 @@
             "Vitamin C": "7mg",
             "Calcium": "83mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "margarine",
+            "brown sugar",
+            "sugar",
+            "light syrup",
+            "orange",
+            "orange concentrate",
+            "molasses",
+            "brandy",
+            "flour",
+            "baking powder",
+            "salt",
+            "nutmeg",
+            "allspice",
+            "ice",
+            "glazed cherries",
+            "glazed fruit",
+            "raisin",
+            "date",
+            "almond",
+            "almonds",
+            "cashew",
+            "pili nut"
+        ]
     },
     {
         "title": "Mini Special Sapin-Sapin",
@@ -1472,7 +2339,28 @@
             "Vitamin C": "1mg",
             "Calcium": "55mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut cream",
+            "cream",
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "coconut milk",
+            "milk",
+            "condensed milk",
+            "sugar",
+            "macapuno",
+            "macapuno string",
+            "ube",
+            "ube halaya",
+            "jackfruit",
+            "langka"
+        ]
     },
     {
         "title": "Ube Biko",
@@ -1493,7 +2381,22 @@
             "Vitamin C": "4mg",
             "Calcium": "30mg",
             "Iron": "5mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut cream",
+            "cream",
+            "glutinous rice",
+            "ice",
+            "rice",
+            "water",
+            "coconut milk",
+            "milk",
+            "ube",
+            "ube halaya",
+            "sugar",
+            "salt"
+        ]
     },
     {
         "title": "Buko Salad",
@@ -1515,7 +2418,19 @@
             "Vitamin C": "6mg",
             "Calcium": "218mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "fruit cocktail",
+            "pineapple",
+            "corn",
+            "sweet corn kernel",
+            "kaong",
+            "nata de coco",
+            "condensed milk",
+            "milk",
+            "cream"
+        ]
     },
     {
         "title": "Buko Pandan Gelatin",
@@ -1535,7 +2450,19 @@
             "Vitamin C": "4.1mg",
             "Calcium": "60mg",
             "Iron": "3.4mg"
-        }
+        },
+        "ingredients": [
+            "agar",
+            "agar-agar",
+            "coconut",
+            "coconut juice",
+            "ice",
+            "sugar",
+            "coconut milk",
+            "milk",
+            "buko pandan",
+            "pandan"
+        ]
     },
     {
         "title": "Ube Cassava Cake",
@@ -1557,7 +2484,21 @@
             "Vitamin C": "17mg",
             "Calcium": "592mg",
             "Iron": "3mg"
-        }
+        },
+        "ingredients": [
+            "ube",
+            "condensed milk",
+            "milk",
+            "coconut",
+            "coconut milk",
+            "sugar",
+            "butter",
+            "cheese",
+            "eden",
+            "cassava",
+            "macapuno",
+            "macapuno string"
+        ]
     },
     {
         "title": "Graham de Leche",
@@ -1579,7 +2520,16 @@
             "Vitamin C": "2.01mg",
             "Calcium": "264.02mg",
             "Iron": "1.23mg"
-        }
+        },
+        "ingredients": [
+            "sugar",
+            "condensed milk",
+            "milk",
+            "cream",
+            "heavy cream",
+            "graham cracker",
+            "ham"
+        ]
     },
     {
         "title": "Impossible Chocolate Flan Cake",
@@ -1601,7 +2551,21 @@
             "Vitamin C": "2mg",
             "Calcium": "277mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "butter",
+            "dulce de leche",
+            "sugar",
+            "egg",
+            "flour",
+            "baking powder",
+            "baking soda",
+            "cocoa",
+            "cocoa powder",
+            "milk",
+            "condensed milk",
+            "vanilla"
+        ]
     },
     {
         "title": "Floating Island Dessert",
@@ -1622,7 +2586,22 @@
             "Vitamin C": "3mg",
             "Calcium": "497mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "ube",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "condensed milk",
+            "butter",
+            "sugar",
+            "american cheese",
+            "cheese",
+            "egg",
+            "egg yolk",
+            "cream",
+            "tartar"
+        ]
     },
     {
         "title": "Pichi-Pichi",
@@ -1642,7 +2621,22 @@
             "Vitamin C": "1mg",
             "Calcium": "11mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "cassava",
+            "coconut",
+            "coconut juice",
+            "ice",
+            "sugar",
+            "salt",
+            "lye water",
+            "water",
+            "ube",
+            "ube food coloring",
+            "pandan",
+            "mature coconut",
+            "cheese"
+        ]
     },
     {
         "title": "Pandan Coconut Jelly",
@@ -1662,7 +2656,20 @@
             "Vitamin C": "1mg",
             "Calcium": "42mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "agar",
+            "agar-agar",
+            "water",
+            "sugar",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "green agar-agar bar",
+            "coconut juice",
+            "ice",
+            "pandan"
+        ]
     },
     {
         "title": "Halayang Ube",
@@ -1684,7 +2691,20 @@
             "Vitamin C": "4mg",
             "Calcium": "314mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "ube",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "condensed milk",
+            "butter",
+            "sugar",
+            "cheese",
+            "eden",
+            "coconut cream",
+            "cream"
+        ]
     },
     {
         "title": "Espasol",
@@ -1704,7 +2724,21 @@
             "Vitamin C": "1mg",
             "Calcium": "10mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "sugar",
+            "vanilla",
+            "salt"
+        ]
     },
     {
         "title": "Mango Jelly",
@@ -1726,7 +2760,18 @@
             "Vitamin C": "61.9mg",
             "Calcium": "170mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "jelly",
+            "jelly mix",
+            "sugar",
+            "water",
+            "mango",
+            "cream",
+            "condensed milk",
+            "milk",
+            "sago"
+        ]
     },
     {
         "title": "Turon Malagkit",
@@ -1748,7 +2793,23 @@
             "Vitamin C": "0.2mg",
             "Calcium": "18mg",
             "Iron": "1.7mg"
-        }
+        },
+        "ingredients": [
+            "glutinous rice",
+            "ice",
+            "rice",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "salt",
+            "pandan",
+            "pandan leaf",
+            "spring roll wrapper",
+            "jackfruit",
+            "sugar",
+            "canola oil",
+            "oil"
+        ]
     },
     {
         "title": "Black Forest Swiss Roll Cake",
@@ -1770,7 +2831,26 @@
             "Vitamin C": "0.3mg",
             "Calcium": "102mg",
             "Iron": "2.2mg"
-        }
+        },
+        "ingredients": [
+            "chocolate chip",
+            "cocoa",
+            "cocoa powder",
+            "flour",
+            "sugar",
+            "baking powder",
+            "baking soda",
+            "salt",
+            "egg",
+            "egg yolk",
+            "canola oil",
+            "oil",
+            "cream",
+            "heavy cream",
+            "icing sugar",
+            "maraschino cherries",
+            "butter"
+        ]
     },
     {
         "title": "Bicho-Bicho",
@@ -1791,7 +2871,18 @@
             "Vitamin A": "300IU",
             "Calcium": "31mg",
             "Iron": "2.4mg"
-        }
+        },
+        "ingredients": [
+            "yeast",
+            "sugar",
+            "egg",
+            "milk",
+            "butter",
+            "salt",
+            "flour",
+            "canola oil",
+            "oil"
+        ]
     },
     {
         "title": "Nilupak",
@@ -1813,7 +2904,16 @@
             "Vitamin C": "24.3mg",
             "Calcium": "313mg",
             "Iron": "0.5mg"
-        }
+        },
+        "ingredients": [
+            "cassava",
+            "salt",
+            "water",
+            "condensed milk",
+            "milk",
+            "butter",
+            "cheese"
+        ]
     },
     {
         "title": "Silvanas",
@@ -1834,7 +2934,21 @@
             "Vitamin A": "535IU",
             "Calcium": "33mg",
             "Iron": "2.5mg"
-        }
+        },
+        "ingredients": [
+            "egg",
+            "cream",
+            "tartar",
+            "sugar",
+            "cashew",
+            "flour",
+            "vanilla",
+            "water",
+            "egg yolk",
+            "butter",
+            "graham cracker",
+            "ham"
+        ]
     },
     {
         "title": "Sans Rival",
@@ -1855,7 +2969,17 @@
             "Vitamin C": "0.1mg",
             "Calcium": "27mg",
             "Iron": "1.6mg"
-        }
+        },
+        "ingredients": [
+            "egg",
+            "cream",
+            "tartar",
+            "sugar",
+            "cashew",
+            "vanilla",
+            "egg yolk",
+            "butter"
+        ]
     },
     {
         "title": "Cassava Cake with Custard Topping",
@@ -1877,7 +3001,21 @@
             "Vitamin C": "15.9mg",
             "Calcium": "296mg",
             "Iron": "3.1mg"
-        }
+        },
+        "ingredients": [
+            "butter",
+            "margarine",
+            "cassava",
+            "macapuno",
+            "macapuno string",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "condensed milk",
+            "sugar",
+            "egg",
+            "egg yolk"
+        ]
     },
     {
         "title": "Sticky Rice Balls with Peanuts",
@@ -1896,7 +3034,21 @@
             "Sugar": "8g",
             "Calcium": "29mg",
             "Iron": "0.8mg"
-        }
+        },
+        "ingredients": [
+            "sesame seed",
+            "ground peanut",
+            "pea",
+            "peanut",
+            "sugar",
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "water"
+        ]
     },
     {
         "title": "Mini Egg Pies",
@@ -1917,7 +3069,18 @@
             "Vitamin C": "1.4mg",
             "Calcium": "190mg",
             "Iron": "1.3mg"
-        }
+        },
+        "ingredients": [
+            "butter",
+            "flour",
+            "salt",
+            "sugar",
+            "water",
+            "egg",
+            "egg yolk",
+            "milk",
+            "condensed milk"
+        ]
     },
     {
         "title": "Kalamay Gabi",
@@ -1938,7 +3101,22 @@
             "Vitamin C": "4.2mg",
             "Calcium": "40mg",
             "Iron": "3.1mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut milk",
+            "milk",
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "gabi",
+            "sugar",
+            "coconut cream",
+            "cream"
+        ]
     },
     {
         "title": "Cassava Suman",
@@ -1958,7 +3136,14 @@
             "Vitamin C": "12.5mg",
             "Calcium": "11mg",
             "Iron": "0.4mg"
-        }
+        },
+        "ingredients": [
+            "cassava",
+            "sugar",
+            "coconut",
+            "coconut milk",
+            "milk"
+        ]
     },
     {
         "title": "Fruit Cocktail Graham Float",
@@ -1980,7 +3165,15 @@
             "Vitamin C": "4.5mg",
             "Calcium": "199mg",
             "Iron": "0.7mg"
-        }
+        },
+        "ingredients": [
+            "cream",
+            "condensed milk",
+            "milk",
+            "graham cracker",
+            "ham",
+            "fruit cocktail"
+        ]
     },
     {
         "title": "Pasta Fruit Salad",
@@ -2002,7 +3195,18 @@
             "Vitamin C": "6.8mg",
             "Calcium": "197mg",
             "Iron": "0.6mg"
-        }
+        },
+        "ingredients": [
+            "macaroni pasta",
+            "fruit cocktail",
+            "pineapple",
+            "nata de coco",
+            "kaong",
+            "cheese",
+            "cream",
+            "condensed milk",
+            "milk"
+        ]
     },
     {
         "title": "Puto Lanson",
@@ -2023,7 +3227,15 @@
             "Vitamin C": "7.4mg",
             "Calcium": "29mg",
             "Iron": "0.6mg"
-        }
+        },
+        "ingredients": [
+            "cassava",
+            "brown sugar",
+            "sugar",
+            "coconut",
+            "margarine",
+            "muscovado"
+        ]
     },
     {
         "title": "Yema Cake",
@@ -2045,7 +3257,21 @@
             "Vitamin C": "2.6mg",
             "Calcium": "488mg",
             "Iron": "1.2mg"
-        }
+        },
+        "ingredients": [
+            "sugar",
+            "butter",
+            "milk",
+            "cake flour",
+            "flour",
+            "baking powder",
+            "vanilla",
+            "condensed milk",
+            "egg",
+            "egg yolk",
+            "almond",
+            "cheese"
+        ]
     },
     {
         "title": "Easy Yema Spread",
@@ -2066,7 +3292,15 @@
             "Vitamin C": "1.3mg",
             "Calcium": "158mg",
             "Iron": "0.3mg"
-        }
+        },
+        "ingredients": [
+            "condensed milk",
+            "milk",
+            "egg",
+            "egg yolk",
+            "butter",
+            "salt"
+        ]
     },
     {
         "title": "Ube Crinkles (Purple Yam Crinkles)",
@@ -2088,7 +3322,19 @@
             "Vitamin C": "0.5mg",
             "Calcium": "33mg",
             "Iron": "1.2mg"
-        }
+        },
+        "ingredients": [
+            "sugar",
+            "oil",
+            "egg",
+            "ube",
+            "ube jam",
+            "flour",
+            "baking powder",
+            "salt",
+            "violet food color",
+            "powdered sugar"
+        ]
     },
     {
         "title": "Pianono (Filipino Sponge Cake Roll)",
@@ -2108,7 +3354,22 @@
             "Vitamin A": "450IU",
             "Calcium": "46mg",
             "Iron": "0.6mg"
-        }
+        },
+        "ingredients": [
+            "egg",
+            "cream",
+            "tartar",
+            "granulated sugar",
+            "sugar",
+            "milk",
+            "vanilla",
+            "flour",
+            "corn",
+            "cornstarch",
+            "baking powder",
+            "powdered sugar",
+            "margarine"
+        ]
     },
     {
         "title": "Pan de Coco",
@@ -2130,7 +3391,23 @@
             "Vitamin C": "0.2mg",
             "Calcium": "28mg",
             "Iron": "1.6mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "sugar",
+            "dry yeast",
+            "yeast",
+            "milk",
+            "oil",
+            "salt",
+            "coconut",
+            "brown sugar",
+            "coconut milk",
+            "butter",
+            "vanilla",
+            "egg",
+            "water"
+        ]
     },
     {
         "title": "Carioca",
@@ -2146,7 +3423,18 @@
             "Sugar": "16g",
             "Calcium": "2mg",
             "Iron": "0.1mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "canola oil",
+            "oil",
+            "sugar"
+        ]
     },
     {
         "title": "Cathedral Window Gelatin",
@@ -2167,7 +3455,17 @@
             "Vitamin C": "0.5mg",
             "Calcium": "58mg",
             "Iron": "0.1mg"
-        }
+        },
+        "ingredients": [
+            "gelatin",
+            "red color gelatin",
+            "green color gelatin",
+            "yellow color gelatin",
+            "water",
+            "cream",
+            "condensed milk",
+            "milk"
+        ]
     },
     {
         "title": "Dulce de Leche FLan",
@@ -2188,7 +3486,13 @@
             "Vitamin C": "0.6mg",
             "Calcium": "86mg",
             "Iron": "0.4mg"
-        }
+        },
+        "ingredients": [
+            "sugar",
+            "dulce de leche",
+            "milk",
+            "egg"
+        ]
     },
     {
         "title": "Avocado Ice Cream",
@@ -2210,7 +3514,17 @@
             "Vitamin C": "6.6mg",
             "Calcium": "190mg",
             "Iron": "0.4mg"
-        }
+        },
+        "ingredients": [
+            "avocado",
+            "ice",
+            "lemon",
+            "lemon juice",
+            "condensed milk",
+            "milk",
+            "cream",
+            "heavy cream"
+        ]
     },
     {
         "title": "Mango Sago",
@@ -2232,7 +3546,16 @@
             "Vitamin C": "50.3mg",
             "Calcium": "70mg",
             "Iron": "0.4mg"
-        }
+        },
+        "ingredients": [
+            "water",
+            "pea",
+            "tapioca",
+            "tapioca pearl",
+            "mango",
+            "milk",
+            "sugar"
+        ]
     },
     {
         "title": "Filipino Coconut Macaroons",
@@ -2254,7 +3577,17 @@
             "Vitamin C": "1.1mg",
             "Calcium": "103mg",
             "Iron": "0.9mg"
-        }
+        },
+        "ingredients": [
+            "butter",
+            "sugar",
+            "egg",
+            "condensed milk",
+            "milk",
+            "vanilla",
+            "flour",
+            "coconut"
+        ]
     },
     {
         "title": "Leche Flan with Whole Eggs",
@@ -2275,7 +3608,15 @@
             "Vitamin C": "2.8mg",
             "Calcium": "366mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "sugar",
+            "water",
+            "egg",
+            "condensed milk",
+            "milk",
+            "lime"
+        ]
     },
     {
         "title": "Coffee Jelly",
@@ -2296,7 +3637,17 @@
             "Vitamin C": "1.7mg",
             "Calcium": "170mg",
             "Iron": "0.2mg"
-        }
+        },
+        "ingredients": [
+            "gelatin",
+            "ox",
+            "water",
+            "coffee",
+            "sugar",
+            "condensed milk",
+            "milk",
+            "cream"
+        ]
     },
     {
         "title": "Hawaiian Bread Pudding",
@@ -2318,7 +3669,25 @@
             "Vitamin C": "5.9mg",
             "Calcium": "135mg",
             "Iron": "0.7mg"
-        }
+        },
+        "ingredients": [
+            "pan de leche",
+            "pandesal roll",
+            "ice",
+            "pineapple",
+            "pineapple juice",
+            "raisin",
+            "cream",
+            "heavy cream",
+            "milk",
+            "egg",
+            "sugar",
+            "butter",
+            "coconut",
+            "brown sugar",
+            "nutmeg",
+            "cinnamon"
+        ]
     },
     {
         "title": "Kutsinta",
@@ -2333,7 +3702,18 @@
             "Sugar": "13g",
             "Calcium": "14mg",
             "Iron": "0.5mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "tapioca",
+            "tapioca flour",
+            "brown sugar",
+            "dark brown sugar",
+            "sugar",
+            "water",
+            "atsuete powder",
+            "lye water"
+        ]
     },
     {
         "title": "Kalamay Hati",
@@ -2353,7 +3733,23 @@
             "Vitamin C": "1.5mg",
             "Calcium": "36mg",
             "Iron": "3.6mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut milk",
+            "milk",
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "brown sugar",
+            "muscovado",
+            "sugar",
+            "coconut cream",
+            "cream"
+        ]
     },
     {
         "title": "Cream Cheese Flan",
@@ -2374,7 +3770,16 @@
             "Vitamin C": "1.4mg",
             "Calcium": "199mg",
             "Iron": "0.5mg"
-        }
+        },
+        "ingredients": [
+            "sugar",
+            "cheese",
+            "cream",
+            "cream cheese",
+            "egg",
+            "milk",
+            "condensed milk"
+        ]
     },
     {
         "title": "Maruya",
@@ -2396,7 +3801,20 @@
             "Vitamin C": "10mg",
             "Calcium": "88mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "sugar",
+            "baking powder",
+            "salt",
+            "egg",
+            "milk",
+            "butter",
+            "canola oil",
+            "oil",
+            "banana",
+            "saba"
+        ]
     },
     {
         "title": "Fried Bananas with Salted Coconut Caramel Sauce",
@@ -2416,7 +3834,20 @@
             "Vitamin C": "1mg",
             "Calcium": "42mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut milk",
+            "milk",
+            "brown sugar",
+            "sugar",
+            "salt",
+            "sea salt",
+            "canola oil",
+            "oil",
+            "banana",
+            "saba"
+        ]
     },
     {
         "title": "Buchi",
@@ -2440,7 +3871,23 @@
             "Vitamin C": "1mg",
             "Calcium": "75mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "bean",
+            "beans",
+            "mung bean",
+            "water",
+            "sugar",
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "sesame seed",
+            "canola oil",
+            "oil"
+        ]
     },
     {
         "title": "Tapioca Coconut Dessert Soup",
@@ -2461,7 +3908,17 @@
             "Vitamin C": "5mg",
             "Calcium": "32mg",
             "Iron": "3mg"
-        }
+        },
+        "ingredients": [
+            "water",
+            "pea",
+            "tapioca",
+            "tapioca pearl",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "sugar"
+        ]
     },
     {
         "title": "Cheese Cupcakes",
@@ -2482,6 +3939,19 @@
             "Vitamin C": "0.6mg",
             "Calcium": "134mg",
             "Iron": "0.8mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "baking powder",
+            "salt",
+            "butter",
+            "sugar",
+            "egg",
+            "condensed milk",
+            "milk",
+            "cheese",
+            "quick-melt",
+            "cheddar cheese"
+        ]
     }
 ]

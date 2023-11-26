@@ -22,7 +22,28 @@
             "Vitamin C": "72mg",
             "Calcium": "128mg",
             "Iron": "4mg"
-        }
+        },
+        "ingredients": [
+            "light soy sauce",
+            "soy sauce",
+            "oyster",
+            "oyster sauce",
+            "wine",
+            "corn",
+            "sugar",
+            "pepper",
+            "canola oil",
+            "oil",
+            "pea",
+            "snow pea",
+            "carrot",
+            "celery",
+            "egg",
+            "quail egg",
+            "shrimp",
+            "onion",
+            "garlic"
+        ]
     },
     {
         "title": "Thai Chicken Salad with Spicy Peanut Dressing",
@@ -44,7 +65,43 @@
             "Vitamin C": "96mg",
             "Calcium": "104mg",
             "Iron": "3mg"
-        }
+        },
+        "ingredients": [
+            "chicken",
+            "chicken breast",
+            "pepper",
+            "salt",
+            "wonton wrapper",
+            "canola oil",
+            "oil",
+            "lettuce",
+            "lettuce heart",
+            "cabbage",
+            "red cabbage",
+            "carrot",
+            "bell pepper",
+            "red bell pepper",
+            "green onion",
+            "onion",
+            "pea",
+            "peanut",
+            "butter",
+            "peanut butter",
+            "smooth peanut butter",
+            "red wine vinegar",
+            "vinegar",
+            "wine",
+            "gin",
+            "ginger",
+            "clove garlic",
+            "garlic",
+            "sriracha",
+            "sriracha sauce",
+            "lemon",
+            "soy sauce",
+            "sugar",
+            "sesame oil"
+        ]
     },
     {
         "title": "Ginisang Ampalaya at Hipon",
@@ -66,7 +123,22 @@
             "Vitamin C": "87.2mg",
             "Calcium": "124mg",
             "Iron": "2.1mg"
-        }
+        },
+        "ingredients": [
+            "ampalaya",
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "tomato",
+            "fish",
+            "fish sauce",
+            "shrimp",
+            "egg",
+            "sugar",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Laing",
@@ -88,7 +160,32 @@
             "Vitamin C": "93.1mg",
             "Calcium": "215mg",
             "Iron": "10.1mg"
-        }
+        },
+        "ingredients": [
+            "gabi",
+            "gabi leaves",
+            "lemon",
+            "lemongrass",
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "gin",
+            "ginger",
+            "pork",
+            "pork belly",
+            "pepper",
+            "shrimp",
+            "shrimp paste",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "chili",
+            "chili pepper",
+            "coconut cream",
+            "cream",
+            "salt"
+        ]
     },
     {
         "title": "Curried Okra with Tomatoes",
@@ -108,7 +205,20 @@
             "Vitamin C": "32.8mg",
             "Calcium": "112mg",
             "Iron": "1.3mg"
-        }
+        },
+        "ingredients": [
+            "okra",
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "tomato",
+            "curry powder",
+            "chili",
+            "chili powder",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Ginisang Upo at Hipon",
@@ -130,7 +240,19 @@
             "Vitamin C": "13mg",
             "Calcium": "150mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "shrimp",
+            "upo",
+            "oil",
+            "onion",
+            "garlic",
+            "tomato",
+            "fish",
+            "fish sauce",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Eggplant with Spicy Garlic Sauce",
@@ -151,7 +273,27 @@
             "Vitamin C": "4.5mg",
             "Calcium": "28mg",
             "Iron": "1.9mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "egg",
+            "eggplant",
+            "chili",
+            "chili garlic",
+            "chili garlic sauce",
+            "garlic",
+            "soy sauce",
+            "balsamic vinegar",
+            "vinegar",
+            "water",
+            "brown sugar",
+            "sugar",
+            "gin",
+            "ginger",
+            "green onion",
+            "onion"
+        ]
     },
     {
         "title": "Kabocha Salad",
@@ -173,7 +315,19 @@
             "Vitamin C": "20.5mg",
             "Calcium": "52mg",
             "Iron": "1.2mg"
-        }
+        },
+        "ingredients": [
+            "kabocha",
+            "kalabasa",
+            "carrot",
+            "green onion",
+            "onion",
+            "raisin",
+            "mayonnaise",
+            "pepper",
+            "salt",
+            "walnut"
+        ]
     },
     {
         "title": "Pinakbet Tagalog",
@@ -195,7 +349,29 @@
             "Vitamin C": "48.16mg",
             "Calcium": "99.63mg",
             "Iron": "1.87mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "pork",
+            "pork belly",
+            "shrimp",
+            "shrimp paste",
+            "tomato",
+            "water",
+            "kalabasa",
+            "okra",
+            "bean",
+            "beans",
+            "long beans",
+            "ampalaya",
+            "egg",
+            "eggplant",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Ginataang Puso ng Saging",
@@ -215,7 +391,28 @@
             "Vitamin C": "5mg",
             "Calcium": "21mg",
             "Iron": "2.7mg"
-        }
+        },
+        "ingredients": [
+            "banana",
+            "banana heart",
+            "banana hearts",
+            "rock salt",
+            "salt",
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "pork",
+            "pork belly",
+            "fish",
+            "fish sauce",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "chili",
+            "chili pepper",
+            "pepper"
+        ]
     },
     {
         "title": "Ginisang Togue",
@@ -240,7 +437,25 @@
             "Vitamin C": "55mg",
             "Calcium": "178mg",
             "Iron": "5mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "shrimp",
+            "fish",
+            "fish sauce",
+            "carrot",
+            "bean",
+            "beans",
+            "green bean",
+            "green beans",
+            "bean sprout",
+            "ground pepper",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Coconut Rice",
@@ -261,7 +476,18 @@
             "Vitamin C": "1mg",
             "Calcium": "17mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "ice",
+            "jasmine rice",
+            "rice",
+            "coconut milk",
+            "milk",
+            "salt",
+            "green onion",
+            "onion"
+        ]
     },
     {
         "title": "Ginisang Repolyo",
@@ -286,7 +512,28 @@
             "Vitamin C": "59mg",
             "Calcium": "102mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "shrimp",
+            "onion",
+            "garlic",
+            "chicken",
+            "chicken breast",
+            "ham",
+            "pork",
+            "pork ham",
+            "pork hamonado",
+            "sausage",
+            "carrot",
+            "cabbage",
+            "chicken broth",
+            "oyster",
+            "oyster sauce",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Ginisang Pechay with Oyster Sauce",
@@ -311,7 +558,21 @@
             "Vitamin C": "5mg",
             "Calcium": "20mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "ground pork",
+            "pork",
+            "tomato",
+            "oyster",
+            "oyster sauce",
+            "pechay",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Ginisang Sayote",
@@ -336,7 +597,21 @@
             "Vitamin C": "11mg",
             "Calcium": "45mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "tomato",
+            "shrimp",
+            "water",
+            "oyster",
+            "oyster sauce",
+            "sayote",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Ginisang Sayote with Chicken",
@@ -361,7 +636,22 @@
             "Vitamin C": "11mg",
             "Calcium": "34mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "chicken",
+            "chicken thigh",
+            "tomato",
+            "water",
+            "oyster",
+            "oyster sauce",
+            "sayote",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Binagoongan Fried Rice",
@@ -386,7 +676,25 @@
             "Vitamin C": "5mg",
             "Calcium": "61mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "ice",
+            "rice",
+            "canola oil",
+            "oil",
+            "pork",
+            "pork belly",
+            "onion",
+            "garlic",
+            "tomato",
+            "gin",
+            "shrimp",
+            "shrimp paste",
+            "vinegar",
+            "sugar",
+            "mango",
+            "green onion"
+        ]
     },
     {
         "title": "Bacon Fried Rice",
@@ -408,7 +716,20 @@
             "Vitamin C": "2.5mg",
             "Calcium": "32mg",
             "Iron": "7.7mg"
-        }
+        },
+        "ingredients": [
+            "ice",
+            "rice",
+            "white rice",
+            "bacon",
+            "onion",
+            "garlic",
+            "soy sauce",
+            "green onion",
+            "pepper",
+            "salt",
+            "egg"
+        ]
     },
     {
         "title": "Ginisang Ampalaya sa Sardinas",
@@ -432,7 +753,21 @@
             "Vitamin C": "54mg",
             "Calcium": "27mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "ampalaya",
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "tomato",
+            "fish",
+            "fish sauce",
+            "tomato sauce",
+            "sugar",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Adobong Talong",
@@ -456,7 +791,20 @@
             "Vitamin C": "15mg",
             "Calcium": "54mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "egg",
+            "eggplant",
+            "garlic",
+            "vinegar",
+            "soy sauce",
+            "chili",
+            "chili pepper",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Filipino Mango and Tomato Salad",
@@ -480,7 +828,22 @@
             "Vitamin C": "22mg",
             "Calcium": "18mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "mango",
+            "tomato",
+            "onion",
+            "red onion",
+            "cilantro",
+            "vinegar",
+            "fish",
+            "fish sauce",
+            "canola oil",
+            "oil",
+            "sugar",
+            "ground pepper",
+            "pepper"
+        ]
     },
     {
         "title": "Pinakbet with Crispy Lechon",
@@ -505,7 +868,30 @@
             "Vitamin C": "49mg",
             "Calcium": "91mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "fish",
+            "fish sauce",
+            "tomato",
+            "water",
+            "kabocha",
+            "kalabasa",
+            "okra",
+            "bean",
+            "beans",
+            "long beans",
+            "sitaw",
+            "bitter melon",
+            "egg",
+            "eggplant",
+            "pepper",
+            "salt",
+            "lechon kawali"
+        ]
     },
     {
         "title": "Ensaladang Pipino",
@@ -528,7 +914,24 @@
             "Vitamin C": "9mg",
             "Calcium": "36mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "vinegar",
+            "fish",
+            "fish sauce",
+            "oil",
+            "sesame oil",
+            "sugar",
+            "salt",
+            "chili",
+            "chili pepper",
+            "pepper",
+            "corn",
+            "peppercorn",
+            "cucumber",
+            "onion",
+            "red onion"
+        ]
     },
     {
         "title": "Ensaladang Talbos ng Kamote",
@@ -549,7 +952,22 @@
             "Vitamin C": "19mg",
             "Calcium": "61mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "kamote",
+            "kamote leaves",
+            "tomato",
+            "shallot",
+            "vinegar",
+            "garlic",
+            "fish",
+            "fish sauce",
+            "oil",
+            "olive oil",
+            "sugar",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Ginataang Gulay",
@@ -574,7 +992,29 @@
             "Vitamin C": "40mg",
             "Calcium": "187mg",
             "Iron": "8mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "pork",
+            "pork belly",
+            "shrimp",
+            "shrimp paste",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "jackfruit",
+            "bean",
+            "beans",
+            "green bean",
+            "green beans",
+            "egg",
+            "eggplant",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Singapore Noodles",
@@ -596,7 +1036,36 @@
             "Vitamin C": "19.1mg",
             "Calcium": "42mg",
             "Iron": "1.3mg"
-        }
+        },
+        "ingredients": [
+            "ice",
+            "rice",
+            "rice noodle",
+            "chicken",
+            "chicken breast",
+            "corn",
+            "cornstarch",
+            "oyster",
+            "oyster sauce",
+            "soy sauce",
+            "wine",
+            "sugar",
+            "canola oil",
+            "oil",
+            "shrimp",
+            "sausage",
+            "egg",
+            "onion",
+            "garlic",
+            "bell pepper",
+            "pepper",
+            "red bell pepper",
+            "green bell pepper",
+            "curry powder",
+            "bean",
+            "bean sprout",
+            "salt"
+        ]
     },
     {
         "title": "Tofu, Asparagus and Mushroom Stir-Fry",
@@ -617,7 +1086,26 @@
             "Vitamin C": "8.3mg",
             "Calcium": "220mg",
             "Iron": "3.4mg"
-        }
+        },
+        "ingredients": [
+            "mushroom",
+            "shiitake mushroom",
+            "tofu",
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "asparagus",
+            "oyster",
+            "oyster sauce",
+            "light soy sauce",
+            "soy sauce",
+            "wine",
+            "sugar",
+            "corn",
+            "cornstarch",
+            "pepper"
+        ]
     },
     {
         "title": "Green Bean Mushroom Stir-fry",
@@ -637,7 +1125,26 @@
             "Vitamin C": "15.3mg",
             "Calcium": "61mg",
             "Iron": "1.7mg"
-        }
+        },
+        "ingredients": [
+            "soy sauce",
+            "oil",
+            "sesame oil",
+            "sugar",
+            "pepper",
+            "corn",
+            "cornstarch",
+            "canola oil",
+            "bean",
+            "beans",
+            "green bean",
+            "green beans",
+            "mushroom",
+            "onion",
+            "red onion",
+            "garlic",
+            "sesame seed"
+        ]
     },
     {
         "title": "Panda Express Chow Mein Copycat",
@@ -657,7 +1164,24 @@
             "Vitamin C": "45.4mg",
             "Calcium": "70mg",
             "Iron": "3.2mg"
-        }
+        },
+        "ingredients": [
+            "chow mein noodles",
+            "noodles",
+            "canola oil",
+            "oil",
+            "soy sauce",
+            "oyster",
+            "oyster sauce",
+            "wine",
+            "brown sugar",
+            "sugar",
+            "sesame oil",
+            "pepper",
+            "onion",
+            "cabbage",
+            "celery"
+        ]
     },
     {
         "title": "Ginataang Talong",
@@ -679,7 +1203,26 @@
             "Vitamin C": "15.7mg",
             "Calcium": "51mg",
             "Iron": "2.7mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "egg",
+            "eggplant",
+            "onion",
+            "garlic",
+            "pork",
+            "pork belly",
+            "fish",
+            "fish sauce",
+            "coconut",
+            "coconut cream",
+            "cream",
+            "chili",
+            "chili pepper",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Tomato Grilled Eggplant and Salted Egg Salad",
@@ -700,7 +1243,22 @@
             "Vitamin C": "10.9mg",
             "Calcium": "37mg",
             "Iron": "1.1mg"
-        }
+        },
+        "ingredients": [
+            "egg",
+            "eggplant",
+            "grape tomatoes",
+            "tomato",
+            "salt",
+            "salted duck egg",
+            "green onion",
+            "onion",
+            "vinegar",
+            "fish",
+            "fish sauce",
+            "shallot",
+            "pepper"
+        ]
     },
     {
         "title": "Tinapa Fried Rice",
@@ -722,7 +1280,22 @@
             "Vitamin C": "3.9mg",
             "Calcium": "54mg",
             "Iron": "1.7mg"
-        }
+        },
+        "ingredients": [
+            "ice",
+            "rice",
+            "canola oil",
+            "oil",
+            "egg",
+            "onion",
+            "garlic",
+            "tinapa",
+            "tinapa galunggong",
+            "green onion",
+            "soy sauce",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Nasi Goreng (Indonesian Fried Rice)",
@@ -742,7 +1315,29 @@
             "Vitamin C": "1.8mg",
             "Calcium": "25mg",
             "Iron": "0.7mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "shrimp",
+            "shrimp paste",
+            "chili",
+            "chili paste",
+            "chicken",
+            "chicken breast",
+            "ice",
+            "rice",
+            "white rice",
+            "kecap manis",
+            "pepper",
+            "salt",
+            "egg",
+            "shallot",
+            "cucumber",
+            "tomato"
+        ]
     },
     {
         "title": "Chinese Chicken Salad",
@@ -764,7 +1359,35 @@
             "Vitamin C": "24.8mg",
             "Calcium": "90mg",
             "Iron": "4mg"
-        }
+        },
+        "ingredients": [
+            "chicken",
+            "chicken breast",
+            "salt",
+            "wonton wrapper",
+            "canola oil",
+            "oil",
+            "ice",
+            "iceberg lettuce",
+            "lettuce",
+            "cabbage",
+            "red cabbage",
+            "carrot",
+            "edamame",
+            "rice",
+            "rice vinegar",
+            "vinegar",
+            "soy sauce",
+            "sesame oil",
+            "brown sugar",
+            "sugar",
+            "chili",
+            "chili garlic",
+            "chili garlic sauce",
+            "garlic",
+            "gin",
+            "ginger"
+        ]
     },
     {
         "title": "Hawaiian Macaroni Salad",
@@ -786,7 +1409,20 @@
             "Vitamin C": "1mg",
             "Calcium": "39mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "carrot",
+            "onion",
+            "apple cider vinegar",
+            "vinegar",
+            "mayonnaise",
+            "milk",
+            "brown sugar",
+            "sugar",
+            "salt",
+            "pepper",
+            "green onion"
+        ]
     },
     {
         "title": "House Special Fried Rice",
@@ -808,7 +1444,33 @@
             "Vitamin C": "8mg",
             "Calcium": "100mg",
             "Iron": "3mg"
-        }
+        },
+        "ingredients": [
+            "ice",
+            "rice",
+            "chicken",
+            "chicken breast",
+            "beef",
+            "beef sirloin",
+            "shrimp",
+            "egg",
+            "egg white",
+            "corn",
+            "cornstarch",
+            "wine",
+            "canola oil",
+            "oil",
+            "salt",
+            "onion",
+            "garlic",
+            "carrot",
+            "pea",
+            "soy sauce",
+            "sesame oil",
+            "sugar",
+            "green onion",
+            "pepper"
+        ]
     },
     {
         "title": "Pineapple Fried Rice",
@@ -830,7 +1492,30 @@
             "Vitamin C": "65mg",
             "Calcium": "89mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "pineapple",
+            "ice",
+            "rice",
+            "fish",
+            "fish sauce",
+            "chicken",
+            "chicken broth",
+            "curry powder",
+            "sugar",
+            "onion",
+            "garlic",
+            "shrimp",
+            "chicken breast",
+            "cashew",
+            "egg",
+            "green peas",
+            "pea",
+            "raisin",
+            "green onion",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Tuna Pasta Salad",
@@ -852,7 +1537,24 @@
             "Vitamin C": "13mg",
             "Calcium": "26mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "fusilli pasta",
+            "tuna",
+            "gherkins pickles",
+            "pickle",
+            "bell pepper",
+            "pepper",
+            "red bell pepper",
+            "celery",
+            "onion",
+            "red onion",
+            "egg",
+            "mayonnaise",
+            "ice",
+            "pickle juice",
+            "salt"
+        ]
     },
     {
         "title": "Sotanghon at Bola-Bola Soup",
@@ -874,7 +1576,32 @@
             "Vitamin C": "15mg",
             "Calcium": "76mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "shallot",
+            "garlic",
+            "chicken",
+            "chicken broth",
+            "noodles",
+            "sotanghon noodles",
+            "pepper",
+            "salt",
+            "cabbage",
+            "napa cabbage",
+            "celery",
+            "kinchay",
+            "ground chicken",
+            "green onion",
+            "onion",
+            "chestnut",
+            "clove garlic",
+            "carrot",
+            "soy sauce",
+            "black pepper",
+            "ground black pepper"
+        ]
     },
     {
         "title": "Ginisang Togue at Tokwa",
@@ -896,7 +1623,19 @@
             "Vitamin C": "17mg",
             "Calcium": "134mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "tofu",
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "carrot",
+            "bean",
+            "bean sprout",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Arroz Valenciana",
@@ -918,7 +1657,34 @@
             "Vitamin C": "54mg",
             "Calcium": "48mg",
             "Iron": "4mg"
-        }
+        },
+        "ingredients": [
+            "ice",
+            "long-grain rice",
+            "rice",
+            "glutinous rice",
+            "oil",
+            "olive oil",
+            "onion",
+            "garlic",
+            "chicken",
+            "chicken thigh",
+            "saffron",
+            "fish",
+            "fish sauce",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "chicken broth",
+            "tomato",
+            "tomato paste",
+            "bell pepper",
+            "green bell pepper",
+            "pepper",
+            "red bell pepper",
+            "green peas",
+            "pea"
+        ]
     },
     {
         "title": "Sinangag",
@@ -938,7 +1704,17 @@
             "Vitamin C": "2.19mg",
             "Calcium": "28.47mg",
             "Iron": "0.43mg"
-        }
+        },
+        "ingredients": [
+            "ice",
+            "rice",
+            "white rice",
+            "canola oil",
+            "oil",
+            "garlic",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Bringhe",
@@ -960,7 +1736,39 @@
             "Vitamin C": "34.4mg",
             "Calcium": "55mg",
             "Iron": "5.1mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "chicken",
+            "chicken thigh",
+            "onion",
+            "garlic",
+            "fish",
+            "fish sauce",
+            "glutinous rice",
+            "ice",
+            "rice",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "chicken broth",
+            "water",
+            "carrot",
+            "bell pepper",
+            "pepper",
+            "red bell pepper",
+            "green bell pepper",
+            "green peas",
+            "pea",
+            "raisin",
+            "turmeric powder",
+            "salt",
+            "egg",
+            "banana",
+            "banana leave",
+            "banana leaves"
+        ]
     },
     {
         "title": "Filipino-style Macaroni Salad",
@@ -982,7 +1790,26 @@
             "Vitamin C": "5.6mg",
             "Calcium": "186mg",
             "Iron": "1.7mg"
-        }
+        },
+        "ingredients": [
+            "chicken",
+            "chicken breast",
+            "carrot",
+            "ham",
+            "egg",
+            "pineapple",
+            "cheese",
+            "eden",
+            "pickle",
+            "sweet pickle relish",
+            "raisin",
+            "onion",
+            "mayonnaise",
+            "condensed milk",
+            "milk",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Asian Cucumber Tomato Avocado Salad",
@@ -1003,7 +1830,24 @@
             "Vitamin C": "17.7mg",
             "Calcium": "29mg",
             "Iron": "0.8mg"
-        }
+        },
+        "ingredients": [
+            "cucumber",
+            "tomato",
+            "avocado",
+            "onion",
+            "red onion",
+            "ice",
+            "rice",
+            "rice wine",
+            "rice wine vinegar",
+            "vinegar",
+            "wine",
+            "oil",
+            "sesame oil",
+            "sugar",
+            "salt"
+        ]
     },
     {
         "title": "Pineapple Coleslaw",
@@ -1025,7 +1869,18 @@
             "Vitamin C": "53mg",
             "Calcium": "62mg",
             "Iron": "0.9mg"
-        }
+        },
+        "ingredients": [
+            "cabbage",
+            "carrot",
+            "red cabbage",
+            "mayonnaise",
+            "vinegar",
+            "sugar",
+            "salt",
+            "pineapple",
+            "raisin"
+        ]
     },
     {
         "title": "Ginisang Upo with Pork",
@@ -1046,7 +1901,22 @@
             "Vitamin C": "6.8mg",
             "Calcium": "18mg",
             "Iron": "0.4mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "pork",
+            "pork belly",
+            "tomato",
+            "water",
+            "upo",
+            "oyster",
+            "oyster sauce",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Pancit Upo",
@@ -1065,7 +1935,29 @@
             "Vitamin C": "1.7mg",
             "Calcium": "19mg",
             "Iron": "0.5mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "pork",
+            "pork belly",
+            "annatto",
+            "annatto powder",
+            "water",
+            "upo",
+            "ice",
+            "noodles",
+            "pancit bihon",
+            "rice",
+            "rice noodle",
+            "rice noodles",
+            "oyster",
+            "oyster sauce",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Pancit Bihon Guisado",
@@ -1087,7 +1979,34 @@
             "Vitamin C": "45.4mg",
             "Calcium": "110mg",
             "Iron": "2.3mg"
-        }
+        },
+        "ingredients": [
+            "chicken",
+            "chicken stock",
+            "soy sauce",
+            "ice",
+            "noodles",
+            "rice",
+            "rice noodle",
+            "rice noodles",
+            "oil",
+            "shrimp",
+            "ham",
+            "pork",
+            "pork ham",
+            "pork hamonado",
+            "onion",
+            "garlic",
+            "chicken breast",
+            "carrot",
+            "celery",
+            "cabbage",
+            "pepper",
+            "salt",
+            "green onion",
+            "calamansi",
+            "lemon"
+        ]
     },
     {
         "title": "Lumpiang Hubad",
@@ -1108,7 +2027,35 @@
             "Vitamin C": "28.5mg",
             "Calcium": "158mg",
             "Iron": "3.6mg"
-        }
+        },
+        "ingredients": [
+            "tofu",
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "fish",
+            "fish sauce",
+            "singkamas",
+            "carrot",
+            "kamote",
+            "bean",
+            "beans",
+            "garbanzo",
+            "garbanzo beans",
+            "green bean",
+            "green beans",
+            "pepper",
+            "salt",
+            "soy sauce",
+            "brown sugar",
+            "sugar",
+            "corn",
+            "pea",
+            "peanut",
+            "butter",
+            "peanut butter"
+        ]
     },
     {
         "title": "Yang Chow Fried Rice",
@@ -1131,7 +2078,24 @@
             "Vitamin C": "19mg",
             "Calcium": "80mg",
             "Iron": "2.2mg"
-        }
+        },
+        "ingredients": [
+            "day-old rice",
+            "ice",
+            "rice",
+            "oil",
+            "onion",
+            "garlic",
+            "sausage",
+            "shrimp",
+            "pea",
+            "sweet pea",
+            "soy sauce",
+            "green onion",
+            "pepper",
+            "salt",
+            "egg"
+        ]
     },
     {
         "title": "Thai Mango Salad",
@@ -1153,7 +2117,28 @@
             "Vitamin C": "135.3mg",
             "Calcium": "60mg",
             "Iron": "2.2mg"
-        }
+        },
+        "ingredients": [
+            "ice",
+            "lime",
+            "fish",
+            "fish sauce",
+            "brown sugar",
+            "sugar",
+            "oil",
+            "chili",
+            "chili pepper",
+            "pepper",
+            "coconut",
+            "indian mango",
+            "mango",
+            "bean",
+            "bean sprout",
+            "pea",
+            "peanut",
+            "basil",
+            "basil leaves"
+        ]
     },
     {
         "title": "Ginataang Sigarilyas at Kalabasa",
@@ -1178,7 +2163,25 @@
             "Vitamin C": "32mg",
             "Calcium": "123mg",
             "Iron": "3mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "shrimp",
+            "fish",
+            "fish sauce",
+            "kalabasa",
+            "bean",
+            "beans",
+            "sigarilyas",
+            "coconut",
+            "coconut cream",
+            "cream",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Ginisang Ampalaya Leaves with Tinapa",
@@ -1203,7 +2206,18 @@
             "Vitamin C": "5mg",
             "Calcium": "18mg",
             "Iron": "0.5mg"
-        }
+        },
+        "ingredients": [
+            "ampalaya",
+            "ampalaya leaves",
+            "oil",
+            "onion",
+            "garlic",
+            "tomato",
+            "tinapa",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Laswa",
@@ -1228,7 +2242,22 @@
             "Vitamin C": "45mg",
             "Calcium": "76mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "water",
+            "onion",
+            "clove garlic",
+            "garlic",
+            "shrimp",
+            "sitaw",
+            "egg",
+            "eggplant",
+            "ampalaya",
+            "okra",
+            "patola",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Java Rice",
@@ -1250,7 +2279,23 @@
             "Vitamin C": "20mg",
             "Calcium": "23mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "ice",
+            "rice",
+            "butter",
+            "oil",
+            "shallot",
+            "garlic",
+            "bell pepper",
+            "pepper",
+            "red bell pepper",
+            "annatto",
+            "annatto powder",
+            "turmeric powder",
+            "soy sauce",
+            "salt"
+        ]
     },
     {
         "title": "Chicken Potato Salad",
@@ -1272,7 +2317,24 @@
             "Vitamin C": "27mg",
             "Calcium": "105mg",
             "Iron": "6mg"
-        }
+        },
+        "ingredients": [
+            "potato",
+            "chicken",
+            "chicken breast",
+            "carrot",
+            "egg",
+            "onion",
+            "pineapple",
+            "pickle",
+            "sweet pickle relish",
+            "ham",
+            "mayonnaise",
+            "condensed milk",
+            "milk",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Tortang Talong",
@@ -1295,7 +2357,14 @@
             "Vitamin C": "10mg",
             "Calcium": "66mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "egg",
+            "eggplant",
+            "pepper",
+            "salt",
+            "oil"
+        ]
     },
     {
         "title": "Suam na Mais",
@@ -1317,7 +2386,21 @@
             "Vitamin C": "35mg",
             "Calcium": "202mg",
             "Iron": "4mg"
-        }
+        },
+        "ingredients": [
+            "corn",
+            "white corn",
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "shrimp",
+            "shrimp paste",
+            "water",
+            "pepper",
+            "salt",
+            "spinach"
+        ]
     },
     {
         "title": "Chop Suey",
@@ -1339,6 +2422,28 @@
             "Vitamin C": "165.6mg",
             "Calcium": "103mg",
             "Iron": "2.6mg"
-        }
+        },
+        "ingredients": [
+            "carrot",
+            "broccoli",
+            "cauliflower",
+            "cabbage",
+            "bell pepper",
+            "pepper",
+            "red bell pepper",
+            "canola oil",
+            "oil",
+            "chicken",
+            "chicken liver",
+            "onion",
+            "garlic",
+            "chicken thigh",
+            "oyster",
+            "oyster sauce",
+            "corn",
+            "egg",
+            "quail egg",
+            "salt"
+        ]
     }
 ]

@@ -22,7 +22,23 @@
             "Vitamin C": "3mg",
             "Calcium": "23mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "vinegar",
+            "water",
+            "brown sugar",
+            "sugar",
+            "salt",
+            "pepper",
+            "chicken",
+            "chicken liver",
+            "chicken livers",
+            "breadcrumb"
+        ]
     },
     {
         "title": "Ginisang Bagoong",
@@ -42,7 +58,19 @@
             "Vitamin C": "1mg",
             "Calcium": "31mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "bagoong",
+            "bagoong alamang",
+            "canola oil",
+            "oil",
+            "sugar",
+            "chili",
+            "chili pepper",
+            "pepper",
+            "corn",
+            "water"
+        ]
     },
     {
         "title": "Minatamis na Bao (Coconut Jam)",
@@ -64,7 +92,15 @@
             "Vitamin C": "1mg",
             "Calcium": "15mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "coconut",
+            "coconut cream",
+            "cream",
+            "brown sugar",
+            "dark brown sugar",
+            "sugar"
+        ]
     },
     {
         "title": "Pineapple Salsa",
@@ -85,7 +121,16 @@
             "Vitamin C": "222mg",
             "Calcium": "71mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "pineapple",
+            "onion",
+            "cilantro",
+            "pepper",
+            "serrano",
+            "lime",
+            "salt"
+        ]
     },
     {
         "title": "Tomato Grilled Eggplant and Salted Egg Salad",
@@ -106,7 +151,22 @@
             "Vitamin C": "10.9mg",
             "Calcium": "37mg",
             "Iron": "1.1mg"
-        }
+        },
+        "ingredients": [
+            "egg",
+            "eggplant",
+            "grape tomatoes",
+            "tomato",
+            "salt",
+            "salted duck egg",
+            "green onion",
+            "onion",
+            "vinegar",
+            "fish",
+            "fish sauce",
+            "shallot",
+            "pepper"
+        ]
     },
     {
         "title": "Peppered Strawberry Jam",
@@ -128,7 +188,18 @@
             "Vitamin C": "8mg",
             "Calcium": "2mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "strawberries",
+            "sugar",
+            "ice",
+            "lemon",
+            "lemon juice",
+            "butter",
+            "black pepper",
+            "ground black pepper",
+            "pepper"
+        ]
     },
     {
         "title": "Chicken Salad Sandwich Spread",
@@ -150,7 +221,21 @@
             "Vitamin C": "7.7mg",
             "Calcium": "33mg",
             "Iron": "1.2mg"
-        }
+        },
+        "ingredients": [
+            "chicken",
+            "egg",
+            "hard boiled egg",
+            "oil",
+            "pineapple",
+            "sweet relish",
+            "onion",
+            "mayonnaise",
+            "condensed milk",
+            "milk",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Pickled Mangoes (Burong Mangga)",
@@ -168,7 +253,18 @@
             "Vitamin C": "31.3mg",
             "Calcium": "13mg",
             "Iron": "0.1mg"
-        }
+        },
+        "ingredients": [
+            "green mango",
+            "mango",
+            "vinegar",
+            "sugar",
+            "kosher salt",
+            "salt",
+            "chili",
+            "chili pepper",
+            "pepper"
+        ]
     },
     {
         "title": "Easy Yema Spread",
@@ -189,7 +285,15 @@
             "Vitamin C": "1.3mg",
             "Calcium": "158mg",
             "Iron": "0.3mg"
-        }
+        },
+        "ingredients": [
+            "condensed milk",
+            "milk",
+            "egg",
+            "egg yolk",
+            "butter",
+            "salt"
+        ]
     },
     {
         "title": "Toast Garlic",
@@ -209,7 +313,12 @@
             "Vitamin C": "1mg",
             "Calcium": "6mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "garlic"
+        ]
     },
     {
         "title": "Cheese Pineapple Sandwich Spread",
@@ -231,6 +340,13 @@
             "Vitamin C": "8.8mg",
             "Calcium": "311mg",
             "Iron": "0.5mg"
-        }
+        },
+        "ingredients": [
+            "pineapple",
+            "cheese",
+            "eden",
+            "mayonnaise",
+            "salt"
+        ]
     }
 ]

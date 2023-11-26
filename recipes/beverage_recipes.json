@@ -23,9 +23,11 @@
             "Iron": "0.3mg"
         },
         "ingredients": [
-            "Mangoes",
-            "Milk",
-            "Sugar"
+            "mango",
+            "philippine mango",
+            "milk",
+            "sugar",
+            "ice"
         ]
     },
     {
@@ -50,11 +52,15 @@
             "Iron": "6.1mg"
         },
         "ingredients": [
-            "Agar",
-            "Young coconut",
-            "Coconut juice",
-            "Coconut milk",
-            "Pandan extract"
+            "coconut",
+            "coconut milk",
+            "milk",
+            "coconut juice",
+            "ice",
+            "condensed milk",
+            "agar",
+            "sugar",
+            "pandan"
         ]
     },
     {
@@ -79,10 +85,12 @@
             "Iron": "1mg"
         },
         "ingredients": [
-            "Buko",
-            "Coconut juice",
-            "Lychee",
-            "Sugar"
+            "coconut",
+            "coconut meat",
+            "coconut juice",
+            "ice",
+            "lychee",
+            "sugar"
         ]
     },
     {
@@ -102,11 +110,10 @@
             "Iron": "2.2mg"
         },
         "ingredients": [
-            "Tamarind Drink",
-            "Cucumber Lime Smoothie",
-            "Mango Nectar",
-            "Horchata",
-            "Buko Lychee Juice"
+            "cantaloupe",
+            "simple syrup",
+            "water",
+            "sugar"
         ]
     },
     {
@@ -127,11 +134,14 @@
             "Iron": "1mg"
         },
         "ingredients": [
-            "Tapioca Pearls",
-            "Tea",
-            "Water",
-            "Sugar",
-            "Milk"
+            "pea",
+            "tapioca",
+            "tapioca pearl",
+            "water",
+            "black tea",
+            "sugar",
+            "milk",
+            "ice"
         ]
     },
     {
@@ -153,9 +163,8 @@
             "Iron": "0.3mg"
         },
         "ingredients": [
-            "4 large mangoes (about 2 cups pulp)",
-            "1 cup water",
-            "1 cup sugar"
+            "mango",
+            "sugar"
         ]
     },
     {
@@ -178,8 +187,8 @@
             "Iron": "1mg"
         },
         "ingredients": [
-            "instant coffee granules",
-            "white granulated sugar",
+            "coffee",
+            "sugar",
             "water",
             "milk"
         ]
@@ -200,9 +209,18 @@
             "Iron": "0.6mg"
         },
         "ingredients": [
-            "Simple syrup",
-            "Sago",
-            "Gulaman"
+            "sago",
+            "gulaman",
+            "arnibal syrup",
+            "water",
+            "banana",
+            "banana essence",
+            "vanilla",
+            "ice",
+            "sugar",
+            "panutsa",
+            "brown sugar",
+            "dark brown sugar"
         ]
     },
     {
@@ -228,7 +246,11 @@
         },
         "ingredients": [
             "milk",
+            "tablea",
             "tablea de cacao",
+            "butter",
+            "pea",
+            "peanut",
             "peanut butter"
         ]
     },
@@ -252,9 +274,11 @@
             "Iron": "1mg"
         },
         "ingredients": [
-            "simple syrup",
+            "sugar",
+            "water",
+            "calamansi",
             "calamansi juice",
-            "water"
+            "ice"
         ]
     }
 ]

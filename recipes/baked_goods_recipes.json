@@ -16,7 +16,17 @@
             "Sugar": "10g",
             "Vitamin A": "473IU",
             "Calcium": "5mg"
-        }
+        },
+        "ingredients": [
+            "butter",
+            "salt",
+            "salted butter",
+            "powdered sugar",
+            "sugar",
+            "vanilla",
+            "flour",
+            "pinipig"
+        ]
     },
     {
         "title": "Buko Pie (Filipino Coconut Pie)",
@@ -38,7 +48,26 @@
             "Vitamin C": "4.3mg",
             "Calcium": "39mg",
             "Iron": "3.3mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "salt",
+            "lard",
+            "water",
+            "ice",
+            "lemon",
+            "lemon juice",
+            "vinegar",
+            "corn",
+            "cornstarch",
+            "coconut",
+            "coconut water",
+            "cream",
+            "sugar",
+            "coconut meat",
+            "egg",
+            "milk"
+        ]
     },
     {
         "title": "Crema de Fruta",
@@ -59,7 +88,27 @@
             "Vitamin C": "2mg",
             "Calcium": "135mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "cake flour",
+            "flour",
+            "baking powder",
+            "salt",
+            "egg",
+            "egg yolk",
+            "sugar",
+            "oil",
+            "vanilla",
+            "cream",
+            "tartar",
+            "corn",
+            "cornstarch",
+            "milk",
+            "butter",
+            "gelatin",
+            "fruit cocktail",
+            "ice"
+        ]
     },
     {
         "title": "Yema Bread Rolls",
@@ -81,7 +130,19 @@
             "Vitamin C": "3mg",
             "Calcium": "82mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "yeast",
+            "milk",
+            "powdered sugar",
+            "sugar",
+            "butter",
+            "egg",
+            "flour",
+            "salt",
+            "potato",
+            "condensed milk"
+        ]
     },
     {
         "title": "Pandesal",
@@ -101,7 +162,18 @@
             "Vitamin A": "95IU",
             "Calcium": "22mg",
             "Iron": "1.3mg"
-        }
+        },
+        "ingredients": [
+            "water",
+            "yeast",
+            "milk",
+            "butter",
+            "egg",
+            "sugar",
+            "salt",
+            "flour",
+            "breadcrumb"
+        ]
     },
     {
         "title": "Beef Empanada",
@@ -123,7 +195,31 @@
             "Vitamin C": "6mg",
             "Calcium": "26mg",
             "Iron": "2.5mg"
-        }
+        },
+        "ingredients": [
+            "butter",
+            "flour",
+            "sugar",
+            "salt",
+            "water",
+            "canola oil",
+            "oil",
+            "onion",
+            "clove garlic",
+            "garlic",
+            "beef",
+            "ground beef",
+            "tomato",
+            "tomato sauce",
+            "potato",
+            "carrot",
+            "pea",
+            "sweet pea",
+            "raisin",
+            "pepper",
+            "egg",
+            "milk"
+        ]
     },
     {
         "title": "Banana Pandan Bread",
@@ -145,7 +241,20 @@
             "Vitamin C": "3mg",
             "Calcium": "131mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "butter",
+            "egg",
+            "brown sugar",
+            "sugar",
+            "salt",
+            "flour",
+            "baking powder",
+            "banana",
+            "saba",
+            "pandan",
+            "cashew"
+        ]
     },
     {
         "title": "Corned Beef Pandesal",
@@ -166,7 +275,25 @@
             "Vitamin C": "4.1mg",
             "Calcium": "24mg",
             "Iron": "1.4mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "garlic",
+            "onion",
+            "beef",
+            "corn",
+            "corned beef",
+            "water",
+            "yeast",
+            "milk",
+            "butter",
+            "egg",
+            "sugar",
+            "salt",
+            "flour",
+            "breadcrumb"
+        ]
     },
     {
         "title": "Pineapple Upside Down Cake",
@@ -188,7 +315,30 @@
             "Vitamin C": "5mg",
             "Calcium": "131mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "butter",
+            "brown sugar",
+            "light brown sugar",
+            "sugar",
+            "ice",
+            "lemon",
+            "lemon juice",
+            "pineapple",
+            "pineapple rings",
+            "maraschino cherries",
+            "oil",
+            "granulated sugar",
+            "egg",
+            "flour",
+            "baking powder",
+            "salt",
+            "milk",
+            "cream",
+            "sour cream",
+            "pineapple juice",
+            "vanilla"
+        ]
     },
     {
         "title": "Ube Mamon",
@@ -208,7 +358,17 @@
             "Vitamin A": "150IU",
             "Calcium": "70mg",
             "Iron": "1.6mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "baking powder",
+            "sugar",
+            "milk",
+            "oil",
+            "ube",
+            "cream",
+            "tartar"
+        ]
     },
     {
         "title": "Mango Bread Loaf",
@@ -230,7 +390,21 @@
             "Vitamin C": "1.1mg",
             "Calcium": "16mg",
             "Iron": "1.7mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "sugar",
+            "cinnamon",
+            "baking soda",
+            "salt",
+            "oil",
+            "egg",
+            "mango",
+            "raisin",
+            "ice",
+            "lemon",
+            "lemon juice"
+        ]
     },
     {
         "title": "Biscocho",
@@ -248,7 +422,12 @@
             "Sugar": "12g",
             "Vitamin A": "710IU",
             "Calcium": "9mg"
-        }
+        },
+        "ingredients": [
+            "pandesal roll",
+            "butter",
+            "sugar"
+        ]
     },
     {
         "title": "Royal Bibingka",
@@ -269,7 +448,24 @@
             "Vitamin C": "0.6mg",
             "Calcium": "162mg",
             "Iron": "1.5mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "sugar",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "egg",
+            "butter",
+            "margarine",
+            "cheddar cheese",
+            "cheese"
+        ]
     },
     {
         "title": "Kababayan",
@@ -293,7 +489,20 @@
             "Vitamin A": "73IU",
             "Calcium": "61mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "brown sugar",
+            "sugar",
+            "baking powder",
+            "baking soda",
+            "salt",
+            "egg",
+            "milk",
+            "canola oil",
+            "oil",
+            "vanilla"
+        ]
     },
     {
         "title": "Cebuana Torta Cake",
@@ -318,7 +527,21 @@
             "Vitamin C": "1mg",
             "Calcium": "134mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "baking powder",
+            "salt",
+            "egg",
+            "egg yolk",
+            "sugar",
+            "canola oil",
+            "oil",
+            "butter",
+            "milk",
+            "vanilla",
+            "margarine"
+        ]
     },
     {
         "title": "Corned Beef Hash Breakfast Pizza",
@@ -340,7 +563,24 @@
             "Vitamin C": "36mg",
             "Calcium": "269mg",
             "Iron": "4mg"
-        }
+        },
+        "ingredients": [
+            "oil",
+            "olive oil",
+            "pizza dough",
+            "cheddar cheese",
+            "cheese",
+            "beef",
+            "corn",
+            "corned beef",
+            "bell pepper",
+            "pepper",
+            "red bell pepper",
+            "green bell pepper",
+            "onion",
+            "red onion",
+            "egg"
+        ]
     },
     {
         "title": "Uraro Cookies",
@@ -364,7 +604,17 @@
             "Vitamin A": "59IU",
             "Calcium": "6mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "butter",
+            "sugar",
+            "egg",
+            "vanilla",
+            "flour",
+            "baking powder",
+            "arrowroot",
+            "salt"
+        ]
     },
     {
         "title": "Monay",
@@ -389,7 +639,17 @@
             "Vitamin C": "1mg",
             "Calcium": "67mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "yeast",
+            "sugar",
+            "milk",
+            "egg",
+            "butter",
+            "powdered milk",
+            "salt",
+            "flour"
+        ]
     },
     {
         "title": "Lengua de Gato",
@@ -413,7 +673,15 @@
             "Vitamin A": "81IU",
             "Calcium": "1mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "butter",
+            "sugar",
+            "egg",
+            "vanilla",
+            "flour",
+            "salt"
+        ]
     },
     {
         "title": "Otap",
@@ -438,7 +706,16 @@
             "Vitamin C": "1mg",
             "Calcium": "13mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "milk",
+            "yeast",
+            "sugar",
+            "salt",
+            "egg",
+            "butter",
+            "flour"
+        ]
     },
     {
         "title": "Moist Chocolate Cupcakes with Mocha Buttercream Frosting",
@@ -459,7 +736,22 @@
             "Vitamin A": "235IU",
             "Calcium": "11mg",
             "Iron": "1.2mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "sugar",
+            "cocoa",
+            "baking soda",
+            "salt",
+            "oil",
+            "vinegar",
+            "vanilla",
+            "chocolate chip",
+            "butter",
+            "milk",
+            "coffee",
+            "powdered sugar"
+        ]
     },
     {
         "title": "Tropical Magic Bars",
@@ -481,7 +773,21 @@
             "Vitamin C": "7mg",
             "Calcium": "174mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "lime",
+            "sugar",
+            "graham cracker",
+            "ham",
+            "butter",
+            "condensed milk",
+            "milk",
+            "chocolate chip",
+            "white chocolate chip",
+            "mango",
+            "pineapple",
+            "coconut"
+        ]
     },
     {
         "title": "Mango Bravo Cake",
@@ -503,7 +809,21 @@
             "Vitamin C": "10mg",
             "Calcium": "48mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "egg",
+            "sugar",
+            "canola oil",
+            "oil",
+            "mango",
+            "vanilla",
+            "flour",
+            "baking powder",
+            "cream",
+            "tartar",
+            "whipping cream",
+            "chocolate chip"
+        ]
     },
     {
         "title": "Chocolate Pandesal with Nutella Filling",
@@ -524,7 +844,25 @@
             "Vitamin A": "91IU",
             "Calcium": "41mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "water",
+            "yeast",
+            "sugar",
+            "milk",
+            "butter",
+            "egg",
+            "salt",
+            "cocoa",
+            "cocoa powder",
+            "flour",
+            "canola oil",
+            "oil",
+            "nutella",
+            "bread crumb",
+            "graham cracker",
+            "ham"
+        ]
     },
     {
         "title": "Pandan Pandesal with Ube Halaya Filling",
@@ -546,7 +884,22 @@
             "Vitamin C": "2mg",
             "Calcium": "24mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "water",
+            "yeast",
+            "milk",
+            "butter",
+            "egg",
+            "sugar",
+            "salt",
+            "pandan",
+            "flour",
+            "oil",
+            "breadcrumb",
+            "ube",
+            "ube halaya"
+        ]
     },
     {
         "title": "Siopao Bola-Bola",
@@ -568,7 +921,36 @@
             "Vitamin C": "1mg",
             "Calcium": "91mg",
             "Iron": "3mg"
-        }
+        },
+        "ingredients": [
+            "milk",
+            "dry yeast",
+            "yeast",
+            "sugar",
+            "salt",
+            "flour",
+            "baking powder",
+            "oil",
+            "lime",
+            "ground pork",
+            "pork",
+            "shrimp",
+            "green onion",
+            "onion",
+            "oyster",
+            "oyster sauce",
+            "sesame oil",
+            "pepper",
+            "corn",
+            "cornstarch",
+            "water",
+            "egg",
+            "salted egg",
+            "sausage",
+            "soy sauce",
+            "garlic",
+            "star anise"
+        ]
     },
     {
         "title": "Siopao Asado",
@@ -590,7 +972,29 @@
             "Vitamin C": "1mg",
             "Calcium": "88mg",
             "Iron": "3.3mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "pork",
+            "pork butt",
+            "water",
+            "soy sauce",
+            "oyster",
+            "oyster sauce",
+            "sugar",
+            "star anise",
+            "corn",
+            "cornstarch",
+            "milk",
+            "yeast",
+            "salt",
+            "flour",
+            "baking powder",
+            "lime"
+        ]
     },
     {
         "title": "Kalihim",
@@ -611,7 +1015,20 @@
             "Vitamin A": "185IU",
             "Calcium": "90mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "white bread",
+            "milk",
+            "egg",
+            "sugar",
+            "red food coloring",
+            "butter",
+            "vanilla",
+            "flour",
+            "yeast",
+            "salt",
+            "water"
+        ]
     },
     {
         "title": "Red Velvet Pandesal",
@@ -632,7 +1049,28 @@
             "Vitamin A": "222IU",
             "Calcium": "32mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "water",
+            "yeast",
+            "milk",
+            "butter",
+            "egg",
+            "sugar",
+            "salt",
+            "cocoa",
+            "cocoa powder",
+            "red food coloring",
+            "flour",
+            "canola oil",
+            "oil",
+            "bread crumb",
+            "cheese",
+            "cream",
+            "cream cheese",
+            "powdered sugar",
+            "vanilla"
+        ]
     },
     {
         "title": "Ube Cheese Pandesal",
@@ -654,7 +1092,22 @@
             "Vitamin C": "1mg",
             "Calcium": "115mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "yeast",
+            "granulated sugar",
+            "sugar",
+            "white granulated sugar",
+            "butter",
+            "egg",
+            "milk",
+            "ube",
+            "salt",
+            "flour",
+            "oil",
+            "cheese",
+            "bread crumb"
+        ]
     },
     {
         "title": "Calamansi Muffins",
@@ -675,7 +1128,22 @@
             "Vitamin C": "3.2mg",
             "Calcium": "31mg",
             "Iron": "1.5mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "sugar",
+            "salt",
+            "butter",
+            "egg",
+            "oil",
+            "calamansi",
+            "calamansi juice",
+            "ice",
+            "baking soda",
+            "cream",
+            "sour cream",
+            "powdered sugar"
+        ]
     },
     {
         "title": "Christmas Fruitcake",
@@ -697,7 +1165,31 @@
             "Vitamin C": "7mg",
             "Calcium": "83mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "margarine",
+            "brown sugar",
+            "sugar",
+            "light syrup",
+            "orange",
+            "orange concentrate",
+            "molasses",
+            "brandy",
+            "flour",
+            "baking powder",
+            "salt",
+            "nutmeg",
+            "allspice",
+            "ice",
+            "glazed cherries",
+            "glazed fruit",
+            "raisin",
+            "date",
+            "almond",
+            "almonds",
+            "cashew",
+            "pili nut"
+        ]
     },
     {
         "title": "Impossible Chocolate Flan Cake",
@@ -719,7 +1211,21 @@
             "Vitamin C": "2mg",
             "Calcium": "277mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "butter",
+            "dulce de leche",
+            "sugar",
+            "egg",
+            "flour",
+            "baking powder",
+            "baking soda",
+            "cocoa",
+            "cocoa powder",
+            "milk",
+            "condensed milk",
+            "vanilla"
+        ]
     },
     {
         "title": "Cheater's Siopao Bola Bola",
@@ -739,7 +1245,20 @@
             "Sugar": "7g",
             "Calcium": "30mg",
             "Iron": "2.1mg"
-        }
+        },
+        "ingredients": [
+            "ube",
+            "meatball",
+            "egg",
+            "quail egg",
+            "sugar",
+            "soy sauce",
+            "corn",
+            "cornstarch",
+            "canola oil",
+            "oil",
+            "salt"
+        ]
     },
     {
         "title": "Black Forest Swiss Roll Cake",
@@ -761,7 +1280,26 @@
             "Vitamin C": "0.3mg",
             "Calcium": "102mg",
             "Iron": "2.2mg"
-        }
+        },
+        "ingredients": [
+            "chocolate chip",
+            "cocoa",
+            "cocoa powder",
+            "flour",
+            "sugar",
+            "baking powder",
+            "baking soda",
+            "salt",
+            "egg",
+            "egg yolk",
+            "canola oil",
+            "oil",
+            "cream",
+            "heavy cream",
+            "icing sugar",
+            "maraschino cherries",
+            "butter"
+        ]
     },
     {
         "title": "Bicho-Bicho",
@@ -782,7 +1320,18 @@
             "Vitamin A": "300IU",
             "Calcium": "31mg",
             "Iron": "2.4mg"
-        }
+        },
+        "ingredients": [
+            "yeast",
+            "sugar",
+            "egg",
+            "milk",
+            "butter",
+            "salt",
+            "flour",
+            "canola oil",
+            "oil"
+        ]
     },
     {
         "title": "Silvanas",
@@ -803,7 +1352,21 @@
             "Vitamin A": "535IU",
             "Calcium": "33mg",
             "Iron": "2.5mg"
-        }
+        },
+        "ingredients": [
+            "egg",
+            "cream",
+            "tartar",
+            "sugar",
+            "cashew",
+            "flour",
+            "vanilla",
+            "water",
+            "egg yolk",
+            "butter",
+            "graham cracker",
+            "ham"
+        ]
     },
     {
         "title": "Sans Rival",
@@ -824,7 +1387,17 @@
             "Vitamin C": "0.1mg",
             "Calcium": "27mg",
             "Iron": "1.6mg"
-        }
+        },
+        "ingredients": [
+            "egg",
+            "cream",
+            "tartar",
+            "sugar",
+            "cashew",
+            "vanilla",
+            "egg yolk",
+            "butter"
+        ]
     },
     {
         "title": "Mini Egg Pies",
@@ -845,7 +1418,18 @@
             "Vitamin C": "1.4mg",
             "Calcium": "190mg",
             "Iron": "1.3mg"
-        }
+        },
+        "ingredients": [
+            "butter",
+            "flour",
+            "salt",
+            "sugar",
+            "water",
+            "egg",
+            "egg yolk",
+            "milk",
+            "condensed milk"
+        ]
     },
     {
         "title": "Sweet Potato Dinner Rolls",
@@ -867,7 +1451,21 @@
             "Vitamin C": "0.1mg",
             "Calcium": "11mg",
             "Iron": "1.4mg"
-        }
+        },
+        "ingredients": [
+            "yeast",
+            "water",
+            "granulated sugar",
+            "sugar",
+            "white granulated sugar",
+            "brown sugar",
+            "potato",
+            "sweet potato",
+            "butter",
+            "egg",
+            "salt",
+            "flour"
+        ]
     },
     {
         "title": "Yema Cake",
@@ -889,7 +1487,21 @@
             "Vitamin C": "2.6mg",
             "Calcium": "488mg",
             "Iron": "1.2mg"
-        }
+        },
+        "ingredients": [
+            "sugar",
+            "butter",
+            "milk",
+            "cake flour",
+            "flour",
+            "baking powder",
+            "vanilla",
+            "condensed milk",
+            "egg",
+            "egg yolk",
+            "almond",
+            "cheese"
+        ]
     },
     {
         "title": "Monggo Loaf Bread",
@@ -911,7 +1523,22 @@
             "Vitamin C": "1.1mg",
             "Calcium": "41mg",
             "Iron": "2.8mg"
-        }
+        },
+        "ingredients": [
+            "bean",
+            "beans",
+            "mung bean",
+            "red mung bean",
+            "sugar",
+            "water",
+            "flour",
+            "salt",
+            "dry yeast",
+            "yeast",
+            "butter",
+            "milk",
+            "egg"
+        ]
     },
     {
         "title": "Ube Crinkles (Purple Yam Crinkles)",
@@ -933,7 +1560,19 @@
             "Vitamin C": "0.5mg",
             "Calcium": "33mg",
             "Iron": "1.2mg"
-        }
+        },
+        "ingredients": [
+            "sugar",
+            "oil",
+            "egg",
+            "ube",
+            "ube jam",
+            "flour",
+            "baking powder",
+            "salt",
+            "violet food color",
+            "powdered sugar"
+        ]
     },
     {
         "title": "Pianono (Filipino Sponge Cake Roll)",
@@ -953,7 +1592,22 @@
             "Vitamin A": "450IU",
             "Calcium": "46mg",
             "Iron": "0.6mg"
-        }
+        },
+        "ingredients": [
+            "egg",
+            "cream",
+            "tartar",
+            "granulated sugar",
+            "sugar",
+            "milk",
+            "vanilla",
+            "flour",
+            "corn",
+            "cornstarch",
+            "baking powder",
+            "powdered sugar",
+            "margarine"
+        ]
     },
     {
         "title": "Pan de Coco",
@@ -975,7 +1629,23 @@
             "Vitamin C": "0.2mg",
             "Calcium": "28mg",
             "Iron": "1.6mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "sugar",
+            "dry yeast",
+            "yeast",
+            "milk",
+            "oil",
+            "salt",
+            "coconut",
+            "brown sugar",
+            "coconut milk",
+            "butter",
+            "vanilla",
+            "egg",
+            "water"
+        ]
     },
     {
         "title": "Filipino Coconut Macaroons",
@@ -997,7 +1667,17 @@
             "Vitamin C": "1.1mg",
             "Calcium": "103mg",
             "Iron": "0.9mg"
-        }
+        },
+        "ingredients": [
+            "butter",
+            "sugar",
+            "egg",
+            "condensed milk",
+            "milk",
+            "vanilla",
+            "flour",
+            "coconut"
+        ]
     },
     {
         "title": "Hawaiian Bread Pudding",
@@ -1019,7 +1699,25 @@
             "Vitamin C": "5.9mg",
             "Calcium": "135mg",
             "Iron": "0.7mg"
-        }
+        },
+        "ingredients": [
+            "pan de leche",
+            "pandesal roll",
+            "ice",
+            "pineapple",
+            "pineapple juice",
+            "raisin",
+            "cream",
+            "heavy cream",
+            "milk",
+            "egg",
+            "sugar",
+            "butter",
+            "coconut",
+            "brown sugar",
+            "nutmeg",
+            "cinnamon"
+        ]
     },
     {
         "title": "Cheese Puto",
@@ -1040,7 +1738,18 @@
             "Vitamin C": "0.2mg",
             "Calcium": "94mg",
             "Iron": "0.6mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "sugar",
+            "baking powder",
+            "egg",
+            "milk",
+            "butter",
+            "vanilla",
+            "cheddar cheese",
+            "cheese"
+        ]
     },
     {
         "title": "Cheese Cupcakes",
@@ -1061,6 +1770,19 @@
             "Vitamin C": "0.6mg",
             "Calcium": "134mg",
             "Iron": "0.8mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "baking powder",
+            "salt",
+            "butter",
+            "sugar",
+            "egg",
+            "condensed milk",
+            "milk",
+            "cheese",
+            "quick-melt",
+            "cheddar cheese"
+        ]
     }
 ]

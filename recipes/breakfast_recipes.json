@@ -22,7 +22,28 @@
             "Vitamin C": "1mg",
             "Calcium": "25mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "ground pork",
+            "lean ground pork",
+            "pork",
+            "pork fat",
+            "garlic",
+            "soy sauce",
+            "anisado wine",
+            "wine",
+            "vinegar",
+            "brown sugar",
+            "sugar",
+            "salt",
+            "black pepper",
+            "ground black pepper",
+            "pepper",
+            "paprika",
+            "hog casing",
+            "canola oil",
+            "oil"
+        ]
     },
     {
         "title": "Tortang Tahong",
@@ -44,7 +65,22 @@
             "Vitamin C": "16.2mg",
             "Calcium": "85mg",
             "Iron": "6mg"
-        }
+        },
+        "ingredients": [
+            "egg",
+            "pepper",
+            "salt",
+            "canola oil",
+            "oil",
+            "shallot",
+            "garlic",
+            "tomato",
+            "mussel",
+            "oyster",
+            "oyster sauce",
+            "green onion",
+            "onion"
+        ]
     },
     {
         "title": "Skinless Longganisa",
@@ -64,7 +100,24 @@
             "Vitamin C": "1.2mg",
             "Calcium": "21mg",
             "Iron": "0.7mg"
-        }
+        },
+        "ingredients": [
+            "ground pork",
+            "pork",
+            "brown sugar",
+            "sugar",
+            "garlic",
+            "soy sauce",
+            "vinegar",
+            "salt",
+            "black pepper",
+            "ground black pepper",
+            "pepper",
+            "corn",
+            "cornstarch",
+            "canola oil",
+            "oil"
+        ]
     },
     {
         "title": "Corned Beef Pandesal",
@@ -85,7 +138,25 @@
             "Vitamin C": "4.1mg",
             "Calcium": "24mg",
             "Iron": "1.4mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "garlic",
+            "onion",
+            "beef",
+            "corn",
+            "corned beef",
+            "water",
+            "yeast",
+            "milk",
+            "butter",
+            "egg",
+            "sugar",
+            "salt",
+            "flour",
+            "breadcrumb"
+        ]
     },
     {
         "title": "Mango Bread Loaf",
@@ -107,7 +178,21 @@
             "Vitamin C": "1.1mg",
             "Calcium": "16mg",
             "Iron": "1.7mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "sugar",
+            "cinnamon",
+            "baking soda",
+            "salt",
+            "oil",
+            "egg",
+            "mango",
+            "raisin",
+            "ice",
+            "lemon",
+            "lemon juice"
+        ]
     },
     {
         "title": "Tikoy",
@@ -131,7 +216,20 @@
             "Vitamin A": "59IU",
             "Calcium": "8mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "sugar",
+            "water",
+            "flour",
+            "glutinous rice",
+            "glutinous rice flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "egg"
+        ]
     },
     {
         "title": "Champorado",
@@ -155,7 +253,17 @@
             "Vitamin C": "0.4mg",
             "Calcium": "66mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "water",
+            "glutinous rice",
+            "ice",
+            "rice",
+            "tablea",
+            "tablea chocolate",
+            "sugar",
+            "milk"
+        ]
     },
     {
         "title": "Filipino Scrambled Eggs",
@@ -180,7 +288,15 @@
             "Vitamin C": "4mg",
             "Calcium": "32mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "egg",
+            "butter",
+            "tomato",
+            "onion",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Corned Beef Hash Breakfast Pizza",
@@ -202,7 +318,24 @@
             "Vitamin C": "36mg",
             "Calcium": "269mg",
             "Iron": "4mg"
-        }
+        },
+        "ingredients": [
+            "oil",
+            "olive oil",
+            "pizza dough",
+            "cheddar cheese",
+            "cheese",
+            "beef",
+            "corn",
+            "corned beef",
+            "bell pepper",
+            "pepper",
+            "red bell pepper",
+            "green bell pepper",
+            "onion",
+            "red onion",
+            "egg"
+        ]
     },
     {
         "title": "Bacon Fried Rice",
@@ -224,7 +357,20 @@
             "Vitamin C": "2.5mg",
             "Calcium": "32mg",
             "Iron": "7.7mg"
-        }
+        },
+        "ingredients": [
+            "ice",
+            "rice",
+            "white rice",
+            "bacon",
+            "onion",
+            "garlic",
+            "soy sauce",
+            "green onion",
+            "pepper",
+            "salt",
+            "egg"
+        ]
     },
     {
         "title": "Lugaw at Tokwa",
@@ -248,7 +394,26 @@
             "Vitamin C": "2mg",
             "Calcium": "184mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "glutinous rice",
+            "ice",
+            "rice",
+            "water",
+            "gin",
+            "ginger",
+            "salt",
+            "tofu",
+            "canola oil",
+            "oil",
+            "vinegar",
+            "soy sauce",
+            "pepper",
+            "sugar",
+            "shallot",
+            "chili",
+            "chili pepper"
+        ]
     },
     {
         "title": "Puto Maya and Sikwate",
@@ -272,7 +437,23 @@
             "Vitamin C": "19mg",
             "Calcium": "35mg",
             "Iron": "3mg"
-        }
+        },
+        "ingredients": [
+            "glutinous rice",
+            "ice",
+            "rice",
+            "gin",
+            "ginger",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "sugar",
+            "salt",
+            "mango",
+            "water",
+            "tablea",
+            "brown sugar"
+        ]
     },
     {
         "title": "Ginisang Corned Beef",
@@ -297,7 +478,19 @@
             "Vitamin C": "36mg",
             "Calcium": "22mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "potato",
+            "onion",
+            "garlic",
+            "beef",
+            "corn",
+            "corned beef",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Corned Beef Frittata",
@@ -322,7 +515,22 @@
             "Vitamin C": "22mg",
             "Calcium": "38mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "potato",
+            "onion",
+            "garlic",
+            "beef",
+            "corn",
+            "corned beef",
+            "pepper",
+            "salt",
+            "pea",
+            "sweet pea",
+            "egg"
+        ]
     },
     {
         "title": "Taho",
@@ -344,7 +552,17 @@
             "Vitamin C": "1mg",
             "Calcium": "50mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "brown sugar",
+            "dark brown sugar",
+            "sugar",
+            "pandan",
+            "pandan leaf",
+            "pea",
+            "sago",
+            "tofu"
+        ]
     },
     {
         "title": "Arroz a la Cubana",
@@ -369,7 +587,29 @@
             "Vitamin C": "25mg",
             "Calcium": "95mg",
             "Iron": "5mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "beef",
+            "ground beef",
+            "tomato",
+            "tomato sauce",
+            "soy sauce",
+            "sugar",
+            "pea",
+            "sweet pea",
+            "pepper",
+            "salt",
+            "banana",
+            "saba",
+            "egg",
+            "ice",
+            "rice",
+            "white rice"
+        ]
     },
     {
         "title": "Tinapa Fried Rice",
@@ -391,7 +631,22 @@
             "Vitamin C": "3.9mg",
             "Calcium": "54mg",
             "Iron": "1.7mg"
-        }
+        },
+        "ingredients": [
+            "ice",
+            "rice",
+            "canola oil",
+            "oil",
+            "egg",
+            "onion",
+            "garlic",
+            "tinapa",
+            "tinapa galunggong",
+            "green onion",
+            "soy sauce",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Beef Tapa",
@@ -412,7 +667,21 @@
             "Vitamin C": "1mg",
             "Calcium": "61mg",
             "Iron": "3mg"
-        }
+        },
+        "ingredients": [
+            "beef",
+            "beef sirloin",
+            "fish",
+            "fish sauce",
+            "brown sugar",
+            "sugar",
+            "garlic",
+            "black pepper",
+            "ground black pepper",
+            "pepper",
+            "canola oil",
+            "oil"
+        ]
     },
     {
         "title": "Calamansi Muffins",
@@ -433,7 +702,22 @@
             "Vitamin C": "3.2mg",
             "Calcium": "31mg",
             "Iron": "1.5mg"
-        }
+        },
+        "ingredients": [
+            "flour",
+            "sugar",
+            "salt",
+            "butter",
+            "egg",
+            "oil",
+            "calamansi",
+            "calamansi juice",
+            "ice",
+            "baking soda",
+            "cream",
+            "sour cream",
+            "powdered sugar"
+        ]
     },
     {
         "title": "Eggplant and Tomato Torta",
@@ -455,7 +739,17 @@
             "Vitamin C": "6mg",
             "Calcium": "38mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "egg",
+            "eggplant",
+            "onion",
+            "tomato",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Sinangag",
@@ -475,7 +769,17 @@
             "Vitamin C": "2.19mg",
             "Calcium": "28.47mg",
             "Iron": "0.43mg"
-        }
+        },
+        "ingredients": [
+            "ice",
+            "rice",
+            "white rice",
+            "canola oil",
+            "oil",
+            "garlic",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Chicken Tapa",
@@ -497,7 +801,20 @@
             "Vitamin C": "5mg",
             "Calcium": "36mg",
             "Iron": "2mg"
-        }
+        },
+        "ingredients": [
+            "chicken",
+            "chicken thigh",
+            "soy sauce",
+            "ice",
+            "lemon",
+            "lemon juice",
+            "garlic",
+            "brown sugar",
+            "sugar",
+            "salt",
+            "pepper"
+        ]
     },
     {
         "title": "Poqui Poqui",
@@ -520,7 +837,17 @@
             "Vitamin C": "26.4mg",
             "Calcium": "60mg",
             "Iron": "1.6mg"
-        }
+        },
+        "ingredients": [
+            "egg",
+            "eggplant",
+            "oil",
+            "onion",
+            "garlic",
+            "tomato",
+            "pepper",
+            "salt"
+        ]
     },
     {
         "title": "Filipino Tamales",
@@ -542,7 +869,33 @@
             "Vitamin C": "3.1mg",
             "Calcium": "28mg",
             "Iron": "3mg"
-        }
+        },
+        "ingredients": [
+            "chicken",
+            "pepper",
+            "salt",
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "coconut",
+            "coconut milk",
+            "milk",
+            "chicken broth",
+            "flour",
+            "ice",
+            "rice",
+            "rice flour",
+            "atsuete powder",
+            "atsuete powderwater",
+            "water",
+            "butter",
+            "pea",
+            "peanut",
+            "peanut butter",
+            "smooth peanut butter",
+            "egg"
+        ]
     },
     {
         "title": "Filipino Beef Tapa",
@@ -563,7 +916,21 @@
             "Vitamin C": "5mg",
             "Calcium": "58mg",
             "Iron": "5mg"
-        }
+        },
+        "ingredients": [
+            "soy sauce",
+            "calamansi",
+            "calamansi juice",
+            "ice",
+            "garlic",
+            "sugar",
+            "salt",
+            "pepper",
+            "beef",
+            "beef sirloin",
+            "canola oil",
+            "oil"
+        ]
     },
     {
         "title": "Daing na Bangus",
@@ -580,7 +947,18 @@
             "Potassium": "513mg",
             "Calcium": "22mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "bangus",
+            "vinegar",
+            "garlic",
+            "corn",
+            "pepper",
+            "peppercorn",
+            "salt",
+            "canola oil",
+            "oil"
+        ]
     },
     {
         "title": "Chicken Tocino",
@@ -602,7 +980,23 @@
             "Vitamin C": "4mg",
             "Calcium": "17mg",
             "Iron": "1mg"
-        }
+        },
+        "ingredients": [
+            "ice",
+            "pineapple",
+            "pineapple juice",
+            "banana",
+            "banana ketchup",
+            "ketchup",
+            "sugar",
+            "garlic",
+            "garlic powder",
+            "salt",
+            "chicken",
+            "chicken thigh",
+            "canola oil",
+            "oil"
+        ]
     },
     {
         "title": "Homemade Pork Tocino",
@@ -623,6 +1017,18 @@
             "Vitamin C": "0.8mg",
             "Calcium": "30mg",
             "Iron": "1.6mg"
-        }
+        },
+        "ingredients": [
+            "pork",
+            "pork butt",
+            "sugar",
+            "salt",
+            "garlic",
+            "garlic powder",
+            "pepper",
+            "red food coloring",
+            "canola oil",
+            "oil"
+        ]
     }
 ]
