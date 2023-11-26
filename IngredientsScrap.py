@@ -7,11 +7,10 @@ from colorama import init, Fore
 all_array = []  
 
 json_file_path = './recipes/dessert_recipes.json'
-
-
 with open(json_file_path, 'r') as json_file:
 
     data = json.load(json_file)
+    
     
  
 for recipe in data:
@@ -38,6 +37,7 @@ for recipe in data:
         
         for ingr in ingredients:
             ingr_name = ingr.text.lower()
+            if
             print(ingr_name)
     
 

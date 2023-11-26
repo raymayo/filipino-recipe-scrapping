@@ -1,27 +1,5 @@
 [
     {
-        "title": "Baby Back Ribs with Adobo Glaze",
-        "recipe-link": "https://www.kawalingpinoy.com/baby-back-ribs-adobo-glaze/",
-        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/04/baby-back-ribs-adobo-glaze-1-680x884.jpg",
-        "meal": "appetizer",
-        "nutrions": {
-            "Calories": "317kcal",
-            "Carbohydrates": "69g",
-            "Protein": "4g",
-            "Fat": "3g",
-            "Saturated Fat": "2g",
-            "Cholesterol": "8mg",
-            "Sodium": "1711mg",
-            "Potassium": "135mg",
-            "Fiber": "1g",
-            "Sugar": "62g",
-            "Vitamin A": "90IU",
-            "Vitamin C": "0.2mg",
-            "Calcium": "49mg",
-            "Iron": "1.4mg"
-        }
-    },
-    {
         "title": "Beef Salpicao",
         "recipe-link": "https://www.kawalingpinoy.com/beef-salpicao/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/10/beef-salpicao-8-680x884.jpg",
@@ -41,6 +19,63 @@
             "Vitamin C": "4mg",
             "Calcium": "50mg",
             "Iron": "5mg"
-        }
+        },
+        "ingredients": [
+            "ribeye steak",
+            "steak",
+            "pepper",
+            "salt",
+            "worcestershire sauce",
+            "soy sauce",
+            "brown sugar",
+            "sugar",
+            "chili",
+            "chili pepper",
+            "chili pepper flake",
+            "red chili",
+            "red chili pepper flake",
+            "butter",
+            "oil",
+            "olive oil",
+            "garlic"
+        ]
+    },
+    {
+        "title": "Rellenong Alimango",
+        "recipe-link": "https://www.kawalingpinoy.com/rellenong-alimango/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/12/rellenong-alimango-3-680x884.jpg",
+        "meal": "appetizer",
+        "nutrions": {
+            "Calories": "117kcal",
+            "Carbohydrates": "9g",
+            "Protein": "2g",
+            "Fat": "9g",
+            "Saturated Fat": "3g",
+            "Cholesterol": "10mg",
+            "Sodium": "1870mg",
+            "Potassium": "55mg",
+            "Fiber": "1g",
+            "Sugar": "2g",
+            "Vitamin A": "115IU",
+            "Vitamin C": "3.1mg",
+            "Calcium": "23mg",
+            "Iron": "0.4mg"
+        },
+        "ingredients": [
+            "crab",
+            "salt",
+            "water",
+            "butter",
+            "onion",
+            "garlic",
+            "bell pepper",
+            "pepper",
+            "red bell pepper",
+            "bread crumb",
+            "panko",
+            "mayonnaise",
+            "green onion",
+            "lemon"
+        ]
     }
 ]
