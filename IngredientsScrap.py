@@ -50,8 +50,8 @@ for recipe in data:
             final_ingr = re.sub(pattern, '', ingr_name).strip()
         #     print(final_ingr)
         # print()
-            ingredient_array.append(final_ingr)
-            print(final_ingr)   
+            # ingredient_array.append(final_ingr)
+            # print(final_ingr)   
             if final_ingr in all_array:
                 print()
             else :
