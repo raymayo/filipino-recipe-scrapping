@@ -31,33 +31,7 @@ for recipe in data:
     
     ingredients_container = container.findAll('ul', class_='wprm-recipe-ingredients');
 
-    
-    
-    # for ul in ingredients_container :
-        
-    #     ingredients = ul
-        
-    #     the_ingredients = ingredients.find_all('li', class_='wprm-recipe-ingredient')
-        
-    #     for ingr in ingredients:
-    #         ingr_name = ingr.text.lower()
-    #         for word in words_to_remove:
-    #             ingr_name = ingr_name.replace(word,'')
-            
-    #             for accepted_ingredient in all_ingredients:
-    #                 if accepted_ingredient in ingr_name:
-    #                     ingredient_array.append(accepted_ingredient)
-    #                     print(ingredient_array)
-    #                     json_key = 'ingredients'
-    #                     json_data = ingredient_array
-    #                     recipe[json_key] = json_data
-                        
-                        
-    #                     with open(json_file_path, 'w') as json_file:
-    #                         json.dump(data, json_file, indent=4)
-                   
-                   
-                   
+                
                             
                             
     for ul in ingredients_container:

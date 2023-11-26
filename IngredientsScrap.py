@@ -6,12 +6,12 @@ from colorama import init, Fore
 
 all_array = []  
 
-json_file_path = './recipes/dessert_recipes.json'
+json_file_path = './recipes/appetizer_recipes.json'
 with open(json_file_path, 'r') as json_file:
 
     data = json.load(json_file)
     
-    
+ingredients_array = []
  
 for recipe in data:
         
@@ -31,14 +31,17 @@ for recipe in data:
     
     ingredient_array = []
     
-    
+    print(recipe['recipe-link'])
     for ul in ingredients_container :
         ingredients = ul.findAll('li', class_='wprm-recipe-ingredient')
         
+
         for ingr in ingredients:
-            ingr_name = ingr.text.lower()
-            if
-            print(ingr_name)
+            ingr_name = ingr.find('span', class_='wprm-recipe-ingredient-name').text.lower().strip()
+            result_name = re.sub(r'\([^)]*\)', '', ingr_name).strip().split(',')
+            new_ingr = result_name[0].rstrip().split('to taste')
+            print(new_ingr[0])
+    print()
     
 
     
