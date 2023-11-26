@@ -115,66 +115,6 @@ import re
 
 
 
-
-
-
-# # json_file_path = './test.json'
-# json_file_path = './recipes/appetizer_recipes.json'
-
-# # Open the JSON file for reading
-# with open(json_file_path, 'r') as json_file:
-#     # Load the JSON data
-#     data = json.load(json_file)
-
-# # Now, 'data' contains the content of the JSON file as a Python data structure
-# # You can access and manipulate the data as needed
-# for recipe in data:
-        
-#     base_url = recipe['recipe-link']
-    
-#     url = f'{base_url}'
-#     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.1 Safari/537.36'} 
-#     response = requests.get(url, headers=headers)
-#     soup = BeautifulSoup(response.text, 'html.parser')
-#     container = soup.find('article', class_='status-publish')
-#     ingredients_container = container.find_all('ul');
-    
-#     if len(ingredients_container) >= 2:
-#         second_result = ingredients_container[2]
-#         ingredients = second_result.find_all('li')
-        
-#         ingredient_array = []
-        
-#         for ingr in ingredients :
-            
-#             ingr_name = ingr.text.split('-')
-#             name_sorted = ingr_name[0].lower().split(', ')
-            
-#             for name in name_sorted :
-#                 print()
-                
-#                 ingredient_array += name.split(' and ')
-            
-#             # print(ingredient_array)
-            
-#             # ingredient_array.append(name_sorted.lower())
-#                 new_key = 'ingredients'
-#                 new_data = ingredient_array
-#                 recipe[new_key] = new_data
-                
-#                 print(ingredient_array)
-                
-#                 with open(json_file_path, 'w') as json_file:
-#                     json.dump(data, json_file, indent=4)
-                    
-#                     print('all saved')
-        
-#     elif  len(ingredients_container) == 1 :
-#         print("RESULT IS SHORT")   
-#     else:
-#         print("Not enough results")
-        
-        
         
         
         

@@ -21,19 +21,3 @@ with open("./all3.json", "r") as file:
 print(Fore.RED + 'ALL INGREDIENTS HAVE BEEN SAVED!!!')
 
 
-# all_ingredients = []
-
-# with open("./all2.json", "r") as file:
-#     # Load the JSON array
-#     data = json.load(file)
-    
-#     for ingredient in data:
-#             all_ingredients.append(ingredient)
-#             all_ingredients.sort()
-            
-#             with open('all3.json', 'w') as json_file:
-#                 json.dump(all_ingredients, json_file, indent=4)
-                    
-# print(Fore.RED + 'ALL INGREDIENTS HAVE BEEN SAVED!!!')
-
-
