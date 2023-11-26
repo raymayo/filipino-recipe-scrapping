@@ -4,7 +4,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/sinigang-na-baka/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/01/sinigang-na-baka-1-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "608kcal",
             "Carbohydrates": "42g",
             "Protein": "51g",
@@ -41,7 +41,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/chicken-mami/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/03/chicken-mami-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "343kcal",
             "Carbohydrates": "6g",
             "Protein": "13g",
@@ -89,7 +89,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/tinolang-palaka/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/10/tinolang-palaka-6-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "61kcal",
             "Carbohydrates": "6g",
             "Protein": "2g",
@@ -126,7 +126,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/chicken-halang-halang/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/05/chicken-halang-halang-8-1-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "422.04kcal",
             "Carbohydrates": "10.7g",
             "Protein": "23.9g",
@@ -171,7 +171,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/pancit-lomi/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/06/pancit-lomi-soup-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "379kcal",
             "Carbohydrates": "40g",
             "Protein": "25g",
@@ -214,7 +214,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/batchoy-tagalog/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/12/batchoy-tagalog-2-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "179kcal",
             "Carbohydrates": "14g",
             "Protein": "18g",
@@ -256,7 +256,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/chicken-corn-soup/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/11/chicken-corn-soup-2-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "185kcal",
             "Carbohydrates": "16g",
             "Protein": "13g",
@@ -295,7 +295,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/thai-chicken-salad-spicy-peanut-dressing/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/02/thai-chicken-salad-1-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "662kcal",
             "Carbohydrates": "32g",
             "Protein": "58g",
@@ -353,7 +353,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/chicken-binakol/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/04/Chicken-Binakol-4-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "575kcal",
             "Carbohydrates": "29g",
             "Protein": "36g",
@@ -395,7 +395,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/tinolang-manok-sa-upo/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/05/tinolang-manok-upo-4-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "507kcal",
             "Carbohydrates": "11g",
             "Protein": "35g",
@@ -433,7 +433,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/bulalo-mami/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/05/bulalo-mami-6-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "749kcal",
             "Carbohydrates": "14g",
             "Protein": "78g",
@@ -476,7 +476,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/kake-udon/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/10/kake-udon-6-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "134kcal",
             "Carbohydrates": "11g",
             "Protein": "12g",
@@ -505,7 +505,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/bulalo/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/11/bulalo-5-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "310kcal",
             "Carbohydrates": "9g",
             "Protein": "49g",
@@ -548,7 +548,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ginisang-munggo-sotanghon/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/ginisang-munggo-sotanghon-4-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "238kcal",
             "Carbohydrates": "34g",
             "Protein": "18g",
@@ -586,7 +586,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/kabocha-salad/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/10/Korean-Kabocha-Salad-4-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "160kcal",
             "Carbohydrates": "19g",
             "Protein": "2g",
@@ -620,7 +620,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/kansi/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/09/kansi-2-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "360kcal",
             "Carbohydrates": "40g",
             "Protein": "31g",
@@ -666,7 +666,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/miswa-at-patola-soup/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/01/miswa-patola-soup-3-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "271kcal",
             "Carbohydrates": "20g",
             "Protein": "12g",
@@ -703,7 +703,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/sinigang-na-salmon-belly-sa-kamias/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/07/sinigang-salmon-belly-kamias-2-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "243kcal",
             "Carbohydrates": "17g",
             "Protein": "27g",
@@ -741,7 +741,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/picadillo-soup/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/filipino-picadillo-soup-2-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "351kcal",
             "Carbohydrates": "7g",
             "Protein": "51g",
@@ -775,7 +775,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/chicken-pochero/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/12/chicken-pochero-7-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "853kcal",
             "Carbohydrates": "54g",
             "Protein": "52g",
@@ -823,7 +823,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/cocido/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/12/cocido-madrileno-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "503kcal",
             "Carbohydrates": "42g",
             "Protein": "28g",
@@ -873,7 +873,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/sinigang-na-inihaw-na-liempo/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/02/sinigang-na-inihaw-liempo-3-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "852kcal",
             "Carbohydrates": "15g",
             "Protein": "18g",
@@ -916,7 +916,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/sinigang-na-hito-sa-miso/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/sinigang-hito-sa-miso-9-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "450kcal",
             "Carbohydrates": "33g",
             "Protein": "49g",
@@ -955,7 +955,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/sinigang-na-baka-sa-bayabas/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/10/sinigang-na-baka-sa-bayabas-2-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "311kcal",
             "Carbohydrates": "29g",
             "Protein": "35g",
@@ -992,7 +992,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/corned-beef-nilaga/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/08/nilagang-corned-beef-3-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "256kcal",
             "Carbohydrates": "20g",
             "Protein": "16g",
@@ -1032,7 +1032,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/lugaw-at-tokwa/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/05/lugaw-at-tokwa-3-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "249kcal",
             "Carbohydrates": "25g",
             "Protein": "15g",
@@ -1075,7 +1075,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/la-paz-batchoy/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/02/la-paz-batchoy-9-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "344kcal",
             "Carbohydrates": "42g",
             "Protein": "22g",
@@ -1120,7 +1120,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/kinamatisang-baboy/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/kinamatisang-baboy-1-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "714kcal",
             "Carbohydrates": "12g",
             "Protein": "41g",
@@ -1159,7 +1159,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/filipino-mango-and-tomato-salad/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/08/Filipino-Mango-and-tomato-salad-1-1-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "68kcal",
             "Carbohydrates": "13g",
             "Protein": "1g",
@@ -1198,7 +1198,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/pesang-manok/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/08/pesang-manok-3-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "571kcal",
             "Carbohydrates": "34g",
             "Protein": "44g",
@@ -1239,7 +1239,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ensaladang-pipino/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/08/ensaladang-pipino-3-1-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "60kcal",
             "Carbohydrates": "10g",
             "Protein": "2g",
@@ -1279,7 +1279,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/crab-corn-soup/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/02/crab-and-corn-soup-1-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "117kcal",
             "Carbohydrates": "14g",
             "Protein": "10g",
@@ -1316,7 +1316,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ginataang-munggo-at-baboy/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/ginataang-munggo-baboy-2-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "243kcal",
             "Carbohydrates": "25g",
             "Protein": "16g",
@@ -1360,7 +1360,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ginisang-munggo-at-chicharon/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/07/ginisang-munggo-chicharon-5-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "204kcal",
             "Carbohydrates": "24g",
             "Protein": "14g",
@@ -1397,7 +1397,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ginisang-munggo-at-tinapa/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/06/ginisang-munggo-tinapa-6-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "247kcal",
             "Carbohydrates": "24g",
             "Protein": "23g",
@@ -1431,7 +1431,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/sotanghon-at-upo-soup/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/10/sotanghon-upo-soup-2-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "217kcal",
             "Carbohydrates": "15g",
             "Protein": "11g",
@@ -1470,7 +1470,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/chinese-chicken-salad/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/12/chinese-chicken-salad-8-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "476kcal",
             "Carbohydrates": "61g",
             "Protein": "26g",
@@ -1520,7 +1520,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/chicken-sotanghon-soup/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/01/chicken-sotanghon-1-1-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "434kcal",
             "Carbohydrates": "26g",
             "Protein": "14g",
@@ -1564,7 +1564,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/goto/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/11/goto-lugaw-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "353kcal",
             "Carbohydrates": "31g",
             "Protein": "16g",
@@ -1607,7 +1607,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/hawaiian-macaroni-salad/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/11/Hawaiian-macaroni-salad-2-1-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "618kcal",
             "Carbohydrates": "48g",
             "Protein": "9g",
@@ -1642,7 +1642,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/cocido-style-nilaga/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/10/cocido-style-nilaga-3-1-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "541kcal",
             "Carbohydrates": "29g",
             "Protein": "23g",
@@ -1680,7 +1680,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/tuna-pasta-salad/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/05/creamy-tuna-pasta-salad-1-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "218kcal",
             "Carbohydrates": "14g",
             "Protein": "12g",
@@ -1719,7 +1719,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/sotanghon-at-bola-bola-soup/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/04/sotanghon-bola-bola-soup-3-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "209kcal",
             "Carbohydrates": "33g",
             "Protein": "7g",
@@ -1766,7 +1766,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/batsui/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/11/kapampangan-batsui-2-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "298kcal",
             "Carbohydrates": "21g",
             "Protein": "33g",
@@ -1803,7 +1803,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/pork-pochero/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/08/filipino-pork-pochero-4-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "1167kcal",
             "Carbohydrates": "79g",
             "Protein": "32g",
@@ -1848,7 +1848,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/bulanglang-na-hipon/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/07/kapampangan-bulanglang-hipon-4-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "228kcal",
             "Carbohydrates": "24g",
             "Protein": "28g",
@@ -1879,7 +1879,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/nilagang-baka/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/07/beef-nilaga-3-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "346kcal",
             "Carbohydrates": "21g",
             "Protein": "39g",
@@ -1920,7 +1920,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/pork-bulanglang/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/06/kapampangan-pork-bulanglang-3-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "846kcal",
             "Carbohydrates": "13g",
             "Protein": "17g",
@@ -1954,7 +1954,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/sinigang-na-hipon-sa-calamansi/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/05/sinigang-hipon-calamansi-2-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "170kcal",
             "Carbohydrates": "12g",
             "Protein": "26g",
@@ -1989,7 +1989,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/arroz-caldong-paa-ng-manok/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/arroz-caldong-paa-manok-3-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "398kcal",
             "Carbohydrates": "3g",
             "Protein": "23g",
@@ -2032,7 +2032,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/corned-beef-sinigang/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/easy-corned-beef-sinigang-5-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "195kcal",
             "Carbohydrates": "7g",
             "Protein": "13g",
@@ -2066,7 +2066,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/chicken-sopas/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/creamy-chicken-sopas-5-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "487kcal",
             "Carbohydrates": "34g",
             "Protein": "28g",
@@ -2110,7 +2110,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/chicken-rice-congee/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/07/chicken-rice-congee-8-1-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "349kcal",
             "Carbohydrates": "53g",
             "Protein": "21g",
@@ -2151,7 +2151,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/asian-cucumber-tomato-avocado-salad/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/cucumber-tomato-avocado-salad-5-1-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "296kcal",
             "Carbohydrates": "25g",
             "Protein": "2g",
@@ -2189,7 +2189,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/pineapple-coleslaw/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/pineapple-coleslaw-2-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "270kcal",
             "Carbohydrates": "19g",
             "Protein": "2g",
@@ -2222,7 +2222,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/bulanglang-na-bangus-at-hipon/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/08/bulanglang-hipon-bangus-6-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "434kcal",
             "Carbohydrates": "34g",
             "Protein": "63g",
@@ -2256,7 +2256,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/grilled-shrimp-mango-and-avocado-salad/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/06/Grilled-shrimp-mango-and-avocado-salad-4-1-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "405kcal",
             "Carbohydrates": "34g",
             "Protein": "26g",
@@ -2295,7 +2295,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/thai-mango-salad/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/03/fresh-Thai-Mango-Salad-Process-3-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Serving": "281g",
             "Calories": "409kcal",
             "Carbohydrates": "57.8g",
@@ -2338,7 +2338,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/beef-pares/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/07/beef-pares-8-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "719kcal",
             "Carbohydrates": "68g",
             "Protein": "54g",
@@ -2382,7 +2382,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/pinatisang-manok/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/06/easy-pinatisang-manok-3-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "358kcal",
             "Carbohydrates": "3g",
             "Protein": "29g",
@@ -2424,7 +2424,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/nilagang-baboy/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/pork-nilaga-3-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "868kcal",
             "Carbohydrates": "20g",
             "Protein": "18g",
@@ -2459,7 +2459,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/arroz-caldo/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/11/arroz-caldo-manok-3-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "572kcal",
             "Carbohydrates": "28g",
             "Protein": "34g",
@@ -2501,7 +2501,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/suam-na-mais/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/08/suam-mais-2-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "210kcal",
             "Carbohydrates": "23g",
             "Protein": "20g",
@@ -2537,7 +2537,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/pesang-dalag/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/05/kapampangang-pesang-dalag-4-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "361kcal",
             "Carbohydrates": "29g",
             "Protein": "55g",
@@ -2577,7 +2577,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/tinolang-manok-chicken-tinola/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/03/chicken-tinola-7-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "513kcal",
             "Carbohydrates": "16g",
             "Protein": "39g",
@@ -2616,7 +2616,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/sinigang-na-baboy/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/01/sinigang-baboy-7-680x884.jpg",
         "meal": "soup/salad",
-        "nutrions": {
+        "nutritions": {
             "Calories": "747kcal",
             "Carbohydrates": "26g",
             "Protein": "41g",

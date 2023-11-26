@@ -4,7 +4,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/mango-shake/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/04/mango-shake-2-1-680x884.jpg",
         "meal": "beverage",
-        "nutrions": {
+        "nutritions": {
             "Calories": "245kcal",
             "Carbohydrates": "47g",
             "Protein": "5g",
@@ -28,14 +28,15 @@
             "milk",
             "sugar",
             "ice"
-        ]
+        ],
+        "summary": "This mango smoothie is so creamy, tangy, and rich in mango flavor; it's like drinking summer in a glass! It's easy to make with a handful of ingredients and so refreshing!"
     },
     {
         "title": "Buko Pandan Drink",
         "recipe-link": "https://www.kawalingpinoy.com/buko-pandan-drink/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/07/buko-pandan-drink-1-1-680x884.jpg",
         "meal": "beverage",
-        "nutrions": {
+        "nutritions": {
             "Calories": "508kcal",
             "Carbohydrates": "76g",
             "Protein": "8g",
@@ -61,14 +62,15 @@
             "agar",
             "sugar",
             "pandan"
-        ]
+        ],
+        "summary": "Buko Pandan Drink is a popular summer cooler with creamy coconut juice, pandan-flavored jelly cubes, and shredded young coconut. It's delicious, refreshing, and sure to be a hit!"
     },
     {
         "title": "Buko Lychee Juice",
         "recipe-link": "https://www.kawalingpinoy.com/buko-lychee-juice/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/07/buko-lychee-juice-6-680x884.jpg",
         "meal": "beverage",
-        "nutrions": {
+        "nutritions": {
             "Calories": "273kcal",
             "Carbohydrates": "48g",
             "Protein": "3g",
@@ -91,14 +93,15 @@
             "ice",
             "lychee",
             "sugar"
-        ]
+        ],
+        "summary": "Buko Lychee Juice is a delicious tropical drink made with shredded young coconut, coconut water, and lychee. It's easy to make and so refreshing!"
     },
     {
         "title": "Melon Juice",
         "recipe-link": "https://www.kawalingpinoy.com/melon-juice/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/melon-juice-12-680x884.jpg",
         "meal": "beverage",
-        "nutrions": {
+        "nutritions": {
             "Calories": "311kcal",
             "Carbohydrates": "81g",
             "Sodium": "58mg",
@@ -114,14 +117,15 @@
             "simple syrup",
             "water",
             "sugar"
-        ]
+        ],
+        "summary": "Melon juice made of shredded cantaloupe and simple syrup is a refreshing drink you'll love year round. Bursting with fresh fruit flavor, it's a tasty and healthy way to hydrate!"
     },
     {
         "title": "Instant Pot Boba Milk Tea",
         "recipe-link": "https://www.kawalingpinoy.com/instant-pot-boba-milk-tea/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2022/05/boba-milk-tea-8-680x884.jpg",
         "meal": "beverage",
-        "nutrions": {
+        "nutritions": {
             "Calories": "164kcal",
             "Carbohydrates": "42g",
             "Protein": "1g",
@@ -142,14 +146,15 @@
             "sugar",
             "milk",
             "ice"
-        ]
+        ],
+        "summary": "Make your favorite drink at home using the pressure cooker! This Instant Pot Boba Milk tea is ready in minutes and with only five ingredients!"
     },
     {
         "title": "Homemade Mango Nectar",
         "recipe-link": "https://www.kawalingpinoy.com/mango-nectar/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/mango-nectar-juice-6-680x884.jpg",
         "meal": "beverage",
-        "nutrions": {
+        "nutritions": {
             "Calories": "292kcal",
             "Carbohydrates": "74g",
             "Protein": "1g",
@@ -165,14 +170,15 @@
         "ingredients": [
             "mango",
             "sugar"
-        ]
+        ],
+        "summary": "Homemade mango nectar bursting with fresh mango flavor is the perfect thirst-quencher! With only three natural ingredients, it's a cool and refreshing drink you'll love all Summer long."
     },
     {
         "title": "Dalgona Coffee",
         "recipe-link": "https://www.kawalingpinoy.com/dalgona-coffee/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/05/dalgona-coffee-1-680x884.jpg",
         "meal": "beverage",
-        "nutrions": {
+        "nutritions": {
             "Calories": "361kcal",
             "Carbohydrates": "65g",
             "Protein": "9g",
@@ -191,14 +197,15 @@
             "sugar",
             "water",
             "milk"
-        ]
+        ],
+        "summary": "Whipped Coffee is a fun and delicious way to enjoy your daily brew. This Dalgona coffee is all the rage for a good reason. It's easy to make with only four ingredients and so creamy with an intense flavor."
     },
     {
         "title": "Sago at Gulaman",
         "recipe-link": "https://www.kawalingpinoy.com/sago-at-gulaman/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/sago-at-gulaman-680x884.jpg",
         "meal": "beverage",
-        "nutrions": {
+        "nutritions": {
             "Calories": "248kcal",
             "Carbohydrates": "63g",
             "Sodium": "28mg",
@@ -209,26 +216,18 @@
             "Iron": "0.6mg"
         },
         "ingredients": [
-            "sago",
-            "gulaman",
-            "arnibal syrup",
-            "water",
-            "banana",
-            "banana essence",
-            "vanilla",
-            "ice",
-            "sugar",
-            "panutsa",
-            "brown sugar",
-            "dark brown sugar"
-        ]
+            "Simple syrup",
+            "Sago",
+            "Gulaman"
+        ],
+        "summary": "Black Gulaman Drink made with grass jelly, chewy pearls, and brown sugar syrup. It's refreshing, tasty, and a fun cooler you'll love year-round."
     },
     {
         "title": "Tsokolate",
         "recipe-link": "https://www.kawalingpinoy.com/tsokolate/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/12/tsokolate-5-1-680x884.jpg",
         "meal": "beverage",
-        "nutrions": {
+        "nutritions": {
             "Calories": "464kcal",
             "Carbohydrates": "41g",
             "Protein": "14g",
@@ -246,20 +245,17 @@
         },
         "ingredients": [
             "milk",
-            "tablea",
             "tablea de cacao",
-            "butter",
-            "pea",
-            "peanut",
             "peanut butter"
-        ]
+        ],
+        "summary": "Tsokolate is the ultimate treat! Made of tablea cacao, milk, and peanut butter, this Filipino hot chocolate drink is creamy and decadent."
     },
     {
         "title": "Calamansi Juice",
         "recipe-link": "https://www.kawalingpinoy.com/calamansi-juice/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/05/calamansi-juice-with-simple-syrup-3-680x884.jpg",
         "meal": "beverage",
-        "nutrions": {
+        "nutritions": {
             "Calories": "106kcal",
             "Carbohydrates": "28g",
             "Protein": "1g",
@@ -274,11 +270,10 @@
             "Iron": "1mg"
         },
         "ingredients": [
-            "sugar",
-            "water",
-            "calamansi",
+            "simple syrup",
             "calamansi juice",
-            "ice"
-        ]
+            "water"
+        ],
+        "summary": "Beat the heat with calamondin drink! This Filipino-style limeade is tart, fragrant, and so refreshing!"
     }
 ]

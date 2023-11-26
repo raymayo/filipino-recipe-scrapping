@@ -4,7 +4,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/longganisa/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/longganisa-8-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "603kcal",
             "Carbohydrates": "10g",
             "Protein": "13g",
@@ -50,7 +50,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/tortang-tahong/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/05/tortang-tahong-8-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "279kcal",
             "Carbohydrates": "10g",
             "Protein": "23g",
@@ -87,7 +87,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/skinless-longganisa/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/09/skinless-longganisa-13-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "371kcal",
             "Carbohydrates": "10g",
             "Protein": "10g",
@@ -124,7 +124,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/corned-beef-pandesal/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/10/corned-beef-pandesal-buns-1-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "168kcal",
             "Carbohydrates": "23g",
             "Protein": "5g",
@@ -163,7 +163,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/mango-bread-loaf/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/04/mango-bread-loaf-6-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "391kcal",
             "Carbohydrates": "50g",
             "Protein": "4g",
@@ -199,7 +199,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/tikoy/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2022/02/homemade-tikoy-3-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "160kcal",
             "Carbohydrates": "25g",
             "Protein": "1g",
@@ -236,7 +236,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/champorado/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/02/champorado-5-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "210kcal",
             "Carbohydrates": "44g",
             "Protein": "4g",
@@ -270,7 +270,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/filipino-scrambled-eggs/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/07/filipino-scrambled-eggs-3-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "107kcal",
             "Carbohydrates": "3g",
             "Protein": "6g",
@@ -303,7 +303,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/corned-beef-hash-breakfast-pizza/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/08/corned-beef-hash-breakfast-pizza-4-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "500kcal",
             "Carbohydrates": "46g",
             "Protein": "26g",
@@ -342,7 +342,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/bacon-fried-rice/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/05/bacon-fried-rice-4-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "120kcal",
             "Carbohydrates": "24g",
             "Protein": "5g",
@@ -377,7 +377,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/lugaw-at-tokwa/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/05/lugaw-at-tokwa-3-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "249kcal",
             "Carbohydrates": "25g",
             "Protein": "15g",
@@ -420,7 +420,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/puto-maya-and-sikwate/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/04/puto-maya-sikwate-1-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "401kcal",
             "Carbohydrates": "73g",
             "Protein": "5g",
@@ -460,7 +460,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ginisang-corned-beef/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/ginisang-corned-beef-7-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "285kcal",
             "Carbohydrates": "12g",
             "Protein": "14g",
@@ -497,7 +497,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/corned-beef-frittata/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/07/corned-beef-fritata-10-1200-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "228kcal",
             "Carbohydrates": "8g",
             "Protein": "13g",
@@ -537,7 +537,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/taho/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/09/taho-2-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "213kcal",
             "Carbohydrates": "44g",
             "Protein": "4g",
@@ -569,7 +569,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/arroz-ala-cubana/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/06/arroz-a-la-cubana-6-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "802kcal",
             "Carbohydrates": "80g",
             "Protein": "40g",
@@ -616,7 +616,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/tinapa-fried-rice/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/08/tinapa-fried-rice-9-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "460kcal",
             "Carbohydrates": "48g",
             "Protein": "31g",
@@ -653,7 +653,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/beef-tapa/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/08/beef-tapa-1-1-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "338kcal",
             "Carbohydrates": "28g",
             "Protein": "33g",
@@ -688,7 +688,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/calamansi-muffins/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/01/calamansi-muffins-with-citrus-glaze-6-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "401kcal",
             "Carbohydrates": "57g",
             "Protein": "4g",
@@ -724,7 +724,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/eggplant-and-tomato-torta/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/07/eggplant-and-tomato-torta-5-1-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "114kcal",
             "Carbohydrates": "7g",
             "Protein": "7g",
@@ -756,7 +756,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/sinangag/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/10/garlic-fried-rice-2-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "246.77kcal",
             "Carbohydrates": "46.82g",
             "Protein": "4.7g",
@@ -786,7 +786,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/chicken-tapa/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/05/Chicken-tapa-4-1-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "306kcal",
             "Carbohydrates": "7g",
             "Protein": "46g",
@@ -821,7 +821,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/poqui-poqui/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/04/poqui-poqui-7-1-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Serving": "391g",
             "Calories": "206kcal",
             "Carbohydrates": "19.6g",
@@ -854,7 +854,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/filipino-tamales/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/05/filipino-tamales-1-1.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "317kcal",
             "Carbohydrates": "28g",
             "Protein": "7g",
@@ -902,7 +902,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/filipino-beef-tapa/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/01/Filipino-beef-tapa-4-1-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "354kcal",
             "Carbohydrates": "7g",
             "Protein": "51g",
@@ -937,7 +937,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/daing-na-bangus/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/09/daing-na-bangus-6-1-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "225kcal",
             "Protein": "34g",
             "Fat": "10g",
@@ -965,7 +965,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/chicken-tocino/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/sweet-chicken-tocino-1-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Calories": "473kcal",
             "Carbohydrates": "26g",
             "Protein": "25g",
@@ -1003,7 +1003,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/pork-tocino/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/06/pork-tocino-4-680x884.jpg",
         "meal": "breakfast",
-        "nutrions": {
+        "nutritions": {
             "Serving": "142g",
             "Calories": "433kcal",
             "Carbohydrates": "25.8g",

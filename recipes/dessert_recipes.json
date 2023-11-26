@@ -4,7 +4,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/bibingkoy/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2023/09/bibingkoy-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "514kcal",
             "Carbohydrates": "88g",
             "Protein": "9g",
@@ -48,7 +48,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/avocado-ice-candy/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/03/avocado-ice-candy-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "184kcal",
             "Carbohydrates": "23g",
             "Protein": "5g",
@@ -81,7 +81,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/bibingkang-malagkit/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/09/bibingkang-malagkit-11-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "645kcal",
             "Carbohydrates": "89g",
             "Protein": "6g",
@@ -124,7 +124,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/kapit/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/kapit-10-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "559kcal",
             "Carbohydrates": "85g",
             "Protein": "7g",
@@ -158,7 +158,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/mais-con-queso-ice-candy/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/05/mais-con-queso-ice-candy-1-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "309kcal",
             "Carbohydrates": "28g",
             "Protein": "12g",
@@ -194,7 +194,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/buko-lychee-sorbet/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/08/buko-lychee-sorbet-sorbet-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "257kcal",
             "Carbohydrates": "45g",
             "Protein": "2g",
@@ -220,7 +220,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/sapin-sapin/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/sapin-sapin-kalamay-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "557kcal",
             "Carbohydrates": "80g",
             "Protein": "8g",
@@ -259,7 +259,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/kalamay-lansong/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/05/kalamay-lansong-11-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "676kcal",
             "Carbohydrates": "106g",
             "Protein": "7g",
@@ -293,7 +293,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/buko-pie/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/05/buko-pie-16-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "469kcal",
             "Carbohydrates": "67g",
             "Protein": "7g",
@@ -334,7 +334,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/crema-de-fruta/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/11/crema-de-fruta-9-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "358kcal",
             "Carbohydrates": "55g",
             "Protein": "9g",
@@ -375,7 +375,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/mango-royale/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/06/mango-royale-7-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "347kcal",
             "Carbohydrates": "45g",
             "Protein": "4g",
@@ -407,7 +407,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/yema-bread-rolls/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/09/yema-bread-rolls-6-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "213kcal",
             "Carbohydrates": "31g",
             "Protein": "5g",
@@ -441,7 +441,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ginumis/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/01/ginumis-6-1200-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "427kcal",
             "Carbohydrates": "75g",
             "Protein": "1g",
@@ -476,7 +476,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/kalamay-sa-latik/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/04/kalamay-sa-latik-10-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "470kcal",
             "Carbohydrates": "66g",
             "Protein": "4g",
@@ -513,7 +513,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/binignit/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2023/02/binignit-7-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "462kcal",
             "Carbohydrates": "54g",
             "Protein": "4g",
@@ -555,7 +555,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ube-kalamay/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/03/ube-kalamay-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "869kcal",
             "Carbohydrates": "105g",
             "Protein": "8g",
@@ -594,7 +594,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/pastillas-de-ube/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/06/pastillas-de-ube-3-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "46kcal",
             "Carbohydrates": "7g",
             "Protein": "1g",
@@ -628,7 +628,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/palitaw/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/palitaw-7-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "171kcal",
             "Carbohydrates": "31g",
             "Protein": "2g",
@@ -661,7 +661,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ginataang-kamoteng-kahoy/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/ginataang-kamoteng-kahoy-with-sago-langka-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "631kcal",
             "Carbohydrates": "111g",
             "Protein": "3g",
@@ -692,7 +692,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/minatamis-na-kamote/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/09/easy-minatamis-na-kamote-7-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "244kcal",
             "Carbohydrates": "50g",
             "Protein": "3g",
@@ -723,7 +723,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/pineapple-upside-down-cake/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/07/pineapple-upside-down-cake-14-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "589kcal",
             "Carbohydrates": "88g",
             "Protein": "6g",
@@ -768,7 +768,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/biko/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/09/biko-with-latik-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "332kcal",
             "Carbohydrates": "45g",
             "Protein": "3g",
@@ -802,7 +802,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/white-buko-salad/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2022/12/white-salad-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "345kcal",
             "Carbohydrates": "58g",
             "Protein": "5g",
@@ -840,7 +840,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ube-mamon/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/07/mamon-ube-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "251kcal",
             "Carbohydrates": "33g",
             "Protein": "6g",
@@ -870,7 +870,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/maja-blanca-espesyal/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/01/espesyal-maja-blanca-3-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "625kcal",
             "Carbohydrates": "55g",
             "Protein": "8g",
@@ -904,7 +904,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/maja-blanca/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/11/creamy-maja-blanca-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "310kcal",
             "Carbohydrates": "27g",
             "Protein": "2g",
@@ -933,7 +933,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ginataang-bilo-bilo/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/02/ginataang-bilo-bilo-6-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "543kcal",
             "Carbohydrates": "59g",
             "Protein": "5g",
@@ -974,7 +974,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ginataang-munggo/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/creamy-ginataang-munggo-3-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "563kcal",
             "Carbohydrates": "57g",
             "Protein": "8g",
@@ -1010,7 +1010,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/maja-langka/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/09/creamy-maja-langka-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "769kcal",
             "Carbohydrates": "79g",
             "Protein": "11g",
@@ -1044,7 +1044,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/polvoron/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/08/Filipino-polvoron-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "73kcal",
             "Carbohydrates": "9g",
             "Protein": "1g",
@@ -1078,7 +1078,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ube-maja-blanca/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/ube-maja-blanca-with-latik-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "700kcal",
             "Carbohydrates": "72g",
             "Protein": "10g",
@@ -1112,7 +1112,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ginataang-mais/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/creamy-ginataang-mais-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "519kcal",
             "Carbohydrates": "49g",
             "Protein": "5g",
@@ -1146,7 +1146,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ginataang-halo-halo/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/creamy-ginataang-halo-halo-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "477kcal",
             "Carbohydrates": "58g",
             "Protein": "4g",
@@ -1186,7 +1186,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/guava-in-coconut-cream/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/05/guava-coconut-cream-4-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "502kcal",
             "Carbohydrates": "56g",
             "Protein": "5g",
@@ -1218,7 +1218,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/tibok-tibok/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/11/kapampangan-tibok-tibok-5-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "282kcal",
             "Carbohydrates": "37g",
             "Protein": "4g",
@@ -1253,7 +1253,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/biscocho/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/homemade-biscocho-3-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "254kcal",
             "Carbohydrates": "12g",
             "Fat": "23g",
@@ -1276,7 +1276,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/mango-ice-cream/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/07/homemade-ube-mango-ice-cream-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "389kcal",
             "Carbohydrates": "34g",
             "Protein": "5g",
@@ -1305,7 +1305,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ube-macapuno-ice-cream/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/07/homemade-ube-macapuno-ice-cream-4-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "448kcal",
             "Carbohydrates": "34g",
             "Protein": "6g",
@@ -1335,7 +1335,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/avocado-sago-jelly/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/08/avocado-jelly-sago-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "534kcal",
             "Carbohydrates": "56g",
             "Protein": "6g",
@@ -1370,7 +1370,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/bibingka/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/10/special-bibingka-4-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "450kcal",
             "Carbohydrates": "48g",
             "Protein": "8g",
@@ -1414,7 +1414,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/royal-bibingka/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/11/royal-bibingka-5-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "400kcal",
             "Carbohydrates": "59g",
             "Protein": "9g",
@@ -1452,7 +1452,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/minatamis-na-langka/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/10/minatamis-langka-3-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "204kcal",
             "Carbohydrates": "51g",
             "Protein": "2g",
@@ -1479,7 +1479,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/kababayan/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/09/kababayan-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "218kcal",
             "Carbohydrates": "27g",
             "Protein": "3g",
@@ -1516,7 +1516,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/suman-malagkit-with-coconut-sauce/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/02/suman-malagkit-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "215kcal",
             "Carbohydrates": "37g",
             "Protein": "2g",
@@ -1549,7 +1549,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/coffee-flan/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/04/coffee-flan-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "198kcal",
             "Carbohydrates": "29g",
             "Protein": "6g",
@@ -1580,7 +1580,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/buko-pandan-salad/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/11/filipino-buko-pandan-salad-6-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "234kcal",
             "Carbohydrates": "40g",
             "Protein": "3g",
@@ -1616,7 +1616,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/banana-turon/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/10/Banana-Turon-3-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "164kcal",
             "Carbohydrates": "34g",
             "Protein": "3g",
@@ -1650,7 +1650,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/brazo-de-mercedes/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/07/brazo-de-mercedes-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "487kcal",
             "Carbohydrates": "76g",
             "Protein": "15g",
@@ -1688,7 +1688,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/sampalok-candy/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/03/sampalok-candy-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "309kcal",
             "Carbohydrates": "80g",
             "Protein": "2g",
@@ -1716,7 +1716,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/pastillas-de-leche/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/01/pastillas-de-leche-4-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "55kcal",
             "Carbohydrates": "7g",
             "Protein": "2g",
@@ -1746,7 +1746,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/taho/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/09/taho-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "213kcal",
             "Carbohydrates": "44g",
             "Protein": "4g",
@@ -1778,7 +1778,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/halo-halo/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/07/halo-halo-7-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "532kcal",
             "Carbohydrates": "72g",
             "Protein": "12g",
@@ -1824,7 +1824,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/lengua-de-gato/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/07/lengua-de-gato-6-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "47kcal",
             "Carbohydrates": "5g",
             "Protein": "1g",
@@ -1856,7 +1856,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/peanut-tikoy-rolls/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/05/peanut-tikoy-rolls-3-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "307kcal",
             "Carbohydrates": "49g",
             "Protein": "8g",
@@ -1892,7 +1892,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/graham-balls/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/01/graham-balls-8-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "320kcal",
             "Carbohydrates": "44g",
             "Protein": "5g",
@@ -1921,7 +1921,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/chocolate-cupcakes-mocha-buttercream-frosting/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/02/chocolate-cupcakes-with-mocha-buttercream-4-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "331kcal",
             "Carbohydrates": "46g",
             "Protein": "2g",
@@ -1957,7 +1957,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/maja-jubilee/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/12/maja-jubilee-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "551kcal",
             "Carbohydrates": "64g",
             "Protein": "11g",
@@ -1991,7 +1991,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/calamansi-cheesecake-bars/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/12/calamansi-cheesecake-bars-2-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "314kcal",
             "Carbohydrates": "41g",
             "Protein": "4g",
@@ -2031,7 +2031,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/tropical-magic-bars/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/09/tropical-magic-bars-4-1.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "546kcal",
             "Carbohydrates": "90g",
             "Protein": "6g",
@@ -2067,7 +2067,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/mango-bravo-cake/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/08/mango-bravo-cake-5-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "275kcal",
             "Carbohydrates": "28g",
             "Protein": "3g",
@@ -2103,7 +2103,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/mango-bango/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/07/mango-bango-1-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "387kcal",
             "Carbohydrates": "62g",
             "Protein": "5g",
@@ -2133,7 +2133,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/almond-jello/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/07/almond-jello-recipe-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "118kcal",
             "Carbohydrates": "9g",
             "Protein": "19g",
@@ -2158,7 +2158,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/coconut-flan/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/06/coconut-flan-4-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "609kcal",
             "Carbohydrates": "77g",
             "Protein": "16g",
@@ -2188,7 +2188,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/leche-flan/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/04/creamy-leche-flan-3-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "239kcal",
             "Carbohydrates": "31g",
             "Protein": "7g",
@@ -2216,7 +2216,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/mango-and-cream-cheese-turon/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/11/mango-cream-cheese-turon-3-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "182kcal",
             "Carbohydrates": "25g",
             "Protein": "3g",
@@ -2248,7 +2248,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/buko-pandan-ice-cream/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/03/no-buko-pandan-ice-cream-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "399kcal",
             "Carbohydrates": "30g",
             "Protein": "5g",
@@ -2278,7 +2278,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/christmas-fruitcake/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/12/fruitcake-1-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "384kcal",
             "Carbohydrates": "54g",
             "Protein": "9g",
@@ -2324,7 +2324,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/mini-special-sapin-sapin/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/12/mini-special-sapin-sapin-3-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "232kcal",
             "Carbohydrates": "36g",
             "Protein": "3g",
@@ -2367,7 +2367,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ube-biko/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/12/biko-ube-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "545kcal",
             "Carbohydrates": "70g",
             "Protein": "7g",
@@ -2403,7 +2403,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/buko-salad/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/12/buko-salad-dessert-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "287kcal",
             "Carbohydrates": "35g",
             "Protein": "8g",
@@ -2437,7 +2437,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/buko-pandan-gelatin/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/11/buko-pandan-gelatin-dessert-3-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "398kcal",
             "Carbohydrates": "59g",
             "Protein": "2g",
@@ -2469,7 +2469,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ube-cassava-cake/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/11/ube-cassava-cake-4-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "846kcal",
             "Carbohydrates": "101g",
             "Protein": "16g",
@@ -2505,7 +2505,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/graham-de-leche/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/11/graham-de-leche-8-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "453.2kcal",
             "Carbohydrates": "51.69g",
             "Protein": "9.89g",
@@ -2536,7 +2536,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/impossible-chocolate-flan-cake/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/10/impossible-chococolate-flan-cake-6-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "555kcal",
             "Carbohydrates": "76g",
             "Protein": "13g",
@@ -2572,7 +2572,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/floating-island-dessert/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/09/floating-island-dessert-5-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "669kcal",
             "Carbohydrates": "78g",
             "Protein": "18g",
@@ -2608,7 +2608,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/pichi-pichi/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/10/pichi-pichi-2-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "119kcal",
             "Carbohydrates": "20g",
             "Protein": "1g",
@@ -2643,7 +2643,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/pandan-coconut-jelly/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/04/pandan-coconut-jelly-5-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "235kcal",
             "Carbohydrates": "39g",
             "Protein": "1g",
@@ -2676,7 +2676,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/halayang-ube/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/06/halayang-ube-2-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "550kcal",
             "Carbohydrates": "49g",
             "Protein": "9g",
@@ -2711,7 +2711,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/espasol/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/02/espasol-6-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "249kcal",
             "Carbohydrates": "42g",
             "Protein": "3g",
@@ -2745,7 +2745,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/mango-jelly/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/06/creamy-mango-jelly-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "489kcal",
             "Carbohydrates": "83g",
             "Protein": "5g",
@@ -2778,7 +2778,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/turon-malagkit/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/06/turon-malagkit-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "218kcal",
             "Carbohydrates": "34g",
             "Protein": "3g",
@@ -2816,7 +2816,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/black-forest-swiss-roll-cake/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/05/Black-forest-swiss-roll-14-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "674kcal",
             "Carbohydrates": "72g",
             "Protein": "9g",
@@ -2857,7 +2857,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/bicho-bicho/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/05/bicho-bicho-2-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "355kcal",
             "Carbohydrates": "50g",
             "Protein": "7g",
@@ -2889,7 +2889,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/nilupak/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/nilupak-kamoteng-kahoy-3-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "470kcal",
             "Carbohydrates": "64g",
             "Protein": "7g",
@@ -2920,7 +2920,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/silvanas/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/silvanas-3-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "442kcal",
             "Carbohydrates": "35g",
             "Protein": "8g",
@@ -2955,7 +2955,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/sans-rival/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/sans-rival-3-1.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "416kcal",
             "Carbohydrates": "35g",
             "Protein": "6g",
@@ -2986,7 +2986,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/cassava-cake-with-custard-topping/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/06/cassava-cake-with-custard-topping-1-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "653kcal",
             "Carbohydrates": "78g",
             "Protein": "11g",
@@ -3022,7 +3022,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/sticky-rice-balls-peanuts/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/sticky-rice-balls-4-1.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "206kcal",
             "Carbohydrates": "31g",
             "Protein": "5g",
@@ -3055,7 +3055,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/mini-egg-pies/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/mini-egg-pies-1-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "393kcal",
             "Carbohydrates": "39g",
             "Protein": "8g",
@@ -3087,7 +3087,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/kalamay-gabi/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/02/kalamay-gabi-6-1.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "387kcal",
             "Carbohydrates": "38g",
             "Protein": "4g",
@@ -3123,7 +3123,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/cassava-suman/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/01/easy-cassava-suman-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "163kcal",
             "Carbohydrates": "36g",
             "Fat": "1g",
@@ -3150,7 +3150,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/fruit-cocktail-graham-float/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/12/fruit-cocktail-graham-float-01-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "307kcal",
             "Carbohydrates": "59g",
             "Protein": "6g",
@@ -3180,7 +3180,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/pasta-fruit-salad/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/filipino-style-pasta-fruit-salad-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "422kcal",
             "Carbohydrates": "58g",
             "Protein": "7g",
@@ -3213,7 +3213,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/puto-lanson/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/08/puto-lanson-balinghoy-3-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "274kcal",
             "Carbohydrates": "36g",
             "Protein": "1g",
@@ -3242,7 +3242,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/yema-cake/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/07/cheesy-yema-cake-3-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "729kcal",
             "Carbohydrates": "81g",
             "Protein": "18g",
@@ -3278,7 +3278,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/easy-yema-spread/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/07/easy-yema-spread-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "219kcal",
             "Carbohydrates": "28g",
             "Protein": "5g",
@@ -3307,7 +3307,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/ube-crinkles/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/05/ube-crinkle-cookies-4-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "207kcal",
             "Carbohydrates": "38g",
             "Protein": "2g",
@@ -3341,7 +3341,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/pianono/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/04/filipino-pianono-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "173kcal",
             "Carbohydrates": "18g",
             "Protein": "3g",
@@ -3376,7 +3376,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/pan-de-coco/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/04/filipino-pan-de-coco-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "255kcal",
             "Carbohydrates": "31g",
             "Protein": "3g",
@@ -3414,7 +3414,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/carioca/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/03/carioca-2-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "168kcal",
             "Carbohydrates": "32g",
             "Protein": "1g",
@@ -3441,7 +3441,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/cathedral-window-gelatin/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/12/cathedral-window-gelatin-dessert-12-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "348kcal",
             "Carbohydrates": "53g",
             "Protein": "9g",
@@ -3472,7 +3472,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/dulce-de-leche-flan/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/12/dulce-de-leche-flan-2a-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "134kcal",
             "Carbohydrates": "19g",
             "Protein": "4g",
@@ -3499,7 +3499,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/avocado-ice-cream/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/07/avocado-ice-cream-3-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "445kcal",
             "Carbohydrates": "32g",
             "Protein": "6g",
@@ -3531,7 +3531,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/mango-sago/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/05/mango-sago-3-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "166kcal",
             "Carbohydrates": "36g",
             "Protein": "2g",
@@ -3562,7 +3562,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/filipino-coconut-macaroons/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/05/easy-filipino-coconut-macaroons-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "322kcal",
             "Carbohydrates": "37g",
             "Protein": "5g",
@@ -3594,7 +3594,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/leche-flan-with-whole-eggs/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/04/whole-eggs-leche-flan-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "419kcal",
             "Carbohydrates": "58g",
             "Protein": "14g",
@@ -3623,7 +3623,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/coffee-jelly/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/10/creamy-coffee-jelly-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "366kcal",
             "Carbohydrates": "40g",
             "Protein": "7g",
@@ -3654,7 +3654,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/hawaiian-bread-pudding/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/09/hawaiian-bread-pudding-2-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "473kcal",
             "Carbohydrates": "53g",
             "Protein": "6g",
@@ -3694,7 +3694,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/kutsinta/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/03/kutsinta-6-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "89kcal",
             "Carbohydrates": "21g",
             "Sodium": "5mg",
@@ -3720,7 +3720,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/kalamay-hati/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/11/kalamay-hati-1-1.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "410kcal",
             "Carbohydrates": "43g",
             "Protein": "4g",
@@ -3756,7 +3756,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/cream-cheese-flan/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/05/creamy-cream-cheese-flan-5-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "267kcal",
             "Carbohydrates": "29g",
             "Protein": "8g",
@@ -3786,7 +3786,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/maruya/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/01/maruya-fritters-6-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "377kcal",
             "Carbohydrates": "62g",
             "Protein": "6g",
@@ -3821,7 +3821,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/fried-bananas-with-salted-coconut-caramel-sauce/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/fried-bananas-with-coconut-caramel-sauce-1-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "307kcal",
             "Carbohydrates": "38g",
             "Protein": "1g",
@@ -3854,7 +3854,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/buchi/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/buchi-sesame-seed-balls-3-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "190kcal",
             "Carbohydrates": "33g",
             "Protein": "4g",
@@ -3894,7 +3894,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/tapioca-coconut-dessert-soup/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/05/tapioca-coconut-dessert-soup-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "263kcal",
             "Carbohydrates": "22g",
             "Protein": "2g",
@@ -3925,7 +3925,7 @@
         "recipe-link": "https://www.kawalingpinoy.com/cheese-cupcakes/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/08/cheese-cupcakes-5-1-680x884.jpg",
         "meal": "dessert",
-        "nutrions": {
+        "nutritions": {
             "Calories": "213kcal",
             "Carbohydrates": "27g",
             "Protein": "5g",
