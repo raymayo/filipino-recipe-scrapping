@@ -38,7 +38,8 @@
             "oil",
             "olive oil",
             "garlic"
-        ]
+        ],
+        "summary": "Beef Salpicao is quick beef stir-fry with garlic. Easy to make and full of flavor. it's delicious as an appetizer but easily doubles as a main dish."
     },
     {
         "title": "Rellenong Alimango",
@@ -76,7 +77,8 @@
             "mayonnaise",
             "green onion",
             "lemon"
-        ]
+        ],
+        "summary": "Rellenong Alimango is a baked stuffed crab shell with delicious crab meat and tender veggies. Try this show-stopping dish for a special meal."
     },
     {
         "title": "Pinsec Frito",
@@ -116,7 +118,8 @@
             "wonton wrapper",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Pinsec Prito are Asian dumplings fried to perfection and served with sweet and sour sauce. They're crispy, tasty, and sure to be a hit with guests of all ages!"
     },
     {
         "title": "Banana Heart Burger",
@@ -161,7 +164,8 @@
             "tomato",
             "mayonnaise",
             "ketchup"
-        ]
+        ],
+        "summary": "Banana Heart Burger is a meatless alternative to beef made with shredded banana blossom. It's nutritious, delicious, and economical, too. Perfect as a filling midday snack or light lunch!"
     },
     {
         "title": "Baby Back Ribs with Adobo Glaze",
@@ -199,7 +203,8 @@
             "breadcrumb",
             "panko",
             "butter"
-        ]
+        ],
+        "summary": "Looking for a sweet, savory BBQ recipe? These baby-back pork ribs with adobo glaze are fall-off-the-bone tender. A must-try recipe that everyone will enjoy!"
     },
     {
         "title": "Filipino Pork Barbecue",
@@ -249,7 +254,8 @@
             "onion",
             "ground pepper",
             "salt"
-        ]
+        ],
+        "summary": "Filipino Pork Barbecue are made of pork slices marinated in a sweet BBQ sauce and skewered in bamboo sticks. Sweet, salty, and slightly spicy, these Filipino-style meat kebabs are seriously addictive!"
     },
     {
         "title": "Camaron Rebosado",
@@ -286,7 +292,8 @@
             "pepper",
             "water",
             "egg"
-        ]
+        ],
+        "summary": "Camaron Rebosado is a Filipino dish made of large shrimp dipped in batter and deep-fried to golden perfection. Delicious as an appetizer or main dish with your favorite dipping sauce!"
     },
     {
         "title": "Lumpiang Puso ng Saging",
@@ -329,7 +336,8 @@
             "oyster sauce",
             "spring roll wrapper",
             "salt"
-        ]
+        ],
+        "summary": "Try these nutritious and delicious spring rolls made with banana hearts. Lumpiang Puso ng Saging is a simple and budget-friendly dish that is great as an appetizer, midday snack, or as a main dish with rice"
     },
     {
         "title": "Ukoy na Dilis",
@@ -370,7 +378,8 @@
             "dilis",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Ukoy na Dilis is easy to make with simple ingredients and budget-friendly. It's crunchy, flavorful, and delicious as an appetizer or main dish."
     },
     {
         "title": "Kwek-kwek",
@@ -417,7 +426,8 @@
             "shallot",
             "corn",
             "cornstarch"
-        ]
+        ],
+        "summary": "Kwek-Kwek is a classic Filipino street food made of quail eggs dipped in orange-colored batter and deep-fried to golden perfection. These fun appetizers are served with spicy vinegar or special dipping sauce."
     },
     {
         "title": "Garlic Butter Fried Frog Legs",
@@ -460,7 +470,8 @@
             "cayenne",
             "green onion",
             "onion"
-        ]
+        ],
+        "summary": "Crispy fried frog legs are a culinary adventure you need to try at least once! Golden, crunchy, and tasty with a garlicky, buttery sauce, they just might surprise you!"
     },
     {
         "title": "Beef Empanada",
@@ -506,7 +517,8 @@
             "pepper",
             "egg",
             "milk"
-        ]
+        ],
+        "summary": "Delicious empanadas with a savory ground beef filling and buttery, flaky crusts! These meat hand pies are hearty, tasty, and perfect for one-the-go snacks or party food!"
     },
     {
         "title": "Ahi Shoyu Poke",
@@ -546,7 +558,8 @@
             "ice",
             "rice",
             "sushi rice"
-        ]
+        ],
+        "summary": "Ahi Shoyu Poke is a Hawaiian raw fish salad with fresh ahi steaks, onions, macadamia nuts, and seasonings. It's refreshing and healthy meal perfect as an appetizer or entree served over sushi rice."
     },
     {
         "title": "Ham and Cheese Bread Rolls",
@@ -582,7 +595,8 @@
             "seasoning",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Ham and Cheese Bread Rolls are a fun, tasty treat kids and adults alike will love.\u00a0 They're delicious as snacks or appetizers and perfect for feeding a crowd!"
     },
     {
         "title": "Lumpia Shanghai",
@@ -622,7 +636,8 @@
             "spring roll wrapper",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Lumpiang Shanghai is the ultimate appetizer! Golden, crunchy, and filled with ground chicken, water chestnuts, and green onions, these Filipino spring rolls are sure to be a party favorite!"
     },
     {
         "title": "Adobong Talaba",
@@ -663,7 +678,8 @@
             "calamansi juice",
             "ice",
             "salt"
-        ]
+        ],
+        "summary": "Adobong Talaba made of plump oysters cooked in soy sauce, vinegar, and garlic for a mouth-watering seafood dish. Delicious as an appetizer or main entree!"
     },
     {
         "title": "Spicy Tahong",
@@ -702,7 +718,8 @@
             "tomato sauce",
             "dry sherry",
             "salt"
-        ]
+        ],
+        "summary": "Spicy Tahong is super easy to make yet delivers big flavors. Serve it as an appetizer or main dish the whole family will love!"
     },
     {
         "title": "Pinakupsan",
@@ -726,7 +743,8 @@
             "pork",
             "pork belly",
             "salt"
-        ]
+        ],
+        "summary": "Pinakupsan is a pork lover's dream! It's super easy to make with only two ingredients and turn out crispy and perfectly seasoned. Enjoy on its own as an appetizer or main dish!"
     },
     {
         "title": "Sizzling Sisig",
@@ -767,7 +785,8 @@
             "ice",
             "seasoning",
             "liver spread"
-        ]
+        ],
+        "summary": "Sizzling Sisig makes a great party appetizer and a hearty dinner entree. A delicious combination of juicy pork and tangy, savory, and spicy flavor, it's seriously addictive!"
     },
     {
         "title": "Tikoy",
@@ -804,7 +823,8 @@
             "rice",
             "rice flour",
             "egg"
-        ]
+        ],
+        "summary": "Tikoy is a sweet sticky rice cake traditionally served on Chinese New Year. Coated with beaten eggs and pan-fried until golden brown, it's soft, chewy, and delicious for breakfast or midday snack."
     },
     {
         "title": "Bopis",
@@ -845,7 +865,8 @@
             "red bell pepper",
             "chili",
             "chili pepper"
-        ]
+        ],
+        "summary": "Kapampangan Bopis made of pork lungs, carrots, and peppers is delicious as an appetizer or main dish."
     },
     {
         "title": "Tokwa't Baboy",
@@ -889,7 +910,8 @@
             "shallot",
             "chili",
             "chili pepper"
-        ]
+        ],
+        "summary": "Tofu and pork dish with a spicy, tangy vinegar sauce with loads of flavor and texture! This Filipino Tokwa't Baboy is delicious on its own as an appetizer or served with congee!"
     },
     {
         "title": "Pineapple Salsa",
@@ -919,7 +941,8 @@
             "serrano",
             "lime",
             "salt"
-        ]
+        ],
+        "summary": "This pineapple salsa is sweet and tangy with a hint of heat. It's perfect with tortilla chips or as a topping for grilled steak or chicken."
     },
     {
         "title": "Rellenong Hipon",
@@ -955,7 +978,8 @@
             "spring roll wrapper",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Need a party dish idea? These rellenong hipon shrimp treats stuffed with meat filling and wrapped in spring roll wrappers are perfectly crispy!"
     },
     {
         "title": "Fried Okra",
@@ -972,7 +996,8 @@
             "cornstarch",
             "salt",
             "pepper"
-        ]
+        ],
+        "summary": "Crispy Fried okra is easy to make and so tasty. The vegetable is sliced to bite-size pieces, dredged in flour, and fried to golden, crunchy perfection. Delicious as an appetizer or side dish!"
     },
     {
         "title": "Sinampalukang Kambing",
@@ -1012,7 +1037,8 @@
             "chili pepper",
             "pepper",
             "green onion"
-        ]
+        ],
+        "summary": "Sinampalukang Kambing is a hearty goat dish with tamarind for sourness and chili peppers for spice. This hearty and sour Up and Down soup is delicious and comforting as an appetizer or main dish. Best way to warm up in cold weather!"
     },
     {
         "title": "Kalderetang Kambing",
@@ -1065,7 +1091,8 @@
             "gherkins pickles",
             "pickle",
             "spanish olive"
-        ]
+        ],
+        "summary": "Kambing Caldereta is a Filipino stew made with goat meat, potatoes, and carrots braised in a tomato and liver sauce. It's hearty, boldly-flavored, delicious as an appetizer with alcoholic drinks or a main dish with steamed rice."
     },
     {
         "title": "Baked Cheese Shrimp",
@@ -1095,7 +1122,8 @@
             "cheddar cheese",
             "cheese",
             "sugar"
-        ]
+        ],
+        "summary": "Level up your party food game with cheesy baked shrimp! They're easy to make with only four ingredients and in under 30 minutes yet look so fancy and taste amazing. They're creamy, cheesy, and seriously addictive!"
     },
     {
         "title": "Chicken Skin Chicharon",
@@ -1126,7 +1154,8 @@
             "canola oil",
             "lard",
             "oil"
-        ]
+        ],
+        "summary": "Chicken Skin Chicharon is easy to make at home and seriously addictive. It's crispy, tasty, and delicious as a snack or appetizer. And keto-friendly, too!"
     },
     {
         "title": "Coconut Shrimp",
@@ -1160,7 +1189,8 @@
             "panko",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Golden and crunchy with a sweet and savory taste, these Coconut Shrimp are simply irresistible! They're quick and easy to make and delicious as an appetizer or main dish."
     },
     {
         "title": "Crispy Fried Smelt Fish",
@@ -1197,7 +1227,8 @@
             "pepper",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Crispy Fried Smelt Fish are seriously addictive! They cook in minutes using simple pantry ingredients yet turn out so crunchy and tasty. Delicious as an appetizer or main dish!"
     },
     {
         "title": "Crispy Tuna Shanghai",
@@ -1237,7 +1268,8 @@
             "canola oil",
             "oil",
             "spring roll wrapper"
-        ]
+        ],
+        "summary": "Crispy Tuna Shanghai are quick and easy to make and a healthier and cheaper alternative to meat spring rolls. They're cheesy, tasty, and delicious as a snack, appetizer, or main dish."
     },
     {
         "title": "Crispy Tuna Pies",
@@ -1278,7 +1310,8 @@
             "bread crumb",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Crispy Tuna Bread Rolls are easy to make and so tasty! Filled with flavorful tuna salad and melty cheese, and fried to golden perfection, these tuna pocket pies are sure to be a hit with kids and adults alike."
     },
     {
         "title": "Sisig Pusit",
@@ -1326,7 +1359,8 @@
             "butter",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Spicy Sizzling Squid is the ultimate seafood appetizer. It's spicy and full of smoky and savory flavors. Delicious with ice-cold beer or as a main dish with steamed rice."
     },
     {
         "title": "Dinakdakan",
@@ -1371,7 +1405,8 @@
             "ginger",
             "chili",
             "chili pepper"
-        ]
+        ],
+        "summary": "Give your tastebuds a culinary adventure! Dinakdakan is an acquired taste, but you won't be able to get enough once you try it. It's creamy, flavorful, and delicious as an appetizer or main dish!"
     },
     {
         "title": "Banana Meat",
@@ -1407,7 +1442,8 @@
             "banana",
             "saba",
             "flour"
-        ]
+        ],
+        "summary": "Banana Meat is an interesting combination of sweet and savory flavors you need to try! Made with cardaba bananas stuffed with ground pork and fried until golden, they're hearty, tasty, and uniquely delicious!"
     },
     {
         "title": "Crispy Sisig",
@@ -1443,7 +1479,8 @@
             "calamansi juice",
             "ice",
             "salt"
-        ]
+        ],
+        "summary": "Crispy Lechon Kawali Sisig is delicious as an appetizer or main dish! It's crunchy, spicy, full of flavor, and sure to be a crowd favorite!"
     },
     {
         "title": "Crispy Tahong (Deep-Fried Mussels)",
@@ -1484,7 +1521,8 @@
             "peppercorn",
             "chili",
             "chili pepper"
-        ]
+        ],
+        "summary": "Deep-fried Mussels are the ultimate seafood appetizer.  Coated in flour and deep-fried until golden and crunchy, these crispy tahong are seriously addictive!"
     },
     {
         "title": "Loslos",
@@ -1524,7 +1562,8 @@
             "egg",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Loslos made of baby back ribs simmered in adobo marinade until tender, dredged in flour, and then deep-fried, until golden and crisp. Delicious as main dish or appetizer! Loslos are easy to make and delicious as an appetizer or main dish. Golden, crunchy, and bursting with adobo flavors, these pork ribs are sure to be a crowd-pleaser."
     },
     {
         "title": "Sriracha Shrimp Scampi",
@@ -1563,7 +1602,8 @@
             "ice",
             "lemon",
             "lemon juice"
-        ]
+        ],
+        "summary": "This sriracha shrimp scampi is a zesty twist on a classic! Seasoned with chili sauce, white wine, lemon juice, and garlic, it's delicious as an appetizer or main dish."
     },
     {
         "title": "Lechon Kawali",
@@ -1599,7 +1639,8 @@
             "water",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Crispy Pork Belly simmered to tenderness with aromatics and dee-fried to golden perfection. Crunchy on the outside and super moist on the inside, it's the ultimate pork dish!"
     },
     {
         "title": "Chinese Boiled Peanuts",
@@ -1631,7 +1672,8 @@
             "star anise",
             "chili",
             "water"
-        ]
+        ],
+        "summary": "Want a tasty snack? These Chinese boiled peanuts are unshelled peanuts cooked in soy sauce, garlic, cinnamon, star anise, and dried chilis! They make a nutritious and delicious snack or appetizer."
     },
     {
         "title": "Crispy Breaded Shrimp",
@@ -1667,7 +1709,8 @@
             "hot sauce",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "These golden Crispy Breaded Shrimp are perfectly seasoned and have a delicious crunch. They are great as an appetizer or as a filling for tacos or hoagie sandwiches. Seriously addictive!"
     },
     {
         "title": "Inihaw na Pusit (Grilled Squid)",
@@ -1704,7 +1747,8 @@
             "ginger",
             "chili",
             "chili pepper"
-        ]
+        ],
+        "summary": "Grilled Jumbo Squid stuffed with tomatoes is delicious as an appetizer or main dish. Easy to make and sure to be a crowd favorite!"
     },
     {
         "title": "Adobong Paa nang Manok (Chicken Feet Adobo)",
@@ -1745,7 +1789,8 @@
             "chili garlic",
             "chili garlic sauce",
             "garlic"
-        ]
+        ],
+        "summary": "Chicken Feet Adodo packs amazing texture and complex flavor. This popular Asian street food is delicious as an appetizer or as a main meal with steamed rice."
     },
     {
         "title": "Tamarind Chicken Wings",
@@ -1778,7 +1823,8 @@
             "pepper",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Crispy Chicken Wings with Tamarind are a mouthwatering appetizer or main dish the whole family will love. Easy to make and full of flavor!"
     },
     {
         "title": "Sushi Bake",
@@ -1820,7 +1866,8 @@
             "egg",
             "sriracha",
             "sriracha sauce"
-        ]
+        ],
+        "summary": "Baked Sushi is your favorite rice dish in a casserole form! It's easy to make and delivers the delicious Japanese flavors you love with no special sushi chef skills required."
     },
     {
         "title": "Cheese Dog Bread Rolls",
@@ -1851,7 +1898,8 @@
             "panko",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Cheese and Hot Dog Bread Rolls are golden and crunchy with Panko coating. They're easy to make and a fun and tasty snack the whole family will love!"
     },
     {
         "title": "Ukoy",
@@ -1897,7 +1945,8 @@
             "chili pepper",
             "red onion",
             "garlic"
-        ]
+        ],
+        "summary": "Filipino shrimp and vegetable fritters are crispy, tasty, and seriously addictive. Delicious as snack, appetizer, or side dish!"
     },
     {
         "title": "Sizzling Gambas",
@@ -1938,7 +1987,8 @@
             "salt",
             "bread crumb",
             "panko"
-        ]
+        ],
+        "summary": "Spicy Garlic Shrimp are easy to make and delivers big, bold flavors. Delicious as an appetizer or main dish. Sop up the garlicky pan juices with crusty bread or spoon over piping hot steamed rice!"
     },
     {
         "title": "Cheese Sticks",
@@ -1965,7 +2015,8 @@
             "spring roll wrapper",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Golden and crispy Cheese Spring rolls are easy to make and sure to be a family favorite. Pair with sweet and sour dipping sauce for a delicious snack or appetizer."
     },
     {
         "title": "Spam Musubi",
@@ -1997,7 +2048,8 @@
             "sugar",
             "nori seaweed",
             "seaweed"
-        ]
+        ],
+        "summary": "Spam musubi is a delicious Hawaiian snack made of Spam, rice, and seaweed. It's an easy and portable snack that's filling and tasty!"
     },
     {
         "title": "Sizzling Tofu",
@@ -2041,7 +2093,8 @@
             "seasoning",
             "seasoning sauce",
             "mayonnaise"
-        ]
+        ],
+        "summary": "Sizzling Tofu Sisig is creamy and spicy with tons of flavor and texture. It's a delicious vegetarian appetizer or main dish."
     },
     {
         "title": "Nilasing na Hipon",
@@ -2073,7 +2126,8 @@
             "corn",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Crispy Fried Drunken Shrimp are the ultimate appetizer! Marinated in liquor, floured, and deep-fried to golden perfection, these nilasing na hipon are crunchy, tasty, and seriously addictive."
     },
     {
         "title": "Homemade Kikiam",
@@ -2114,7 +2168,8 @@
             "bean",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Que-kiam are delicious steamed pork rolls fried to crispy perfection. Delicious as an a appetizer, main entree or used in noodle dishes and soups."
     },
     {
         "title": "Pork Siomai",
@@ -2156,7 +2211,8 @@
             "chili",
             "chili garlic",
             "garlic"
-        ]
+        ],
+        "summary": "Shumai are easy to make and delicious as an appetizer, snack, or light meal. Filled with ground pork, minced shrimp, and shitake mushrooms, these steamed dumplings are tasty and filling."
     },
     {
         "title": "Baked Tahong with Sweet Chili-Mayo Topping",
@@ -2191,7 +2247,8 @@
             "ice",
             "lime",
             "lime juice"
-        ]
+        ],
+        "summary": "Baked Mussels topped with mayo, sweet chili sauce, cheese, and green onions are the ultimate appetizer! Creamy, cheesy, and tasty, they're seriously addictive and sure to be a party favorite!"
     },
     {
         "title": "Pork Chicharon",
@@ -2221,7 +2278,8 @@
             "water",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Homemade Chicharon made of pork rinds deep-fried to golden perfection! Crunchy and tasty, these cracklings are the ultimate low-carb treat and best served with spicy vinegar dip."
     },
     {
         "title": "Southwestern Chicken Egg Rolls",
@@ -2266,7 +2324,8 @@
             "egg roll wrapper",
             "cheese",
             "monterey jack cheese"
-        ]
+        ],
+        "summary": "Southwestern Egg Rolls with chicken, vegetables, beans, and cheese make the ultimate snack or appetizer! Golden and crunchy, they're absolutely addictive."
     },
     {
         "title": "Lumpiang Prito with Pork",
@@ -2307,7 +2366,8 @@
             "pepper",
             "salt",
             "spring roll wrapper"
-        ]
+        ],
+        "summary": "Lumpiang Prito filled with tender-crisp vegetables and ground pork are the ultimate midday snack or appetizer. They're crunchy, tasty, and best served with spicy vinegar."
     },
     {
         "title": "Chicken Sisig",
@@ -2347,7 +2407,8 @@
             "mayonnaise",
             "chili",
             "chili pepper"
-        ]
+        ],
+        "summary": "Sizzling Chicken Sisig is creamy, deliciously spicy, and sure to be a crowd favorite. This Filipino-style dish is perfect as an appetizer or main dish."
     },
     {
         "title": "Plum Sauce Chicken Lollipops",
@@ -2390,7 +2451,8 @@
             "salt",
             "pepper",
             "sesame seed"
-        ]
+        ],
+        "summary": "Plum Sauce Chicken Lollipops are super fun and tasty appetizers that are sure to be a hit with the crowd. Baked in a sweet and savory sauce, they're finger-licking, lip-smacking addicting!"
     },
     {
         "title": "Steamed Spareribs with Black Beans",
@@ -2435,7 +2497,8 @@
             "fermented black beans",
             "green onion",
             "onion"
-        ]
+        ],
+        "summary": "Steamed Pork Ribs with fermented Black Beans are super tender, full of flavor, and perfect with steamed rice. They're so quick and easy to make, you can enjoy this popular dim sum right in your own home!"
     },
     {
         "title": "Sizzling Balut",
@@ -2476,7 +2539,8 @@
             "oyster sauce",
             "green onion",
             "onion"
-        ]
+        ],
+        "summary": "Give our classic Filipino delicacy a new spin! Cooked in a spicy, savory sauce and served sizzling style, this spicy balut dish is delicious as an appetizer or main dish."
     },
     {
         "title": "Minced Chicken in Lettuce Cups",
@@ -2521,7 +2585,8 @@
             "onion",
             "butter",
             "lettuce"
-        ]
+        ],
+        "summary": "Minced chicken in lettuce cups with hoisin-flavored chicken and crunchy vermicelli noodles served taco-style in crisp lettuce leaves. It's budget-friendly, tasty, and easy to make weeknight dinner!"
     },
     {
         "title": "Ukoy na Togue",
@@ -2562,7 +2627,8 @@
             "canola oil",
             "oil",
             "shrimp"
-        ]
+        ],
+        "summary": "Shrimp and Vegetable fritters with bean sprouts and carrots. Crispy and tasty, they make a filling snack or appetizer."
     },
     {
         "title": "Crispy Fried Calamari",
@@ -2597,7 +2663,8 @@
             "pepper",
             "salt",
             "lemon"
-        ]
+        ],
+        "summary": "Crispy Fried Calamari is your next favorite appetizer! Learn the simple tricks on how to make them super tender yet deliciously golden and crunchy."
     },
     {
         "title": "Lumpiang Togue",
@@ -2639,7 +2706,8 @@
             "pepper",
             "salt",
             "spring roll wrapper"
-        ]
+        ],
+        "summary": "Fried lumpia is a delicious appetizer or snack. Golden, crunchy, and loaded with bean sprouts, green beans, carrots, diced pork, and shrimp, these Filipino vegetable spring rolls are seriously addictive!"
     },
     {
         "title": "Lumpiang Galunggong",
@@ -2675,7 +2743,8 @@
             "pepper",
             "salt",
             "springroll wrapper"
-        ]
+        ],
+        "summary": "Fish Lumpia are golden, crispy, and sure to be a party hit! Filled with flaked fish, mushrooms, water chestnuts, and celery, these meatless spring rolls are seriously addictive!"
     },
     {
         "title": "Bangus Sisig",
@@ -2718,7 +2787,8 @@
             "ice",
             "seasoning",
             "seasoning sauce"
-        ]
+        ],
+        "summary": "Bangus Sisig made with flaked milkfish, chopped onions, chili peppers, and fresh citrus juice. Tangy, savory and spicy, it's delicious as an appetizer or main dish."
     },
     {
         "title": "Homemade Fish Balls with Spicy Fish Ball Sauce",
@@ -2757,7 +2827,8 @@
             "pepper",
             "brown sugar",
             "flour"
-        ]
+        ],
+        "summary": "Homemade Fish Balls are a fun and tasty treat. Delicious as streetfood with sweet and spicy sauces or added to soups and noodle stir-fries."
     },
     {
         "title": "BBQ Pork Ears",
@@ -2798,37 +2869,8 @@
             "ketchup",
             "oil",
             "sesame oil"
-        ]
-    },
-    {
-        "title": "Chizza",
-        "recipe-link": "https://www.kawalingpinoy.com/chizza/",
-        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/07/chizza71.jpg",
-        "meal": "appetizer",
-        "ingredients": [
-            "chicken",
-            "chicken breast",
-            "butter",
-            "buttermilk",
-            "milk",
-            "salt",
-            "pepper",
-            "flour",
-            "corn",
-            "cornstarch",
-            "egg",
-            "canola oil",
-            "oil",
-            "pizza sauce",
-            "cheese",
-            "pineapple",
-            "ham",
-            "parmesan",
-            "chili",
-            "chili pepper",
-            "chili pepper flake",
-            "hot sauce"
-        ]
+        ],
+        "summary": "BBQ Pork Ears are the ultimate street food! Cooked a la adobo until tender and grilled to perfection with a sweet and savory glaze, inihaw na tenga or walkman are seriously addictive. Delicious as a snack or appetizer!"
     },
     {
         "title": "Dynamite Lumpia",
@@ -2862,7 +2904,8 @@
             "spring roll wrapper",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Dynamite Lumpia are crunchy, tasty, and sure to be a crowd favorite! Made of chili peppers stuffed with meat filling, they make a great snack or appetizer!"
     },
     {
         "title": "Longganisa Wontons",
@@ -2891,7 +2934,8 @@
             "onion",
             "wonton wrapper",
             "oil"
-        ]
+        ],
+        "summary": "These easy wontons are golden brown and fried to a perfect crisp!"
     },
     {
         "title": "Honey Bagoong Chicken Wings",
@@ -2919,6 +2963,7 @@
             "shrimp paste",
             "pepper",
             "salt"
-        ]
+        ],
+        "summary": "These chicken wings are oven-baked and pack a lot of yummy flavors. "
     }
 ]

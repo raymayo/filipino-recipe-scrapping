@@ -38,7 +38,8 @@
             "chicken liver",
             "chicken livers",
             "breadcrumb"
-        ]
+        ],
+        "summary": "Level up your meals with lechon sauce! This all-purpose condiment is easy to make at home and a must for crispy pork, lumpiang shanghai, and many favorite dishes."
     },
     {
         "title": "Ginisang Bagoong",
@@ -70,7 +71,8 @@
             "pepper",
             "corn",
             "water"
-        ]
+        ],
+        "summary": "Sauteed Shrimp Paste is a delicious medley of sweet, saqvory, and spicy for the perfect meal condiment It's a delicious accompaniment to green mangoes or your favorite Asian dishes."
     },
     {
         "title": "Minatamis na Bao (Coconut Jam)",
@@ -100,7 +102,8 @@
             "brown sugar",
             "dark brown sugar",
             "sugar"
-        ]
+        ],
+        "summary": "Coconut Jam is a Filipino spread made of coconut cream and brown sugar. It's thick, perfectly sweet with a rich coconut flavor that's perfect with your favorite bread."
     },
     {
         "title": "Pineapple Salsa",
@@ -130,7 +133,8 @@
             "serrano",
             "lime",
             "salt"
-        ]
+        ],
+        "summary": "This pineapple salsa is sweet and tangy with a hint of heat. It's perfect with tortilla chips or as a topping for grilled steak or chicken."
     },
     {
         "title": "Tomato Grilled Eggplant and Salted Egg Salad",
@@ -166,7 +170,8 @@
             "fish sauce",
             "shallot",
             "pepper"
-        ]
+        ],
+        "summary": "Grilled Eggplant with salted Egg and Tomato Salad is simple to make yet full of fresh and savory f flavors. It's the perfect accompaniment to your favorite grilled meat or seafood."
     },
     {
         "title": "Peppered Strawberry Jam",
@@ -199,7 +204,8 @@
             "black pepper",
             "ground black pepper",
             "pepper"
-        ]
+        ],
+        "summary": "Make your breakfast extra delicious with Peppered Strawberry Jam! It's easy to make with only 5 ingredients and no pectin, and adds a delicious medley of sweetness and spice to your toast!"
     },
     {
         "title": "Chicken Salad Sandwich Spread",
@@ -235,7 +241,8 @@
             "milk",
             "pepper",
             "salt"
-        ]
+        ],
+        "summary": "Chicken Salad Sandwich Spread loaded with crushed pineapples and chopped eggs. It's creamy, tasty, and delicious in sandwiches or crackers for a snack, appetizer, or light meal."
     },
     {
         "title": "Pickled Mangoes (Burong Mangga)",
@@ -264,7 +271,8 @@
             "chili",
             "chili pepper",
             "pepper"
-        ]
+        ],
+        "summary": "Pickled Mangoes with a delicious medley of sweet and sour flavors are a mouthwatering treat you'll love. They make a great snack or appetizer as well as a condiment to barbecue meats and grilled seafood!"
     },
     {
         "title": "Easy Yema Spread",
@@ -293,7 +301,8 @@
             "egg yolk",
             "butter",
             "salt"
-        ]
+        ],
+        "summary": "Easy Yema Spread made with egg yolks and condensed milk for a delicious sweet treat you'll love as frosting for cakes, cupcakes, and cookies or as a spread for sandwiches and breakfast toasts!"
     },
     {
         "title": "Toast Garlic",
@@ -318,7 +327,8 @@
             "canola oil",
             "oil",
             "garlic"
-        ]
+        ],
+        "summary": "Toasted Garlic Bits are easy to make and a great way to add flavor, aroma, and texture to your favorite dishes. Only two ingredients and ready in minutes!"
     },
     {
         "title": "Cheese Pineapple Sandwich Spread",
@@ -347,6 +357,7 @@
             "eden",
             "mayonnaise",
             "salt"
-        ]
+        ],
+        "summary": "Cheese Pineapple Spread with tropical flavors kids and adults alike will love! Easy to make and with only 4 ingredients, it's perfect as a snack or appetizer."
     }
 ]

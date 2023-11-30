@@ -26,7 +26,8 @@
             "vanilla",
             "flour",
             "pinipig"
-        ]
+        ],
+        "summary": "These simple shortbread cookies are buttery, crispy, sweet goodness everyone will enjoy!"
     },
     {
         "title": "Buko Pie (Filipino Coconut Pie)",
@@ -67,7 +68,8 @@
             "coconut meat",
             "egg",
             "milk"
-        ]
+        ],
+        "summary": "Filipino Coconut Pie is the ultimate tropical treat. Enjoy this buko pie as a snack or dessert with coffee or tea!"
     },
     {
         "title": "Crema de Fruta",
@@ -108,7 +110,8 @@
             "gelatin",
             "fruit cocktail",
             "ice"
-        ]
+        ],
+        "summary": "Crema de Fruta made with fluffy chiffon cake, custard, and fruit gelatin is a festive cake you'll love year round!"
     },
     {
         "title": "Yema Bread Rolls",
@@ -142,7 +145,8 @@
             "salt",
             "potato",
             "condensed milk"
-        ]
+        ],
+        "summary": "Soft, fluffy Custard Buns filled with sweet and creamy yema. Delicious for breakfast or snack with coffee or tea!"
     },
     {
         "title": "Pandesal",
@@ -173,7 +177,8 @@
             "salt",
             "flour",
             "breadcrumb"
-        ]
+        ],
+        "summary": "Pandesal are perfectly sweet, soft, and fluffy. Delicious with butter, jam, or other fillings, these Filipino bread rolls make a great breakfast or snack."
     },
     {
         "title": "Beef Empanada",
@@ -219,7 +224,8 @@
             "pepper",
             "egg",
             "milk"
-        ]
+        ],
+        "summary": "Delicious empanadas with a savory ground beef filling and buttery, flaky crusts! These meat hand pies are hearty, tasty, and perfect for one-the-go snacks or party food!"
     },
     {
         "title": "Banana Pandan Bread",
@@ -254,7 +260,8 @@
             "saba",
             "pandan",
             "cashew"
-        ]
+        ],
+        "summary": "Banana Bread with Pandan and Cashews is a delicious quick bread you'll love for breakfast or snack. It's easy to make and the perfect use for plaintain bananas."
     },
     {
         "title": "Corned Beef Pandesal",
@@ -293,7 +300,8 @@
             "salt",
             "flour",
             "breadcrumb"
-        ]
+        ],
+        "summary": "Pandesal with corned beef filling is the perfect midday snack! Soft, fluffy, and meaty, this Filipino-style bread roll is sure to be a family favorite!"
     },
     {
         "title": "Pineapple Upside Down Cake",
@@ -338,7 +346,8 @@
             "sour cream",
             "pineapple juice",
             "vanilla"
-        ]
+        ],
+        "summary": "Pineapple Upside Down Cake is as tasty as it is pretty! Made with moist yellow cake and caramelized pineapple and cherries, this classic dessert is a crowd-pleaser."
     },
     {
         "title": "Ube Mamon",
@@ -368,7 +377,8 @@
             "ube",
             "cream",
             "tartar"
-        ]
+        ],
+        "summary": "Mamon with ube flavor are soft, fluffy, and delicious. These mini sponge cakes are portable sweet treats perfect for snacks or desserts."
     },
     {
         "title": "Mango Bread Loaf",
@@ -404,7 +414,8 @@
             "ice",
             "lemon",
             "lemon juice"
-        ]
+        ],
+        "summary": "Fresh mangos, raisins, and warm cinnamon make this mango bread the perfect sweet treat! Try this simple recipe for breakfast or an anytime snack."
     },
     {
         "title": "Biscocho",
@@ -427,7 +438,8 @@
             "pandesal roll",
             "butter",
             "sugar"
-        ]
+        ],
+        "summary": "Crispy, buttery Biskotso is a delicious breakfast or snack treat with coffee or tea. This twice-baked bread is easy to make and the perfect use for day-old bread."
     },
     {
         "title": "Royal Bibingka",
@@ -465,7 +477,8 @@
             "margarine",
             "cheddar cheese",
             "cheese"
-        ]
+        ],
+        "summary": "Royal Bibingka is a Filipino rice cake traditionally served on holidays and special occasions. Sweet, chewy, and cheesy, it makes for a tasty snack or dessert!"
     },
     {
         "title": "Kababayan",
@@ -502,7 +515,8 @@
             "canola oil",
             "oil",
             "vanilla"
-        ]
+        ],
+        "summary": "Kababayan is a Filipino sweet muffin with a soft, moist texture. It's a bakery favorite that's easy to make at home with simple pantry ingredients. Enjoy with a hot or cold beverage for a tasty and filling snack!"
     },
     {
         "title": "Cebuana Torta Cake",
@@ -541,7 +555,8 @@
             "milk",
             "vanilla",
             "margarine"
-        ]
+        ],
+        "summary": "Torta Mamon is a favorite delicacy from Cebu known for its rich flavor and spongy but dense texture. Bake this popular Visayan treat and enjoy any time with a cup of coffee!"
     },
     {
         "title": "Corned Beef Hash Breakfast Pizza",
@@ -580,7 +595,8 @@
             "onion",
             "red onion",
             "egg"
-        ]
+        ],
+        "summary": "Looking for a fun recipe to start the day? This corned beef hash breakfast pizza topped with fresh bell peppers and eggs is delicious!"
     },
     {
         "title": "Uraro Cookies",
@@ -614,7 +630,8 @@
             "baking powder",
             "arrowroot",
             "salt"
-        ]
+        ],
+        "summary": "Araro are Filipino cookies made of arrowroot flour. They're powdery, melt-in-your-mouth, and delicious as a midday snack with coffee or tea."
     },
     {
         "title": "Monay",
@@ -649,7 +666,8 @@
             "powdered milk",
             "salt",
             "flour"
-        ]
+        ],
+        "summary": "Monay, also known as Pan de Monja, is a classic Filipino bread with a slightly sweet taste and dense texture. Delicious for breakfast or as a midday snack with jam or butter!"
     },
     {
         "title": "Lengua de Gato",
@@ -681,7 +699,8 @@
             "vanilla",
             "flour",
             "salt"
-        ]
+        ],
+        "summary": "Perfectly sweet, buttery, and crisp, Lengua de Gato are the ultimate baked goodies! They're great for gift-giving or just to keep on hand for any time you need a sweet treat. Try this super easy recipe and enjoy the cat's tongue cookies homemade, warm, and fresh from the oven."
     },
     {
         "title": "Otap",
@@ -715,7 +734,8 @@
             "egg",
             "butter",
             "flour"
-        ]
+        ],
+        "summary": "Otap are buttery, flaky baked goodies you'll love with your coffee or tea. These Filipino-style puff pastry cookies make a great hostess or holiday gifts as well as everyday sweet treats."
     },
     {
         "title": "Moist Chocolate Cupcakes with Mocha Buttercream Frosting",
@@ -751,7 +771,8 @@
             "milk",
             "coffee",
             "powdered sugar"
-        ]
+        ],
+        "summary": "These Chocolate Cupcakes with Mocha Buttercream Frosting are the ultimate sweet treat. Super moist and chocolatey, they're sure to be a family favorite."
     },
     {
         "title": "Tropical Magic Bars",
@@ -787,7 +808,8 @@
             "mango",
             "pineapple",
             "coconut"
-        ]
+        ],
+        "summary": "Magic Cookie Bars with a tropical twist! With shredded coconut, candied lime peels, dried mango, dried pineapple, and condensed milk piled on a buttery graham crust, they're seriously addictive. Perfect for snacking or gifting!"
     },
     {
         "title": "Mango Bravo Cake",
@@ -823,7 +845,8 @@
             "tartar",
             "whipping cream",
             "chocolate chip"
-        ]
+        ],
+        "summary": "No-bake Mango Cake with soft and moist chiffon, sweet mangoes, whipped cream, and chocolate syrup. Easy to make and a guaranteed crowd favorite."
     },
     {
         "title": "Chocolate Pandesal with Nutella Filling",
@@ -862,7 +885,8 @@
             "bread crumb",
             "graham cracker",
             "ham"
-        ]
+        ],
+        "summary": "Chocolate Pandesal turns our classic Filipino bread into one decadent treat! Soft, fluffy, chocolatey with a creamy Nutella filling, it's sure to be a hit with kids and adults alike!"
     },
     {
         "title": "Pandan Pandesal with Ube Halaya Filling",
@@ -899,7 +923,8 @@
             "breadcrumb",
             "ube",
             "ube halaya"
-        ]
+        ],
+        "summary": "Pandan Ube Pandesal rolls are another unique variety of the classic Filipino bread. Soft, fluffy, and bursting with pandan flavor and purple yam filling, they're a must-try!"
     },
     {
         "title": "Siopao Bola-Bola",
@@ -950,7 +975,8 @@
             "soy sauce",
             "garlic",
             "star anise"
-        ]
+        ],
+        "summary": "Filipino-style Steamed Buns with meatballs are the ultimate snack or light meal. With soft, fluffy buns and juicy, flavorful minced pork filling, these Siopao Bola-Bola are sure to hit the spot."
     },
     {
         "title": "Siopao Asado",
@@ -994,7 +1020,8 @@
             "flour",
             "baking powder",
             "lime"
-        ]
+        ],
+        "summary": "Siopao with pork asado filling is the ultimate Asian snack or appetizer. With soft, fluffy bread and sweet and savory flavors, these steamed buns are hearty and tasty!"
     },
     {
         "title": "Kalihim",
@@ -1028,7 +1055,8 @@
             "yeast",
             "salt",
             "water"
-        ]
+        ],
+        "summary": "Soft and delicious Pan de Regla bread filled with sweet, bright-red bread pudding. Delicious for breakfast or snack with coffee or tea!"
     },
     {
         "title": "Red Velvet Pandesal",
@@ -1070,7 +1098,8 @@
             "cream cheese",
             "powdered sugar",
             "vanilla"
-        ]
+        ],
+        "summary": "Red Velvet Pandesal with a hint of chocolate flavor, sweet cream cheese filling, and bright red color for the ultimate baked treat. Delicious for breakfast or anytime snack!"
     },
     {
         "title": "Ube Cheese Pandesal",
@@ -1107,7 +1136,8 @@
             "oil",
             "cheese",
             "bread crumb"
-        ]
+        ],
+        "summary": "Ube Pandesal with Cheese are soft, fluffy, and loaded with purple yam flavor. These Filipino bread rolls are delicious for breakfast or snack."
     },
     {
         "title": "Calamansi Muffins",
@@ -1143,7 +1173,8 @@
             "cream",
             "sour cream",
             "powdered sugar"
-        ]
+        ],
+        "summary": "Calamansi Muffins are perfect for breakfast, brunch, or as on-the-go snack. Super moist, tender, and drizzled with a tangy citrus glaze, they're sure to be a favorite!"
     },
     {
         "title": "Christmas Fruitcake",
@@ -1189,7 +1220,8 @@
             "almonds",
             "cashew",
             "pili nut"
-        ]
+        ],
+        "summary": "Easy Holiday Fruitcake loaded with glazed fruit and nuts. A dense yet moist cake laced with liquor, it's a great holiday treat perfect for dessert or gift-giving."
     },
     {
         "title": "Impossible Chocolate Flan Cake",
@@ -1225,7 +1257,8 @@
             "milk",
             "condensed milk",
             "vanilla"
-        ]
+        ],
+        "summary": "Chocolate Magic Flan Cake combines two favorite desserts in one! Part moist chocolate cake and part creamy custard, it's the ultimate sweet treat!"
     },
     {
         "title": "Cheater's Siopao Bola Bola",
@@ -1258,7 +1291,8 @@
             "canola oil",
             "oil",
             "salt"
-        ]
+        ],
+        "summary": "Cheater's Siopao Bola Bola made easy using refrigerated biscuits, meatballs, and quail eggs. These steamed buns are so fluffy and delicious with so little effort and in under 30 minutes!"
     },
     {
         "title": "Black Forest Swiss Roll Cake",
@@ -1299,7 +1333,8 @@
             "icing sugar",
             "maraschino cherries",
             "butter"
-        ]
+        ],
+        "summary": "Black Forest Swiss Roll made of soft chocolate chiffon, luscious whipped cream, and sweet cherries for the ultimate snack or dessert. Moist, creamy, and chocolatey, it's the perfect sweet treat for every day and special occasions."
     },
     {
         "title": "Bicho-Bicho",
@@ -1331,7 +1366,8 @@
             "flour",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Bicho-Bicho made of yeast dough deep-fried to golden perfection. Soft, fluffy, and coated in sugar, these Filipino twisted donuts make a great breakfast, snack or dessert. They're seriously addicting!"
     },
     {
         "title": "Silvanas",
@@ -1366,7 +1402,8 @@
             "butter",
             "graham cracker",
             "ham"
-        ]
+        ],
+        "summary": "Silvanas with meringue wafers, French buttercream filling, and ground cashew or cracker crumb coating are the ultimate cookies! Chewy, creamy, and buttery, they're seriously addicting!"
     },
     {
         "title": "Sans Rival",
@@ -1397,7 +1434,8 @@
             "vanilla",
             "egg yolk",
             "butter"
-        ]
+        ],
+        "summary": "Sans Rival made of nutty meringue layers, creamy french buttercream filling, and crunchy cashews. Chewy and buttery, this Filipino cake is truly one special treat!"
     },
     {
         "title": "Mini Egg Pies",
@@ -1429,7 +1467,8 @@
             "egg yolk",
             "milk",
             "condensed milk"
-        ]
+        ],
+        "summary": "Mini Egg Pies are creamy, buttery, and the perfect portable size for parties and gatherings. They're delicious as a midday snack or after-meal dessert."
     },
     {
         "title": "Sweet Potato Dinner Rolls",
@@ -1465,7 +1504,8 @@
             "egg",
             "salt",
             "flour"
-        ]
+        ],
+        "summary": "Sweet Potato Dinner Rolls are light, fluffy and filled with color and flavor from sweet potatoes. They're the perfect addition to any Fall or holiday menu!"
     },
     {
         "title": "Yema Cake",
@@ -1501,7 +1541,8 @@
             "egg yolk",
             "almond",
             "cheese"
-        ]
+        ],
+        "summary": "Fluffy Sponge cake with a creamy egg custard frosting and grated cheese topping. This Filipino Yema cake is soft, fluffy, and decadent!"
     },
     {
         "title": "Monggo Loaf Bread",
@@ -1538,7 +1579,8 @@
             "butter",
             "milk",
             "egg"
-        ]
+        ],
+        "summary": "Soft, pillowy Pan de Monggo with sweet mung bean filling for a tasty breakfast or snack treat. Delicious with coffee or tea!"
     },
     {
         "title": "Ube Crinkles (Purple Yam Crinkles)",
@@ -1572,7 +1614,8 @@
             "salt",
             "violet food color",
             "powdered sugar"
-        ]
+        ],
+        "summary": "Ube Crinkles are soft, moist and bursting with Ube flavors. These classic cookies with a tropical twist are so easy to make and perfect for coffee or tea time."
     },
     {
         "title": "Pianono (Filipino Sponge Cake Roll)",
@@ -1607,7 +1650,8 @@
             "baking powder",
             "powdered sugar",
             "margarine"
-        ]
+        ],
+        "summary": "Filipino Pianono is a sponge cake roll made with creamy margarine filling. It's soft, fluffy, and delicious for breakfast or midday snacks. Perfect with coffee or tea!"
     },
     {
         "title": "Pan de Coco",
@@ -1645,7 +1689,8 @@
             "vanilla",
             "egg",
             "water"
-        ]
+        ],
+        "summary": "Soft and fluffy Coconut Bread filled with sweetened coconut filling. Delicious as breakfast or snack!"
     },
     {
         "title": "Filipino Coconut Macaroons",
@@ -1677,7 +1722,8 @@
             "vanilla",
             "flour",
             "coconut"
-        ]
+        ],
+        "summary": "Filipino-style Coconut Macaroons are soft, chewy and delicious. These mini cupcakes are perfect as a snack or dessert and are sure to be crowd-favorite."
     },
     {
         "title": "Hawaiian Bread Pudding",
@@ -1717,7 +1763,8 @@
             "brown sugar",
             "nutmeg",
             "cinnamon"
-        ]
+        ],
+        "summary": "Hawaiian Bread Pudding is soft, moist, and loaded with tropical flavors and fruit caramel sauce. It's easy to make and is the perfect use for day-old bread."
     },
     {
         "title": "Cheese Puto",
@@ -1749,7 +1796,8 @@
             "vanilla",
             "cheddar cheese",
             "cheese"
-        ]
+        ],
+        "summary": "Cheese Puto are soft, fluffy, and extra delicious with pockets of cheese! These Filipino steamed cakes are easy to make and fun to eat; delicious on their own or served with dinuguan or pancit."
     },
     {
         "title": "Cheese Cupcakes",
@@ -1783,6 +1831,7 @@
             "cheese",
             "quick-melt",
             "cheddar cheese"
-        ]
+        ],
+        "summary": "Moist and buttery cheese cupcakes are sure to be a family favorite. Delicious for breakfast with coffee or tea as well as as a snack on the go."
     }
 ]

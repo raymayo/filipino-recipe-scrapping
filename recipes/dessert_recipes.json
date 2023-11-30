@@ -41,7 +41,8 @@
             "cream",
             "sago",
             "jackfruit"
-        ]
+        ],
+        "summary": "Soft, chewy, and delicious Bibingkoy with red mung bean filling and a creamy ginataan sauce with mini sago and langka. Each bite of this delightful kakanin is an explosion of flavors and textures that will surely leave you wanting more. "
     },
     {
         "title": "Avocado Ice Candy",
@@ -74,7 +75,8 @@
             "lime juice",
             "milk",
             "condensed milk"
-        ]
+        ],
+        "summary": "Avocado ice candy is the Filipino version of ice pops made with blended avocado and milk. It's easy to make and so fun to eat. It's the perfect hot weather treat!"
     },
     {
         "title": "Bibingkang Malagkit",
@@ -117,7 +119,8 @@
             "white sugar",
             "salt",
             "brown sugar"
-        ]
+        ],
+        "summary": "Bibingkang Malagkit is the ultimate sweet treat! Soft, chewy, and topped with sweetened coconut spread, it's sure to be a crowd-pleaser. And it's gluten-free, too!"
     },
     {
         "title": "Kapit",
@@ -151,7 +154,8 @@
             "water",
             "sugar",
             "jackfruit"
-        ]
+        ],
+        "summary": "Kalamay Kapit is a classic Filipino rice cake made of glutinous rice, sweetened jackfruit, and coconut curd filling. Deliciously sweet and sticky, it's best enjoyed as a snack or dessert."
     },
     {
         "title": "Mais con Queso Ice Candy",
@@ -187,7 +191,8 @@
             "gouda",
             "sugar",
             "candy bag"
-        ]
+        ],
+        "summary": "Looking for the ultimate frozen treat? These Mais con Queso Ice Pops are easy to make and so delicious. They're sweet, creamy, and perfect for a hot Summer day."
     },
     {
         "title": "Buko Lychee Sorbet",
@@ -213,7 +218,8 @@
             "coconut juice",
             "ice",
             "sugar"
-        ]
+        ],
+        "summary": "Beat the heat with this refreshing and delicious frozen tropical treat! Buko Lychee Sorbet is super easy to make with only four ingredients and a great way to cool off in warmer weather."
     },
     {
         "title": "Sapin-Sapin",
@@ -252,7 +258,8 @@
             "sugar",
             "ube",
             "langka"
-        ]
+        ],
+        "summary": "Sapin-Sapin is made of glutinous rice flour and coconut milk. Soft, chewy, and with latik topping, it's a colorful dessert that's tasty as it's pretty!"
     },
     {
         "title": "Kalamay Lansong",
@@ -286,7 +293,8 @@
             "sugar",
             "coconut milk",
             "milk"
-        ]
+        ],
+        "summary": "Kalamay Lansong, made of glutinous rice flour, coconut milk, and latik topping, is delicious as a snack or dessert. This Filipino steamed rice cake is sticky, chewy, perfectly sweetened, and gluten-free!"
     },
     {
         "title": "Buko Pie (Filipino Coconut Pie)",
@@ -327,7 +335,8 @@
             "coconut meat",
             "egg",
             "milk"
-        ]
+        ],
+        "summary": "Filipino Coconut Pie is the ultimate tropical treat. Enjoy this buko pie as a snack or dessert with coffee or tea!"
     },
     {
         "title": "Crema de Fruta",
@@ -368,7 +377,8 @@
             "gelatin",
             "fruit cocktail",
             "ice"
-        ]
+        ],
+        "summary": "Crema de Fruta made with fluffy chiffon cake, custard, and fruit gelatin is a festive cake you'll love year round!"
     },
     {
         "title": "Mango Royale",
@@ -400,7 +410,8 @@
             "graham cracker",
             "ham",
             "sugar"
-        ]
+        ],
+        "summary": "No-bake Mango Float is so easy to make, and no oven necessary. With sweetened cream and intense mango flavor, it's sure to be a crowd favorite!"
     },
     {
         "title": "Yema Bread Rolls",
@@ -434,7 +445,8 @@
             "salt",
             "potato",
             "condensed milk"
-        ]
+        ],
+        "summary": "Soft, fluffy Custard Buns filled with sweet and creamy yema. Delicious for breakfast or snack with coffee or tea!"
     },
     {
         "title": "Ginumis",
@@ -469,7 +481,8 @@
             "water",
             "sugar",
             "pandan"
-        ]
+        ],
+        "summary": "Ginumis is a shaved ice dessert with gulaman, sago, pinipig, sugar syrup, and coconut cream. Add fresh fruit for a sweet twist, and enjoy this summer treat!"
     },
     {
         "title": "Kalamay sa Latik",
@@ -506,7 +519,8 @@
             "brown sugar",
             "dark brown sugar",
             "jackfruit"
-        ]
+        ],
+        "summary": "Soft and chewy kalamay with sweet syrup, latik, and jackfruit is a tasty treat the whole family will love. Delicious as a snack or dessert!"
     },
     {
         "title": "Binignit",
@@ -548,7 +562,8 @@
             "brown sugar",
             "muscovado",
             "sugar"
-        ]
+        ],
+        "summary": "Binignit is a delicious sweet stew traditionally enjoyed as a snack or dessert. Made of tubers, fruit, and glutinous rice cooked in coconut milk, it's hearty and delicious!"
     },
     {
         "title": "Ube Kalamay",
@@ -587,7 +602,8 @@
             "ube",
             "coconut cream",
             "cream"
-        ]
+        ],
+        "summary": "Kalamay Ube is a delicious sticky rice cake made with glutinous rice flour, purple yam, and coconut milk, Soft, chewy and delicious, it makes a great snack or dessert."
     },
     {
         "title": "Pastillas de Ube",
@@ -621,7 +637,8 @@
             "lime",
             "sugar",
             "cellophane"
-        ]
+        ],
+        "summary": "Ube Pastillas are soft and creamy Filipino milk candies loaded with purple yam flavor. They're a delicious sweet treat perfect for anytime cravings or gift-giving."
     },
     {
         "title": "Palitaw",
@@ -654,7 +671,8 @@
             "coconut",
             "mature coconut",
             "water"
-        ]
+        ],
+        "summary": "Palitaw made with glutinous rice flour, grated coconut, sesame seeds, and sugar. Soft, chewy, and gluten-free, this Filipino delicacy is delicious as snack or dessert."
     },
     {
         "title": "Ginataang Kamoteng Kahoy",
@@ -685,7 +703,8 @@
             "jackfruit",
             "sugar",
             "salt"
-        ]
+        ],
+        "summary": "Cassava with Coconut Cream is a tasty and filling snack or dessert. Stewed in sweetened coconut milk with sago pearls and jackfruit strips, this ginataang kamoteng kahoy is sure to be a crowd favorite!"
     },
     {
         "title": "Minatamis na Kamote",
@@ -716,7 +735,8 @@
             "sugar",
             "ice",
             "orange"
-        ]
+        ],
+        "summary": "Japanese sweet potato casserole is easy to make in the oven and so delicious. Creamy, tender and smothered in a citrusy sweet syrup, this minatamis na kamote is a tasty and filling dessert or snack."
     },
     {
         "title": "Pineapple Upside Down Cake",
@@ -761,7 +781,8 @@
             "sour cream",
             "pineapple juice",
             "vanilla"
-        ]
+        ],
+        "summary": "Pineapple Upside Down Cake is as tasty as it is pretty! Made with moist yellow cake and caramelized pineapple and cherries, this classic dessert is a crowd-pleaser."
     },
     {
         "title": "Biko",
@@ -795,7 +816,8 @@
             "dark brown sugar",
             "sugar",
             "salt"
-        ]
+        ],
+        "summary": "Biko is the ultimate Filipino snack or dessert! Made of glutinous rice cooked in sweetened coconut milk, this rice cake is deliciously sweet, creamy, sticky, and gluten-free!"
     },
     {
         "title": "White Buko Salad",
@@ -833,7 +855,8 @@
             "cream",
             "condensed milk",
             "milk"
-        ]
+        ],
+        "summary": "White Buko Salad is the perfect addition to a holiday winter celebration! It's rich, creamy, and loaded with young coconut, gelatin, kaong, and nata de coco that's sure to satisfy your sweet tooth."
     },
     {
         "title": "Ube Mamon",
@@ -863,7 +886,8 @@
             "ube",
             "cream",
             "tartar"
-        ]
+        ],
+        "summary": "Mamon with ube flavor are soft, fluffy, and delicious. These mini sponge cakes are portable sweet treats perfect for snacks or desserts."
     },
     {
         "title": "Maja Blanca Espesyal",
@@ -897,7 +921,8 @@
             "corn",
             "sweet kernel corn",
             "cornstarch"
-        ]
+        ],
+        "summary": "Maja Blanca Espesyal is a rich and creamy coconut milk pudding with corn kernels and latik topping. Perfect as a snack or dessert!"
     },
     {
         "title": "Maja Blanca",
@@ -926,7 +951,8 @@
             "water",
             "cornstarch",
             "coconut flake"
-        ]
+        ],
+        "summary": "Maja Blanca is made with coconut milk, sweet corn kernels, and toasted coconut. Rich and creamy, this coconut pudding makes a delicious snack or dessert."
     },
     {
         "title": "Ginataang Bilo Bilo",
@@ -967,7 +993,8 @@
             "coconut cream",
             "cream",
             "jackfruit"
-        ]
+        ],
+        "summary": "Ginataang bilo-bilo is made with sweetened coconut milk, sticky rice balls, mini sago, and langka strips. It's creamy, delicious, and makes a filling snack or dessert."
     },
     {
         "title": "Ginataang Munggo",
@@ -1003,7 +1030,8 @@
             "coconut cream",
             "cream",
             "sugar"
-        ]
+        ],
+        "summary": "Ginataang Tutong is a delicious Filipino sweet porridge traditionally served as a snack or dessert. This mung bean rice porridge is creamy, filling, and the perfect cold-weather comfort food."
     },
     {
         "title": "Maja Langka",
@@ -1037,7 +1065,8 @@
             "jackfruit",
             "corn",
             "cornstarch"
-        ]
+        ],
+        "summary": "Maja Blanca with Jackfruit is easy to make and sure to be a crowd favorite. Creamy, tasty and loaded with coconut flavor, this Filipino-style pudding is a delicious snack or dessert."
     },
     {
         "title": "Polvoron",
@@ -1071,7 +1100,8 @@
             "pea",
             "peanut",
             "oreo"
-        ]
+        ],
+        "summary": "Polvoron is sweet, buttery, and super easy to customize with different flavors. This Filipino shortbread cookie is a delicious snack or dessert and perfect for gift-giving!"
     },
     {
         "title": "Ube Maja Blanca",
@@ -1105,7 +1135,8 @@
             "sugar",
             "corn",
             "cornstarch"
-        ]
+        ],
+        "summary": "Maja de Ube with an intense purple yam flavor you'll love for a snack or dessert. Topped with latik, it's soft, creamy and delicious!"
     },
     {
         "title": "Ginataang Mais",
@@ -1139,7 +1170,8 @@
             "coconut cream",
             "cream",
             "sugar"
-        ]
+        ],
+        "summary": "Coconut Rice Pudding with sweet corn kernels is a hearty and tasty snack or dessert. This Ginataang mais is quick and easy to make, and naturally gluten-free!"
     },
     {
         "title": "Ginataang Halo-halo",
@@ -1179,7 +1211,8 @@
             "coconut cream",
             "cream",
             "sugar"
-        ]
+        ],
+        "summary": "Ginataang halo-halo is rich, creamy and loaded with tropical flavors. Made of glutinous rice balls, sago pearls, tropical fruits, and tubers,\u00a0 it makes a delicious snack, dessert or breakfast!"
     },
     {
         "title": "Guava in Coconut Cream",
@@ -1211,7 +1244,8 @@
             "sago",
             "coconut cream",
             "cream"
-        ]
+        ],
+        "summary": "Ginataang Bayabas is the ultimate tropical snack or dessert. Rich and creamy and loaded with sago pearls, it's fun to eat as it is tasty!"
     },
     {
         "title": "Tibok-Tibok",
@@ -1246,7 +1280,8 @@
             "rice flour",
             "sugar",
             "salt"
-        ]
+        ],
+        "summary": "Kapampangan Tibok-tibok is a milk pudding enjoyed as a dessert or snack. Made with carabao's milk and golden coconut curds, it's rich, creamy and absolutely delicious!"
     },
     {
         "title": "Biscocho",
@@ -1269,7 +1304,8 @@
             "pandesal roll",
             "butter",
             "sugar"
-        ]
+        ],
+        "summary": "Crispy, buttery Biskotso is a delicious breakfast or snack treat with coffee or tea. This twice-baked bread is easy to make and the perfect use for day-old bread."
     },
     {
         "title": "Mango Ice Cream",
@@ -1298,7 +1334,8 @@
             "cream",
             "heavy cream",
             "yellow food coloring"
-        ]
+        ],
+        "summary": "No-Churn Mango Ice Cream is rich, creamy, and bursting with fresh mango flavor. This homemade tropical ice cream is easy to make with only four ingredients and no ice cream maker needed!"
     },
     {
         "title": "Ube Macapuno Ice Cream",
@@ -1328,7 +1365,8 @@
             "milk",
             "ube",
             "macapuno"
-        ]
+        ],
+        "summary": "Ube Macapuno Ice Cream is the ultimate sweet treat! Made of purple yam and coconut sport, it's rich, creamy, and with intense ube flavor."
     },
     {
         "title": "Avocado Sago Jelly",
@@ -1363,7 +1401,8 @@
             "milk",
             "cream",
             "sago"
-        ]
+        ],
+        "summary": "Avocado Jelly with Sago is rich, creamy, and loaded with mini sago, gulaman cubes, and avocado, Easy to make and sure to be a family favorite!"
     },
     {
         "title": "Bibingka",
@@ -1407,7 +1446,8 @@
             "cream cheese",
             "margarine",
             "mature coconut"
-        ]
+        ],
+        "summary": "Bibingka Espesyal is the ultimate Christmas treat! Soft, spongy and made extra delicious with salted egg, cheese, and grated coconut topping, this classic Filipino delicacy is sure to be a holiday hit."
     },
     {
         "title": "Royal Bibingka",
@@ -1445,7 +1485,8 @@
             "margarine",
             "cheddar cheese",
             "cheese"
-        ]
+        ],
+        "summary": "Royal Bibingka is a Filipino rice cake traditionally served on holidays and special occasions. Sweet, chewy, and cheesy, it makes for a tasty snack or dessert!"
     },
     {
         "title": "Minatamis na Langka",
@@ -1472,7 +1513,8 @@
         "ingredients": [
             "jackfruit",
             "sugar"
-        ]
+        ],
+        "summary": "Sweetened Jackfruit is easy to make with only three ingredients and so delicious. Enjoy on its own or use in other yummy dessert recipes!"
     },
     {
         "title": "Kababayan",
@@ -1509,7 +1551,8 @@
             "canola oil",
             "oil",
             "vanilla"
-        ]
+        ],
+        "summary": "Kababayan is a Filipino sweet muffin with a soft, moist texture. It's a bakery favorite that's easy to make at home with simple pantry ingredients. Enjoy with a hot or cold beverage for a tasty and filling snack!"
     },
     {
         "title": "Suman Malagkit with Coconut Caramel Sauce",
@@ -1542,7 +1585,8 @@
             "banana",
             "banana leave",
             "banana leaves"
-        ]
+        ],
+        "summary": "Suman Malagkit with Coconut Caramel Sauce steamed in banana leaves makes the perfect snack or dessert. With deliciously sweet and sticky rice cake drizzled with rich and creamy sauce, this Filipino delicacy is seriously addictive."
     },
     {
         "title": "Coffee Flan",
@@ -1573,7 +1617,8 @@
             "coffee",
             "vanilla",
             "salt"
-        ]
+        ],
+        "summary": "Satisfy your sweet cravings with coffee flan! It's easy to make, creamy, and delicious way to get your caffeine fix!"
     },
     {
         "title": "Buko Pandan Salad",
@@ -1609,7 +1654,8 @@
             "cream",
             "condensed milk",
             "milk"
-        ]
+        ],
+        "summary": "Buko Pandan is easy to make and a crowd-pleaser! This Filipino-style salad with gulaman, young coconut, and tropical palm fruits is creamy and delicious, and makes a great snack or dessert. Perfect for holidays, special occasions, or just any time you need a sweet treat!"
     },
     {
         "title": "Banana Turon",
@@ -1643,7 +1689,8 @@
             "jackfruit",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Banana Turon, also known as Lumpiang Saging or simply Turon, is common street food and one of the most popular snacks in the Philippines. With its caramelized crispy wrapper and filling of soft, sweet banana and langka strips, this Filipino spring roll is delicious as a midday snack or after-meal dessert."
     },
     {
         "title": "Brazo de Mercedes",
@@ -1681,7 +1728,8 @@
             "sugar",
             "super sugar",
             "powdered sugar"
-        ]
+        ],
+        "summary": "Brazo de Mercedes or Mercedes Arm is a classic Filipino dessert made of fluffy meringue and creamy yema filling. Give the recipe a try; it's easier to make than you think!"
     },
     {
         "title": "Sampalok Candy",
@@ -1709,7 +1757,8 @@
             "tamarind",
             "sugar",
             "salt"
-        ]
+        ],
+        "summary": "Tamarind candy with a medley of sweet, sour, and salty flavors you won't be able to get enough of. It's super easy to make and so delicious. Roll in chili pepper to add a kick of heat!"
     },
     {
         "title": "Pastillas de Leche",
@@ -1739,7 +1788,8 @@
             "butter",
             "cream",
             "powdered milk"
-        ]
+        ],
+        "summary": "Pastillas de leche are Filipino candies made with milk and sugar. These sweet treats are soft, creamy, and great for holiday gift-giving!"
     },
     {
         "title": "Taho",
@@ -1771,7 +1821,8 @@
             "pea",
             "sago",
             "tofu"
-        ]
+        ],
+        "summary": "Enjoy this easy-to-make and fun-to-eat vegan soy dessert! Taho is made of silken tofu, sago pearls, and brown sugar syrup, and is delicious for breakfast or any time you need a quick pick-me-upper!"
     },
     {
         "title": "Halo-Halo",
@@ -1817,7 +1868,8 @@
             "cream",
             "mango",
             "vanilla"
-        ]
+        ],
+        "summary": "Looking for the ultimate Summertime treat? Try Halo-halo! This Filipino-style shaved ice is layered with sweetened fruits, jellies, and milk and topped with ice cream and custard for a tasty and refreshing treat. Perfect way to cool down on a hot day!"
     },
     {
         "title": "Lengua de Gato",
@@ -1849,7 +1901,8 @@
             "vanilla",
             "flour",
             "salt"
-        ]
+        ],
+        "summary": "Perfectly sweet, buttery, and crisp, Lengua de Gato are the ultimate baked goodies! They're great for gift-giving or just to keep on hand for any time you need a sweet treat. Try this super easy recipe and enjoy the cat's tongue cookies homemade, warm, and fresh from the oven."
     },
     {
         "title": "Peanut Tikoy Rolls",
@@ -1885,7 +1938,8 @@
             "vanilla",
             "ube",
             "ube halaya"
-        ]
+        ],
+        "summary": "Try this delicios version of Nian Gao! Ube Tikoy Roll is soft, chewy, and bursting with purple yam and nutty peanut flavors the whole family will love."
     },
     {
         "title": "Graham Balls",
@@ -1914,7 +1968,8 @@
             "condensed milk",
             "milk",
             "cream"
-        ]
+        ],
+        "summary": "Graham Balls are no-bake dessert bites made of graham cracker crumbs, condensed milk, and all-purpose cream. They're super easy to make and so luscious and delicious. The perfect treat to satisfy your sweet cravings!"
     },
     {
         "title": "Moist Chocolate Cupcakes with Mocha Buttercream Frosting",
@@ -1950,7 +2005,8 @@
             "milk",
             "coffee",
             "powdered sugar"
-        ]
+        ],
+        "summary": "These Chocolate Cupcakes with Mocha Buttercream Frosting are the ultimate sweet treat. Super moist and chocolatey, they're sure to be a family favorite."
     },
     {
         "title": "Maja Jubilee",
@@ -1984,7 +2040,8 @@
             "cornstarch",
             "cheese",
             "eden"
-        ]
+        ],
+        "summary": "Fruity Maja Blanca is creamy, cheesy, and sure to be a family favorite. Loaded with cheese and fruit cociktail, this colorful coconut pudding makes a delicious snack or dessert."
     },
     {
         "title": "Calamansi Cheesecake Bars",
@@ -2024,7 +2081,8 @@
             "ice",
             "baking powder",
             "powdered sugar"
-        ]
+        ],
+        "summary": "Rich, creamy and full of citrusy calamansi flavor, these luscious calamansi cheesecake bars are easy to make and delicious for after-meal dessert or anytime you need a sweet treat."
     },
     {
         "title": "Tropical Magic Bars",
@@ -2060,7 +2118,8 @@
             "mango",
             "pineapple",
             "coconut"
-        ]
+        ],
+        "summary": "Magic Cookie Bars with a tropical twist! With shredded coconut, candied lime peels, dried mango, dried pineapple, and condensed milk piled on a buttery graham crust, they're seriously addictive. Perfect for snacking or gifting!"
     },
     {
         "title": "Mango Bravo Cake",
@@ -2096,7 +2155,8 @@
             "tartar",
             "whipping cream",
             "chocolate chip"
-        ]
+        ],
+        "summary": "No-bake Mango Cake with soft and moist chiffon, sweet mangoes, whipped cream, and chocolate syrup. Easy to make and a guaranteed crowd favorite."
     },
     {
         "title": "Mango Bango",
@@ -2126,7 +2186,8 @@
             "cream",
             "condensed milk",
             "milk"
-        ]
+        ],
+        "summary": "Mango Bango is super easy to make yet so delicious. Made with juicy mangoes, palm fruits, and sweetened cream, it's a sweet treat you'd want year-round."
     },
     {
         "title": "Almond Jello",
@@ -2151,7 +2212,8 @@
             "water",
             "milk",
             "almond"
-        ]
+        ],
+        "summary": "Almond Tofu is a refreshing gelatin dessert made with milk and almond extract often served with fruit cocktail or other canned fruits. It's a delicious treat that's easy to make and sure to be a crowd favorite!"
     },
     {
         "title": "Coconut Flan",
@@ -2181,7 +2243,8 @@
             "milk",
             "condensed milk",
             "ramekin"
-        ]
+        ],
+        "summary": "Flan de Coco is easy to make using a simple hack of caramelizing sugar in the microwave. It's sweet and creamy with a hint of tropical flavors the whole family will love."
     },
     {
         "title": "Leche Flan",
@@ -2209,7 +2272,8 @@
             "egg yolk",
             "condensed milk",
             "milk"
-        ]
+        ],
+        "summary": "Leche Flan is silky smooth, rich, and creamy with golden caramel. This classic Filipino custard dessert is easy to make and sure to be a crowd favorite."
     },
     {
         "title": "Mango and Cream Cheese Turon",
@@ -2241,7 +2305,8 @@
             "cream cheese",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Crispy Dessert Spring Rolls filled with Mango and cream cheese. A tasty sweet treat you must try!"
     },
     {
         "title": "No-Churn Buko Pandan Ice Cream",
@@ -2271,7 +2336,8 @@
             "buko pandan",
             "pandan",
             "coconut"
-        ]
+        ],
+        "summary": "Homemade Buko Pandan Ice Cream with only four ingredients and no ice cream maker needed. Rich, creamy, and loaded with fresh young coconut and pandan flavor, it makes a great Summer treat!"
     },
     {
         "title": "Christmas Fruitcake",
@@ -2317,7 +2383,8 @@
             "almonds",
             "cashew",
             "pili nut"
-        ]
+        ],
+        "summary": "Easy Holiday Fruitcake loaded with glazed fruit and nuts. A dense yet moist cake laced with liquor, it's a great holiday treat perfect for dessert or gift-giving."
     },
     {
         "title": "Mini Special Sapin-Sapin",
@@ -2360,7 +2427,8 @@
             "ube halaya",
             "jackfruit",
             "langka"
-        ]
+        ],
+        "summary": "Mini Sapin-sapin are tasty, festive, and perfect for parties. These layered sticky rice cakes are fun to eat as they are delicious!"
     },
     {
         "title": "Ube Biko",
@@ -2396,7 +2464,8 @@
             "ube halaya",
             "sugar",
             "salt"
-        ]
+        ],
+        "summary": "Biko Sticky Rice Cake with purple yam is a tasty snack or dessert the whole family will love. It's soft, chewy, and loaded with purple yam and coconut flavor."
     },
     {
         "title": "Buko Salad",
@@ -2430,7 +2499,8 @@
             "condensed milk",
             "milk",
             "cream"
-        ]
+        ],
+        "summary": "Filipino Fruit Salad is the perfect holiday treat! Colorful, creamy and delicious with canned fruit, young coconut, and sweetened cream, this buko salad is sure to a party favorite!"
     },
     {
         "title": "Buko Pandan Gelatin",
@@ -2462,7 +2532,8 @@
             "milk",
             "buko pandan",
             "pandan"
-        ]
+        ],
+        "summary": "Buko Pandan Gelatin is a tasty, tun treat loaded with coconut and pandan flavor. Easy to make, it turns into two layers on its own!"
     },
     {
         "title": "Ube Cassava Cake",
@@ -2498,7 +2569,8 @@
             "cassava",
             "macapuno",
             "macapuno string"
-        ]
+        ],
+        "summary": "Cassa-ube Cake is a delicious combination of cassava cake and ube halaya in one delicious dessert. Baked in individual ramekins, they're perfect as a special treat for you or for serving a party!"
     },
     {
         "title": "Graham de Leche",
@@ -2529,7 +2601,8 @@
             "heavy cream",
             "graham cracker",
             "ham"
-        ]
+        ],
+        "summary": "Graham de Leche with graham cracker, whipped cream, and leche flan layers is a decadent dessert that's sure to impress. It's a special anytime treat and perfect for holiday gift-giving, too!\u00a0"
     },
     {
         "title": "Impossible Chocolate Flan Cake",
@@ -2565,7 +2638,8 @@
             "milk",
             "condensed milk",
             "vanilla"
-        ]
+        ],
+        "summary": "Chocolate Magic Flan Cake combines two favorite desserts in one! Part moist chocolate cake and part creamy custard, it's the ultimate sweet treat!"
     },
     {
         "title": "Floating Island Dessert",
@@ -2601,7 +2675,8 @@
             "egg yolk",
             "cream",
             "tartar"
-        ]
+        ],
+        "summary": "Floating Island Dessert is the ultimate decadent treat made with creamy layers of ube halaya, leche flan, and melt-in-your-mouth meringue. It's the perfect holiday indulgence!"
     },
     {
         "title": "Pichi-Pichi",
@@ -2636,7 +2711,8 @@
             "pandan",
             "mature coconut",
             "cheese"
-        ]
+        ],
+        "summary": "Pichi-pichi is a Filipino delicacy made of grated cassava and coconut juice. Soft, chewy and coated with grated coconut, this steamed cake is delicious as a snack or dessert."
     },
     {
         "title": "Pandan Coconut Jelly",
@@ -2669,7 +2745,8 @@
             "coconut juice",
             "ice",
             "pandan"
-        ]
+        ],
+        "summary": "Coconut and Pandan Jelly (Wun Gati Bai Tuey) is as fun to make as it is to eat! Made with two different flavored layers, it's a pretty and tasty dessert everyone will love."
     },
     {
         "title": "Halayang Ube",
@@ -2704,7 +2781,8 @@
             "eden",
             "coconut cream",
             "cream"
-        ]
+        ],
+        "summary": "Ube Halaya is a Filipino delicacy you'll love as a snack or dessert. Creamy, cheesy and loaded with purple yam flavor, it's sure to be a crowd-pleaser."
     },
     {
         "title": "Espasol",
@@ -2738,7 +2816,8 @@
             "sugar",
             "vanilla",
             "salt"
-        ]
+        ],
+        "summary": "Soft and Chewy Espasol made of toasted rice flour and coconut milk. This Filipino delicacy makes a tasty and filling snack or dessert."
     },
     {
         "title": "Mango Jelly",
@@ -2771,7 +2850,8 @@
             "condensed milk",
             "milk",
             "sago"
-        ]
+        ],
+        "summary": "Mango Jelly made with juicy mangoes, jelly cubes, mini tapioca, and sweetened cream is a delicious treat you'd want all summer long! milk. Creamy, tangy, and refreshing, it's sure to be a crowd favorite!"
     },
     {
         "title": "Turon Malagkit",
@@ -2809,7 +2889,8 @@
             "sugar",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Turon Malagkit filled with sticky rice and jackfruit, coated with sugar, and fried until golden and caramelized. These Filipino spring rolls are filling, delicious and perfect as snack or dessert."
     },
     {
         "title": "Black Forest Swiss Roll Cake",
@@ -2850,7 +2931,8 @@
             "icing sugar",
             "maraschino cherries",
             "butter"
-        ]
+        ],
+        "summary": "Black Forest Swiss Roll made of soft chocolate chiffon, luscious whipped cream, and sweet cherries for the ultimate snack or dessert. Moist, creamy, and chocolatey, it's the perfect sweet treat for every day and special occasions."
     },
     {
         "title": "Bicho-Bicho",
@@ -2882,7 +2964,8 @@
             "flour",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Bicho-Bicho made of yeast dough deep-fried to golden perfection. Soft, fluffy, and coated in sugar, these Filipino twisted donuts make a great breakfast, snack or dessert. They're seriously addicting!"
     },
     {
         "title": "Nilupak",
@@ -2913,7 +2996,8 @@
             "milk",
             "butter",
             "cheese"
-        ]
+        ],
+        "summary": "Nilupak made of mashed cassava, sweetened condensed milk, and butter. This classic Filipino delicacy is creamy, tasty, and perfect for a snack or dessert."
     },
     {
         "title": "Silvanas",
@@ -2948,7 +3032,8 @@
             "butter",
             "graham cracker",
             "ham"
-        ]
+        ],
+        "summary": "Silvanas with meringue wafers, French buttercream filling, and ground cashew or cracker crumb coating are the ultimate cookies! Chewy, creamy, and buttery, they're seriously addicting!"
     },
     {
         "title": "Sans Rival",
@@ -2979,7 +3064,8 @@
             "vanilla",
             "egg yolk",
             "butter"
-        ]
+        ],
+        "summary": "Sans Rival made of nutty meringue layers, creamy french buttercream filling, and crunchy cashews. Chewy and buttery, this Filipino cake is truly one special treat!"
     },
     {
         "title": "Cassava Cake with Custard Topping",
@@ -3015,7 +3101,8 @@
             "sugar",
             "egg",
             "egg yolk"
-        ]
+        ],
+        "summary": "Cassava Cake with Custard Topping made with grated cassava and coconut milk. Soft and moist with a creamy flan topping, this classic Filipino treat is the ultimate snack or dessert. And it's naturally gluten-free, too!"
     },
     {
         "title": "Sticky Rice Balls with Peanuts",
@@ -3048,7 +3135,8 @@
             "rice",
             "rice flour",
             "water"
-        ]
+        ],
+        "summary": "Tong But Luck are easy and fun to make! Soft, chewy, and coated with ground peanuts, these Asian sticky rice balls are seriously addictive!"
     },
     {
         "title": "Mini Egg Pies",
@@ -3080,7 +3168,8 @@
             "egg yolk",
             "milk",
             "condensed milk"
-        ]
+        ],
+        "summary": "Mini Egg Pies are creamy, buttery, and the perfect portable size for parties and gatherings. They're delicious as a midday snack or after-meal dessert."
     },
     {
         "title": "Kalamay Gabi",
@@ -3116,7 +3205,8 @@
             "sugar",
             "coconut cream",
             "cream"
-        ]
+        ],
+        "summary": "Kalamay Gabi with glutinous rice flour and taro is the ultimate Filipino rice cake. Sweet, sticky, and loaded with coconut and taro flavor, it's delicious as a snack or dessert."
     },
     {
         "title": "Cassava Suman",
@@ -3143,7 +3233,8 @@
             "coconut",
             "coconut milk",
             "milk"
-        ]
+        ],
+        "summary": "Steamed Cassava Suman is a delicious snack or dessert made with grated yucca and coconut milk. This Filipino cake is tasty, filling, and gluten-free."
     },
     {
         "title": "Fruit Cocktail Graham Float",
@@ -3173,7 +3264,8 @@
             "graham cracker",
             "ham",
             "fruit cocktail"
-        ]
+        ],
+        "summary": "Fruit Cocktail Graham Float with delicious layers of sweetened cream, graham crackers, and fruit cocktail is the perfect dessert for all occasions. This refrigerator cake is so easy to make and is sure to be a crowd favorite!"
     },
     {
         "title": "Pasta Fruit Salad",
@@ -3206,7 +3298,8 @@
             "cream",
             "condensed milk",
             "milk"
-        ]
+        ],
+        "summary": "Pasta Fruit Salad made with macaroni, fruit cocktail, sweet palm nuts, cheese, and sweetened cream. Creamy and perfectly sweetened, this Filipino-style dessert is sure to be a party hit!"
     },
     {
         "title": "Puto Lanson",
@@ -3235,7 +3328,8 @@
             "coconut",
             "margarine",
             "muscovado"
-        ]
+        ],
+        "summary": "Puto Lanson made with cassava, coconut, and brown sugar is perfect for a snack or dessert. This Filipino delicacy is easy to make, tasty, and gluten-free!"
     },
     {
         "title": "Yema Cake",
@@ -3271,7 +3365,8 @@
             "egg yolk",
             "almond",
             "cheese"
-        ]
+        ],
+        "summary": "Fluffy Sponge cake with a creamy egg custard frosting and grated cheese topping. This Filipino Yema cake is soft, fluffy, and decadent!"
     },
     {
         "title": "Easy Yema Spread",
@@ -3300,7 +3395,8 @@
             "egg yolk",
             "butter",
             "salt"
-        ]
+        ],
+        "summary": "Easy Yema Spread made with egg yolks and condensed milk for a delicious sweet treat you'll love as frosting for cakes, cupcakes, and cookies or as a spread for sandwiches and breakfast toasts!"
     },
     {
         "title": "Ube Crinkles (Purple Yam Crinkles)",
@@ -3334,7 +3430,8 @@
             "salt",
             "violet food color",
             "powdered sugar"
-        ]
+        ],
+        "summary": "Ube Crinkles are soft, moist and bursting with Ube flavors. These classic cookies with a tropical twist are so easy to make and perfect for coffee or tea time."
     },
     {
         "title": "Pianono (Filipino Sponge Cake Roll)",
@@ -3369,7 +3466,8 @@
             "baking powder",
             "powdered sugar",
             "margarine"
-        ]
+        ],
+        "summary": "Filipino Pianono is a sponge cake roll made with creamy margarine filling. It's soft, fluffy, and delicious for breakfast or midday snacks. Perfect with coffee or tea!"
     },
     {
         "title": "Pan de Coco",
@@ -3407,7 +3505,8 @@
             "vanilla",
             "egg",
             "water"
-        ]
+        ],
+        "summary": "Soft and fluffy Coconut Bread filled with sweetened coconut filling. Delicious as breakfast or snack!"
     },
     {
         "title": "Carioca",
@@ -3434,7 +3533,8 @@
             "canola oil",
             "oil",
             "sugar"
-        ]
+        ],
+        "summary": "Carioca recipe made of deep fried glutinous rice balls coated with caramel and then skewered in bamboo sticks"
     },
     {
         "title": "Cathedral Window Gelatin",
@@ -3465,7 +3565,8 @@
             "cream",
             "condensed milk",
             "milk"
-        ]
+        ],
+        "summary": "Cathedral Window Gelatin is a show-stopping dessert masterpiece perfect for the holidays. Soft, creamy and silky with colorful gelatin, it's as amazing as it looks!"
     },
     {
         "title": "Dulce de Leche FLan",
@@ -3492,7 +3593,8 @@
             "dulce de leche",
             "milk",
             "egg"
-        ]
+        ],
+        "summary": "Dulce de Leche Flan kicks up our regular leche flan up a notch. Made with sweet dulce de leche, it's rich, creamy and full of caramel flavor!"
     },
     {
         "title": "Avocado Ice Cream",
@@ -3524,7 +3626,8 @@
             "milk",
             "cream",
             "heavy cream"
-        ]
+        ],
+        "summary": "No-churn avocado ice cream is easy to make with only four ingredients yet tastes so much better than store-bought. So creamy and delicious!"
     },
     {
         "title": "Mango Sago",
@@ -3555,7 +3658,8 @@
             "mango",
             "milk",
             "sugar"
-        ]
+        ],
+        "summary": "Mango Sago made with mangoes, tapioca pearls, and milk. Sweet, tangy and creamy, it's a summer dessert you'd want all year long!"
     },
     {
         "title": "Filipino Coconut Macaroons",
@@ -3587,7 +3691,8 @@
             "vanilla",
             "flour",
             "coconut"
-        ]
+        ],
+        "summary": "Filipino-style Coconut Macaroons are soft, chewy and delicious. These mini cupcakes are perfect as a snack or dessert and are sure to be crowd-favorite."
     },
     {
         "title": "Leche Flan with Whole Eggs",
@@ -3616,7 +3721,8 @@
             "condensed milk",
             "milk",
             "lime"
-        ]
+        ],
+        "summary": "Try this Leche Flan made with whole eggs and easy caramel syrup. It's a creamy and delicious sweet treat the whole family will love!"
     },
     {
         "title": "Coffee Jelly",
@@ -3647,7 +3753,8 @@
             "condensed milk",
             "milk",
             "cream"
-        ]
+        ],
+        "summary": "Coffee Jelly is as fun to eat as it is tasty! The combination of coffee-flavored jelly cubes and sweetened cream is a creamy and delicious dessert that's sure to be a crowd-pleaser."
     },
     {
         "title": "Hawaiian Bread Pudding",
@@ -3687,7 +3794,8 @@
             "brown sugar",
             "nutmeg",
             "cinnamon"
-        ]
+        ],
+        "summary": "Hawaiian Bread Pudding is soft, moist, and loaded with tropical flavors and fruit caramel sauce. It's easy to make and is the perfect use for day-old bread."
     },
     {
         "title": "Kutsinta",
@@ -3713,7 +3821,8 @@
             "water",
             "atsuete powder",
             "lye water"
-        ]
+        ],
+        "summary": "Kutsinta (cuchinta) are Filipino steamed cakes made with flour, tapioca flour, and brown sugar. Soft, chewy and topped with grated coconut, they're a delicious snack or dessert."
     },
     {
         "title": "Kalamay Hati",
@@ -3749,7 +3858,8 @@
             "sugar",
             "coconut cream",
             "cream"
-        ]
+        ],
+        "summary": "Kalamay Hati made with glutinous rice flour, coconut milk and muscovado sugar. Perfectly sweet and sticky, this rice cake is great as snack or dessert!"
     },
     {
         "title": "Cream Cheese Flan",
@@ -3779,7 +3889,8 @@
             "egg",
             "milk",
             "condensed milk"
-        ]
+        ],
+        "summary": "Cheesecake Flan is two delectable desserts rolled into one! Rich, creamy and with a luscious caramel sauce, this caramel custard is the ultimate sweet treat!"
     },
     {
         "title": "Maruya",
@@ -3814,7 +3925,8 @@
             "oil",
             "banana",
             "saba"
-        ]
+        ],
+        "summary": "Banana Fritters coated in batter and fried to fluffy perfection. They're easy to make and great for breakfast or midday snack."
     },
     {
         "title": "Fried Bananas with Salted Coconut Caramel Sauce",
@@ -3847,7 +3959,8 @@
             "oil",
             "banana",
             "saba"
-        ]
+        ],
+        "summary": "Fried Saba Bananas are seriously addictive! Soft and sweet with a salted caramel sauce for dipping, they're delicious as a snack or dessert."
     },
     {
         "title": "Buchi",
@@ -3887,7 +4000,8 @@
             "sesame seed",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Learn how to make soft and chewy sesame balls with a delicious red bean filling. Plus the tricks on how to keep them from exploding or deflating!"
     },
     {
         "title": "Tapioca Coconut Dessert Soup",
@@ -3918,7 +4032,8 @@
             "coconut milk",
             "milk",
             "sugar"
-        ]
+        ],
+        "summary": "Craving something sweet? Xi mi lu made of tapioca, coconut milk, and calabasa is a creamy and delicious dessert the whole family will love!"
     },
     {
         "title": "Cheese Cupcakes",
@@ -3952,6 +4067,7 @@
             "cheese",
             "quick-melt",
             "cheddar cheese"
-        ]
+        ],
+        "summary": "Moist and buttery cheese cupcakes are sure to be a family favorite. Delicious for breakfast with coffee or tea as well as as a snack on the go."
     }
 ]

@@ -34,7 +34,8 @@
             "kangkong",
             "pepper",
             "salt"
-        ]
+        ],
+        "summary": "Sinigang is a classic Filipino dish known for its sour taste. It's loaded with meat, veggies, and a clear broth for a refreshing soup full of comfort flavors. "
     },
     {
         "title": "Chicken Mami",
@@ -82,7 +83,8 @@
             "salt",
             "fish",
             "fish sauce"
-        ]
+        ],
+        "summary": "Keep warm and nourished with this Filipino-style noodle soup! Chicken mami made with fresh egg noodles and tasty toppings, is hearty, full of flavor, and the ultimate comfort food. It's delicious and satisfying as a midday snack or light lunch."
     },
     {
         "title": "Tinolang Palaka",
@@ -119,7 +121,8 @@
             "spinach",
             "pepper",
             "salt"
-        ]
+        ],
+        "summary": "Need something tasty to warm you up? This traditional tinolang palaka frog-leg soup cooked in a ginger-based broth is bursting with flavor!"
     },
     {
         "title": "Chicken Halang-Halang",
@@ -164,7 +167,8 @@
             "papaya",
             "salt",
             "spinach"
-        ]
+        ],
+        "summary": "Chicken Halang-Halang is easy to make yet delivers tons of flavor. It's creamy, spicy, and delicious with steamed rice!"
     },
     {
         "title": "Pancit Lomi",
@@ -207,7 +211,8 @@
             "cabbage",
             "napa cabbage",
             "egg"
-        ]
+        ],
+        "summary": "Pancit Lomi is hearty, tasty, and the ultimate comfort food! Made with fresh egg noodles, chicken, and vegetables, it makes a great midday snack or dinner meal."
     },
     {
         "title": "Batchoy Tagalog",
@@ -249,7 +254,8 @@
             "pepper",
             "salt",
             "chili"
-        ]
+        ],
+        "summary": "Batchoy Tagalog makes a great main dish with steamed rice for lunch or dinner. It's a hearty, flavorful comfort food that's sure to take the chill off cold, rainy days."
     },
     {
         "title": "Chicken Corn Soup",
@@ -288,7 +294,8 @@
             "cornstarch",
             "egg",
             "green onion"
-        ]
+        ],
+        "summary": "This Chicken and Corn Soup is a very easy dish to make but filled with fresh corn and chicken flavor in every bite. It's hearty, delicious, and perfect for chilly weather!"
     },
     {
         "title": "Thai Chicken Salad with Spicy Peanut Dressing",
@@ -346,7 +353,8 @@
             "soy sauce",
             "sugar",
             "sesame oil"
-        ]
+        ],
+        "summary": "This Thai Chicken Salad with Spicy Peanut Dressing is sure to rock your taste buds! It's a medley of cubed chicken pieces, chopped peanuts, fried wonton strips, and crunchy salad ingredients with a creamy and spicy peanut dressing that's full of flavor and texture. Perfect for a hearty lunch or dinner!"
     },
     {
         "title": "Chicken Binakol",
@@ -388,7 +396,8 @@
             "green papaya",
             "papaya",
             "spinach"
-        ]
+        ],
+        "summary": "Chicken Binakoe is a classic Filipino soup made with coconut juice, papaya, spinach, and lemongrass. It's delicious, refreshing, and perfect for cold weather!"
     },
     {
         "title": "Tinolang Manok sa Upo",
@@ -426,7 +435,8 @@
             "spinach",
             "pepper",
             "salt"
-        ]
+        ],
+        "summary": "Tinolang Manok sa Upo is a refreshing chicken soup with bottle gourd and spinach cooked in a ginger-flavored broth. It's filling, delicious, and perfect for cold weather!"
     },
     {
         "title": "Bulalo Mami",
@@ -469,7 +479,8 @@
             "garlic",
             "canola oil",
             "oil"
-        ]
+        ],
+        "summary": "Bulalo Mami is a delicious mash-up of two popular Filipino dishes. This tasty soup combines the hearty flavors of beef bulalo and mami noodles for a filling one-pot meal. Perfect for cold weather!"
     },
     {
         "title": "Kake Udon",
@@ -498,7 +509,8 @@
             "ice",
             "gin",
             "ginger"
-        ]
+        ],
+        "summary": "Kake Udon is a simple Japanese noodle soup made of udon and a dashi-flavored stock. This delicious recipe is ready in just minutes with simple ingredients."
     },
     {
         "title": "Bulalo",
@@ -541,7 +553,8 @@
             "ice",
             "chili",
             "chili pepper"
-        ]
+        ],
+        "summary": "Bulalo, with tender beef shanks, bone marrow, vegetables, and flavorful broth, is a hearty and delicious soup the whole family will love. Perfect for cold weather!"
     },
     {
         "title": "Ginisang Munggo at Sotanghon",
@@ -579,7 +592,8 @@
             "spinach",
             "pepper",
             "salt"
-        ]
+        ],
+        "summary": "Ginisang Munggo at Sotanghon made extra delicious with cellophane noodles and minced shrimp. It's hearty, budget-friendly and tasty served with steamed rice."
     },
     {
         "title": "Kabocha Salad",
@@ -613,7 +627,8 @@
             "pepper",
             "salt",
             "walnut"
-        ]
+        ],
+        "summary": "This Kabocha Salad is creamy with a hint of sweetness, the perfect side dish for any meal!"
     },
     {
         "title": "Kansi (Sinigang na Bulalo)",
@@ -659,7 +674,8 @@
             "chili pepper",
             "pepper",
             "salt"
-        ]
+        ],
+        "summary": "Kansi is an Ilonggo sour soup made with beef shanks and green jackfruit, and flavored with batwan or bilimbi. It's a comforting and filling dish perfect for cold weather!"
     },
     {
         "title": "Miswa at Patola Soup",
@@ -696,7 +712,8 @@
             "noodles",
             "pepper",
             "salt"
-        ]
+        ],
+        "summary": "Misua with patola and ground pork is a hearty and flavorful soup that's delicious on its own or as a side dish. Perfect with steamed rice!"
     },
     {
         "title": "Sinigang na Salmon Belly sa Kamias",
@@ -734,7 +751,8 @@
             "eggplant",
             "okra",
             "salt"
-        ]
+        ],
+        "summary": "Sinigang na Salmon Belly sa Kamias with flavorful\u00a0fish belly and vegetables in a sour soup is the perfect cold weather comfort food. It's delicious served with steamed rice or enjoyed on its own!"
     },
     {
         "title": "Picadillo Soup",
@@ -768,7 +786,8 @@
             "water",
             "pepper",
             "salt"
-        ]
+        ],
+        "summary": "Filipino-style Beef and Chayote soup is easy to make with simple ingredients yet full of flavor. Serve on its own or with steamed rice as a filling and delicious meal."
     },
     {
         "title": "Chicken Pochero",
@@ -816,7 +835,8 @@
             "pechay",
             "pepper",
             "salt"
-        ]
+        ],
+        "summary": "Make Sunday lunch extra special with Chicken Pochero! Chockful of potatoes, saba bananas, chorizo, and vegetables, this classic Filipino stew is hearty, tasty and sure to be a family favorite!"
     },
     {
         "title": "Cocido",
@@ -866,7 +886,8 @@
             "egg",
             "eggplant",
             "vinegar"
-        ]
+        ],
+        "summary": "Cocido Madrileno is a Spanish hotpot made of fresh and cured meats, a medley of vegetables and sweet fruits, and chickpeas cooked low and slow in well-seasoned stock. It's hearty, tasty, and perfect for holiday or Sunday dinners!"
     },
     {
         "title": "Sinigang na Inihaw na Liempo",
@@ -909,7 +930,8 @@
             "banana",
             "chili",
             "tamarind"
-        ]
+        ],
+        "summary": "Level up your everyday sinigang! This Sinigang inihaw na liempo is a delicious take on our classic Filipino sour soup using grilled pork belly for a hint of smoky flavor. The perfect comfort food for a chilly day!"
     },
     {
         "title": "Sinigang na Hito sa Miso",
@@ -948,7 +970,8 @@
             "fish",
             "fish sauce",
             "salt"
-        ]
+        ],
+        "summary": "With the plump catfish, crisp labanos, peppery mustard leaves, and flavorful soup, this Sinigang na Hito sa Miso is scrumptious!\u00a0 It's filling and comforting on its own or with steamed rice, especially in chilly weather."
     },
     {
         "title": "Sinigang na Baka sa Bayabas",
@@ -985,7 +1008,8 @@
             "pepper",
             "salt",
             "kangkong"
-        ]
+        ],
+        "summary": "Beef Sinigang with guavas is the perfect way to warm up! This Filipino soup has a light and refreshing taste yet is hearty and nourishing. It's delicious on its own or with steamed rice!"
     },
     {
         "title": "Corned Beef Nilaga",
@@ -1025,7 +1049,8 @@
             "corned beef",
             "cabbage",
             "salt"
-        ]
+        ],
+        "summary": "Nilagang corned beef is a Filipino-style boiled soup made of canned corned beef, potatoes, and vegetables. It's quick and easy to make yet so tasty and filling. Perfect for chilly weather!"
     },
     {
         "title": "Lugaw at Tokwa",
@@ -1068,7 +1093,8 @@
             "shallot",
             "chili",
             "chili pepper"
-        ]
+        ],
+        "summary": "Warm-up your tummy with a comforting bowl of lugaw at tokwa! This Filipino-style rice congee with crisp tofu and vinaigrette dressing is delicious and filling as a breakfast or midday snack. It's easy to make and budget-friendly, too."
     },
     {
         "title": "La Paz Batchoy",
@@ -1113,7 +1139,8 @@
             "chicharon",
             "green onion",
             "egg"
-        ]
+        ],
+        "summary": "La Paz Batchoy is the ultimate noodle soup! It's hearty and tasty with fresh egg noodles, a rich, flavorful broth, pork meat, chicharron, and raw egg. Delicious as a filling snack or main meal!"
     },
     {
         "title": "Kinamatisang Baboy",
@@ -1152,7 +1179,8 @@
             "pechay",
             "pepper",
             "salt"
-        ]
+        ],
+        "summary": "Looking for a hearty and tasty soup that is quick and easy to cook? This Pork Kinamatisan recipe made with tasty pork spare ribs, juicy tomatoes, and pechay is for you! It's nutritious, delicious, and perfect for cold weather."
     },
     {
         "title": "Filipino Mango and Tomato Salad",
@@ -1191,7 +1219,8 @@
             "sugar",
             "ground pepper",
             "pepper"
-        ]
+        ],
+        "summary": "Mango and Tomato salad is a refreshing side dish you'll love year-round. It's colorful, delicious, and nutritious! A tasty accompaniment to grilled meat or seafood!"
     },
     {
         "title": "Pesang Manok",
@@ -1232,7 +1261,8 @@
             "cabbage",
             "napa cabbage",
             "salt"
-        ]
+        ],
+        "summary": "Pesang Manok is a type of Filipino boiled soup made of chicken, potatoes, and vegetables in a ginger-flavored broth. It's easy to make in minutes, nutritious, and delicious. Enjoy on its own or with steamed rice for the ultimate cold-weather comfort food."
     },
     {
         "title": "Ensaladang Pipino",
@@ -1272,7 +1302,8 @@
             "cucumber",
             "onion",
             "red onion"
-        ]
+        ],
+        "summary": "Filipino-style cucumber salad is easy to put together and so light and refreshing! It's the perfect side for your Summer cookouts and barbecues!"
     },
     {
         "title": "Crab and Corn Soup",
@@ -1309,7 +1340,8 @@
             "egg",
             "green onion",
             "onion"
-        ]
+        ],
+        "summary": "Creamy Corn Crab Soup is the ultimate cold-weather comfort food! It's easy to make in minutes yet turns out very tasty. Serve with crusty bread for a filling meal!"
     },
     {
         "title": "Ginataang Munggo at Baboy",
@@ -1353,7 +1385,8 @@
             "pepper",
             "salt",
             "spinach"
-        ]
+        ],
+        "summary": "Creamy Mung Bean Soup with pork and coconut milk is hearty, tasty, and budget-friendly meal the family will love. Perfect with steamed rice!"
     },
     {
         "title": "Ginisang Munggo at Chicharon",
@@ -1390,7 +1423,8 @@
             "spinach",
             "fish",
             "fish sauce"
-        ]
+        ],
+        "summary": "Mung Bean stew with pork cracklings is hearty and full of flavor for the ultimate comfort food. It's easy to make, budget-friendly, and a great source of protein and fiber."
     },
     {
         "title": "Ginisang Munggo at Tinapa",
@@ -1424,7 +1458,8 @@
             "fish sauce",
             "ampalaya",
             "spinach"
-        ]
+        ],
+        "summary": "Mung Bean Stew with Smoked Fish is a tasty and budget-friendly protein source. It's easy to make, filling, and full of comforting flavors."
     },
     {
         "title": "Sotanghon at Upo Soup",
@@ -1463,7 +1498,8 @@
             "salt",
             "cellophane",
             "noodles"
-        ]
+        ],
+        "summary": "Sotanghon at Upo Soup is a healthy, delicious, and hearty that is made with sotanghon noodles, upo, and chicken. It is a simple everyday Filipino dish that would make you toasty warm during the cold season or those gloomy rainy days. It is very easy to prepare and economical too! "
     },
     {
         "title": "Chinese Chicken Salad",
@@ -1513,7 +1549,8 @@
             "garlic",
             "gin",
             "ginger"
-        ]
+        ],
+        "summary": "Chinese Chicken Salad is the mother of all salads! Chock full of lettuce, carrots, edamame, poached chicken, and crisp wonton strips in a sweet and tangy Asian-inspired dressing, it's like a party in your mouth! It's a\u00a0great side dish or light meal the whole family will love."
     },
     {
         "title": "Chicken Sotanghon Soup",
@@ -1557,7 +1594,8 @@
             "napa cabbage",
             "egg",
             "green onion"
-        ]
+        ],
+        "summary": "Chicken Sotanghon Soup with cellophane noodles and tender-crisp veggies is a hearty and tasty soup perfect for cold weather. Delicious for midday snack or light meal!"
     },
     {
         "title": "Goto",
@@ -1600,7 +1638,8 @@
             "rice",
             "green onion",
             "calamansi"
-        ]
+        ],
+        "summary": "Goto made with glutinous rice, beef tripe, and ginger is a Filipino-style congee usually enjoyed as midday snack or light meal. It's delicious, filling, and perfect for cold weather."
     },
     {
         "title": "Hawaiian Macaroni Salad",
@@ -1635,7 +1674,8 @@
             "salt",
             "pepper",
             "green onion"
-        ]
+        ],
+        "summary": "Hawaiian-style Macaroni Salad is creamy, tangy, and the perfect sides for BBQs, potlucks, and holiday parties. It's easy to make and sure to be a crowd-pleaser!"
     },
     {
         "title": "Cocido-style Nilaga",
@@ -1673,7 +1713,8 @@
             "pechay",
             "pepper",
             "salt"
-        ]
+        ],
+        "summary": "Cocido-style Nilaga is a hearty and tasty soup made with beef shanks, smoked sausage, and vegetables. It's easy to make and perfect for cold weather!"
     },
     {
         "title": "Tuna Pasta Salad",
@@ -1712,7 +1753,8 @@
             "ice",
             "pickle juice",
             "salt"
-        ]
+        ],
+        "summary": "Creamy Tuna Pasta Salad is hearty, flavorful, and makes a great side dish or light meal. Perfect for parties, potlucks or picnics and is sure to be a crowd favorite."
     },
     {
         "title": "Sotanghon at Bola-Bola Soup",
@@ -1759,7 +1801,8 @@
             "soy sauce",
             "black pepper",
             "ground black pepper"
-        ]
+        ],
+        "summary": "Warm-up your tummy with Cellophane noodle and meatball soup. It's delicious and filling on its own or as a side dish."
     },
     {
         "title": "Batsui",
@@ -1796,7 +1839,8 @@
             "pork kidney",
             "pepper",
             "water"
-        ]
+        ],
+        "summary": "Kapampangan Batchoy (Batsui) is a hearty soup perfect for cold weather. Made with pork, organ meats, macaroni, and ginger-flavored broth, it's delicious on its own or served with steamed rice."
     },
     {
         "title": "Pork Pochero",
@@ -1841,7 +1885,8 @@
             "salt",
             "green bean",
             "green beans"
-        ]
+        ],
+        "summary": "Pork Pochero is a classic Filipino stew made of pork belly, saba bananas, beans, and vegetables. It's hearty, tasty, and perfect as cold-weather comfort food!"
     },
     {
         "title": "Bulanglang na Hipon",
@@ -1872,7 +1917,8 @@
             "salt",
             "kangkong",
             "spinach"
-        ]
+        ],
+        "summary": "Shrimp Sinigang with guava is a refreshing sour soup you'll love year-round. It's easy to make and ready in minutes yet so delicious and filling."
     },
     {
         "title": "Nilagang Baka",
@@ -1913,7 +1959,8 @@
             "green beans",
             "salt",
             "green onion"
-        ]
+        ],
+        "summary": "Nilagang Baka is the ultimate comfort food! Loaded with fork-tender beef shanks, tendon, and vegetables, this Filipino-style boiled soup is hearty and tasty."
     },
     {
         "title": "Pork Bulanglang",
@@ -1947,7 +1994,8 @@
             "guava",
             "gabi",
             "salt"
-        ]
+        ],
+        "summary": "Kapampangan Sinigang sa Bayabas is a Filipino sour soup that's delicious with steamed rice. Loaded with tender pork belly, vegetables, and a refreshing guava flavor, it's the ultimate cold weather comfort food."
     },
     {
         "title": "Sinigang na Hipon sa Calamansi",
@@ -1982,7 +2030,8 @@
             "calamansi juice",
             "ice",
             "salt"
-        ]
+        ],
+        "summary": "Filipino Sour Soup loaded with shrimp, tender-crisp vegetables, and fresh calamansi flavor. This sinigang na hipon with calamansi is hearty, tasty, and the ultimate cold weather comfort food."
     },
     {
         "title": "Arroz Caldong Paa ng Manok",
@@ -2025,7 +2074,8 @@
             "green onion",
             "calamansi",
             "lemon"
-        ]
+        ],
+        "summary": "Arroz Caldo with Chicken feet is hearty, comforting, and loaded with flavor. This Filipino-style congee is delicious as a midday snack or dinner meal."
     },
     {
         "title": "Corned Beef Sinigang",
@@ -2059,7 +2109,8 @@
             "corn",
             "corned beef",
             "salt"
-        ]
+        ],
+        "summary": "Sinigang na Corned Beef with vegetables and a tangy tamarind broth is hearty, tasty, and the perfect cold weather comfort food!"
     },
     {
         "title": "Chicken Sopas",
@@ -2103,7 +2154,8 @@
             "napa cabbage",
             "egg",
             "green onion"
-        ]
+        ],
+        "summary": "Filipino-style Chicken Macaroni soup is loaded with pasta, flaked chicken, vegetables, and a creamy broth for a creamy, hearty, and tasty soup. It's the perfect cold-weather comfort food!"
     },
     {
         "title": "Chicken Rice Congee",
@@ -2144,7 +2196,8 @@
             "rice",
             "gin",
             "ginger"
-        ]
+        ],
+        "summary": "Chicken Rice Congee is a comforting, warm soup with shredded chicken, tender rice, carrots, and ginger. The perfect cure for those under-the-weather days."
     },
     {
         "title": "Asian Cucumber Tomato Avocado Salad",
@@ -2182,7 +2235,8 @@
             "sesame oil",
             "sugar",
             "salt"
-        ]
+        ],
+        "summary": "Cucumber, Tomato, and Avocado Salad with Asian vinaigrette dressing is full of fresh flavor and texture that's like a party in your mouth! It's a delicious and nutritious side dish you'll love year-round!"
     },
     {
         "title": "Pineapple Coleslaw",
@@ -2215,7 +2269,8 @@
             "salt",
             "pineapple",
             "raisin"
-        ]
+        ],
+        "summary": "Coleslaw with juicy pineapples for a tropical twist on a classic side dish. Sweet, creamy, and tangy, it's a guaranteed crowd-pleaser. Perfect for all your summer cookouts and picnics!"
     },
     {
         "title": "Bulanglang na Bangus at Hipon",
@@ -2249,7 +2304,8 @@
             "milk",
             "shrimp",
             "salt"
-        ]
+        ],
+        "summary": "Kapampangan Bulanglang soup made of shrimp, fish, and guavas is delicious and refreshing on its own or with steamed rice. The perfect rainy day comfort food!"
     },
     {
         "title": "Grilled Shrimp Mango Avocado Salad",
@@ -2288,7 +2344,8 @@
             "lime juice",
             "oil",
             "olive oil"
-        ]
+        ],
+        "summary": "Grilled Shrimp Mango Avocado Salad is a refreshing medley of flavors you'd love as a side dish or a light lunch. Chock-full of grilled shrimps, juicy mangoes, creamy avocados, and crisp cucumbers with a tangy honey lime dressing, it's healthy and delicious."
     },
     {
         "title": "Thai Mango Salad",
@@ -2331,7 +2388,8 @@
             "peanut",
             "basil",
             "basil leaves"
-        ]
+        ],
+        "summary": "Thai Mango Salad is fresh, healthy, and nutritious! Loaded with juicy fruit, bean sprouts, toasted coconut, crunchy peanuts, and fragrant basil drizzled with lime dressing, it's like a party in your mouth!"
     },
     {
         "title": "Beef Pares",
@@ -2375,7 +2433,8 @@
             "star anise",
             "ice",
             "rice"
-        ]
+        ],
+        "summary": "Beef Pares is the ultimate cold-weather comfort food! A delicious pairing of beef asado, garlic fried rice, and a flavorful beef broth, it's delicious and filling."
     },
     {
         "title": "Pinatisang Manok",
@@ -2417,7 +2476,8 @@
             "pepper",
             "salt",
             "chili"
-        ]
+        ],
+        "summary": "Pinatisang Manok is a Filipino-style chicken soup with chili leaves, ginger broth, and mashed egg yolk. It's hearty, tasty, and perfect with steamed rice."
     },
     {
         "title": "Nilagang Baboy",
@@ -2452,7 +2512,8 @@
             "fish sauce",
             "pechay",
             "salt"
-        ]
+        ],
+        "summary": "Pork Nilaga is easy to make and so delicious! This Filipino boiled soup with kalabasa and pechay is hearty, filling, and the perfect comfort food for cold weather."
     },
     {
         "title": "Arroz Caldo",
@@ -2494,7 +2555,8 @@
             "green onion",
             "calamansi",
             "lemon"
-        ]
+        ],
+        "summary": "Arroz Caldong Manok loaded with ginger flavor is hearty, tasty, and the ultimate comfort food. This Filipino rice porridge is delicious as a midday snack or light meal."
     },
     {
         "title": "Suam na Mais",
@@ -2530,7 +2592,8 @@
             "pepper",
             "salt",
             "spinach"
-        ]
+        ],
+        "summary": "Filipino-style Corn Soup made with fresh white corn kernels, shrimp, and spinach leaves. This suam na mais is creamy, flavorful and nutritious!"
     },
     {
         "title": "Pesang Dalag",
@@ -2570,7 +2633,8 @@
             "cabbage",
             "napa cabbage",
             "green onion"
-        ]
+        ],
+        "summary": "Pesang Isda is a refreshing and filling fish soup in a ginger-flavored broth. It's a simple dish that's nutritious, delicious, and budget-friendly, too."
     },
     {
         "title": "Tinolang Manok (Chicken Tinola)",
@@ -2609,7 +2673,8 @@
             "spinach",
             "pepper",
             "salt"
-        ]
+        ],
+        "summary": "Chicken tinola is a healthy, tasty, and comforting soup that's perfect for cold weather. It's delicious on its own or with steamed rice."
     },
     {
         "title": "Sinigang na Baboy",
@@ -2655,6 +2720,7 @@
             "pepper",
             "salt",
             "pechay"
-        ]
+        ],
+        "summary": "Pork Sinigang is a delightful sour soup made with pork ribs, vegetables, and tamarind-flavored broth. It's hearty, tasty and perfect for cold weather."
     }
 ]
