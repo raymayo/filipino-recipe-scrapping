@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-json_file_path = './recipes/soup_and_salad_recipes.json'
+json_file_path = './lunch_recipes.json'
 
 # Open the JSON file for reading
 with open(json_file_path, 'r') as json_file:
