@@ -1,0 +1,728 @@
+[
+    {
+        "title": "Bibingkoy",
+        "recipe-link": "https://www.kawalingpinoy.com/bibingkoy/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2023/09/bibingkoy-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Avocado Ice Candy",
+        "recipe-link": "https://www.kawalingpinoy.com/avocado-ice-candy/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/03/avocado-ice-candy-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Bibingkang Malagkit",
+        "recipe-link": "https://www.kawalingpinoy.com/bibingkang-malagkit/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/09/bibingkang-malagkit-11-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Kapit",
+        "recipe-link": "https://www.kawalingpinoy.com/kapit/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/kapit-10-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Mais con Queso Ice Candy",
+        "recipe-link": "https://www.kawalingpinoy.com/mais-con-queso-ice-candy/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/05/mais-con-queso-ice-candy-1-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Buko Lychee Sorbet",
+        "recipe-link": "https://www.kawalingpinoy.com/buko-lychee-sorbet/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/08/buko-lychee-sorbet-sorbet-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Sapin-Sapin",
+        "recipe-link": "https://www.kawalingpinoy.com/sapin-sapin/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/sapin-sapin-kalamay-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Kalamay Lansong",
+        "recipe-link": "https://www.kawalingpinoy.com/kalamay-lansong/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/05/kalamay-lansong-11-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Buko Pie (Filipino Coconut Pie)",
+        "recipe-link": "https://www.kawalingpinoy.com/buko-pie/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/05/buko-pie-16-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Crema de Fruta",
+        "recipe-link": "https://www.kawalingpinoy.com/crema-de-fruta/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/11/crema-de-fruta-9-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Mango Royale",
+        "recipe-link": "https://www.kawalingpinoy.com/mango-royale/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/06/mango-royale-7-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Yema Bread Rolls",
+        "recipe-link": "https://www.kawalingpinoy.com/yema-bread-rolls/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/09/yema-bread-rolls-6-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Ginumis",
+        "recipe-link": "https://www.kawalingpinoy.com/ginumis/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/01/ginumis-6-1200-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Kalamay sa Latik",
+        "recipe-link": "https://www.kawalingpinoy.com/kalamay-sa-latik/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/04/kalamay-sa-latik-10-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Binignit",
+        "recipe-link": "https://www.kawalingpinoy.com/binignit/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2023/02/binignit-7-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Ube Kalamay",
+        "recipe-link": "https://www.kawalingpinoy.com/ube-kalamay/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/03/ube-kalamay-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Pastillas de Ube",
+        "recipe-link": "https://www.kawalingpinoy.com/pastillas-de-ube/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/06/pastillas-de-ube-3-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Palitaw",
+        "recipe-link": "https://www.kawalingpinoy.com/palitaw/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/palitaw-7-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Ginataang Kamoteng Kahoy",
+        "recipe-link": "https://www.kawalingpinoy.com/ginataang-kamoteng-kahoy/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/ginataang-kamoteng-kahoy-with-sago-langka-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Minatamis na Kamote",
+        "recipe-link": "https://www.kawalingpinoy.com/minatamis-na-kamote/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/09/easy-minatamis-na-kamote-7-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Pineapple Upside Down Cake",
+        "recipe-link": "https://www.kawalingpinoy.com/pineapple-upside-down-cake/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/07/pineapple-upside-down-cake-14-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Biko",
+        "recipe-link": "https://www.kawalingpinoy.com/biko/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/09/biko-with-latik-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "White Buko Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/white-buko-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2022/12/white-salad-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Ube Mamon",
+        "recipe-link": "https://www.kawalingpinoy.com/ube-mamon/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/07/mamon-ube-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Maja Blanca Espesyal",
+        "recipe-link": "https://www.kawalingpinoy.com/maja-blanca-espesyal/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/01/espesyal-maja-blanca-3-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Maja Blanca",
+        "recipe-link": "https://www.kawalingpinoy.com/maja-blanca/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/11/creamy-maja-blanca-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Ginataang Bilo Bilo",
+        "recipe-link": "https://www.kawalingpinoy.com/ginataang-bilo-bilo/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/02/ginataang-bilo-bilo-6-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Ginataang Munggo",
+        "recipe-link": "https://www.kawalingpinoy.com/ginataang-munggo/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/creamy-ginataang-munggo-3-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Maja Langka",
+        "recipe-link": "https://www.kawalingpinoy.com/maja-langka/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/09/creamy-maja-langka-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Polvoron",
+        "recipe-link": "https://www.kawalingpinoy.com/polvoron/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/08/Filipino-polvoron-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Ube Maja Blanca",
+        "recipe-link": "https://www.kawalingpinoy.com/ube-maja-blanca/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/ube-maja-blanca-with-latik-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Ginataang Mais",
+        "recipe-link": "https://www.kawalingpinoy.com/ginataang-mais/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/creamy-ginataang-mais-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Ginataang Halo-halo",
+        "recipe-link": "https://www.kawalingpinoy.com/ginataang-halo-halo/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/creamy-ginataang-halo-halo-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Guava in Coconut Cream",
+        "recipe-link": "https://www.kawalingpinoy.com/guava-in-coconut-cream/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/05/guava-coconut-cream-4-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Tibok-Tibok",
+        "recipe-link": "https://www.kawalingpinoy.com/tibok-tibok/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/11/kapampangan-tibok-tibok-5-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Biscocho",
+        "recipe-link": "https://www.kawalingpinoy.com/biscocho/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/homemade-biscocho-3-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Mango Ice Cream",
+        "recipe-link": "https://www.kawalingpinoy.com/mango-ice-cream/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/07/homemade-ube-mango-ice-cream-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Ube Macapuno Ice Cream",
+        "recipe-link": "https://www.kawalingpinoy.com/ube-macapuno-ice-cream/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/07/homemade-ube-macapuno-ice-cream-4-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Avocado Sago Jelly",
+        "recipe-link": "https://www.kawalingpinoy.com/avocado-sago-jelly/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/08/avocado-jelly-sago-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Bibingka",
+        "recipe-link": "https://www.kawalingpinoy.com/bibingka/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/10/special-bibingka-4-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Royal Bibingka",
+        "recipe-link": "https://www.kawalingpinoy.com/royal-bibingka/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/11/royal-bibingka-5-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Minatamis na Langka",
+        "recipe-link": "https://www.kawalingpinoy.com/minatamis-na-langka/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/10/minatamis-langka-3-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Kababayan",
+        "recipe-link": "https://www.kawalingpinoy.com/kababayan/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/09/kababayan-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Suman Malagkit with Coconut Caramel Sauce",
+        "recipe-link": "https://www.kawalingpinoy.com/suman-malagkit-with-coconut-sauce/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/02/suman-malagkit-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Coffee Flan",
+        "recipe-link": "https://www.kawalingpinoy.com/coffee-flan/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/04/coffee-flan-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Buko Pandan Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/buko-pandan-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/11/filipino-buko-pandan-salad-6-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Banana Turon",
+        "recipe-link": "https://www.kawalingpinoy.com/banana-turon/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/10/Banana-Turon-3-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Brazo de Mercedes",
+        "recipe-link": "https://www.kawalingpinoy.com/brazo-de-mercedes/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/07/brazo-de-mercedes-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Sampalok Candy",
+        "recipe-link": "https://www.kawalingpinoy.com/sampalok-candy/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/03/sampalok-candy-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Pastillas de Leche",
+        "recipe-link": "https://www.kawalingpinoy.com/pastillas-de-leche/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/01/pastillas-de-leche-4-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Taho",
+        "recipe-link": "https://www.kawalingpinoy.com/taho/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/09/taho-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Halo-Halo",
+        "recipe-link": "https://www.kawalingpinoy.com/halo-halo/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/07/halo-halo-7-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Lengua de Gato",
+        "recipe-link": "https://www.kawalingpinoy.com/lengua-de-gato/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/07/lengua-de-gato-6-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Peanut Tikoy Rolls",
+        "recipe-link": "https://www.kawalingpinoy.com/peanut-tikoy-rolls/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/05/peanut-tikoy-rolls-3-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Graham Balls",
+        "recipe-link": "https://www.kawalingpinoy.com/graham-balls/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/01/graham-balls-8-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Moist Chocolate Cupcakes with Mocha Buttercream Frosting",
+        "recipe-link": "https://www.kawalingpinoy.com/chocolate-cupcakes-mocha-buttercream-frosting/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/02/chocolate-cupcakes-with-mocha-buttercream-4-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Maja Jubilee",
+        "recipe-link": "https://www.kawalingpinoy.com/maja-jubilee/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/12/maja-jubilee-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Ten Filipino Desserts You Should Make for Christmas",
+        "recipe-link": "https://www.kawalingpinoy.com/ten-filipino-desserts-you-should-make-for-christmas/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/12/ten-filipino-desserts-1-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Calamansi Cheesecake Bars",
+        "recipe-link": "https://www.kawalingpinoy.com/calamansi-cheesecake-bars/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/12/calamansi-cheesecake-bars-2-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Tropical Magic Bars",
+        "recipe-link": "https://www.kawalingpinoy.com/tropical-magic-bars/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/09/tropical-magic-bars-4-1.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Mango Bravo Cake",
+        "recipe-link": "https://www.kawalingpinoy.com/mango-bravo-cake/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/08/mango-bravo-cake-5-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Mango Bango",
+        "recipe-link": "https://www.kawalingpinoy.com/mango-bango/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/07/mango-bango-1-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Almond Jello",
+        "recipe-link": "https://www.kawalingpinoy.com/almond-jello/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/07/almond-jello-recipe-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Coconut Flan",
+        "recipe-link": "https://www.kawalingpinoy.com/coconut-flan/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/06/coconut-flan-4-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Leche Flan",
+        "recipe-link": "https://www.kawalingpinoy.com/leche-flan/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/04/creamy-leche-flan-3-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Mango and Cream Cheese Turon",
+        "recipe-link": "https://www.kawalingpinoy.com/mango-and-cream-cheese-turon/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/11/mango-cream-cheese-turon-3-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "No-Churn Buko Pandan Ice Cream",
+        "recipe-link": "https://www.kawalingpinoy.com/buko-pandan-ice-cream/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/03/no-buko-pandan-ice-cream-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Christmas Fruitcake",
+        "recipe-link": "https://www.kawalingpinoy.com/christmas-fruitcake/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/12/fruitcake-1-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Mini Special Sapin-Sapin",
+        "recipe-link": "https://www.kawalingpinoy.com/mini-special-sapin-sapin/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/12/mini-special-sapin-sapin-3-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Ube Biko",
+        "recipe-link": "https://www.kawalingpinoy.com/ube-biko/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/12/biko-ube-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Buko Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/buko-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/12/buko-salad-dessert-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Buko Pandan Gelatin",
+        "recipe-link": "https://www.kawalingpinoy.com/buko-pandan-gelatin/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/11/buko-pandan-gelatin-dessert-3-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Ube Cassava Cake",
+        "recipe-link": "https://www.kawalingpinoy.com/ube-cassava-cake/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/11/ube-cassava-cake-4-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Graham de Leche",
+        "recipe-link": "https://www.kawalingpinoy.com/graham-de-leche/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/11/graham-de-leche-8-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Impossible Chocolate Flan Cake",
+        "recipe-link": "https://www.kawalingpinoy.com/impossible-chocolate-flan-cake/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/10/impossible-chococolate-flan-cake-6-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Floating Island Dessert",
+        "recipe-link": "https://www.kawalingpinoy.com/floating-island-dessert/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/09/floating-island-dessert-5-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Pichi-Pichi",
+        "recipe-link": "https://www.kawalingpinoy.com/pichi-pichi/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/10/pichi-pichi-2-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Pandan Coconut Jelly",
+        "recipe-link": "https://www.kawalingpinoy.com/pandan-coconut-jelly/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/04/pandan-coconut-jelly-5-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Halayang Ube",
+        "recipe-link": "https://www.kawalingpinoy.com/halayang-ube/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/06/halayang-ube-2-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Espasol",
+        "recipe-link": "https://www.kawalingpinoy.com/espasol/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/02/espasol-6-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Mango Jelly",
+        "recipe-link": "https://www.kawalingpinoy.com/mango-jelly/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/06/creamy-mango-jelly-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Turon Malagkit",
+        "recipe-link": "https://www.kawalingpinoy.com/turon-malagkit/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/06/turon-malagkit-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Black Forest Swiss Roll Cake",
+        "recipe-link": "https://www.kawalingpinoy.com/black-forest-swiss-roll-cake/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/05/Black-forest-swiss-roll-14-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Bicho-Bicho",
+        "recipe-link": "https://www.kawalingpinoy.com/bicho-bicho/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/05/bicho-bicho-2-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Nilupak",
+        "recipe-link": "https://www.kawalingpinoy.com/nilupak/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/nilupak-kamoteng-kahoy-3-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Silvanas",
+        "recipe-link": "https://www.kawalingpinoy.com/silvanas/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/silvanas-3-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Sans Rival",
+        "recipe-link": "https://www.kawalingpinoy.com/sans-rival/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/sans-rival-3-1.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Cassava Cake with Custard Topping",
+        "recipe-link": "https://www.kawalingpinoy.com/cassava-cake-with-custard-topping/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/06/cassava-cake-with-custard-topping-1-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Sticky Rice Balls with Peanuts",
+        "recipe-link": "https://www.kawalingpinoy.com/sticky-rice-balls-peanuts/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/sticky-rice-balls-4-1.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Mini Egg Pies",
+        "recipe-link": "https://www.kawalingpinoy.com/mini-egg-pies/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/mini-egg-pies-1-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Kalamay Gabi",
+        "recipe-link": "https://www.kawalingpinoy.com/kalamay-gabi/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/02/kalamay-gabi-6-1.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Cassava Suman",
+        "recipe-link": "https://www.kawalingpinoy.com/cassava-suman/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/01/easy-cassava-suman-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Fruit Cocktail Graham Float",
+        "recipe-link": "https://www.kawalingpinoy.com/fruit-cocktail-graham-float/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/12/fruit-cocktail-graham-float-01-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Pasta Fruit Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/pasta-fruit-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/filipino-style-pasta-fruit-salad-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Puto Lanson",
+        "recipe-link": "https://www.kawalingpinoy.com/puto-lanson/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/08/puto-lanson-balinghoy-3-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Yema Cake",
+        "recipe-link": "https://www.kawalingpinoy.com/yema-cake/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/07/cheesy-yema-cake-3-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Easy Yema Spread",
+        "recipe-link": "https://www.kawalingpinoy.com/easy-yema-spread/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/07/easy-yema-spread-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Ube Crinkles (Purple Yam Crinkles)",
+        "recipe-link": "https://www.kawalingpinoy.com/ube-crinkles/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/05/ube-crinkle-cookies-4-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Pianono (Filipino Sponge Cake Roll)",
+        "recipe-link": "https://www.kawalingpinoy.com/pianono/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/04/filipino-pianono-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Pan de Coco",
+        "recipe-link": "https://www.kawalingpinoy.com/pan-de-coco/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/04/filipino-pan-de-coco-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Carioca",
+        "recipe-link": "https://www.kawalingpinoy.com/carioca/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/03/carioca-2-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Cathedral Window Gelatin",
+        "recipe-link": "https://www.kawalingpinoy.com/cathedral-window-gelatin/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/12/cathedral-window-gelatin-dessert-12-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Dulce de Leche FLan",
+        "recipe-link": "https://www.kawalingpinoy.com/dulce-de-leche-flan/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/12/dulce-de-leche-flan-2a-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Avocado Ice Cream",
+        "recipe-link": "https://www.kawalingpinoy.com/avocado-ice-cream/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/07/avocado-ice-cream-3-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Mango Sago",
+        "recipe-link": "https://www.kawalingpinoy.com/mango-sago/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/05/mango-sago-3-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Filipino Coconut Macaroons",
+        "recipe-link": "https://www.kawalingpinoy.com/filipino-coconut-macaroons/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/05/easy-filipino-coconut-macaroons-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Leche Flan with Whole Eggs",
+        "recipe-link": "https://www.kawalingpinoy.com/leche-flan-with-whole-eggs/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/04/whole-eggs-leche-flan-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Coffee Jelly",
+        "recipe-link": "https://www.kawalingpinoy.com/coffee-jelly/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/10/creamy-coffee-jelly-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Hawaiian Bread Pudding",
+        "recipe-link": "https://www.kawalingpinoy.com/hawaiian-bread-pudding/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/09/hawaiian-bread-pudding-2-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Kutsinta",
+        "recipe-link": "https://www.kawalingpinoy.com/kutsinta/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/03/kutsinta-6-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Leche Puto",
+        "recipe-link": "https://www.kawalingpinoy.com/leche-puto/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/02/putoflan-a-1.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Kalamay Hati",
+        "recipe-link": "https://www.kawalingpinoy.com/kalamay-hati/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/11/kalamay-hati-1-1.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Cream Cheese Flan",
+        "recipe-link": "https://www.kawalingpinoy.com/cream-cheese-flan/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/05/creamy-cream-cheese-flan-5-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Calamansi Bars",
+        "recipe-link": "https://www.kawalingpinoy.com/calamansi-bars/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/03/skilletcalamansibars2-680x550.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "No-Cook Caramel Pastillas",
+        "recipe-link": "https://www.kawalingpinoy.com/no-cook-caramel-pastillas/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/02/no-cookcaramelpastillas11.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Maruya",
+        "recipe-link": "https://www.kawalingpinoy.com/maruya/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/01/maruya-fritters-6-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Fried Bananas with Salted Coconut Caramel Sauce",
+        "recipe-link": "https://www.kawalingpinoy.com/fried-bananas-with-salted-coconut-caramel-sauce/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/fried-bananas-with-coconut-caramel-sauce-1-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Buchi",
+        "recipe-link": "https://www.kawalingpinoy.com/buchi/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/buchi-sesame-seed-balls-3-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Yema",
+        "recipe-link": "https://www.kawalingpinoy.com/yema/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/08/yemaballs4a1.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Tapioca Coconut Dessert Soup",
+        "recipe-link": "https://www.kawalingpinoy.com/tapioca-coconut-dessert-soup/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/05/tapioca-coconut-dessert-soup-1-680x884.jpg",
+        "meal": "dessert"
+    },
+    {
+        "title": "Cheese Cupcakes",
+        "recipe-link": "https://www.kawalingpinoy.com/cheese-cupcakes/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/08/cheese-cupcakes-5-1-680x884.jpg",
+        "meal": "dessert"
+    }
+]

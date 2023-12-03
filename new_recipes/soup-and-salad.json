@@ -1,0 +1,428 @@
+[
+    {
+        "title": "Sinigang na Baka",
+        "recipe-link": "https://www.kawalingpinoy.com/sinigang-na-baka/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/01/sinigang-na-baka-1-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Chicken Mami",
+        "recipe-link": "https://www.kawalingpinoy.com/chicken-mami/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/03/chicken-mami-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Tinolang Palaka",
+        "recipe-link": "https://www.kawalingpinoy.com/tinolang-palaka/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/10/tinolang-palaka-6-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Chicken Halang-Halang",
+        "recipe-link": "https://www.kawalingpinoy.com/chicken-halang-halang/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/05/chicken-halang-halang-8-1-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Pancit Lomi",
+        "recipe-link": "https://www.kawalingpinoy.com/pancit-lomi/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/06/pancit-lomi-soup-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Batchoy Tagalog",
+        "recipe-link": "https://www.kawalingpinoy.com/batchoy-tagalog/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/12/batchoy-tagalog-2-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Chicken Corn Soup",
+        "recipe-link": "https://www.kawalingpinoy.com/chicken-corn-soup/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/11/chicken-corn-soup-2-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Thai Chicken Salad with Spicy Peanut Dressing",
+        "recipe-link": "https://www.kawalingpinoy.com/thai-chicken-salad-spicy-peanut-dressing/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/02/thai-chicken-salad-1-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Chicken Binakol",
+        "recipe-link": "https://www.kawalingpinoy.com/chicken-binakol/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/04/Chicken-Binakol-4-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Tinolang Manok sa Upo",
+        "recipe-link": "https://www.kawalingpinoy.com/tinolang-manok-sa-upo/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/05/tinolang-manok-upo-4-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Bulalo Mami",
+        "recipe-link": "https://www.kawalingpinoy.com/bulalo-mami/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/05/bulalo-mami-6-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Kake Udon",
+        "recipe-link": "https://www.kawalingpinoy.com/kake-udon/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/10/kake-udon-6-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Bulalo",
+        "recipe-link": "https://www.kawalingpinoy.com/bulalo/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/11/bulalo-5-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Ginisang Munggo at Sotanghon",
+        "recipe-link": "https://www.kawalingpinoy.com/ginisang-munggo-sotanghon/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/ginisang-munggo-sotanghon-4-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Kabocha Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/kabocha-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/10/Korean-Kabocha-Salad-4-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Kansi (Sinigang na Bulalo)",
+        "recipe-link": "https://www.kawalingpinoy.com/kansi/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/09/kansi-2-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Miswa at Patola Soup",
+        "recipe-link": "https://www.kawalingpinoy.com/miswa-at-patola-soup/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/01/miswa-patola-soup-3-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Pancit Molo",
+        "recipe-link": "https://www.kawalingpinoy.com/pancit-molo/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/10/pancit-molo-1-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Sinigang na Salmon Belly sa Kamias",
+        "recipe-link": "https://www.kawalingpinoy.com/sinigang-na-salmon-belly-sa-kamias/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/07/sinigang-salmon-belly-kamias-2-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Picadillo Soup",
+        "recipe-link": "https://www.kawalingpinoy.com/picadillo-soup/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/filipino-picadillo-soup-2-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Chicken Pochero",
+        "recipe-link": "https://www.kawalingpinoy.com/chicken-pochero/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/12/chicken-pochero-7-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Cocido",
+        "recipe-link": "https://www.kawalingpinoy.com/cocido/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/12/cocido-madrileno-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Sinigang na Inihaw na Liempo",
+        "recipe-link": "https://www.kawalingpinoy.com/sinigang-na-inihaw-na-liempo/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/02/sinigang-na-inihaw-liempo-3-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Sinigang na Hito sa Miso",
+        "recipe-link": "https://www.kawalingpinoy.com/sinigang-na-hito-sa-miso/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/sinigang-hito-sa-miso-9-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Sinigang na Baka sa Bayabas",
+        "recipe-link": "https://www.kawalingpinoy.com/sinigang-na-baka-sa-bayabas/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/10/sinigang-na-baka-sa-bayabas-2-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Corned Beef Nilaga",
+        "recipe-link": "https://www.kawalingpinoy.com/corned-beef-nilaga/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/08/nilagang-corned-beef-3-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Lugaw at Tokwa",
+        "recipe-link": "https://www.kawalingpinoy.com/lugaw-at-tokwa/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/05/lugaw-at-tokwa-3-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "La Paz Batchoy",
+        "recipe-link": "https://www.kawalingpinoy.com/la-paz-batchoy/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/02/la-paz-batchoy-9-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Kinamatisang Baboy",
+        "recipe-link": "https://www.kawalingpinoy.com/kinamatisang-baboy/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/kinamatisang-baboy-1-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Filipino Mango and Tomato Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/filipino-mango-and-tomato-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/08/Filipino-Mango-and-tomato-salad-1-1-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Pesang Manok",
+        "recipe-link": "https://www.kawalingpinoy.com/pesang-manok/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/08/pesang-manok-3-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Ensaladang Pipino",
+        "recipe-link": "https://www.kawalingpinoy.com/ensaladang-pipino/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/08/ensaladang-pipino-3-1-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Crab and Corn Soup",
+        "recipe-link": "https://www.kawalingpinoy.com/crab-corn-soup/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/02/crab-and-corn-soup-1-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Ginataang Munggo at Baboy",
+        "recipe-link": "https://www.kawalingpinoy.com/ginataang-munggo-at-baboy/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/ginataang-munggo-baboy-2-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Ginisang Munggo at Chicharon",
+        "recipe-link": "https://www.kawalingpinoy.com/ginisang-munggo-at-chicharon/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/07/ginisang-munggo-chicharon-5-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Ginisang Munggo at Tinapa",
+        "recipe-link": "https://www.kawalingpinoy.com/ginisang-munggo-at-tinapa/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/06/ginisang-munggo-tinapa-6-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Sotanghon at Upo Soup",
+        "recipe-link": "https://www.kawalingpinoy.com/sotanghon-at-upo-soup/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/10/sotanghon-upo-soup-2-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Chinese Chicken Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/chinese-chicken-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/12/chinese-chicken-salad-8-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Chicken Sotanghon Soup",
+        "recipe-link": "https://www.kawalingpinoy.com/chicken-sotanghon-soup/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/01/chicken-sotanghon-1-1-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Goto",
+        "recipe-link": "https://www.kawalingpinoy.com/goto/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/11/goto-lugaw-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Hawaiian Macaroni Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/hawaiian-macaroni-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/11/Hawaiian-macaroni-salad-2-1-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Cocido-style Nilaga",
+        "recipe-link": "https://www.kawalingpinoy.com/cocido-style-nilaga/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/10/cocido-style-nilaga-3-1-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Tuna Pasta Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/tuna-pasta-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/05/creamy-tuna-pasta-salad-1-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Sotanghon at Bola-Bola Soup",
+        "recipe-link": "https://www.kawalingpinoy.com/sotanghon-at-bola-bola-soup/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/04/sotanghon-bola-bola-soup-3-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Batsui",
+        "recipe-link": "https://www.kawalingpinoy.com/batsui/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/11/kapampangan-batsui-2-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Pork Pochero",
+        "recipe-link": "https://www.kawalingpinoy.com/pork-pochero/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/08/filipino-pork-pochero-4-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Bulanglang na Hipon",
+        "recipe-link": "https://www.kawalingpinoy.com/bulanglang-na-hipon/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/07/kapampangan-bulanglang-hipon-4-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Nilagang Baka",
+        "recipe-link": "https://www.kawalingpinoy.com/nilagang-baka/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/07/beef-nilaga-3-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Pork Bulanglang",
+        "recipe-link": "https://www.kawalingpinoy.com/pork-bulanglang/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/06/kapampangan-pork-bulanglang-3-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Sinigang na Hipon sa Calamansi",
+        "recipe-link": "https://www.kawalingpinoy.com/sinigang-na-hipon-sa-calamansi/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/05/sinigang-hipon-calamansi-2-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Arroz Caldong Paa ng Manok",
+        "recipe-link": "https://www.kawalingpinoy.com/arroz-caldong-paa-ng-manok/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/arroz-caldong-paa-manok-3-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Corned Beef Sinigang",
+        "recipe-link": "https://www.kawalingpinoy.com/corned-beef-sinigang/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/easy-corned-beef-sinigang-5-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Chicken Sopas",
+        "recipe-link": "https://www.kawalingpinoy.com/chicken-sopas/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/creamy-chicken-sopas-5-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Chicken Rice Congee",
+        "recipe-link": "https://www.kawalingpinoy.com/chicken-rice-congee/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/07/chicken-rice-congee-8-1-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Asian Cucumber Tomato Avocado Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/asian-cucumber-tomato-avocado-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/cucumber-tomato-avocado-salad-5-1-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Pineapple Coleslaw",
+        "recipe-link": "https://www.kawalingpinoy.com/pineapple-coleslaw/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/pineapple-coleslaw-2-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Bulanglang na Bangus at Hipon",
+        "recipe-link": "https://www.kawalingpinoy.com/bulanglang-na-bangus-at-hipon/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/08/bulanglang-hipon-bangus-6-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Grilled Shrimp Mango Avocado Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/grilled-shrimp-mango-and-avocado-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/06/Grilled-shrimp-mango-and-avocado-salad-4-1-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Thai Mango Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/thai-mango-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/03/fresh-Thai-Mango-Salad-Process-3-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Beef Pares",
+        "recipe-link": "https://www.kawalingpinoy.com/beef-pares/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/07/beef-pares-8-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Pinatisang Manok",
+        "recipe-link": "https://www.kawalingpinoy.com/pinatisang-manok/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/06/easy-pinatisang-manok-3-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Beef Wonton Mami",
+        "recipe-link": "https://www.kawalingpinoy.com/beef-wonton-mami/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/01/beefmami1-680x741.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Nilagang Baboy",
+        "recipe-link": "https://www.kawalingpinoy.com/nilagang-baboy/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/pork-nilaga-3-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Beef, Potato and Pechay Soup",
+        "recipe-link": "https://www.kawalingpinoy.com/beef-potato-pechay-soup/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/07/momspicadillo1a1.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Sinabawang Tahong",
+        "recipe-link": "https://www.kawalingpinoy.com/sinabawang-tahong/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/11/tinolangtahong21.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Arroz Caldo",
+        "recipe-link": "https://www.kawalingpinoy.com/arroz-caldo/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/11/arroz-caldo-manok-3-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Suam na Mais",
+        "recipe-link": "https://www.kawalingpinoy.com/suam-na-mais/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/08/suam-mais-2-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Sinampalukang Manok",
+        "recipe-link": "https://www.kawalingpinoy.com/sinampalukang-manok/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/08/sinampalukan1-680x726.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Pesang Dalag",
+        "recipe-link": "https://www.kawalingpinoy.com/pesang-dalag/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/05/kapampangang-pesang-dalag-4-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Tinolang Manok (Chicken Tinola)",
+        "recipe-link": "https://www.kawalingpinoy.com/tinolang-manok-chicken-tinola/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/03/chicken-tinola-7-680x884.jpg",
+        "meal": "soup/salad"
+    },
+    {
+        "title": "Sinigang na Baboy",
+        "recipe-link": "https://www.kawalingpinoy.com/sinigang-na-baboy/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/01/sinigang-baboy-7-680x884.jpg",
+        "meal": "soup/salad"
+    }
+]

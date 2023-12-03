@@ -1,0 +1,110 @@
+[
+    {
+        "title": "Mango Shake",
+        "recipe-link": "https://www.kawalingpinoy.com/mango-shake/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/04/mango-shake-2-1-680x884.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Avocado Milkshake",
+        "recipe-link": "https://www.kawalingpinoy.com/avocado-milkshake/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/09/avocado-milkshake-1-680x884.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Horchata",
+        "recipe-link": "https://www.kawalingpinoy.com/horchata/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/06/horchata-1-680x884.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Buko Pandan Drink",
+        "recipe-link": "https://www.kawalingpinoy.com/buko-pandan-drink/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/07/buko-pandan-drink-1-1-680x884.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Buko Lychee Juice",
+        "recipe-link": "https://www.kawalingpinoy.com/buko-lychee-juice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/07/buko-lychee-juice-6-680x884.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Melon Juice",
+        "recipe-link": "https://www.kawalingpinoy.com/melon-juice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/melon-juice-12-680x884.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Instant Pot Boba Milk Tea",
+        "recipe-link": "https://www.kawalingpinoy.com/instant-pot-boba-milk-tea/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2022/05/boba-milk-tea-8-680x884.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Melon Chiller",
+        "recipe-link": "https://www.kawalingpinoy.com/melon-chiller/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/07/melon-chiller-1-680x884.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Homemade Mango Nectar",
+        "recipe-link": "https://www.kawalingpinoy.com/mango-nectar/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/mango-nectar-juice-6-680x884.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Cucumber Lime Smoothie",
+        "recipe-link": "https://www.kawalingpinoy.com/cucumber-lime-smoothie/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/06/cucumber-lime-smoothie-4-680x884.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Tamarind Drink",
+        "recipe-link": "https://www.kawalingpinoy.com/tamarind-drink/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/04/tamarind-drink-4-680x884.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Dalgona Coffee",
+        "recipe-link": "https://www.kawalingpinoy.com/dalgona-coffee/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/05/dalgona-coffee-1-680x884.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Sago at Gulaman",
+        "recipe-link": "https://www.kawalingpinoy.com/sago-at-gulaman/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/sago-at-gulaman-680x884.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Buko Shake",
+        "recipe-link": "https://www.kawalingpinoy.com/buko-shake/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/09/creamy-buko-shake-6-680x884.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Buko Salad Drink",
+        "recipe-link": "https://www.kawalingpinoy.com/buko-salad-drink/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/05/buko-salad-drink-4-1-680x884.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Guyabano Juice",
+        "recipe-link": "https://www.kawalingpinoy.com/guyabano-juice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/12/sourjuice11.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Tsokolate",
+        "recipe-link": "https://www.kawalingpinoy.com/tsokolate/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/12/tsokolate-5-1-680x884.jpg",
+        "meal": "beverage"
+    },
+    {
+        "title": "Calamansi Juice",
+        "recipe-link": "https://www.kawalingpinoy.com/calamansi-juice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/05/calamansi-juice-with-simple-syrup-3-680x884.jpg",
+        "meal": "beverage"
+    }
+]

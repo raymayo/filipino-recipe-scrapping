@@ -1,0 +1,392 @@
+[
+    {
+        "title": "Snow Peas with Shrimp Stir-fry",
+        "recipe-link": "https://www.kawalingpinoy.com/snow-peas-with-shrimp-stir-fry/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/02/snowpeas-with-shrimp-stir-fry-5-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Thai Chicken Salad with Spicy Peanut Dressing",
+        "recipe-link": "https://www.kawalingpinoy.com/thai-chicken-salad-spicy-peanut-dressing/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/02/thai-chicken-salad-1-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Adobong Kangkong",
+        "recipe-link": "https://www.kawalingpinoy.com/adobong-kangkong/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/06/adobong-kangkong-8-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ginisang Ampalaya at Hipon",
+        "recipe-link": "https://www.kawalingpinoy.com/ginisang-ampalaya-at-hipon/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/07/ginisang-ampalaya-at-hipon-8-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Laing",
+        "recipe-link": "https://www.kawalingpinoy.com/laing/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/05/laing-9-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Curried Okra with Tomatoes",
+        "recipe-link": "https://www.kawalingpinoy.com/curried-okra-with-tomatoes/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/curried-okra-with-tomatoes-7-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ginisang Upo at Hipon",
+        "recipe-link": "https://www.kawalingpinoy.com/ginisang-upo-at-hipon/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/01/ginisang-upo-hipon-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Eggplant with Spicy Garlic Sauce",
+        "recipe-link": "https://www.kawalingpinoy.com/eggplant-with-spicy-garlic-sauce/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/06/eggplant-with-spicy-garlic-sauce-3-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Kabocha Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/kabocha-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/10/Korean-Kabocha-Salad-4-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Chop Suey with Tofu and Shiitake Mushrooms",
+        "recipe-link": "https://www.kawalingpinoy.com/chop-suey-with-tofu-and-shiitake-mushrooms/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/09/chop-seuy-with-tofu-and-shitake-mushrooms-6-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Pancit Molo",
+        "recipe-link": "https://www.kawalingpinoy.com/pancit-molo/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/10/pancit-molo-1-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Pinakbet Tagalog",
+        "recipe-link": "https://www.kawalingpinoy.com/pinakbet/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/04/pinakbet-tagalog-7-1200-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ginataang Puso ng Saging",
+        "recipe-link": "https://www.kawalingpinoy.com/ginataang-puso-ng-saging/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/08/ginataang-puso-saging-4-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ginisang Togue",
+        "recipe-link": "https://www.kawalingpinoy.com/ginisang-togue/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/08/ginisang-togue-5-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Kilawing Puso ng Saging",
+        "recipe-link": "https://www.kawalingpinoy.com/kilawing-puso-ng-saging/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/12/kilawin-puso-saging-5-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Coconut Rice",
+        "recipe-link": "https://www.kawalingpinoy.com/coconut-rice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/07/coconut-rice-5-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Fried Okra",
+        "recipe-link": "https://www.kawalingpinoy.com/fried-okra/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/03/crispy-fried-okra-1-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ginisang Repolyo",
+        "recipe-link": "https://www.kawalingpinoy.com/ginisang-repolyo/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/02/ginisang-repolyo-2-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ginisang Pechay with Oyster Sauce",
+        "recipe-link": "https://www.kawalingpinoy.com/ginisang-pechay-with-oyster-sauce/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/01/ginisang-petchay-4-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ginisang Sayote",
+        "recipe-link": "https://www.kawalingpinoy.com/ginisang-sayote/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/08/ginisang-sayote-4-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ginisang Sayote with Chicken",
+        "recipe-link": "https://www.kawalingpinoy.com/ginisang-sayote-with-chicken/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/01/ginisang-sayote-chicken-6-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Binagoongan Fried Rice",
+        "recipe-link": "https://www.kawalingpinoy.com/binagoongan-fried-rice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/10/binagoongan-fried-rice-7-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Bacon Fried Rice",
+        "recipe-link": "https://www.kawalingpinoy.com/bacon-fried-rice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/05/bacon-fried-rice-4-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ginisang Ampalaya sa Sardinas",
+        "recipe-link": "https://www.kawalingpinoy.com/ginisang-ampalaya-sa-sardinas/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/07/ginisang-ampalaya-sardinas-5-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Adobong Talong",
+        "recipe-link": "https://www.kawalingpinoy.com/adobong-talong/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/01/adobong-talong-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Filipino Mango and Tomato Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/filipino-mango-and-tomato-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/08/Filipino-Mango-and-tomato-salad-1-1-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Pinakbet with Crispy Lechon",
+        "recipe-link": "https://www.kawalingpinoy.com/pinakbet-crispy-lechon-kawali/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/10/pinakbet-with-lechon-kawali-7-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ensaladang Pipino",
+        "recipe-link": "https://www.kawalingpinoy.com/ensaladang-pipino/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/08/ensaladang-pipino-3-1-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ensaladang Talbos ng Kamote",
+        "recipe-link": "https://www.kawalingpinoy.com/ensaladang-talbos-ng-kamote/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/ensaladang-talbos-ng-kamote-5-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ginataang Gulay",
+        "recipe-link": "https://www.kawalingpinoy.com/ginataang-gulay/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/03/ginataang-gulay-6-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Singapore Noodles",
+        "recipe-link": "https://www.kawalingpinoy.com/singapore-noodles/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/05/singapore-noodles-5-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Tofu, Asparagus and Mushroom Stir-Fry",
+        "recipe-link": "https://www.kawalingpinoy.com/tofu-asparagus-mushroom-stir-fry/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/03/tofu-asparagus-mushroom-stir-fry-1-1-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Green Bean Mushroom Stir-fry",
+        "recipe-link": "https://www.kawalingpinoy.com/green-bean-mushroom-stir-fry/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/11/asian-green-bean-mushroom-stir-fry-2-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Panda Express Chow Mein Copycat",
+        "recipe-link": "https://www.kawalingpinoy.com/panda-express-chow-mein-copycat/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/06/panda-express-chowmein-copycat-7-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ginataang Talong",
+        "recipe-link": "https://www.kawalingpinoy.com/ginataang-talong/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/04/ginataang-talong-4-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Tomato Grilled Eggplant and Salted Egg Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/tomato-grilled-eggplant-and-salted-egg-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/05/grilled-eggplant-with-salted-egg-salad-7-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Tinapa Fried Rice",
+        "recipe-link": "https://www.kawalingpinoy.com/tinapa-fried-rice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/08/tinapa-fried-rice-9-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Nasi Goreng (Indonesian Fried Rice)",
+        "recipe-link": "https://www.kawalingpinoy.com/nasi-goreng-indonesian-fried-rice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/10/nasi-goreng-9-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Chinese Chicken Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/chinese-chicken-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/12/chinese-chicken-salad-8-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Hawaiian Macaroni Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/hawaiian-macaroni-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/11/Hawaiian-macaroni-salad-2-1-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "House Special Fried Rice",
+        "recipe-link": "https://www.kawalingpinoy.com/house-special-fried-rice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/07/House-special-fried-rice-7-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Pineapple Fried Rice",
+        "recipe-link": "https://www.kawalingpinoy.com/pineapple-fried-rice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/06/thai-pineapple-fried-rice-5-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Tuna Pasta Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/tuna-pasta-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/05/creamy-tuna-pasta-salad-1-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Sotanghon at Bola-Bola Soup",
+        "recipe-link": "https://www.kawalingpinoy.com/sotanghon-at-bola-bola-soup/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/04/sotanghon-bola-bola-soup-3-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ginisang Togue at Tokwa",
+        "recipe-link": "https://www.kawalingpinoy.com/ginisang-togi-at-tokwa/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/04/ginisang-togue-tokwa-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Arroz Valenciana",
+        "recipe-link": "https://www.kawalingpinoy.com/arroz-valenciana/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/12/filipino-arroz-valenciana-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Sinangag",
+        "recipe-link": "https://www.kawalingpinoy.com/sinangag/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/10/garlic-fried-rice-2-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Bringhe",
+        "recipe-link": "https://www.kawalingpinoy.com/bringhe/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/kapampangan-bringhe-4-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Filipino-style Macaroni Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/filipino-style-macaroni-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/09/filipino-style-macaroni-salad-4-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Asian Cucumber Tomato Avocado Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/asian-cucumber-tomato-avocado-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/cucumber-tomato-avocado-salad-5-1-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Pineapple Coleslaw",
+        "recipe-link": "https://www.kawalingpinoy.com/pineapple-coleslaw/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/pineapple-coleslaw-2-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ginisang Upo with Pork",
+        "recipe-link": "https://www.kawalingpinoy.com/ginisang-upo-with-pork/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/05/ginisang-upo-pork-2-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Pancit Upo",
+        "recipe-link": "https://www.kawalingpinoy.com/pancit-upo/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/04/pancit-upo-4.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Pancit Bihon Guisado",
+        "recipe-link": "https://www.kawalingpinoy.com/pancit-bihon-guisado/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/08/pancit-bihon-guisado-3-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Lumpiang Hubad",
+        "recipe-link": "https://www.kawalingpinoy.com/lumpiang-hubad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/07/lumpia-hubad-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Yang Chow Fried Rice",
+        "recipe-link": "https://www.kawalingpinoy.com/yang-chow-fried-rice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/04/easy-yang-chow-fried-rice-recipe-2-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Thai Mango Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/thai-mango-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/03/fresh-Thai-Mango-Salad-Process-3-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ginataang Sigarilyas at Kalabasa",
+        "recipe-link": "https://www.kawalingpinoy.com/ginataang-sigarilyas-at-kalabasa/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/02/ginataang-sigarilyas-3-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Ginisang Ampalaya Leaves with Tinapa",
+        "recipe-link": "https://www.kawalingpinoy.com/ginisang-ampalaya-leaves-with-tinapa/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/08/ginisang-ampalaya-leaves-with-tinapa-5-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Laswa",
+        "recipe-link": "https://www.kawalingpinoy.com/laswa/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/04/laswa-4-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Java Rice",
+        "recipe-link": "https://www.kawalingpinoy.com/java-rice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/02/easy-java-rice-4-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Chicken Potato Salad",
+        "recipe-link": "https://www.kawalingpinoy.com/chicken-potato-salad/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/12/filipino-style-chicken-potato-salad-2-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Tortang Talong",
+        "recipe-link": "https://www.kawalingpinoy.com/tortang-talong/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/03/tortang-talong-3-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Suam na Mais",
+        "recipe-link": "https://www.kawalingpinoy.com/suam-na-mais/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/08/suam-mais-2-680x884.jpg",
+        "meal": "side dish"
+    },
+    {
+        "title": "Chop Suey",
+        "recipe-link": "https://www.kawalingpinoy.com/chop-suey/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/07/filipino-chop-suey-680x884.jpg",
+        "meal": "side dish"
+    }
+]
