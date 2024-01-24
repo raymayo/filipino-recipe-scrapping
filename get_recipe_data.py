@@ -70,9 +70,7 @@ for recipe in data:
             # Check if the span element is found before appending to the list
             if ingredient_name:
                 if ingredient_name.text not in ingredients_array:
-                    ingredient_name.text.strip().split(" or ")
                     ingredients_array.append(ingredient_name.text)
-                    print(ingredients_array)
                     # print()
 
                     # return ingredients_array
@@ -101,6 +99,6 @@ for recipe in data:
 
     # get_recipe_ingredients(response)
 
-    # save_to_json(get_recipe_ingredients(response), "prototype_ingredients.json")
-
     ingre_list = get_recipe_ingredients(response)
+    save_to_json(ingredients_array, "prototype_ingredients.json")
+    print(ingredients_array)
