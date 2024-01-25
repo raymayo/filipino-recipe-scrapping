@@ -1,0 +1,534 @@
+[
+    {
+        "title": "Longganisa",
+        "recipe-link": "https://www.kawalingpinoy.com/longganisa/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/longganisa-8-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Longganisa is a staple Filipino breakfast often served as part of the \"Long-si-log\" trio, with fried rice (sinangag) and fried egg (itlog). This savory-sweet sausage is made by stuffing hog-casing with ground pork, deliciously flavored with spices and seasonings.",
+        "ingredients": [
+            "lean ground pork",
+            "ground pork",
+            "pork fat",
+            "garlic",
+            "soy sauce",
+            "anisado wine",
+            "vinegar",
+            "brown sugar",
+            "sugar",
+            "salt",
+            "ground black pepper",
+            "pepper",
+            "paprika",
+            "hog casing",
+            "water",
+            "canola oil",
+            "oil"
+        ]
+    },
+    {
+        "title": "Tortang Tahong",
+        "recipe-link": "https://www.kawalingpinoy.com/tortang-tahong/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/05/tortang-tahong-8-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Tortang Tahong made of mussels, tomatoes, and fluffy eggs is a simple dish that's hearty and tasty. This seafood omelet is delicious served with steamed rice and your favorite dipping sauce.",
+        "ingredients": [
+            "egg",
+            "salt",
+            "pepper",
+            "canola oil",
+            "oil",
+            "shallot",
+            "garlic",
+            "Roma tomato",
+            "tomato",
+            "mussel meat",
+            "oyster sauce",
+            "green onion",
+            "onion"
+        ]
+    },
+    {
+        "title": "Skinless Longganisa",
+        "recipe-link": "https://www.kawalingpinoy.com/skinless-longganisa/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/09/skinless-longganisa-13-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Skinless Longganisa with a delicious medley of sweet, savory, and garlicky flavors you'll love! Serve these Filipino pork sausages with garlic fried rice and sunny side eggs for a hearty and tasty breakfast.",
+        "ingredients": [
+            "ground pork",
+            "brown sugar",
+            "sugar",
+            "garlic",
+            "soy sauce",
+            "vinegar",
+            "salt",
+            "ground black pepper",
+            "pepper",
+            "cornstarch",
+            "canola oil",
+            "oil"
+        ]
+    },
+    {
+        "title": "Corned Beef Pandesal",
+        "recipe-link": "https://www.kawalingpinoy.com/corned-beef-pandesal/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/10/corned-beef-pandesal-buns-1-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Corned Beef Pandesal is the heartier cousin of our classic Pandesal. This Filipino-style bread roll is the perfect anytime snack: soft, fluffy, and bursting with meaty corned beef!",
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "garlic",
+            "onion",
+            "corned beef"
+        ]
+    },
+    {
+        "title": "Mango Bread Loaf",
+        "recipe-link": "https://www.kawalingpinoy.com/mango-bread-loaf/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/04/mango-bread-loaf-6-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Mango bread loaf is the best use for this season's mangoes! Soft and moist, and bursting with bright mango and warm cinnamon flavors, it makes a delicious breakfast or midday snack.",
+        "ingredients": [
+            "flour",
+            "sugar",
+            "cinnamon",
+            "baking soda",
+            "salt",
+            "oil",
+            "egg",
+            "mango",
+            "Manila mango",
+            "raisin",
+            "lemon juice"
+        ]
+    },
+    {
+        "title": "Tikoy",
+        "recipe-link": "https://www.kawalingpinoy.com/tikoy/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2022/02/homemade-tikoy-3-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Bring good luck to the New Year with Homemade Tikoy! This sticky rice cake is easy to make and so soft and chewy!",
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "sugar",
+            "water",
+            "flour",
+            "glutinous rice",
+            "rice flour",
+            "egg"
+        ]
+    },
+    {
+        "title": "Champorado",
+        "recipe-link": "https://www.kawalingpinoy.com/champorado/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/02/champorado-5-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Champorado is the ultimate breakfast treat! This Filipino rice porridge is easy to make with only five ingredients and is delicious and comforting with an intense chocolate flavor. A guaranteed hit with kids and adults alike!",
+        "ingredients": [
+            "water",
+            "glutinous rice",
+            "tablea chocolate",
+            "sugar",
+            "evaporated milk"
+        ]
+    },
+    {
+        "title": "Filipino Scrambled Eggs",
+        "recipe-link": "https://www.kawalingpinoy.com/filipino-scrambled-eggs/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/07/filipino-scrambled-eggs-3-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Filipino Scrambled Eggs is a classic breakfast dish with tomatoes and onions. It's quick and easy to make yet so hearty and tasty. Perfect for breakfast, brunch, or any meal of the day!",
+        "ingredients": [
+            "egg",
+            "butter",
+            "Roma tomato",
+            "tomato",
+            "onion",
+            "salt",
+            "pepper"
+        ]
+    },
+    {
+        "title": "Corned Beef Hash Breakfast Pizza",
+        "recipe-link": "https://www.kawalingpinoy.com/corned-beef-hash-breakfast-pizza/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/08/corned-beef-hash-breakfast-pizza-4-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Power up your day with the tastiest mashup ever. Corned Beef Hash Breakfast Pizza, topped with flavorful corned beef, runny eggs, and colorful bell peppers, is delicious, filling, and sure to be a crowd-pleaser. Perfect for weekend breakfast or brunch!",
+        "ingredients": [
+            "oil",
+            "olive oil",
+            "pizza dough",
+            "cheddar cheese",
+            "corned beef",
+            "red bell pepper",
+            "pepper",
+            "green bell pepper",
+            "pepper",
+            "onion",
+            "red onion",
+            "egg"
+        ]
+    },
+    {
+        "title": "Bacon Fried Rice",
+        "recipe-link": "https://www.kawalingpinoy.com/bacon-fried-rice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/05/bacon-fried-rice-4-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Bacon Fried Rice is easy to make with simple ingredients and in minutes. It's a hearty and tasty one-pot dish that's perfect for breakfast or anytime you need a quick meal.",
+        "ingredients": [
+            "white rice",
+            "bacon slice",
+            "onion",
+            "garlic",
+            "soy sauce",
+            "green onion",
+            "onion",
+            "salt",
+            "pepper",
+            "egg"
+        ]
+    },
+    {
+        "title": "Lugaw at Tokwa",
+        "recipe-link": "https://www.kawalingpinoy.com/lugaw-at-tokwa/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/05/lugaw-at-tokwa-3-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Lugaw at Tokwa is the perfect rainy-day comfort food! Not only is it filling and delicious, but it's also easy to make and budget-friendly. This rice congee and crispy tofu combination is sure to hit the spot!",
+        "ingredients": [
+            "glutinous rice",
+            "water",
+            "ginger",
+            "salt",
+            "firm tofu",
+            "canola oil",
+            "oil",
+            "vinegar",
+            "soy sauce",
+            "salt",
+            "pepper",
+            "sugar",
+            "shallot",
+            "pepper",
+            "chili pepper"
+        ]
+    },
+    {
+        "title": "Puto Maya and Sikwate",
+        "recipe-link": "https://www.kawalingpinoy.com/puto-maya-and-sikwate/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/04/puto-maya-sikwate-1-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Jump-start your day with Puto Maya and Sikwate! This Cebuana combination of sticky rice cake with juicy mangoes and hot chocolate is a delicious and filling treat for breakfast or any time of the day.",
+        "ingredients": [
+            "glutinous rice",
+            "ginger",
+            "coconut milk",
+            "sugar",
+            "salt",
+            "mango",
+            "Manila mango"
+        ]
+    },
+    {
+        "title": "Ginisang Corned Beef",
+        "recipe-link": "https://www.kawalingpinoy.com/ginisang-corned-beef/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/ginisang-corned-beef-7-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Ginisang Corned Beef is easy to make in minutes and cooks in one pan. It's a hearty and tasty combination of chunky corned beef, and diced potatoes you'll love for breakfast, brunch, or any meal of the day.",
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "potato,",
+            "onion",
+            "garlic",
+            "corned beef",
+            "chunky-style corned beef",
+            "water",
+            "salt",
+            "pepper"
+        ]
+    },
+    {
+        "title": "Corned Beef Frittata",
+        "recipe-link": "https://www.kawalingpinoy.com/corned-beef-frittata/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/07/corned-beef-fritata-10-1200-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Level up breakfast with a hearty and tasty corned beef frittata. It's loaded with potatoes, green peas, and eggs for a delicious and energy-packed dish for breakfast, lunch, or dinner!",
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "potato,",
+            "onion",
+            "garlic",
+            "corned beef",
+            "water",
+            "salt",
+            "pepper",
+            "sweet pea",
+            "egg"
+        ]
+    },
+    {
+        "title": "Taho",
+        "recipe-link": "https://www.kawalingpinoy.com/taho/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/09/taho-2-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Taho is a Filipino delicacy made of silken tofu, sago pearls, and brown sugar syrup. It's a delicious vegan soy dessert traditionally enjoyed for breakfast or any time you need a quick boost of energy.",
+        "ingredients": [
+            "water",
+            "brown sugar",
+            "sugar",
+            "pandan leaf",
+            "sago pearl",
+            "soft silken tofu"
+        ]
+    },
+    {
+        "title": "Arroz a la Cubana",
+        "recipe-link": "https://www.kawalingpinoy.com/arroz-ala-cubana/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/06/arroz-a-la-cubana-6-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Arroz a la Cubana is a flavorful ground beef hash traditionally served with rice, saba bananas, and fried eggs. It's easy to make, budget-friendly, and a hearty meal that's sure to be a dinner favorite.",
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "ground beef",
+            "tomato sauce",
+            "tomato",
+            "soy sauce",
+            "water",
+            "sugar",
+            "sweet pea",
+            "salt",
+            "pepper"
+        ]
+    },
+    {
+        "title": "Tinapa Fried Rice",
+        "recipe-link": "https://www.kawalingpinoy.com/tinapa-fried-rice/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/08/tinapa-fried-rice-9-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Tinapa Fried Rice is a delicious take on everyday fried rice! Smoked fish flakes, fluffy eggs,\u00a0and green onions make it a flavorful side dish perfect for breakfast!",
+        "ingredients": [
+            "cooked rice",
+            "canola oil",
+            "oil",
+            "egg",
+            "onion",
+            "garlic",
+            "tinapa galunggong",
+            "green onion",
+            "onion",
+            "soy sauce",
+            "salt",
+            "pepper"
+        ]
+    },
+    {
+        "title": "Beef Tapa",
+        "recipe-link": "https://www.kawalingpinoy.com/beef-tapa/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/08/beef-tapa-1-1-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Beef Tapa marinated in fish sauce, brown sugar, and fresh garlic. This Kapampangan delicacy is easy to prepare, freezable, and makes a great all-day breakfast meal!",
+        "ingredients": [
+            "beef sirloin",
+            "fish sauce",
+            "brown sugar",
+            "sugar",
+            "garlic",
+            "ground black pepper",
+            "pepper",
+            "canola oil",
+            "oil"
+        ]
+    },
+    {
+        "title": "Calamansi Muffins",
+        "recipe-link": "https://www.kawalingpinoy.com/calamansi-muffins/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/01/calamansi-muffins-with-citrus-glaze-6-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Bakery-style Calamansi Muffins with a tangy citrus glaze are super moist, tender, and bursting with calamansi flavor! They're perfect for breakfast and brunch or as an on-the-go snack.",
+        "ingredients": [
+            "flour",
+            "sugar",
+            "salt",
+            "butter"
+        ]
+    },
+    {
+        "title": "Eggplant and Tomato Torta",
+        "recipe-link": "https://www.kawalingpinoy.com/eggplant-and-tomato-torta/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/07/eggplant-and-tomato-torta-5-1-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Eggplant and tomato torta filled with fresh veggies and is delicious for any meal of the day! ",
+        "ingredients": [
+            "canola oil",
+            "oil",
+            "egg",
+            "eggplant",
+            "eggplant",
+            "onion",
+            "tomato",
+            "egg",
+            "salt",
+            "pepper"
+        ]
+    },
+    {
+        "title": "Sinangag",
+        "recipe-link": "https://www.kawalingpinoy.com/sinangag/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/10/garlic-fried-rice-2-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Sinangag is the perfect use for day-old rice. Loaded with fragrant garlic bits, this Filipino-style fried rice makes a delicious and filling side dish for breakfast or any time of the day meal.",
+        "ingredients": [
+            "white rice",
+            "canola oil",
+            "oil",
+            "garlic",
+            "salt",
+            "pepper"
+        ]
+    },
+    {
+        "title": "Chicken Tapa",
+        "recipe-link": "https://www.kawalingpinoy.com/chicken-tapa/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/05/Chicken-tapa-4-1-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Chicken tapa marinated in soy sauce, lemon juice, and fresh garlic. Serve with garlic fried rice and sunny side up eggs for a delicious morning treat!",
+        "ingredients": [
+            "chicken thigh",
+            "chicken",
+            "soy sauce",
+            "lemon juice",
+            "garlic",
+            "brown sugar",
+            "sugar",
+            "salt",
+            "pepper"
+        ]
+    },
+    {
+        "title": "Poqui Poqui",
+        "recipe-link": "https://www.kawalingpinoy.com/poqui-poqui/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/04/poqui-poqui-7-1-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Poqui Poqui made of roasted eggplant, tomatoes, and eggs. Healthy, filling, and delicious, it's a meatless breakfast or dinner meal the whole family will love.",
+        "ingredients": [
+            "egg",
+            "eggplant",
+            "eggplant",
+            "oil",
+            "onion",
+            "garlic",
+            "Roma tomato",
+            "tomato",
+            "egg",
+            "salt",
+            "pepper"
+        ]
+    },
+    {
+        "title": "Filipino Tamales",
+        "recipe-link": "https://www.kawalingpinoy.com/filipino-tamales/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/05/filipino-tamales-1-1.jpg",
+        "meal": "lunch",
+        "summary": "Filipino Tamales are a traditional Kampangan delicacy you'll love for breakfast or snack. Made of rice flour, coconut milk, and peanut butter, topped with chicken and eggs and steamed to perfection, they're hearty and tasty!",
+        "ingredients": [
+            "chicken",
+            "salt",
+            "pepper",
+            "canola oil",
+            "oil",
+            "onion",
+            "garlic",
+            "coconut milk",
+            "chicken",
+            "chicken broth",
+            "flour",
+            "rice flour",
+            "water",
+            "atsuete powder",
+            "butter",
+            "smooth peanut butter",
+            "egg",
+            "oil",
+            "hard-boiled egg"
+        ]
+    },
+    {
+        "title": "Filipino Beef Tapa",
+        "recipe-link": "https://www.kawalingpinoy.com/filipino-beef-tapa/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/01/Filipino-beef-tapa-4-1-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Filipino Beef Tapa is easy to make and tastes so much better than store-bought. Serve with garlic fried rice and sunny side eggs for a classic Tapsilog breakfast!",
+        "ingredients": [
+            "soy sauce",
+            "calamansi juice",
+            "garlic",
+            "sugar",
+            "salt",
+            "pepper",
+            "beef sirloin",
+            "canola oil",
+            "oil"
+        ]
+    },
+    {
+        "title": "Daing na Bangus",
+        "recipe-link": "https://www.kawalingpinoy.com/daing-na-bangus/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/09/daing-na-bangus-6-1-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Daing na Bangus is one of the best-tasting fish, in my opinion, but it can be a bit cumbersome because of all the bones. Watch the video to learn how to debone and make eating easier. Plus, try the simple marinade that makes the milkfish super tasty!",
+        "ingredients": [
+            "butter",
+            "bangus",
+            "vinegar",
+            "garlic",
+            "pepper",
+            "peppercorn",
+            "salt",
+            "canola oil",
+            "oil"
+        ]
+    },
+    {
+        "title": "Chicken Tocino",
+        "recipe-link": "https://www.kawalingpinoy.com/chicken-tocino/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/sweet-chicken-tocino-1-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Chicken Tocino is marinated in pineapple juice, ketchup, and spices for sweet and garlicky flavors you'll love! This Filipino cured meat is easy to make and delicious as an all-day breakfast meal.",
+        "ingredients": [
+            "pineapple juice",
+            "banana ketchup",
+            "sugar",
+            "garlic",
+            "garlic powder",
+            "salt",
+            "chicken thigh",
+            "chicken",
+            "water",
+            "canola oil",
+            "oil"
+        ]
+    },
+    {
+        "title": "Homemade Pork Tocino",
+        "recipe-link": "https://www.kawalingpinoy.com/pork-tocino/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/06/pork-tocino-4-680x884.jpg",
+        "meal": "lunch",
+        "summary": "Pork Tocino is a hearty Filipino all-day breakfast served with sunny-side-up eggs and garlic fried rice. Sweet and garlicky, it's sure to be a family favorite.",
+        "ingredients": [
+            "pork butt",
+            "sugar",
+            "salt",
+            "garlic",
+            "garlic powder",
+            "pepper",
+            "water",
+            "canola oil",
+            "oil"
+        ]
+    }
+]

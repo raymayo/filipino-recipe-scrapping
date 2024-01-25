@@ -4,7 +4,7 @@ import re
 from bs4 import BeautifulSoup
 
 
-json_file_path = "./prototype/prototype_recipes.json"
+json_file_path = "./prototype/prototype_recipes1.json"
 
 # Open the JSON file for reading
 with open(json_file_path, "r") as json_file:
@@ -64,8 +64,6 @@ with open(json_file_path, "r") as json_file:
         "(13.5 ounces) ",
         ", peeled and sliced",
         ", peeled and diced",
-        "(11.5  ounces) ",
-        "chunky-style ",
         "frozen ",
         ", thawed",
         ", beaten",
@@ -91,6 +89,11 @@ with open(json_file_path, "r") as json_file:
         ", cracked",
         " or leg meat, boneless and skinless",
         ", sliced to ¼-inch thick",
+        ", boneless and skinless",
+        "red food coloring",
+        "(11.5 ounces) corned beef, chunky-style",
+        "(11.5  ounces) ",
+        " (about 2 ½ cups)",
     ]
 
 
@@ -103,36 +106,34 @@ for recipe in data:
     }
     response = requests.get(url, headers=headers)
 
-    # def get_recipe_summary(res):
-    #     soup = BeautifulSoup(res.text, "html.parser")
-    #     return soup.find("div", class_="wprm-recipe-summary").find("span").text
+    def get_recipe_summary(res):
+        soup = BeautifulSoup(res.text, "html.parser")
+        return (
+            soup.find("div", class_="entry-content single-entry-content").find("p").text
+        )
 
-    # summary = get_recipe_summary(response)
+    summary = get_recipe_summary(response)
     # print(summary)
     # print()
 
     def get_recipe_ingredients(res):
         soup = BeautifulSoup(res.text, "html.parser")
+        recipe_array = []
 
         ingredients_list = soup.find("ul", class_="wprm-recipe-ingredients")
 
         for ingredient in ingredients_list.find_all(
             "li", class_="wprm-recipe-ingredient"
         ):
-            # Find the span element within each li element
             ingredient_name = ingredient.find(
                 "span", class_="wprm-recipe-ingredient-name"
             )
 
-            # Check if the span element is found before appending to the list
             if ingredient_name:
                 if ingredient_name.text not in ingredients_array:
-                    ingredients_array.append(ingredient_name.text)
-                    # print()
+                    recipe_array.append(ingredient_name.text)
 
-                    # return ingredients_array
-
-        # Assuming 'response' is defined elsewhere in your code
+        return recipe_array
 
     def save_to_json(data, filename):
         with open(filename, "w") as json_file:
@@ -145,17 +146,46 @@ for recipe in data:
     #             ingr_name = ingr_name.replace(word, "")
     #         if ingr_name not in final_array:
     #             final_array.append(ingr_name)
-    #             return final_array
 
-    # # Apply the filter
+    #     return final_array
+
     # filtered_ingredients = filter_ingredients(
     #     get_recipe_ingredients(response), filter_array
     # )
 
     # save_to_json(filtered_ingredients, "prototype_ingredients.json")
 
-    # get_recipe_ingredients(response)
+    filtered_proto = "./prototype/prototype_ingredients.json"
 
-    ingre_list = get_recipe_ingredients(response)
-    save_to_json(ingredients_array, "prototype_ingredients.json")
-    print(ingredients_array)
+    def partial_match(word, sentence):
+        return word in sentence
+
+    def match_ingredients(sentences, word_array):
+        matching_words = []
+        for sentence in sentences:
+            for word in word_array:
+                if partial_match(word, sentence):
+                    matching_words.append(word)
+        return matching_words
+
+    def read_json_file(file_path):
+        with open(file_path, "r") as file:
+            data = json.load(file)
+        return data
+
+    filter_array_test = read_json_file(filtered_proto)
+
+    result = match_ingredients(get_recipe_ingredients(response), filter_array_test)
+    print(recipe["title"])
+    print(result)
+
+    def json_dump(path, key, key_data):
+        new_key = key
+        new_data = key_data
+        recipe[new_key] = new_data
+
+        with open(path, "w", encoding="utf-8") as json_file:
+            json.dump(data, json_file, indent=4)
+
+    json_dump(json_file_path, "summary", summary)
+    json_dump(json_file_path, "ingredients", result)

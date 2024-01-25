@@ -1,15 +1,19 @@
-def is_exact_word_present(sentence, word):
-    # Split the sentence into words
-    words = sentence.split()
+def partial_match(word, sentence):
+    return word in sentence
 
-    # Check if the exact word is present
-    return any(word.lower() == w.lower() for w in words)
 
-# Example usage
-sentence = "This is a sample sentence with exact words."
-word_to_check = "ex"
+def match_words(sentence, word_array):
+    matching_words = []
+    for word in word_array:
+        if partial_match(word, sentence):
+            matching_words.append(word)
+    return matching_words
 
-if is_exact_word_present(sentence, word_to_check):
-    print(f"The exact word '{word_to_check}' is present in the sentence.")
-else:
-    print(f"The exact word '{word_to_check}' is not present in the sentence.")
+
+sentence = "I like mangoes."
+
+word_array = ["mango", "banana"]
+result = match_words(
+    sentence.lower(), word_array
+)  # Convert to lowercase for case-insensitive matching
+print(result)
