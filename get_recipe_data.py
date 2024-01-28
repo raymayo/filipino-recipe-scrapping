@@ -106,38 +106,38 @@ for recipe in data:
     }
     response = requests.get(url, headers=headers)
 
-    def get_recipe_summary(res):
-        soup = BeautifulSoup(res.text, "html.parser")
-        return (
-            soup.find("div", class_="entry-content single-entry-content").find("p").text
-        )
+    # def get_recipe_summary(res):
+    #     soup = BeautifulSoup(res.text, "html.parser")
+    #     return (
+    #         soup.find("div", class_="entry-content single-entry-content").find("p").text
+    #     )
 
-    summary = get_recipe_summary(response)
+    # summary = get_recipe_summary(response)
     # print(summary)
     # print()
 
-    def get_recipe_ingredients(res):
-        soup = BeautifulSoup(res.text, "html.parser")
-        recipe_array = []
+    # def get_recipe_ingredients(res):
+    #     soup = BeautifulSoup(res.text, "html.parser")
+    #     recipe_array = []
 
-        ingredients_list = soup.find("ul", class_="wprm-recipe-ingredients")
+    #     ingredients_list = soup.find("ul", class_="wprm-recipe-ingredients")
 
-        for ingredient in ingredients_list.find_all(
-            "li", class_="wprm-recipe-ingredient"
-        ):
-            ingredient_name = ingredient.find(
-                "span", class_="wprm-recipe-ingredient-name"
-            )
+    #     for ingredient in ingredients_list.find_all(
+    #         "li", class_="wprm-recipe-ingredient"
+    #     ):
+    #         ingredient_name = ingredient.find(
+    #             "span", class_="wprm-recipe-ingredient-name"
+    #         )
 
-            if ingredient_name:
-                if ingredient_name.text not in ingredients_array:
-                    recipe_array.append(ingredient_name.text)
+    #         if ingredient_name:
+    #             if ingredient_name.text not in ingredients_array:
+    #                 recipe_array.append(ingredient_name.text)
 
-        return recipe_array
+    #     return recipe_array
 
-    def save_to_json(data, filename):
-        with open(filename, "w") as json_file:
-            json.dump(data, json_file, indent=2)
+    # def save_to_json(data, filename):
+    #     with open(filename, "w") as json_file:
+    #         json.dump(data, json_file, indent=2)
 
     # def filter_ingredients(data, filters):
     #     for ingr in data:
@@ -155,29 +155,29 @@ for recipe in data:
 
     # save_to_json(filtered_ingredients, "prototype_ingredients.json")
 
-    filtered_proto = "./prototype/prototype_ingredients.json"
+    # filtered_proto = "./prototype/prototype_ingredients.json"
 
-    def partial_match(word, sentence):
-        return word in sentence
+    # def partial_match(word, sentence):
+    #     return word in sentence
 
-    def match_ingredients(sentences, word_array):
-        matching_words = []
-        for sentence in sentences:
-            for word in word_array:
-                if partial_match(word, sentence):
-                    matching_words.append(word)
-        return matching_words
+    # def match_ingredients(sentences, word_array):
+    #     matching_words = []
+    #     for sentence in sentences:
+    #         for word in word_array:
+    #             if partial_match(word, sentence):
+    #                 matching_words.append(word)
+    #     return matching_words
 
-    def read_json_file(file_path):
-        with open(file_path, "r") as file:
-            data = json.load(file)
-        return data
+    # def read_json_file(file_path):
+    #     with open(file_path, "r") as file:
+    #         data = json.load(file)
+    #     return data
 
-    filter_array_test = read_json_file(filtered_proto)
+    # filter_array_test = read_json_file(filtered_proto)
 
-    result = match_ingredients(get_recipe_ingredients(response), filter_array_test)
-    print(recipe["title"])
-    print(result)
+    # result = match_ingredients(get_recipe_ingredients(response), filter_array_test)
+    # print(recipe["title"])
+    # print(result)
 
     def json_dump(path, key, key_data):
         new_key = key
@@ -187,5 +187,26 @@ for recipe in data:
         with open(path, "w", encoding="utf-8") as json_file:
             json.dump(data, json_file, indent=4)
 
-    json_dump(json_file_path, "summary", summary)
-    json_dump(json_file_path, "ingredients", result)
+    # json_dump(json_file_path, "summary", summary)
+    # json_dump(json_file_path, "ingredients", result)
+
+    def get_recipe_instruction(res):
+        soup = BeautifulSoup(res.text, "html.parser")
+        instruction = soup.find("ul", class_="wprm-recipe-instructions").findAll("li")
+
+        instructionArray = []
+
+        for i in instruction:
+            span_element = i.find("div").find("span")
+            if span_element:
+                instructionArray.append(span_element.text)
+
+        return instructionArray
+
+    # print(get_recipe_instruction(response))
+
+    # print(recipe["title"])
+
+    instruction = get_recipe_instruction(response)
+
+    json_dump(json_file_path, "instruction", instruction)
