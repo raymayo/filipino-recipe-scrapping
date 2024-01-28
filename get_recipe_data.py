@@ -190,23 +190,57 @@ for recipe in data:
     # json_dump(json_file_path, "summary", summary)
     # json_dump(json_file_path, "ingredients", result)
 
-    def get_recipe_instruction(res):
+    # def get_recipe_instruction(res):
+    #     soup = BeautifulSoup(res.text, "html.parser")
+    #     instruction = soup.find("ul", class_="wprm-recipe-instructions").findAll("li")
+
+    #     instructionArray = []
+
+    #     for i in instruction:
+    #         span_element = i.find("div").find("span")
+    #         if span_element:
+    #             instructionArray.append(span_element.text)
+
+    #     return instructionArray
+
+    # instruction = get_recipe_instruction(response)
+
+    # json_dump(json_file_path, "instruction", instruction)
+
+    # def ingredientList(res):
+    #     soup = BeautifulSoup(res.text, "html.parser")
+    #     ingredient_list = soup.find("ul", class_="wprm-recipe-ingredients").findAll(
+    #         "li"
+    #     )
+
+    #     ingrListArray = []  # Initialize an empty list to store sentences
+
+    #     for i in ingredient_list:
+    #         span_elements = i.findAll("span")
+
+    #         # Iterate over the found span elements and get their text content
+    #         span_list = [span.text for span in span_elements]
+
+    #         # Join the text content of span elements into a single sentence
+    #         sentence = " ".join(span_list)
+
+    #         ingrListArray.append(sentence)  # Append the sentence to the list
+
+    #     return ingrListArray
+
+    # all_ingredients = ingredientList(response)
+
+    # # print(all_ingredients)
+
+    # json_dump(json_file_path, "ingredient-list", all_ingredients)
+
+    #
+
+    def get_recipe_serving(res):
         soup = BeautifulSoup(res.text, "html.parser")
-        instruction = soup.find("ul", class_="wprm-recipe-instructions").findAll("li")
+        return (
+            soup.find("span", class_="wprm-recipe-servings-with-unit").find("span").text
+        )
 
-        instructionArray = []
-
-        for i in instruction:
-            span_element = i.find("div").find("span")
-            if span_element:
-                instructionArray.append(span_element.text)
-
-        return instructionArray
-
-    # print(get_recipe_instruction(response))
-
-    # print(recipe["title"])
-
-    instruction = get_recipe_instruction(response)
-
-    json_dump(json_file_path, "instruction", instruction)
+    serving = get_recipe_serving(response)
+    json_dump(json_file_path, "serving", serving)
