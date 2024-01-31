@@ -19,11 +19,30 @@ with open(json_file_path, "r") as json_file:
         with open(path, "w", encoding="utf-8") as json_file:
             json.dump(data, json_file, indent=4)
 
-    def get_recipe_summary(res):
+    print("ALL FINISHED")
+
+    def ingredientList(res):
         soup = BeautifulSoup(res.text, "html.parser")
-        return (
-            soup.find("div", class_="entry-content single-entry-content").find("p").text
+        ingredient_list = soup.find("ul", class_="wprm-recipe-ingredients").findAll(
+            "li"
         )
+
+        ingrListArray = []  # Initialize an empty list to store sentences
+
+        for i in ingredient_list:
+            span_elements = i.findAll("span")
+
+            # Iterate over the found span elements and get their text content
+            span_list = [span.text for span in span_elements]
+
+            # Join the text content of span elements into a single sentence
+            sentence = " ".join(span_list)
+
+            ingrListArray.append(sentence)  # Append the sentence to the list
+
+        return ingrListArray
+
+    # print(all_ingredients)
 
 
 for recipe in data:
@@ -35,6 +54,6 @@ for recipe in data:
     }
     response = requests.get(url, headers=headers)
 
-    summary = get_recipe_summary(response)
+    all_ingredients = ingredientList(response)
 
-    json_dump(json_file_path, "summary", summary)
+    json_dump(json_file_path, "ingredientList", all_ingredients)

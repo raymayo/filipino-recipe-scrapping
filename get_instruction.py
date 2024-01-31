@@ -19,11 +19,20 @@ with open(json_file_path, "r") as json_file:
         with open(path, "w", encoding="utf-8") as json_file:
             json.dump(data, json_file, indent=4)
 
-    def get_recipe_summary(res):
+    print("ALL FINISHED")
+
+    def get_recipe_instruction(res):
         soup = BeautifulSoup(res.text, "html.parser")
-        return (
-            soup.find("div", class_="entry-content single-entry-content").find("p").text
-        )
+        instruction = soup.find("ul", class_="wprm-recipe-instructions").findAll("li")
+
+        instructionArray = []
+
+        for i in instruction:
+            span_element = i.find("div").find("span")
+            if span_element:
+                instructionArray.append(span_element.text)
+
+        return instructionArray
 
 
 for recipe in data:
@@ -34,7 +43,5 @@ for recipe in data:
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.1 Safari/537.36"
     }
     response = requests.get(url, headers=headers)
-
-    summary = get_recipe_summary(response)
-
-    json_dump(json_file_path, "summary", summary)
+    instruction = get_recipe_instruction(response)
+    json_dump(json_file_path, "instruction", instruction)

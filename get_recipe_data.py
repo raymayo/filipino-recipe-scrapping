@@ -106,6 +106,14 @@ for recipe in data:
     }
     response = requests.get(url, headers=headers)
 
+    def get_recipe_summary(res):
+        soup = BeautifulSoup(res.text, "html.parser")
+        return (
+            soup.find("div", class_="entry-content single-entry-content").find("p").text
+        )
+
+    summary = get_recipe_summary(response)
+
     # def get_recipe_ingredients(res):
     #     soup = BeautifulSoup(res.text, "html.parser")
     #     recipe_array = []
