@@ -1,0 +1,541 @@
+[
+    {
+        "title": "Beef Salpicao",
+        "recipe-link": "https://www.kawalingpinoy.com/beef-salpicao/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/10/beef-salpicao-8-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Beef Salpicao is a stir-fry dish flavored with Worcestershire, butter, garlic, and red chili pepper flakes. It's quick and simple to make yet packs fantastic flavor. Delicious as an appetizer or main dish!"
+    },
+    {
+        "title": "Rellenong Alimango",
+        "recipe-link": "https://www.kawalingpinoy.com/rellenong-alimango/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/12/rellenong-alimango-3-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Rellenong Alimango, or Stuffed Crab, is a show-stopping appetizer worth the effort. This stuffed crab filled with crab meat and veggies is perfect for a party or for a special date night."
+    },
+    {
+        "title": "Pinsec Frito",
+        "recipe-link": "https://www.kawalingpinoy.com/pinsec-frito/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/06/pinsec-frito-1-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Looking for the ultimate appetizer? Try Pinsec Frito! These crispy Asian dumplings are filled with a tasty meat filling and fried to perfection. Served them with sweet and sour sauce for a sure crowd-pleaser! "
+    },
+    {
+        "title": "Banana Heart Burger",
+        "recipe-link": "https://www.kawalingpinoy.com/banana-heart-burger/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/05/banana-heart-burger-3-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Banana Heart Burger is made with shredded banana heart patties, cheese, and all the fixings. This vegetarian burger is a delicious and nutritious alternative to the usual beef. And it's budget-friendly, too!"
+    },
+    {
+        "title": "Baby Back Ribs with Adobo Glaze",
+        "recipe-link": "https://www.kawalingpinoy.com/baby-back-ribs-adobo-glaze/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/04/baby-back-ribs-adobo-glaze-1-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Baby back ribs with adobo glaze are cooked in classic adobo marinade and baked in the oven with bread crumbs and honey.  Fall off the bone tender and bursting with sweet, savory flavor, they're finger-licking good!"
+    },
+    {
+        "title": "Filipino Pork Barbecue",
+        "recipe-link": "https://www.kawalingpinoy.com/filipino-pork-barbecue/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/filipino-style-pork-bbq-1-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Filipino Pork Barbecue on a Stick are as much fun to eat as they are delicious. With a sweet, salty, and slightly spicy flavor combo, they're absolutely addictive!"
+    },
+    {
+        "title": "Camaron Rebosado",
+        "recipe-link": "https://www.kawalingpinoy.com/camaron-rebosado/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/02/camaron-rebosado-1-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Try this tasty Camaron Rebosado recipe! This Filipino-style shrimp dish is battered and deep-fried to golden perfection for the ultimate seafood appetizer or main dish. It's easy to make, using only a handful of ingredients."
+    },
+    {
+        "title": "Lumpiang Puso ng Saging",
+        "recipe-link": "https://www.kawalingpinoy.com/lumpiang-puso-ng-saging/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/06/lumpiang-puso-ng-saging-1-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Need a tasty snack idea? This Lumpiang Puso ng Saging recipe makes the best spring rolls with shredded banana hearts, pork, and oyster sauce. Great as an appetizer or main dish with steamed rice!"
+    },
+    {
+        "title": "Ukoy na Dilis",
+        "recipe-link": "https://www.kawalingpinoy.com/ukoy-na-dilis/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/06/ukoy-dilis-7-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Ukoy na Dilis is a delicious fish fritter made with fresh anchovies. Crunchy and flavorful, they're wonderful as an appetizer or main dish."
+    },
+    {
+        "title": "Kwek-kwek",
+        "recipe-link": "https://www.kawalingpinoy.com/kwek-kwek/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/07/kwek-kwek-14-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Kwek-kwek is made of quail eggs coated with an orange batter and deep-fried to golden perfection. This popular Filipino street food is fun to eat and delicious with spicy vinegar or a special dipping sauce."
+    },
+    {
+        "title": "Garlic Butter Fried Frog Legs",
+        "recipe-link": "https://www.kawalingpinoy.com/garlic-butter-fried-frog-legs/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/03/Garlic-butter-fried-legs-4-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Garlic Butter Fried Frog Legs are deep-fried to golden perfection and smothered in a flavorful sauce for the ultimate appetizer or main dish. Delicious on their own or with steamed rice!"
+    },
+    {
+        "title": "Beef Empanada",
+        "recipe-link": "https://www.kawalingpinoy.com/beef-empanada/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/beef-empanada-11-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Try this Beef Empanada recipe! With a delicious savory filling encased in a buttery, flaky crust, these meat hand pies make a great snack and are sure to be a family favorite."
+    },
+    {
+        "title": "Ahi Shoyu Poke",
+        "recipe-link": "https://www.kawalingpinoy.com/ahi-shoyu-poke/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/06/ahi-shoyu-poke-8-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Ahi Shoyu Poke is a Hawaiian raw fish salad with fresh ahi steaks, onions, macadamia nuts, and soy sauce. It's a refreshing and healthy meal that is perfect over sushi rice."
+    },
+    {
+        "title": "Ham and Cheese Bread Rolls",
+        "recipe-link": "https://www.kawalingpinoy.com/ham-cheese-bread-rolls/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/11/ham-cheese-bread-rolls-4-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Ham and Cheese Bread Rolls are a fun, tasty treat kids and adults alike will love. They're delicious as snacks or appetizers and perfect for feeding a crowd!"
+    },
+    {
+        "title": "Lumpia Shanghai",
+        "recipe-link": "https://www.kawalingpinoy.com/lumpia-shanghai/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/06/crispy-lumpiang-shanghai-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Lumpia Shanghai, filled with ground chicken, water chestnuts, carrots, and green onions, is a hearty and tasty appetizer or main dish that will surely be a crowd-pleaser. Golden, crunchy, and in fun bite-size, these Filipino-style meat spring rolls are addictive!"
+    },
+    {
+        "title": "Adobong Talaba",
+        "recipe-link": "https://www.kawalingpinoy.com/adobong-talaba/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/04/adobo-talaba-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Adobong Talaba is made of plump oysters cooked in soy sauce, calamansi juice, and garlic for a mouth-watering seafood dish. Delicious as an appetizer or main entree!"
+    },
+    {
+        "title": "Spicy Tahong",
+        "recipe-link": "https://www.kawalingpinoy.com/spicy-tahong/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/08/spicy-tahong-3-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Get ready to rock your tastebuds! This spicy tahong is full of bold flavors that are sure to hit the spot. Delicious as an appetizer or main dish!"
+    },
+    {
+        "title": "Pinakupsan",
+        "recipe-link": "https://www.kawalingpinoy.com/pinakupsan/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/07/Visayan-pinakupsan-3-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Craving crispy lechon but are short on time or energy? Try pinakupsan! These Visayan-style pork morsels are super easy to make with only two ingredients and are delicious as an appetizer or main dish."
+    },
+    {
+        "title": "Sizzling Sisig",
+        "recipe-link": "https://www.kawalingpinoy.com/sisig/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/sisig-2-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Sizzling Sisig makes a great party appetizer as well as a hearty dinner entree. A delicious combination of juicy pork and tangy, savory, and spicy flavors, it's seriously addictive!"
+    },
+    {
+        "title": "Tikoy",
+        "recipe-link": "https://www.kawalingpinoy.com/tikoy/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2022/02/homemade-tikoy-3-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Bring good luck to the New Year with Homemade Tikoy! This sticky rice cake is easy to make and so soft and chewy!"
+    },
+    {
+        "title": "Bopis",
+        "recipe-link": "https://www.kawalingpinoy.com/bopis/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/04/kapampangan-bopis-1-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Bopis with minced pork lungs, carrots, and peppers is loaded with big, bold flavors you'll love! It's perfect as bar food with an ice-cold beer or a main meal with steamed rice!"
+    },
+    {
+        "title": "Tokwa't Baboy",
+        "recipe-link": "https://www.kawalingpinoy.com/tokwat-baboy/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/05/tokwa-baboy-2-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Tokwa't Baboy is a Filipino dish made of tofu and pork with a tangy vinegar dressing. It's delicious as an appetizer, as a topping for congee, or main dish."
+    },
+    {
+        "title": "Chinese Pearl Balls",
+        "recipe-link": "https://www.kawalingpinoy.com/chinese-pearl-balls/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/10/pearl-balls-2-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Meaty and juicy with sticky rice coating, these Chinese Pearl Balls are super yummy and bursting with flavor. They're the perfect addition to a Chinese New Year celebration or any holiday menu."
+    },
+    {
+        "title": "Pineapple Salsa",
+        "recipe-link": "https://www.kawalingpinoy.com/pineapple-salsa/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/08/pineapple-salsa-1-1-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Pineapple salsa is super easy to make and so refreshingly delicious! Enjoy its sweet, tangy, and spicy medley flavors with chips or grilled meat, or seafood."
+    },
+    {
+        "title": "Rellenong Hipon",
+        "recipe-link": "https://www.kawalingpinoy.com/rellenong-hipon/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/02/rellenong-hipon-4-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Rellenong Hipon stuffed with meat filling and wrapped in spring roll wrapper are the perfect appetizer. They're crispy, tasty, and seriously addictive! "
+    },
+    {
+        "title": "Fried Okra",
+        "recipe-link": "https://www.kawalingpinoy.com/fried-okra/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/03/crispy-fried-okra-1-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Fried Okra is super easy to make and seriously addictive. Dredged in flour and fried until golden and crispy, it's delicious as an appetizer or side dish!"
+    },
+    {
+        "title": "Sinampalukang Kambing",
+        "recipe-link": "https://www.kawalingpinoy.com/sinampalukang-kambing/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/11/sinampalukang-kambing-8-1200-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Keep warm with a comforting bowl of Sinampalukang Kambing! This Ilocano delicacy made of goat meat, unripe tamarind, and chili peppers is hearty, tasty, and delicious as an appetizer or main dish."
+    },
+    {
+        "title": "Kalderetang Kambing",
+        "recipe-link": "https://www.kawalingpinoy.com/kalderetang-kambing/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/09/kalderetang-kambing-2-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Kalderetang Kambing is a rich, spicy, and hearty tomato-based stew made with goat meat, potatoes, and carrots. This classic Filipino dish is sure to be a crowd favorite at any special occasion or dinner party. Delicious as an appetizer with alcoholic drinks or a main dish with steamed rice!"
+    },
+    {
+        "title": "Baked Cheese Shrimp",
+        "recipe-link": "https://www.kawalingpinoy.com/baked-cheese-shrimp/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/09/easy-baked-cheese-shrimp-3-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Baked Cheese Shrimp is topped with cheese and mayo and baked until golden and bubbly are sure to be everyone's favorite appetizer. They're so creamy, cheesy, and deliciously addictive that it's hard to stop at one!"
+    },
+    {
+        "title": "Chicken Skin Chicharon",
+        "recipe-link": "https://www.kawalingpinoy.com/chicken-skin-chicharon/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/chicken-chicharon-2-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Level up your finger food game with super crispy chicken skin chicharon! These chicken rinds are crunchy, tasty, and delicious as appetizers or snacks. Plus, they're high in fat and have zero net carbs, making them keto-friendly."
+    },
+    {
+        "title": "Coconut Shrimp",
+        "recipe-link": "https://www.kawalingpinoy.com/coconut-shrimp/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/02/coconut-shrimp-4-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Need an appetizer idea? These coconut shrimp coated in Panko bread crumbs and shredded coconut are deep-fried until golden and crisp to perfection. They're a delicious medley of sweet and savory and seriously addictive. "
+    },
+    {
+        "title": "Crispy Fried Smelt Fish",
+        "recipe-link": "https://www.kawalingpinoy.com/crispy-fried-smelt-fish/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/04/crispy-smelt-fish-5-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Crispy Fried Smelt Fish are easy to make in minutes and so tasty! They're crunchy, flavorful, and delicious as appetizers or quick dinners."
+    },
+    {
+        "title": "Crispy Tuna Shanghai",
+        "recipe-link": "https://www.kawalingpinoy.com/crispy-tuna-shanghai/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/crispy-tuna-shanghai-3-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Crispy Tuna Shanghai is quick and easy to make and so cheesy and tasty! These fish spring rolls are a healthier and cheaper alternative to meat lumpia and delicious as a snack, appetizer, or main dish."
+    },
+    {
+        "title": "Crispy Tuna Pies",
+        "recipe-link": "https://www.kawalingpinoy.com/crispy-tuna-pies/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/crispy-tuna-pie-4-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Looking for a simple, budget-friendly homemade treat for the whole family? Crispy Tuna Pies are easy to make and require just a few simple pantry staples. Delicious and filling as a midday snack or appetizer!"
+    },
+    {
+        "title": "Sisig Pusit",
+        "recipe-link": "https://www.kawalingpinoy.com/sisig-pusit/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/08/sisig-pusit-5-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Are you looking for the ultimate party food? Sisig Pusit is juicy and tender and bursting with spicy and smoky flavors. It's delicious as an appetizer with an ice-cold beer or a main dish with steamed rice."
+    },
+    {
+        "title": "Dinakdakan",
+        "recipe-link": "https://www.kawalingpinoy.com/dinakdakan/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/11/dinakdakan-6-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Dinakdakan is an Ilocano delicacy made with grilled pork parts tossed in a calamansi dressing with onions and chili peppers. It's delicious enjoyed as an appetizer with your favorite drinks or as a main dish with steamed rice."
+    },
+    {
+        "title": "Banana Meat",
+        "recipe-link": "https://www.kawalingpinoy.com/banana-meat/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/banana-meat-4-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Banana Meat is made of saba bananas and ground pork filling fried to golden perfection. It's a unique medley of sweet and savory flavors that will rock your tastebuds!"
+    },
+    {
+        "title": "Crispy Sisig",
+        "recipe-link": "https://www.kawalingpinoy.com/crispy-sisig/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/03/crispy-sisig-5-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Crispy Sisig is an excellent use for your leftover lechon kawali. It's a delicious medley of savory, spicy, and crunchy and makes a tasty appetizer or main dish."
+    },
+    {
+        "title": "Crispy Tahong (Deep-Fried Mussels)",
+        "recipe-link": "https://www.kawalingpinoy.com/crispy-tahong-deep-fried-mussels/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/06/crispy-tahong-1-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Crispy Tahong are the ultimate seafood appetizer! Dredged in flour and deep-fried until golden and crunchy, these deep-fried mussels are seriously addictive."
+    },
+    {
+        "title": "Loslos",
+        "recipe-link": "https://www.kawalingpinoy.com/loslos/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/crispy-loslos-3-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Are you looking for the ultimate pork dish? Try these crunchy baby back ribs! Cooked adobo-style until tender, dredged in flour, and deep-fried to golden perfection, they make a tasty and filling main dish or party fare."
+    },
+    {
+        "title": "Sriracha Shrimp Scampi",
+        "recipe-link": "https://www.kawalingpinoy.com/sriracha-shrimp-scampi/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/11/sriracha-shrimp-7-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "This sriracha shrimp scampi is a zesty twist on a classic! Seasoned with chili sauce, white wine, lemon juice, and garlic, it's delicious as an appetizer or main dish."
+    },
+    {
+        "title": "Lechon Kawali",
+        "recipe-link": "https://www.kawalingpinoy.com/lechon-kawali/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/10/crispy-lechon-kawali-4-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Lechon Kawali is a popular Filipino pork dish deep-fried to golden perfection.  Golden and crunchy on the outside, moist and flavorful on the inside, it makes a tasty appetizer or main dish. "
+    },
+    {
+        "title": "Chinese Boiled Peanuts",
+        "recipe-link": "https://www.kawalingpinoy.com/chinese-boiled-peanuts/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/05/chinese-boiled-peanuts-8-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "These deliciously addictive and aromatic\u00a0Chinese Boiled Peanuts are super easy to prepare in the crockpot. Slow-cooked in soy sauce, sugar, and aromatic spices, they make a nutritious and delicious appetizer, snack, or side dish."
+    },
+    {
+        "title": "Crispy Breaded Shrimp",
+        "recipe-link": "https://www.kawalingpinoy.com/crispy-breaded-shrimp/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/07/crispy-shrimp-4-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "These Crispy Breaded Shrimp are seriously addictive, with the perfect flavor and crunch! They're super simple to prepare and make a great appetizer or main dish."
+    },
+    {
+        "title": "Inihaw na Pusit (Grilled Squid)",
+        "recipe-link": "https://www.kawalingpinoy.com/inihaw-na-pusit-grilled-squid/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/06/inihaw-na-pusit-8.jpg",
+        "meal": "appetizer",
+        "summary": "Marinated in a sweet and tangy vinaigrette and stuffed with tomatoes and onions, this inihaw na squid is delicious hot off the grill. Perfect as an appetizer or main dish."
+    },
+    {
+        "title": "Adobong Paa nang Manok (Chicken Feet Adobo)",
+        "recipe-link": "https://www.kawalingpinoy.com/adobong-paa-nang-manok-chicken-feet-adobo/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/06/adobong-paa-ng-manok-5-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Enjoy Asian's favorite street food at home! This Adobong Paa nang Manok or Chicken Feet Adobo packs amazing texture and complex flavor. It is a delicious delicacy to enjoy on its own as an appetizer or a main dish with piping-hot steamed rice."
+    },
+    {
+        "title": "Tamarind Chicken Wings",
+        "recipe-link": "https://www.kawalingpinoy.com/tamarind-chicken-wings/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/11/tamarind-chicken-wings-8-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Tamarind Chicken Wings are easy to make and finger-licking delicious. Seasoned with tamarind and garlic, they're a mouthwatering appetizer or main dish the whole family will love."
+    },
+    {
+        "title": "Sushi Bake",
+        "recipe-link": "https://www.kawalingpinoy.com/sushi-bake/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/09/baked-sushi-4-1-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Sushi Bake is your favorite rice dish in a casserole form! It's easy to make and delivers the delicious Japanese flavors you love with no special sushi chef skills required."
+    },
+    {
+        "title": "Cheese Dog Bread Rolls",
+        "recipe-link": "https://www.kawalingpinoy.com/cheese-dog-bread-rolls/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/08/cheese-hot-dog-bread-rolls-3-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Cheese Dog Bread Rolls are as fun to make as they are to eat and are the best use of day-old sliced bread. Golden, crunchy, and stuffed with meaty hot dogs and melty cheese, they're a hearty snack or appetizer kids and adults alike will love!"
+    },
+    {
+        "title": "Ukoy",
+        "recipe-link": "https://www.kawalingpinoy.com/ukoy/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/05/crispy-ukoy-2-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Ukoy, made of green papaya and kalabasa, are a delicious snack, appetizer, or side dish. These vegetable fritters are golden, crunchy, and tasty!"
+    },
+    {
+        "title": "Sizzling Gambas",
+        "recipe-link": "https://www.kawalingpinoy.com/sizzling-gambas/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/05/sizzling-gambas-with-garlic-6-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Sizzling Gambas with garlicky tomato sauce has all the big, bold flavors you'll love! This spicy shrimp dish is easy to make and delicious as an appetizer or main entree."
+    },
+    {
+        "title": "Cheese Sticks",
+        "recipe-link": "https://www.kawalingpinoy.com/cheese-sticks/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/05/crispy-cheese-sticks-4-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Cheese sticks are a delicious snack or appetizer the whole family will love. Golden, crunchy, and filled with melty cheese, these spring rolls are seriously addictive!"
+    },
+    {
+        "title": "Spam Musubi",
+        "recipe-link": "https://www.kawalingpinoy.com/spam-musubi/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/03/Hawaiian-spam-musubi-3-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Spam Musubi is as fun to make as it is to eat! This popular Hawaiian treat made of Spam, sticky rice, nori seaweed, and a sweet and savory glaze, is a hearty, tasty, and handy snack the whole family will love."
+    },
+    {
+        "title": "Sizzling Tofu",
+        "recipe-link": "https://www.kawalingpinoy.com/sizzling-tofu/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/11/sisig-tofu-2-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Enjoy the bold flavors of sisig in vegetarian form! Sizzling Tofu is creamy, spicy, and delicious as an appetizer or main dish."
+    },
+    {
+        "title": "Nilasing na Hipon",
+        "recipe-link": "https://www.kawalingpinoy.com/nilasing-na-hipon/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/07/crispy-nilasing-na-hipon-6-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Nilasing na Hipon marinated in gin and deep-fried to golden perfection are the perfect beer match. Crispy and tasty, these drunken shrimp are seriously addictive."
+    },
+    {
+        "title": "Homemade Kikiam",
+        "recipe-link": "https://www.kawalingpinoy.com/homemade-kikiam/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/07/homemade-kikiam-4-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Homemade Kikiam are steamed and fried to crispy perfection for the ultimate street food! These delicious bean curd pork rolls are delicious on their own or added to other dishes, such as noodle stir-fries and soups."
+    },
+    {
+        "title": "Pork Siomai",
+        "recipe-link": "https://www.kawalingpinoy.com/siomai/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/05/siomai-4-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Siomai, with ground pork, shrimp, and shitake mushrooms, are tasty and filling. These steamed dumplings are easy to make and delicious as an appetizer, snack, or main meal!"
+    },
+    {
+        "title": "Baked Tahong with Sweet Chili-Mayo Topping",
+        "recipe-link": "https://www.kawalingpinoy.com/baked-tahong-with-sweet-chili-mayo-topping/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/creamy-baked-tahong-1-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Baked Tahong with Sweet Chili-Mayo Topping are the ultimate seafood appetizer! These stuffed mussels are easy to make, creamy, cheesy, and seriously addictive."
+    },
+    {
+        "title": "Pork Chicharon",
+        "recipe-link": "https://www.kawalingpinoy.com/pork-chicharon/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/pork-chicharon-1-1-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Homemade Chicharon made of pork rinds deep-fried to golden perfection! Crunchy and tasty, these cracklings are the ultimate low-carb treat and best served with spicy vinegar dip."
+    },
+    {
+        "title": "Southwestern Chicken Egg Rolls",
+        "recipe-link": "https://www.kawalingpinoy.com/southwestern-chicken-egg-rolls/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/02/southwestern-chicken-egg-rolls-6-1.jpg",
+        "meal": "appetizer",
+        "summary": "Southwestern Chicken Egg Rolls are the perfect snack or appetizer! Golden, crunchy and stuffed with chicken, vegetables, beans, and cheese, they're a guaranteed crowd pleaser!"
+    },
+    {
+        "title": "Lumpiang Prito with Pork",
+        "recipe-link": "https://www.kawalingpinoy.com/lumpiang-prito-with-pork/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/01/crispy-lumpiang-prito-with-pork-1-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Lumpiang Prito with Pork filled with a colorful medley of bean sprouts, sweet potatoes, carrots, green beans, and ground pork. These vegetable spring rolls are crunchy, tasty, and delicious midday snacks or appetizers."
+    },
+    {
+        "title": "Chicken Sisig",
+        "recipe-link": "https://www.kawalingpinoy.com/chicken-sisig/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/spicy-chicken-sisig-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Chicken Sisig with mayo, lime juice, and chili peppers is easy to make with leftover rotisserie. It's creamy, spicy, and delicious as an appetizer or main dish."
+    },
+    {
+        "title": "Plum Sauce Chicken Lollipops",
+        "recipe-link": "https://www.kawalingpinoy.com/plum-sauce-chicken-lollipops/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/03/plum-sauce-chicken-lollipops-1-2.jpg",
+        "meal": "appetizer",
+        "summary": "Plum Sauce Chicken Lollipops are super fun and tasty appetizers that are sure to be a hit with the crowd. Baked in a sweet and savory sauce, they're finger-licking, lip-smacking addicting!"
+    },
+    {
+        "title": "Steamed Spareribs with Black Beans",
+        "recipe-link": "https://www.kawalingpinoy.com/steamed-spareribs-with-black-beans/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/10/asian-steamed-spare-ribs-7-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Steamed Spareribs with Black Beans is your favorite dim sum made quick and easy right in your own home! With juicy pork ribs and flavorful sauce, they're delicious as an appetizer or as a main dish."
+    },
+    {
+        "title": "Sizzling Balut",
+        "recipe-link": "https://www.kawalingpinoy.com/sizzling-balut/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/08/sizzling-balut-8-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Sizzling Balut takes our classic balut to a whole new level of yum! Fried until golden and cooked in a spicy sauce, it makes a tasty appetizer or main dish."
+    },
+    {
+        "title": "Minced Chicken in Lettuce Cups",
+        "recipe-link": "https://www.kawalingpinoy.com/minced-chicken-in-lettuce-wraps/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/04/minced-chicken-in-lettuce-cups-4-1.jpg",
+        "meal": "appetizer",
+        "summary": "Minced chicken in lettuce cups with hoisin-flavored chicken and crunchy vermicelli noodles served taco-style in crisp lettuce leaves. It's budget-friendly, tasty, and easy to make weeknight dinner!"
+    },
+    {
+        "title": "Ukoy na Togue",
+        "recipe-link": "https://www.kawalingpinoy.com/ukoy-na-togue/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/03/crispy-ukoy-na-togue-2-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Ukoy na Togue, made of beans sprouts, carrots, and shrimp, are crispy, tasty, and filling snacks or appetizers. Enjoy these vegetable and shrimp fritters with spicy vinegar for the best experience!"
+    },
+    {
+        "title": "Crispy Fried Calamari",
+        "recipe-link": "https://www.kawalingpinoy.com/fried-calamari/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/10/crispy-fried-calamari-3-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Crispy Fried Calamari is a delicious way to enjoy your favorite squid! Learn the simple tricks on how to make this seafood appetizer super tender yet deliciously golden and crunchy."
+    },
+    {
+        "title": "Lumpiang Togue",
+        "recipe-link": "https://www.kawalingpinoy.com/lumpiang-togue/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/05/prito-lumpiang-togue-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Lumpiang Togue is filled with bean sprouts, carrots, green beans, pork, and shrimp for a hearty and filling treat. Golden, crunchy and delicious, these Filipino-style vegetable spring rolls are the perfect snack or appetizer!"
+    },
+    {
+        "title": "Lumpiang Galunggong",
+        "recipe-link": "https://www.kawalingpinoy.com/lumpiang-galunggong/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/03/lumpiang-galunggong-13-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Lumpiang Galunggong for a delicious meatless spring roll variety. Golden, crispy, and filled with flaked fish, water chestnuts, mushrooms, and celery, they're delicious and absolutely addictive!"
+    },
+    {
+        "title": "Bangus Sisig",
+        "recipe-link": "https://www.kawalingpinoy.com/bangus-sisig/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/03/sisig-bangus-2-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Bangus Sisig is easy to make and delicious as an appetizer or main dish.  Made with flaked fish, citrus juices, and peppers, it's a delicious medley of tangy, savory, and spicy flavors sure to hit the spot!"
+    },
+    {
+        "title": "Homemade Fish Balls with Spicy Fish Ball Sauce",
+        "recipe-link": "https://www.kawalingpinoy.com/homemade-fish-balls-with-spicy-fish-ball-sauce/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/09/homemade-fish-balls-6-1.jpg",
+        "meal": "appetizer",
+        "summary": "Homemade Fish Balls are as fun to make as they are to eat! Soft and bouncy, they're popular as street food with spicy fish ball sauce but just as delicious in soups or stir-fries."
+    },
+    {
+        "title": "BBQ Pork Ears",
+        "recipe-link": "https://www.kawalingpinoy.com/bbq-pork-ears/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/03/bbq-pork-ears-2-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "In the mood for street food? BBQ Pork Ears are stewed a la adobo and then grilled to golden perfection. Soft and chewy with a sweet and savory flavor, they're delicious as a snack or appetizer."
+    },
+    {
+        "title": "Chizza",
+        "recipe-link": "https://www.kawalingpinoy.com/chizza/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/07/chizza71.jpg",
+        "meal": "appetizer",
+        "summary": "Soooo, what do we have here? Chizza, my friends! It's chicken + pizza rolled into one fun bite (or bites, if we want to be technical).\u00a0I've been seeing commercials and promotions for this ingenious mash up all over the internet these past few weeks and naturally, I was very much intrigued. KFC Philippines\u00a0rolled out their newest menu item a day or two after I left the country so I wasn't able to try it. And to add to my disappointment, the chicken-pizza wonder is not even available in U.S. markets!\u00a0The pimply-faced teenager behind the counter of our neighborhood KFC stared at me like I was from Mars\u00a0and spoke an alien language when I tried to order myself a Chizza. Drat! The craziest thing to happen to chicken and pizza and I am going to miss it? No way, Jose! Time to break out the cast iron skillet and get a-frying!"
+    },
+    {
+        "title": "Dynamite Lumpia",
+        "recipe-link": "https://www.kawalingpinoy.com/dynamite-lumpia/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/04/crispy-dynamite-lumpia-2-680x884.jpg",
+        "meal": "appetizer",
+        "summary": "Dynamite Lumpia are a must for any party! Made with finger chili peppers and meat filling, they're crispy, crunchy, slightly spicy, and the ultimate beer match!"
+    },
+    {
+        "title": "Longganisa Wontons",
+        "recipe-link": "https://www.kawalingpinoy.com/longganisa-wontons/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/longganisawonton11.jpg",
+        "meal": "appetizer",
+        "summary": "As you know, I had enough longganisa over the weekend to feed an army. An army of friends and family who begrudgingly sat through my self-propping tale of how I successfully made Filipino sausages complete with casing for the first time. But after I've divided among them the hefty batch and enjoyed some myself, I had about six links needing another purpose other than a \"silog\" meal for breakfast."
+    },
+    {
+        "title": "Honey Bagoong Chicken Wings",
+        "recipe-link": "https://www.kawalingpinoy.com/honey-bagoong-chicken-wings/",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/08/honeybagoongchickenwings3a1.jpg",
+        "meal": "appetizer",
+        "summary": "Sweet honey and pungent bagoong is a blend of flavors we'd last expect on a pair of chicken wings. I saw these honey bagoong chicken wings on\u00a0Pepper.ph the other day and with such\u00a0a weird combination, I just had to try them for myself. In the original recipe, the wings were done ala Bonchon, breaded, deep-fried and drizzled with the bagoong sauce. I was, however, not in the mood to tackle sizzling oil splattering on my face and our freshly-painted kitchen walls so I decided to do the chicken in the oven instead."
+    }
+]

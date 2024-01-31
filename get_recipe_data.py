@@ -4,7 +4,7 @@ import re
 from bs4 import BeautifulSoup
 
 
-json_file_path = "./prototype/prototype_recipes1.json"
+json_file_path = "./prototype/prototype_appetizers_recipes.json"
 
 # Open the JSON file for reading
 with open(json_file_path, "r") as json_file:
@@ -105,16 +105,6 @@ for recipe in data:
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.1 Safari/537.36"
     }
     response = requests.get(url, headers=headers)
-
-    # def get_recipe_summary(res):
-    #     soup = BeautifulSoup(res.text, "html.parser")
-    #     return (
-    #         soup.find("div", class_="entry-content single-entry-content").find("p").text
-    #     )
-
-    # summary = get_recipe_summary(response)
-    # print(summary)
-    # print()
 
     # def get_recipe_ingredients(res):
     #     soup = BeautifulSoup(res.text, "html.parser")
@@ -236,11 +226,11 @@ for recipe in data:
 
     #
 
-    def get_recipe_serving(res):
-        soup = BeautifulSoup(res.text, "html.parser")
-        return (
-            soup.find("span", class_="wprm-recipe-servings-with-unit").find("span").text
-        )
+    # def get_recipe_serving(res):
+    #     soup = BeautifulSoup(res.text, "html.parser")
+    #     return (
+    #         soup.find("span", class_="wprm-recipe-servings-with-unit").find("span").text
+    #     )
 
-    serving = get_recipe_serving(response)
-    json_dump(json_file_path, "serving", serving)
+    # serving = get_recipe_serving(response)
+    json_dump(json_file_path, "serving", summary)
