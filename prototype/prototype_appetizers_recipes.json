@@ -4,7 +4,6 @@
         "recipe-link": "https://www.kawalingpinoy.com/beef-salpicao/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/10/beef-salpicao-8-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Beef Salpicao is a stir-fry dish flavored with Worcestershire, butter, garlic, and red chili pepper flakes. It's quick and simple to make yet packs fantastic flavor. Delicious as an appetizer or main dish!",
         "ingredients": [
             "ribeye steak",
             "steak",
@@ -24,14 +23,25 @@
             "oil",
             "olive oil",
             "garlic"
-        ]
+        ],
+        "ingredientList": [
+            "2 pounds ribeye steak, cut into 1-inch cubes",
+            "salt and pepper to taste",
+            "2 tablespoons Worcestershire sauce",
+            "2 tablespoons soy sauce",
+            "1 teaspoon brown sugar",
+            "\u00bc teaspoon red chili pepper flakes",
+            "2 tablespoons butter",
+            "1 tablespoon olive oil",
+            "1 head  garlic, peeled and minced"
+        ],
+        "serving": "4"
     },
     {
         "title": "Rellenong Alimango",
         "recipe-link": "https://www.kawalingpinoy.com/rellenong-alimango/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/12/rellenong-alimango-3-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Rellenong Alimango, or Stuffed Crab, is a show-stopping appetizer worth the effort. This stuffed crab filled with crab meat and veggies is perfect for a party or for a special date night.",
         "ingredients": [
             "crab",
             "salt",
@@ -42,22 +52,35 @@
             "bell pepper",
             "pepper",
             "red bell pepper",
-            "breadcrumb",
+            "bread crumb",
             "mayonnaise",
             "green onion",
             "onion",
-            "ice",
             "lemon",
             "pepper",
             "salt"
-        ]
+        ],
+        "ingredientList": [
+            "4 pieces crabs",
+            "1 tablespoon salt",
+            "water",
+            "1 tablespoon butter",
+            "1 onion, peeled and chopped",
+            "2 cloves garlic, peeled and minced",
+            "\u00bd small red bell pepper, seeded and chopped",
+            "\u00bd cup Panko bread crumbs",
+            "2 tablespoons mayonnaise",
+            "2 tablespoons green onions, chopped",
+            "juice of 1 lemon",
+            "salt and pepper to taste"
+        ],
+        "serving": "4"
     },
     {
         "title": "Pinsec Frito",
         "recipe-link": "https://www.kawalingpinoy.com/pinsec-frito/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/06/pinsec-frito-1-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Looking for the ultimate appetizer? Try Pinsec Frito! These crispy Asian dumplings are filled with a tasty meat filling and fried to perfection. Served them with sweet and sour sauce for a sure crowd-pleaser! ",
         "ingredients": [
             "pork",
             "shrimp",
@@ -66,14 +89,28 @@
             "wonton wrapper",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "1 pound Ground pork",
+            "\u00bc pound Large shrimp, peeled and minced",
+            "1 cup Chinese sausage, minced",
+            "1 cup Kinchay (Chinese parsley), chopped",
+            "4 cloves Garlic, peeled and minced",
+            "1 thumb-size Ginger, peeled and grated",
+            "1 tablespoons Soy sauce",
+            "1  teaspoon Salt",
+            "\u00bc teaspoon Pepper",
+            "1 Egg, well beaten",
+            "1  package wonton wrappers",
+            "canola oil"
+        ],
+        "serving": "24"
     },
     {
         "title": "Banana Heart Burger",
         "recipe-link": "https://www.kawalingpinoy.com/banana-heart-burger/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/05/banana-heart-burger-3-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Banana Heart Burger is made with shredded banana heart patties, cheese, and all the fixings. This vegetarian burger is a delicious and nutritious alternative to the usual beef. And it's budget-friendly, too!",
         "ingredients": [
             "banana",
             "banana heart",
@@ -84,15 +121,31 @@
             "pepper",
             "salt",
             "flour",
-            "egg"
-        ]
+            "egg",
+            "ham",
+            "hamburger bun",
+            "cheese",
+            "lettuce",
+            "tomato",
+            "mayonnaise",
+            "ketchup"
+        ],
+        "ingredientList": [
+            "1 medium banana heart",
+            "oil",
+            "1 small onion, peeled and chopped",
+            "1 tablespoon oyster sauce",
+            "salt and pepper to taste",
+            "\u00bd cup flour",
+            "2  eggs, beaten"
+        ],
+        "serving": "4"
     },
     {
         "title": "Baby Back Ribs with Adobo Glaze",
         "recipe-link": "https://www.kawalingpinoy.com/baby-back-ribs-adobo-glaze/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/04/baby-back-ribs-adobo-glaze-1-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Baby back ribs with adobo glaze are cooked in classic adobo marinade and baked in the oven with breadcrumbs and honey.  Fall off the bone tender and bursting with sweet, savory flavor, they're finger-licking good!",
         "ingredients": [
             "back rib",
             "pork",
@@ -108,16 +161,27 @@
             "breadcrumb",
             "panko",
             "butter"
-        ]
+        ],
+        "ingredientList": [
+            "3 pounds pork back ribs, cut into pieces between bones",
+            "\u00bd cup soy sauce",
+            "1 cup vinegar",
+            "\u00bc cup brown sugar",
+            "1 head garlic, peeled and minced",
+            "\u00bd teaspoon peppercorns, crushed",
+            "2 bay leaves",
+            "\u00bd cup panko breadcrumbs",
+            "\u00bd cup honey",
+            "1 tablespoon butter"
+        ],
+        "serving": "4"
     },
     {
         "title": "Filipino Pork Barbecue",
         "recipe-link": "https://www.kawalingpinoy.com/filipino-pork-barbecue/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/filipino-style-pork-bbq-1-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Filipino Pork Barbecue on a Stick are as much fun to eat as they are delicious. With a sweet, salty, and slightly spicy flavor combo, they're absolutely addictive!",
         "ingredients": [
-            "ice",
             "pork",
             "pork butt",
             "7-up",
@@ -140,15 +204,38 @@
             "banana ketchup",
             "ketchup",
             "oil",
-            "sesame oil"
-        ]
+            "sesame oil",
+            "vinegar",
+            "white vinegar",
+            "garlic",
+            "onion",
+            "chili",
+            "chili pepper",
+            "pepper",
+            "ground pepper",
+            "pepper",
+            "salt"
+        ],
+        "ingredientList": [
+            "6 pounds pork butt, sliced to 1-inch wide and \u00bc-inch thick",
+            "3 cups 7-up",
+            "2 cups soy sauce",
+            "2 cups vinegar",
+            "2 cups oyster sauce",
+            "3 cups brown sugar",
+            "1 tablespoon ground black pepper",
+            "1 cup garlic, peeled and minced",
+            "10 Thai chili peppers (siling labuyo), minced",
+            "2 cups banana ketchup",
+            "\u00bd cup sesame oil"
+        ],
+        "serving": "50"
     },
     {
         "title": "Camaron Rebosado",
         "recipe-link": "https://www.kawalingpinoy.com/camaron-rebosado/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/02/camaron-rebosado-1-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Try this tasty Camaron Rebosado recipe! This Filipino-style shrimp dish is battered and deep-fried to golden perfection for the ultimate seafood appetizer or main dish. It's easy to make, using only a handful of ingredients.",
         "ingredients": [
             "flour",
             "corn",
@@ -158,17 +245,28 @@
             "canola oil",
             "oil",
             "pepper",
-            "ice",
             "water",
-            "egg"
-        ]
+            "egg",
+            "corn",
+            "cornstarch"
+        ],
+        "ingredientList": [
+            "\u00bd cup flour",
+            "\u00bd cup cornstarch ",
+            "1 teaspoon salt",
+            "1 pound (16 to 20 pieces) large shrimp",
+            "canola oil",
+            "\u00bc teaspoon pepper",
+            "\u00bd cup ice cold water",
+            "1 egg"
+        ],
+        "serving": "4"
     },
     {
         "title": "Lumpiang Puso ng Saging",
         "recipe-link": "https://www.kawalingpinoy.com/lumpiang-puso-ng-saging/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/06/lumpiang-puso-ng-saging-1-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Need a tasty snack idea? This Lumpiang Puso ng Saging recipe makes the best spring rolls with shredded banana hearts, pork, and oyster sauce. Great as an appetizer or main dish with steamed rice!",
         "ingredients": [
             "banana",
             "banana heart",
@@ -187,14 +285,26 @@
             "spring roll wrapper",
             "pepper",
             "salt"
-        ]
+        ],
+        "ingredientList": [
+            "2 banana hearts",
+            "canola oil",
+            "4 shallots, peeled and chopped",
+            "2 cloves garlic, peeled and minced",
+            "\u00bd pound ground pork",
+            "2 Thai chili peppers",
+            "2 tablespoon oyster sauce",
+            "\u00bd  cup water",
+            "12 spring roll wrappers",
+            "salt and pepper to taste"
+        ],
+        "serving": "12"
     },
     {
         "title": "Ukoy na Dilis",
         "recipe-link": "https://www.kawalingpinoy.com/ukoy-na-dilis/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/06/ukoy-dilis-7-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Ukoy na Dilis is a delicious fish fritter made with fresh anchovies. Crunchy and flavorful, they're wonderful as an appetizer or main dish.",
         "ingredients": [
             "corn",
             "cornstarch",
@@ -205,21 +315,33 @@
             "water",
             "fish",
             "fish sauce",
-            "ice",
             "shallot",
             "green onion",
             "onion",
             "dilis",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "1 cup cornstarch",
+            "\u00bd cup flour",
+            "1 teaspoon salt",
+            "\u00bd teaspoon pepper",
+            "1 egg, well beaten",
+            "1 cup water",
+            "1 teaspoon fish sauce",
+            "2 shallots, peeled and sliced thinly",
+            "\u00bd cup green onions, chopped",
+            "1 pound dilis",
+            "canola oil"
+        ],
+        "serving": "6"
     },
     {
         "title": "Kwek-kwek",
         "recipe-link": "https://www.kawalingpinoy.com/kwek-kwek/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/07/kwek-kwek-14-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Kwek-kwek is made of quail eggs coated with an orange batter and deep-fried to golden perfection. This popular Filipino street food is fun to eat and delicious with spicy vinegar or a special dipping sauce.",
         "ingredients": [
             "egg",
             "oil",
@@ -232,15 +354,48 @@
             "pepper",
             "water",
             "canola oil",
-            "oil"
-        ]
+            "oil",
+            "vinegar",
+            "ketchup",
+            "brown sugar",
+            "sugar",
+            "soy sauce",
+            "chili",
+            "chili pepper",
+            "pepper",
+            "water",
+            "soy sauce",
+            "brown sugar",
+            "sugar",
+            "garlic",
+            "shallot",
+            "chili",
+            "chili pepper",
+            "pepper",
+            "flour",
+            "corn",
+            "cornstarch",
+            "salt",
+            "pepper"
+        ],
+        "ingredientList": [
+            "36 pieces quail eggs, hard-boiled and peeled",
+            "1 \u00bc cup flour",
+            "1 packet (8 grams or about 1 \u00bd teaspoons) Magic Sarap seasoning powder",
+            "1 teaspoon orange food coloring powder or annnato powder",
+            "1 teaspoon baking powder",
+            "\u00bd teaspoon salt",
+            "\u00bd teaspoon pepper",
+            "1 cup cold water",
+            "canola oil"
+        ],
+        "serving": "12"
     },
     {
         "title": "Garlic Butter Fried Frog Legs",
         "recipe-link": "https://www.kawalingpinoy.com/garlic-butter-fried-frog-legs/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/03/Garlic-butter-fried-legs-4-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Garlic Butter Fried Frog Legs are deep-fried to golden perfection and smothered in a flavorful sauce for the ultimate appetizer or main dish. Delicious on their own or with steamed rice!",
         "ingredients": [
             "frog leg",
             "milk",
@@ -253,30 +408,73 @@
             "oil",
             "egg",
             "corn",
-            "cornstarch"
-        ]
+            "cornstarch",
+            "butter",
+            "garlic",
+            "cayenne",
+            "pepper",
+            "salt",
+            "green onion",
+            "onion"
+        ],
+        "ingredientList": [
+            "1 pound (about 4 pieces) frog legs",
+            "1 cup milk",
+            "1 tablespoon sugar",
+            "2 teaspoon salt",
+            "1 teaspoon garlic powder",
+            "\u00bd teaspoon pepper",
+            "canola oil",
+            "1 egg, beaten",
+            "1 cup cornstarch"
+        ],
+        "serving": "4"
     },
     {
         "title": "Beef Empanada",
         "recipe-link": "https://www.kawalingpinoy.com/beef-empanada/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/beef-empanada-11-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Try this Beef Empanada recipe! With a delicious savory filling encased in a buttery, flaky crust, these meat hand pies make a great snack and are sure to be a family favorite.",
         "ingredients": [
             "butter",
             "flour",
             "sugar",
             "salt",
-            "ice",
-            "water"
-        ]
+            "water",
+            "canola oil",
+            "oil",
+            "onion",
+            "clove garlic",
+            "garlic",
+            "beef",
+            "ground beef",
+            "tomato",
+            "tomato sauce",
+            "potato",
+            "carrot",
+            "pea",
+            "sweet pea",
+            "raisin",
+            "pepper",
+            "salt",
+            "egg",
+            "milk",
+            "salt"
+        ],
+        "ingredientList": [
+            "8 ounces (2 sticks) butter",
+            "2 \u00bd cups flour",
+            "3 tablespoons sugar",
+            "1 teaspoon salt",
+            "\u2153 cup ice water"
+        ],
+        "serving": "12"
     },
     {
         "title": "Ahi Shoyu Poke",
         "recipe-link": "https://www.kawalingpinoy.com/ahi-shoyu-poke/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/06/ahi-shoyu-poke-8-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Ahi Shoyu Poke is a Hawaiian raw fish salad with fresh ahi steaks, onions, macadamia nuts, and soy sauce. It's a refreshing and healthy meal that is perfect over sushi rice.",
         "ingredients": [
             "steak",
             "tuna",
@@ -293,17 +491,28 @@
             "sesame oil",
             "salt",
             "sea salt",
-            "ice",
             "rice",
             "sushi rice"
-        ]
+        ],
+        "ingredientList": [
+            "1 pound sushi-grade ahi (tuna) steaks, cut into 1-inch cubes",
+            "\u00bc cup green onions, chopped",
+            "\u00bc cup Maui onions, peeled and chopped",
+            "1 tablespoon macadamia nuts, crushed",
+            "1 teaspoon sesame seeds, toasted",
+            "1 teaspoon fresh ginger, peeled and grated",
+            "\u00bc cup soy sauce",
+            "1 tablespoon sesame oil",
+            "sea salt to taste",
+            "4 cups sushi rice, cooked"
+        ],
+        "serving": "4"
     },
     {
         "title": "Ham and Cheese Bread Rolls",
         "recipe-link": "https://www.kawalingpinoy.com/ham-cheese-bread-rolls/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/11/ham-cheese-bread-rolls-4-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Ham and Cheese Bread Rolls are a fun, tasty treat kids and adults alike will love. They're delicious as snacks or appetizers and perfect for feeding a crowd!",
         "ingredients": [
             "white bread",
             "strawberry jam",
@@ -311,18 +520,29 @@
             "cheese",
             "egg",
             "milk",
-            "breadcrumb",
+            "bread crumb",
             "seasoning",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "12 slices white bread",
+            "\u00bc cup seedless strawberry jam",
+            "12 slices ham",
+            "4 ounces melting cheese (Eden or Velveeta), cut into \u00bc-inch x 3-inch strips",
+            "2 eggs",
+            "\u00bc cup milk",
+            "1 \u00bd cups bread crumbs",
+            "1 teaspoon Italian seasoning",
+            "canola oil"
+        ],
+        "serving": "12"
     },
     {
         "title": "Lumpia Shanghai",
         "recipe-link": "https://www.kawalingpinoy.com/lumpia-shanghai/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/06/crispy-lumpiang-shanghai-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Lumpia Shanghai, filled with ground chicken, water chestnuts, carrots, and green onions, is a hearty and tasty appetizer or main dish that will surely be a crowd-pleaser. Golden, crunchy, and in fun bite-size, these Filipino-style meat spring rolls are addictive!",
         "ingredients": [
             "chicken",
             "ground chicken",
@@ -341,14 +561,26 @@
             "spring roll wrapper",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "1 pound ground chicken or pork",
+            "\u00bd cup green onions, finely chopped",
+            "1 can (8 ounces) water chestnuts, drained and finely chopped",
+            "1 medium carrot, peeled and shredded",
+            "3 cloves garlic, peeled and minced",
+            "1 tablespoon soy sauce",
+            "1 teaspoon salt",
+            "\u00bd teaspoon ground black pepper",
+            "20 pieces spring roll wrappers",
+            "canola oil"
+        ],
+        "serving": "5"
     },
     {
         "title": "Adobong Talaba",
         "recipe-link": "https://www.kawalingpinoy.com/adobong-talaba/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/04/adobo-talaba-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Adobong Talaba is made of plump oysters cooked in soy sauce, calamansi juice, and garlic for a mouth-watering seafood dish. Delicious as an appetizer or main entree!",
         "ingredients": [
             "canola oil",
             "oil",
@@ -362,16 +594,27 @@
             "pepper",
             "calamansi",
             "calamansi juice",
-            "ice",
             "salt"
-        ]
+        ],
+        "ingredientList": [
+            "1 tablespoon canola oil",
+            "2 tablespoons butter",
+            "1 onion, peeled and chopped",
+            "4 cloves garlic, peeled and minced",
+            "2 thumb size ginger, peeled and julienned",
+            "2 pounds oysters, (meat only), drained well",
+            "\u00bc cup soy sauce",
+            "pepper to taste",
+            "\u00bc cup calamansi juice",
+            "salt to taste"
+        ],
+        "serving": "4"
     },
     {
         "title": "Spicy Tahong",
         "recipe-link": "https://www.kawalingpinoy.com/spicy-tahong/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/08/spicy-tahong-3-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Get ready to rock your tastebuds! This spicy tahong is full of bold flavors that are sure to hit the spot. Delicious as an appetizer or main dish!",
         "ingredients": [
             "mussel",
             "oil",
@@ -380,7 +623,6 @@
             "chili",
             "chili pepper",
             "pepper",
-            "ice",
             "onion",
             "bell pepper",
             "pepper",
@@ -389,26 +631,41 @@
             "dry sherry",
             "pepper",
             "salt"
-        ]
+        ],
+        "ingredientList": [
+            "2 pounds mussels",
+            "4 tablespoons olive oil",
+            "1 head garlic, peeled and minced",
+            "6 Thai chili peppers, stemmed and minced",
+            "1 onion, peeled and sliced thinly",
+            "1 bell pepper, cored, seeded, and cut into thin strips",
+            "\u00bc cup tomato sauce",
+            "2 tablespoons dry sherry",
+            "salt and pepper to taste"
+        ],
+        "serving": "4"
     },
     {
         "title": "Pinakupsan",
         "recipe-link": "https://www.kawalingpinoy.com/pinakupsan/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/07/Visayan-pinakupsan-3-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Craving crispy lechon but are short on time or energy? Try pinakupsan! These Visayan-style pork morsels are super easy to make with only two ingredients and are delicious as an appetizer or main dish.",
         "ingredients": [
             "pork",
             "pork belly",
             "salt"
-        ]
+        ],
+        "ingredientList": [
+            "2 pounds pork belly, cut into 2 inch pieces ",
+            "2 teaspoons salt"
+        ],
+        "serving": "6"
     },
     {
         "title": "Sizzling Sisig",
         "recipe-link": "https://www.kawalingpinoy.com/sisig/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/sisig-2-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Sizzling Sisig makes a great party appetizer as well as a hearty dinner entree. A delicious combination of juicy pork and tangy, savory, and spicy flavors, it's seriously addictive!",
         "ingredients": [
             "pig face",
             "vinegar",
@@ -420,25 +677,39 @@
             "bay leaves",
             "salt",
             "water",
-            "ice",
             "onion",
             "chili",
             "chili pepper",
             "pepper",
             "calamansi",
             "calamansi juice",
-            "ice",
             "seasoning",
             "liver spread",
             "pepper"
-        ]
+        ],
+        "ingredientList": [
+            "2 pounds pig face (snouts, ears, and jowls)",
+            "1  cup vinegar",
+            "\u00bc cup  soy sauce",
+            "1 head garlic, peeled and crushed",
+            "1 teaspoon whole peppercorns",
+            "2 bay leaves",
+            "1 tablespoon salt",
+            "water",
+            "1 large onion, peeled and diced",
+            "6 Thai chili peppers, stemmed and minced",
+            "\u00bd cup calamansi juice",
+            "1 tablespoon Liquid seasoning (I used Maggi)",
+            "\u00bd cup liver spread",
+            "pepper to taste"
+        ],
+        "serving": "6"
     },
     {
         "title": "Tikoy",
         "recipe-link": "https://www.kawalingpinoy.com/tikoy/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2022/02/homemade-tikoy-3-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Bring good luck to the New Year with Homemade Tikoy! This sticky rice cake is easy to make and so soft and chewy!",
         "ingredients": [
             "canola oil",
             "oil",
@@ -447,18 +718,24 @@
             "flour",
             "glutinous rice",
             "glutinous rice flour",
-            "ice",
             "rice",
             "rice flour",
             "egg"
-        ]
+        ],
+        "ingredientList": [
+            "canola oil",
+            "1 cup  sugar",
+            "1 \u00bc cups water",
+            "2 \u00bd  glutinous rice flour",
+            "2 eggs"
+        ],
+        "serving": "8"
     },
     {
         "title": "Bopis",
         "recipe-link": "https://www.kawalingpinoy.com/bopis/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/04/kapampangan-bopis-1-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Bopis with minced pork lungs, carrots, and peppers is loaded with big, bold flavors you'll love! It's perfect as bar food with an ice-cold beer or a main meal with steamed rice!",
         "ingredients": [
             "pork",
             "pork lung",
@@ -471,7 +748,6 @@
             "fish",
             "fish sauce",
             "carrot",
-            "ice",
             "bell pepper",
             "green bell pepper",
             "pepper",
@@ -481,14 +757,27 @@
             "chili",
             "chili pepper",
             "pepper"
-        ]
+        ],
+        "ingredientList": [
+            "2 pounds minced pork lungs ",
+            "\u00bd cup vinegar",
+            "1 teaspoon salt",
+            "2 tablespoons canola oil",
+            "1 onion, peeled and chopped",
+            "4 cloves garlic, peeled and minced",
+            "1 tablespoon fish sauce",
+            "1 large carrot, peeled and diced",
+            "\u00bd green bell pepper, seeded and chopped",
+            "\u00bd red bell pepper, seeded and chopped",
+            "4 Thai chili peppers, stemmed and chopped"
+        ],
+        "serving": "4"
     },
     {
         "title": "Tokwa't Baboy",
         "recipe-link": "https://www.kawalingpinoy.com/tokwat-baboy/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/05/tokwa-baboy-2-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Tokwa't Baboy is a Filipino dish made of tofu and pork with a tangy vinegar dressing. It's delicious as an appetizer, as a topping for congee, or main dish.",
         "ingredients": [
             "pork",
             "pork ear",
@@ -503,18 +792,41 @@
             "peppercorn",
             "salt",
             "tofu",
-            "oil"
-        ]
+            "oil",
+            "oil",
+            "pork",
+            "pork broth",
+            "vinegar",
+            "soy sauce",
+            "salt",
+            "pepper",
+            "sugar",
+            "shallot",
+            "chili",
+            "chili pepper",
+            "pepper"
+        ],
+        "ingredientList": [
+            "1 piece (about \u00bd pound) pork ear",
+            "1 pound pork belly",
+            "water",
+            "1 small onion, peeled and quarted",
+            "1 head garlic, peeled and crushed",
+            "2 bay leaves",
+            "1 teaspoon peppercorns",
+            "1 tablespoon salt",
+            "1 package (16 ounces) block firm tofu, cut lengthwise into thirds",
+            "\u00bd cup oil"
+        ],
+        "serving": "6"
     },
     {
         "title": "Chinese Pearl Balls",
         "recipe-link": "https://www.kawalingpinoy.com/chinese-pearl-balls/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/10/pearl-balls-2-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Meaty and juicy with sticky rice coating, these Chinese Pearl Balls are super yummy and bursting with flavor. They're the perfect addition to a Chinese New Year celebration or any holiday menu.",
         "ingredients": [
             "glutinous rice",
-            "ice",
             "rice",
             "mushroom",
             "mushroom",
@@ -532,33 +844,56 @@
             "sesame oil",
             "egg",
             "salt",
-            "pepper"
-        ]
+            "pepper",
+            "soy sauce",
+            "chili",
+            "chili sauce"
+        ],
+        "ingredientList": [
+            "1 cup glutinous rice",
+            "2 pieces dried shitake mushrooms",
+            "1 pound ground pork",
+            "\u00bc cup water chestnuts, finely chopped",
+            "1 thumb-size ginger, peeled and mince",
+            "2 green onions, chopped",
+            "2 cloves garlic, peeled and minced",
+            "1 tablespoon Chinese cooking wine",
+            "1 teaspoon sesame oil",
+            "1 egg, beaten",
+            "1 teaspoon salt",
+            "\u00bc teaspoon pepper"
+        ],
+        "serving": "2"
     },
     {
         "title": "Pineapple Salsa",
         "recipe-link": "https://www.kawalingpinoy.com/pineapple-salsa/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/08/pineapple-salsa-1-1-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Pineapple salsa is super easy to make and so refreshingly delicious! Enjoy its sweet, tangy, and spicy medley flavors with chips or grilled meat, or seafood.",
         "ingredients": [
-            "ice",
             "pineapple",
             "onion",
             "cilantro",
             "pepper",
             "serrano",
-            "ice",
             "lime",
             "salt"
-        ]
+        ],
+        "ingredientList": [
+            "1 whole pineapple, peeled and diced (about 3 cups)",
+            "1 onion, peeled and finely chopped",
+            "\u00bd bunch cilantro, stemmed and chopped",
+            "1 serrano or jalapeno pepper, seeded and minced",
+            "juice of 2 limes (about \u00bc cup)",
+            "salt to taste"
+        ],
+        "serving": "2"
     },
     {
         "title": "Rellenong Hipon",
         "recipe-link": "https://www.kawalingpinoy.com/rellenong-hipon/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/02/rellenong-hipon-4-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Rellenong Hipon stuffed with meat filling and wrapped in spring roll wrapper are the perfect appetizer. They're crispy, tasty, and seriously addictive! ",
         "ingredients": [
             "shrimp",
             "ground pork",
@@ -575,14 +910,27 @@
             "spring roll wrapper",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "1 pound large shrimps (31-35 count)",
+            "\u00bc pound ground pork",
+            "\u00bc cup green onions, chopped",
+            "\u00bc cup water chestnuts, finely chopped",
+            "\u00bc cup carrots, shredded",
+            "2 cloves garlic, peeled and minced",
+            "1 teaspoon soy sauce",
+            "\u00bd teaspoon salt",
+            "\u00bc teaspoon pepper",
+            "15 pieces spring roll wrappers, cut diagonally into two triangles",
+            "canola oil"
+        ],
+        "serving": "8"
     },
     {
         "title": "Fried Okra",
         "recipe-link": "https://www.kawalingpinoy.com/fried-okra/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/03/crispy-fried-okra-1-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Fried Okra is super easy to make and seriously addictive. Dredged in flour and fried until golden and crispy, it's delicious as an appetizer or side dish!",
         "ingredients": [
             "okra",
             "canola oil",
@@ -593,14 +941,23 @@
             "cornstarch",
             "salt",
             "pepper"
-        ]
+        ],
+        "ingredientList": [
+            "1 pound fresh okra, ends trimmed and cut into \u00bd inch rounds",
+            "canola oil",
+            "2 eggs",
+            "\u00be cup flour",
+            "\u00bc cup cornstarch",
+            "\u00bd teaspoon salt",
+            "\u00bd teaspoon  pepper"
+        ],
+        "serving": "4"
     },
     {
         "title": "Sinampalukang Kambing",
         "recipe-link": "https://www.kawalingpinoy.com/sinampalukang-kambing/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/11/sinampalukang-kambing-8-1200-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Keep warm with a comforting bowl of Sinampalukang Kambing! This Ilocano delicacy made of goat meat, unripe tamarind, and chili peppers is hearty, tasty, and delicious as an appetizer or main dish.",
         "ingredients": [
             "goat",
             "vinegar",
@@ -618,21 +975,33 @@
             "green onion",
             "onion",
             "salt"
-        ]
+        ],
+        "ingredientList": [
+            "3 pounds goat head and feet (or other parts), cut into serving pieces",
+            "2 cups vinegar",
+            "salt",
+            "water",
+            "1 onion, peeled and quartered",
+            "2 thumb-size ginger, pounded",
+            "2 tablespoons fish sauce",
+            "1 pound unripe tamarind",
+            "5 finger chili peppers",
+            "1 bunch green onions, stemmed and chopped",
+            "salt to taste"
+        ],
+        "serving": "6"
     },
     {
         "title": "Kalderetang Kambing",
         "recipe-link": "https://www.kawalingpinoy.com/kalderetang-kambing/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/09/kalderetang-kambing-2-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Kalderetang Kambing is a rich, spicy, and hearty tomato-based stew made with goat meat, potatoes, and carrots. This classic Filipino dish is sure to be a crowd favorite at any special occasion or dinner party. Delicious as an appetizer with alcoholic drinks or a main dish with steamed rice!",
         "ingredients": [
             "goat",
             "goat meat",
             "vinegar",
             "salt",
             "water",
-            "ice",
             "pineapple",
             "pineapple juice",
             "canola oil",
@@ -660,28 +1029,54 @@
             "pickle",
             "pepper",
             "salt"
-        ]
+        ],
+        "ingredientList": [
+            "2 pounds goat meat, cut into serving portions",
+            "2 cups vinegar",
+            "1 tablespoon salt",
+            "water",
+            "1 cup pineapple juice",
+            "\u00bc cup canola oil",
+            "2 medium potatoes, peeled and quartered",
+            "1 large carrot, peeled and cut into cubes",
+            "\u00bd red bell pepper, seeded, cored, and cubed",
+            "\u00bd green bell pepper, seeded, cored, and cubed",
+            "1 onion, peeled and chopped",
+            "3 cloves garlic, peeled and minced",
+            "4 Thai chili peppers, stemmed and minced",
+            "1 cup tomato sauce",
+            "\u00bd cup liver spread",
+            "6 pieces sweet gherkins pickles",
+            "\u00bc cup Spanish olives",
+            "salt and pepper to taste"
+        ],
+        "serving": "6"
     },
     {
         "title": "Baked Cheese Shrimp",
         "recipe-link": "https://www.kawalingpinoy.com/baked-cheese-shrimp/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/09/easy-baked-cheese-shrimp-3-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Baked Cheese Shrimp is topped with cheese and mayo and baked until golden and bubbly are sure to be everyone's favorite appetizer. They're so creamy, cheesy, and deliciously addictive that it's hard to stop at one!",
         "ingredients": [
             "shrimp",
             "mayonnaise",
             "cheddar cheese",
             "cheese",
             "sugar"
-        ]
+        ],
+        "ingredientList": [
+            "1 pound large shrimp (31-40 size )",
+            "\u00bd cup mayonnaise",
+            "\u00bc cup cheddar cheese, shredded",
+            "1 teaspoon sugar"
+        ],
+        "serving": "4"
     },
     {
         "title": "Chicken Skin Chicharon",
         "recipe-link": "https://www.kawalingpinoy.com/chicken-skin-chicharon/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/chicken-chicharon-2-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Level up your finger food game with super crispy chicken skin chicharon! These chicken rinds are crunchy, tasty, and delicious as appetizers or snacks. Plus, they're high in fat and have zero net carbs, making them keto-friendly.",
         "ingredients": [
             "chicken",
             "chicken skin",
@@ -695,14 +1090,23 @@
             "canola oil",
             "lard",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "3 pounds chicken skin",
+            "1 cup water",
+            "\u00bc cup vinegar",
+            "4 cloves garlic, peeled and pounded",
+            "\u00bd teaspoon peppercorns, cracked",
+            "1 teaspoon salt",
+            "lard or canola oil"
+        ],
+        "serving": "8"
     },
     {
         "title": "Coconut Shrimp",
         "recipe-link": "https://www.kawalingpinoy.com/coconut-shrimp/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/02/coconut-shrimp-4-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Need an appetizer idea? These coconut shrimp coated in Panko breadcrumbs and shredded coconut are deep-fried until golden and crisp to perfection. They're a delicious medley of sweet and savory and seriously addictive. ",
         "ingredients": [
             "shrimp",
             "pepper",
@@ -712,18 +1116,27 @@
             "egg",
             "egg white",
             "coconut",
-            "breadcrumb",
+            "bread crumb",
             "panko",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "1 pound large shrimp",
+            "salt and pepper to taste",
+            "\u00bd cup cornstarch ",
+            "2 egg whites",
+            "1 \u00bd cups sweetened shredded coconut",
+            "\u00bd cup panko bread crumbs ",
+            "canola oil"
+        ],
+        "serving": "4"
     },
     {
         "title": "Crispy Fried Smelt Fish",
         "recipe-link": "https://www.kawalingpinoy.com/crispy-fried-smelt-fish/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/04/crispy-smelt-fish-5-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Crispy Fried Smelt Fish are easy to make in minutes and so tasty! They're crunchy, flavorful, and delicious as appetizers or quick dinners.",
         "ingredients": [
             "fish",
             "flour",
@@ -735,14 +1148,23 @@
             "pepper",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "2 pounds small smelt fish",
+            "\u00be cup flour",
+            "\u00bc cup cornstarch",
+            "1 teaspoon salt",
+            "\u00bc teaspoon garlic powder",
+            "\u00bc teaspoon pepper",
+            "canola oil"
+        ],
+        "serving": "4"
     },
     {
         "title": "Crispy Tuna Shanghai",
         "recipe-link": "https://www.kawalingpinoy.com/crispy-tuna-shanghai/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/crispy-tuna-shanghai-3-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Crispy Tuna Shanghai is quick and easy to make and so cheesy and tasty! These fish spring rolls are a healthier and cheaper alternative to meat lumpia and delicious as a snack, appetizer, or main dish.",
         "ingredients": [
             "oil",
             "tuna",
@@ -758,14 +1180,24 @@
             "canola oil",
             "oil",
             "spring roll wrapper"
-        ]
+        ],
+        "ingredientList": [
+            "2 cans (6.35 ounces each) tuna flakes in oil, drained well",
+            "\u00bc cup water chestnuts, drained and finely chopped",
+            "\u00bc cup carrots, shredded",
+            "\u00bc cup green onions, finely chopped",
+            "salt and pepper to taste",
+            "\u00bd cup shredded quick melt cheese (Eden) ",
+            "canola oil",
+            "12 spring roll wrappers"
+        ],
+        "serving": "12"
     },
     {
         "title": "Crispy Tuna Pies",
         "recipe-link": "https://www.kawalingpinoy.com/crispy-tuna-pies/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/crispy-tuna-pie-4-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Looking for a simple, budget-friendly homemade treat for the whole family? Crispy Tuna Pies are easy to make and require just a few simple pantry staples. Delicious and filling as a midday snack or appetizer!",
         "ingredients": [
             "canned tuna",
             "tuna",
@@ -776,57 +1208,80 @@
             "pepper",
             "cheese",
             "quick-melt",
-            "ice",
             "white bread",
             "egg",
             "milk",
-            "breadcrumb",
+            "bread crumb",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "1 can (6.35 ounces) canned tuna, drained well",
+            "\u00bc cup mayonnaise",
+            "1 red onion, peeled and finely choppped",
+            "\u00bc teaspoon salt",
+            "\u215b teaspoon pepper",
+            "4 ounces quick-melt cheese",
+            "8 pieces sliced white bread",
+            "2 eggs",
+            "\u00bd cup milk",
+            "1 cup bread crumbs",
+            "canola oil"
+        ],
+        "serving": "8"
     },
     {
         "title": "Sisig Pusit",
         "recipe-link": "https://www.kawalingpinoy.com/sisig-pusit/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/08/sisig-pusit-5-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Are you looking for the ultimate party food? Sisig Pusit is juicy and tender and bursting with spicy and smoky flavors. It's delicious as an appetizer with an ice-cold beer or a main dish with steamed rice.",
         "ingredients": [
             "squid",
             "pepper",
             "salt",
-            "ice",
             "onion",
             "garlic",
             "gin",
             "ginger",
             "bell pepper",
-            "ice",
             "pepper",
             "red bell pepper",
             "bell pepper",
             "green bell pepper",
-            "ice",
             "pepper",
             "chili",
             "chili pepper",
             "pepper",
             "calamansi",
             "calamansi juice",
-            "ice",
             "brown sugar",
             "sugar",
             "butter",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "2 (about 2 pounds) jumbo squid",
+            "salt and pepper to taste",
+            "1 onion, peeled and diced",
+            "2 cloves garlic, peeled and minced",
+            "1 thumb-sized ginger, peeled and minced",
+            "\u00bd red bell pepper, seeded, cored, and diced",
+            "\u00bd green bell pepper, seeded, cored, and diced",
+            "4 Thai chili peppers",
+            "\u00bc cup calamansi juice",
+            "2 tablespoons Worcestershire sauce",
+            "1 teaspoon brown sugar",
+            "1 tablespoon butter",
+            "1 tablespoon canola oil"
+        ],
+        "serving": "4"
     },
     {
         "title": "Dinakdakan",
         "recipe-link": "https://www.kawalingpinoy.com/dinakdakan/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/11/dinakdakan-6-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Dinakdakan is an Ilocano delicacy made with grilled pork parts tossed in a calamansi dressing with onions and chili peppers. It's delicious enjoyed as an appetizer with your favorite drinks or as a main dish with steamed rice.",
         "ingredients": [
             "pork",
             "water",
@@ -840,7 +1295,6 @@
             "pig brain",
             "calamansi",
             "calamansi juice",
-            "ice",
             "onion",
             "red onion",
             "gin",
@@ -850,14 +1304,28 @@
             "pepper",
             "pepper",
             "salt"
-        ]
+        ],
+        "ingredientList": [
+            "2 pounds pork face snout, ears",
+            "water",
+            "2 bay leaves",
+            "2 tablespoons salt",
+            "1 teaspoon pepper corns",
+            "\u00bd pound pork liver",
+            "8 ounces pig brain",
+            "\u00bc cup cup calamansi juice",
+            "1 red onion peeled and sliced thinly",
+            "1 thumb-size ginger peeled and minced",
+            "3 Thai chili peppers stemmed and minced",
+            "salt and pepper to taste"
+        ],
+        "serving": "8"
     },
     {
         "title": "Banana Meat",
         "recipe-link": "https://www.kawalingpinoy.com/banana-meat/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/06/banana-meat-4-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Banana Meat is made of saba bananas and ground pork filling fried to golden perfection. It's a unique medley of sweet and savory flavors that will rock your tastebuds!",
         "ingredients": [
             "canola oil",
             "oil",
@@ -871,42 +1339,58 @@
             "banana",
             "flour",
             "water"
-        ]
+        ],
+        "ingredientList": [
+            "canola oil",
+            "small onion, peeled and chopped",
+            "2 cloves garlic, peeled and minced",
+            "\u00bd pound ground pork",
+            "1 tablespoon soy sauce",
+            "salt and pepper to taste",
+            "4 ripe but firm Saba bananas",
+            "\u00bd cup flour",
+            "\u00bd cup water"
+        ],
+        "serving": "4"
     },
     {
         "title": "Crispy Sisig",
         "recipe-link": "https://www.kawalingpinoy.com/crispy-sisig/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/03/crispy-sisig-5-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Crispy Sisig is an excellent use for your leftover lechon kawali. It's a delicious medley of savory, spicy, and crunchy and makes a tasty appetizer or main dish.",
         "ingredients": [
             "lechon kawali",
             "bell pepper",
-            "ice",
             "pepper",
             "red bell pepper",
             "bell pepper",
             "green bell pepper",
-            "ice",
             "pepper",
-            "ice",
             "onion",
             "chili",
             "chili pepper",
             "pepper",
             "calamansi",
             "calamansi juice",
-            "ice",
             "pepper",
             "salt"
-        ]
+        ],
+        "ingredientList": [
+            "4 cups lechon kawali, chopped",
+            "1 medium red bell pepper, seeded, cored and diced",
+            "1 medium green bell pepper, seeded, cored and diced",
+            "1 onion, peeled and diced",
+            "5 Thai chili peppers, minced",
+            "\u00bd cup calamansi juice",
+            "salt and pepper to taste"
+        ],
+        "serving": "8"
     },
     {
         "title": "Crispy Tahong (Deep-Fried Mussels)",
         "recipe-link": "https://www.kawalingpinoy.com/crispy-tahong-deep-fried-mussels/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/06/crispy-tahong-1-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Crispy Tahong are the ultimate seafood appetizer! Dredged in flour and deep-fried until golden and crunchy, these deep-fried mussels are seriously addictive.",
         "ingredients": [
             "mussel",
             "flour",
@@ -917,15 +1401,33 @@
             "garlic powder",
             "pepper",
             "canola oil",
-            "oil"
-        ]
+            "oil",
+            "vinegar",
+            "garlic",
+            "corn",
+            "pepper",
+            "peppercorn",
+            "chili",
+            "chili pepper",
+            "pepper",
+            "salt"
+        ],
+        "ingredientList": [
+            "2 pounds half-shell New Zealand mussels",
+            "\u00be cup flour",
+            "\u00bc cup cornstarch",
+            "1 teaspoon salt",
+            "1 teaspoon garlic powder",
+            "\u00bd teaspoon pepper",
+            "canola oil"
+        ],
+        "serving": "4"
     },
     {
         "title": "Loslos",
         "recipe-link": "https://www.kawalingpinoy.com/loslos/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/crispy-loslos-3-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Are you looking for the ultimate pork dish? Try these crunchy baby back ribs! Cooked adobo-style until tender, dredged in flour, and deep-fried to golden perfection, they make a tasty and filling main dish or party fare.",
         "ingredients": [
             "back rib",
             "vinegar",
@@ -942,14 +1444,28 @@
             "egg",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "3 pounds baby back ribs, cut into individual ribs",
+            "1 cup vinegar",
+            "\u00bd cup soy sauce",
+            "1 cup water",
+            "1 head garlic, peeled and minced",
+            "2 bay leaves",
+            "1 teaspoon peppercorns, cracked",
+            "1 cup flour",
+            "\u00bd teaspoon salt",
+            "\u00bc teaspoon pepper",
+            "3 eggs",
+            "canola oil for deep-frying"
+        ],
+        "serving": "6"
     },
     {
         "title": "Sriracha Shrimp Scampi",
         "recipe-link": "https://www.kawalingpinoy.com/sriracha-shrimp-scampi/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/11/sriracha-shrimp-7-680x884.jpg",
         "meal": "appetizer",
-        "summary": "This sriracha shrimp scampi is a zesty twist on a classic! Seasoned with chili sauce, white wine, lemon juice, and garlic, it's delicious as an appetizer or main dish.",
         "ingredients": [
             "shrimp",
             "chili",
@@ -964,17 +1480,27 @@
             "salt",
             "green onion",
             "onion",
-            "ice",
             "lemon",
             "lemon juice"
-        ]
+        ],
+        "ingredientList": [
+            "1 pound large shrimp, peeled and deveined with tails ",
+            "1 tablespoon Sriracha chili sauce",
+            "2 tablespoon butter",
+            "2 tablespoon vegetable oil",
+            "1 head garlic",
+            "\u00bd cup white wine",
+            "salt and pepper, to taste",
+            "green onions",
+            "1 tablespoon lemon juice"
+        ],
+        "serving": "4"
     },
     {
         "title": "Lechon Kawali",
         "recipe-link": "https://www.kawalingpinoy.com/lechon-kawali/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/10/crispy-lechon-kawali-4-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Lechon Kawali is a popular Filipino pork dish deep-fried to golden perfection.  Golden and crunchy on the outside, moist and flavorful on the inside, it makes a tasty appetizer or main dish. ",
         "ingredients": [
             "pork",
             "pork belly",
@@ -987,14 +1513,23 @@
             "water",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "4 pounds whole pork belly",
+            "1 head garlic, pounded",
+            "2 tablespoons salt",
+            "1 tablespoon peppercorns",
+            "2 bay leaves",
+            "water",
+            "canola oil"
+        ],
+        "serving": "8"
     },
     {
         "title": "Chinese Boiled Peanuts",
         "recipe-link": "https://www.kawalingpinoy.com/chinese-boiled-peanuts/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/05/chinese-boiled-peanuts-8-680x884.jpg",
         "meal": "appetizer",
-        "summary": "These deliciously addictive and aromatic\u00a0Chinese Boiled Peanuts are super easy to prepare in the crockpot. Slow-cooked in soy sauce, sugar, and aromatic spices, they make a nutritious and delicious appetizer, snack, or side dish.",
         "ingredients": [
             "pea",
             "peanut",
@@ -1005,14 +1540,24 @@
             "star anise",
             "chili",
             "water"
-        ]
+        ],
+        "ingredientList": [
+            "1 pound raw peanuts",
+            "\u00bc cup soy sauce ",
+            "3 tbsp. sugar",
+            "1 cinnamon stick ",
+            "3 cloves garlic, peeled",
+            "2 star anise",
+            "2 Japanese dried chili ",
+            "water"
+        ],
+        "serving": "4"
     },
     {
         "title": "Crispy Breaded Shrimp",
         "recipe-link": "https://www.kawalingpinoy.com/crispy-breaded-shrimp/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/07/crispy-shrimp-4-680x884.jpg",
         "meal": "appetizer",
-        "summary": "These Crispy Breaded Shrimp are seriously addictive, with the perfect flavor and crunch! They're super simple to prepare and make a great appetizer or main dish.",
         "ingredients": [
             "shrimp",
             "flour",
@@ -1028,28 +1573,57 @@
             "hot sauce",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "1 pound small shrimp (71/90), peeled and deveined",
+            "\u00be cup flour",
+            "\u00bc cup cornstarch",
+            "1 teaspoon salt",
+            "\u00bd teaspoon pepper",
+            "\u00bd teaspoon paprika",
+            "\u00bd teaspoon garlic powder",
+            "2 eggs",
+            "2 tablespoons milk",
+            "1 teaspoon hot sauce",
+            "canola oil"
+        ],
+        "serving": "4"
     },
     {
         "title": "Inihaw na Pusit (Grilled Squid)",
         "recipe-link": "https://www.kawalingpinoy.com/inihaw-na-pusit-grilled-squid/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/06/inihaw-na-pusit-8.jpg",
         "meal": "appetizer",
-        "summary": "Marinated in a sweet and tangy vinaigrette and stuffed with tomatoes and onions, this inihaw na squid is delicious hot off the grill. Perfect as an appetizer or main dish.",
         "ingredients": [
             "squid",
             "tomato",
             "onion",
             "pepper",
-            "salt"
-        ]
+            "salt",
+            "brown sugar",
+            "sugar",
+            "vinegar",
+            "garlic",
+            "gin",
+            "ginger",
+            "salt",
+            "chili",
+            "chili pepper",
+            "pepper"
+        ],
+        "ingredientList": [
+            "2 (about 2 pounds) jumbo squid",
+            "2 Roma tomatoes, finely chopped",
+            "1 onion, peeled and finely chopped",
+            "salt and pepper to taste"
+        ],
+        "serving": "4"
     },
     {
         "title": "Adobong Paa nang Manok (Chicken Feet Adobo)",
         "recipe-link": "https://www.kawalingpinoy.com/adobong-paa-nang-manok-chicken-feet-adobo/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2013/06/adobong-paa-ng-manok-5-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Enjoy Asian's favorite street food at home! This Adobong Paa nang Manok or Chicken Feet Adobo packs amazing texture and complex flavor. It is a delicious delicacy to enjoy on its own as an appetizer or a main dish with piping-hot steamed rice.",
         "ingredients": [
             "chicken",
             "chicken feet",
@@ -1058,7 +1632,6 @@
             "water",
             "vinegar",
             "soy sauce",
-            "ice",
             "onion",
             "bay leaves",
             "corn",
@@ -1070,14 +1643,27 @@
             "chili garlic",
             "chili garlic sauce",
             "garlic"
-        ]
+        ],
+        "ingredientList": [
+            "3 pounds chicken feet",
+            "rock salt",
+            "2 cups water",
+            "1 cup vinegar",
+            "\u00bd cup soy sauce",
+            "1 head peeled and minced",
+            "1 large onion, peeled and sliced",
+            "2 bay leaves",
+            "\u00bd teaspoon peppercorns, cracked",
+            "1 tablespoon canola oil",
+            "1 teaspoon chili garlic sauce"
+        ],
+        "serving": "4"
     },
     {
         "title": "Tamarind Chicken Wings",
         "recipe-link": "https://www.kawalingpinoy.com/tamarind-chicken-wings/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/11/tamarind-chicken-wings-8-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Tamarind Chicken Wings are easy to make and finger-licking delicious. Seasoned with tamarind and garlic, they're a mouthwatering appetizer or main dish the whole family will love.",
         "ingredients": [
             "chicken",
             "chicken wing",
@@ -1088,48 +1674,81 @@
             "pepper",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "2 pound chicken wings",
+            "2 tablespoons tamarind base powder",
+            "1 teaspoon garlic powder",
+            "1 teaspoon salt",
+            "\u00bd teaspoon pepper",
+            "canola oil"
+        ],
+        "serving": "4"
     },
     {
         "title": "Sushi Bake",
         "recipe-link": "https://www.kawalingpinoy.com/sushi-bake/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/09/baked-sushi-4-1-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Sushi Bake is your favorite rice dish in a casserole form! It's easy to make and delivers the delicious Japanese flavors you love with no special sushi chef skills required.",
         "ingredients": [
-            "ice",
             "rice",
-            "ice",
             "rice",
             "rice vinegar",
             "vinegar",
             "salt",
-            "sugar"
-        ]
+            "sugar",
+            "crab",
+            "mango",
+            "cucumber",
+            "mayonnaise",
+            "cheese",
+            "quick-melt",
+            "seaweed",
+            "mango",
+            "cucumber",
+            "egg",
+            "mayonnaise"
+        ],
+        "ingredientList": [
+            "4 cups cooked short-grain rice",
+            "2 tablespoons rice vinegar",
+            "1 teaspoon salt",
+            "1 teaspoon sugar",
+            "\u00bc cup Furikake"
+        ],
+        "serving": "8"
     },
     {
         "title": "Cheese Dog Bread Rolls",
         "recipe-link": "https://www.kawalingpinoy.com/cheese-dog-bread-rolls/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/08/cheese-hot-dog-bread-rolls-3-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Cheese Dog Bread Rolls are as fun to make as they are to eat and are the best use of day-old sliced bread. Golden, crunchy, and stuffed with meaty hot dogs and melty cheese, they're a hearty snack or appetizer kids and adults alike will love!",
         "ingredients": [
             "white bread",
             "hot dog",
             "cheese",
             "egg",
             "milk",
-            "breadcrumb",
+            "bread crumb",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "12 slices white bread",
+            "3 hot dogs, cut into 4 strips",
+            "4 ounces quick melt cheese, cut into 24 thin strips",
+            "2 eggs",
+            "\u00bc cup milk",
+            "1 cup Panko bread crumbs",
+            "canola oil"
+        ],
+        "serving": "12"
     },
     {
         "title": "Ukoy",
         "recipe-link": "https://www.kawalingpinoy.com/ukoy/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/05/crispy-ukoy-2-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Ukoy, made of green papaya and kalabasa, are a delicious snack, appetizer, or side dish. These vegetable fritters are golden, crunchy, and tasty!",
         "ingredients": [
             "green papaya",
             "papaya",
@@ -1143,21 +1762,44 @@
             "salt",
             "pepper",
             "kalabasa",
-            "ice",
             "shallot",
             "green onion",
             "onion",
             "canola oil",
             "oil",
-            "shrimp"
-        ]
+            "shrimp",
+            "vinegar",
+            "chili",
+            "chili pepper",
+            "pepper",
+            "onion",
+            "red onion",
+            "garlic",
+            "pepper",
+            "salt"
+        ],
+        "ingredientList": [
+            "1 medium green papaya, peeled, seeded and shredded",
+            "1 egg, beaten",
+            "1 cup cornstarch",
+            "\u00bd cup flour",
+            "1 cup water",
+            "1 teaspoon fish sauce",
+            "1 teaspoon salt",
+            "\u00bd teaspoon pepper",
+            "\u00bd small kalabasa, peeled, seeded and julienned",
+            "3 shallots, peeled and sliced thinly",
+            "\u00bd cup green onions, chopped",
+            "canola oil",
+            "\u00bd pound small shrimps, tendrils trimmed"
+        ],
+        "serving": "12"
     },
     {
         "title": "Sizzling Gambas",
         "recipe-link": "https://www.kawalingpinoy.com/sizzling-gambas/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/05/sizzling-gambas-with-garlic-6-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Sizzling Gambas with garlicky tomato sauce has all the big, bold flavors you'll love! This spicy shrimp dish is easy to make and delicious as an appetizer or main entree.",
         "ingredients": [
             "shrimp",
             "butter",
@@ -1178,46 +1820,71 @@
             "tomato sauce",
             "pepper",
             "salt",
-            "breadcrumb"
-        ]
+            "bread crumb"
+        ],
+        "ingredientList": [
+            "1 pound large shrimp, peeled, deveined, leaving tail intact",
+            "2 tablespoons cold butter",
+            "1 tablespoon canola or olive oil",
+            "1 head garlic, peeled and minced",
+            "4 Thai chili peppers, stems trimmed and minced",
+            "\u00bd small red bell pepper, seeded, cored and cut into thin strips",
+            "\u00bd small green bell pepper, seeded, cored and cut into thin strips",
+            "2 tablespoons Chinese cooking wine",
+            "\u00bd cup tomato sauce",
+            "salt and pepper to taste",
+            "\u00bc cup Panko bread crumbs"
+        ],
+        "serving": "4"
     },
     {
         "title": "Cheese Sticks",
         "recipe-link": "https://www.kawalingpinoy.com/cheese-sticks/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/05/crispy-cheese-sticks-4-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Cheese sticks are a delicious snack or appetizer the whole family will love. Golden, crunchy, and filled with melty cheese, these spring rolls are seriously addictive!",
         "ingredients": [
             "cheese",
             "spring roll wrapper",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "1 pound Eden Cheese or quick melt cheese",
+            "12 pieces spring roll wrappers",
+            "canola oil"
+        ],
+        "serving": "12"
     },
     {
         "title": "Spam Musubi",
         "recipe-link": "https://www.kawalingpinoy.com/spam-musubi/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2020/03/Hawaiian-spam-musubi-3-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Spam Musubi is as fun to make as it is to eat! This popular Hawaiian treat made of Spam, sticky rice, nori seaweed, and a sweet and savory glaze, is a hearty, tasty, and handy snack the whole family will love.",
         "ingredients": [
-            "ice",
             "rice",
             "water",
             "canola oil",
             "oil",
-            "ice",
             "soy sauce",
             "sugar",
             "seaweed"
-        ]
+        ],
+        "ingredientList": [
+            "3 cups short-grain rice",
+            "3 cups water",
+            "1 tablespoon canola oil",
+            "1 can (12 ounces) Spam, cut crosswise into 10 slices",
+            "\u00bc cup soy sauce",
+            "\u00bd cup sugar",
+            "5 sheets Nori seaweed, cut lengthwise into two"
+        ],
+        "serving": "10"
     },
     {
         "title": "Sizzling Tofu",
         "recipe-link": "https://www.kawalingpinoy.com/sizzling-tofu/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/11/sisig-tofu-2-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Enjoy the bold flavors of sisig in vegetarian form! Sizzling Tofu is creamy, spicy, and delicious as an appetizer or main dish.",
         "ingredients": [
             "tofu",
             "canola oil",
@@ -1239,18 +1906,31 @@
             "pepper",
             "calamansi",
             "calamansi juice",
-            "ice",
             "seasoning",
             "seasoning sauce",
             "mayonnaise"
-        ]
+        ],
+        "ingredientList": [
+            "2 packages (12 ounces each) firm tofu",
+            "canola oil",
+            "1 tablespoon butter",
+            "1 onion, peeled and chopped",
+            "3 cloves garlic, peeled and minced",
+            "1 small red bell pepper, cored, seeded, and chopped",
+            "1 small green bell peppers, cored, seeded, and chopped",
+            "3 finger chili peppers (siling haba)",
+            "2 Thai chili peppers",
+            "2 tablespoons calamansi juice",
+            "2 tablespoons Knorr seasoning sauce",
+            "\u00bc cup mayonnaise"
+        ],
+        "serving": "6"
     },
     {
         "title": "Nilasing na Hipon",
         "recipe-link": "https://www.kawalingpinoy.com/nilasing-na-hipon/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/07/crispy-nilasing-na-hipon-6-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Nilasing na Hipon marinated in gin and deep-fried to golden perfection are the perfect beer match. Crispy and tasty, these drunken shrimp are seriously addictive.",
         "ingredients": [
             "shrimp",
             "garlic",
@@ -1260,14 +1940,24 @@
             "corn",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "1 pound small shrimp, head-on (51/60 count)",
+            "\u00bd cup Gin or Rum",
+            "4 cloves garlic, peeled and minced",
+            "2 teaspoons salt",
+            "1 teaspoon pepper",
+            "\u00be cup flour",
+            "\u00bc cup corn starch",
+            "canola oil"
+        ],
+        "serving": "4"
     },
     {
         "title": "Homemade Kikiam",
         "recipe-link": "https://www.kawalingpinoy.com/homemade-kikiam/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/07/homemade-kikiam-4-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Homemade Kikiam are steamed and fried to crispy perfection for the ultimate street food! These delicious bean curd pork rolls are delicious on their own or added to other dishes, such as noodle stir-fries and soups.",
         "ingredients": [
             "ground pork",
             "pork",
@@ -1278,7 +1968,6 @@
             "green onion",
             "onion",
             "five-spice",
-            "ice",
             "salt",
             "pepper",
             "corn",
@@ -1287,14 +1976,28 @@
             "bean",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "1 pound ground pork",
+            "\u00bd pound shrimp, peeled, deveined and minced",
+            "1 large carrot, peeled and finely chopped",
+            "1 cup water chestnuts, finely chopped",
+            "\u00bd cup green onions, chopped",
+            "1 tablespoon Chinese five-spice powder",
+            "2 teaspoons salt",
+            "\u00bd teaspoon pepper",
+            "1 tablespoon cornstarch",
+            "2 tablespoons water",
+            "3 bean curd sheets, hard edges trimmed and cut into a 10-inch square",
+            "canola oil"
+        ],
+        "serving": "6"
     },
     {
         "title": "Pork Siomai",
         "recipe-link": "https://www.kawalingpinoy.com/siomai/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/05/siomai-4-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Siomai, with ground pork, shrimp, and shitake mushrooms, are tasty and filling. These steamed dumplings are easy to make and delicious as an appetizer, snack, or main meal!",
         "ingredients": [
             "mushroom",
             "mushroom",
@@ -1303,7 +2006,6 @@
             "shrimp",
             "gin",
             "ginger",
-            "ice",
             "soy sauce",
             "salt",
             "pepper",
@@ -1311,15 +2013,35 @@
             "corn",
             "cornstarch",
             "water",
-            "shumai wrapper"
-        ]
+            "shumai wrapper",
+            "calamansi",
+            "lemon",
+            "lemon juice",
+            "soy sauce",
+            "chili",
+            "chili garlic",
+            "garlic"
+        ],
+        "ingredientList": [
+            "6 medium dried shitake mushrooms",
+            "1 pound ground pork",
+            "\u00bc pound large shrimp, peeled, deveined and finely chopped",
+            "1 thumb-size ginger, peeled, grated, and juice extracted",
+            "1 tablespoon soy sauce",
+            "1 teaspoon salt",
+            "\u00bd teaspoon pepper",
+            "\u00bd teaspoon sugar",
+            "1 tablespoon cornstarch",
+            "2 tablespoons water",
+            "1 package (30 pieces) shumai wrappers"
+        ],
+        "serving": "6"
     },
     {
         "title": "Baked Tahong with Sweet Chili-Mayo Topping",
         "recipe-link": "https://www.kawalingpinoy.com/baked-tahong-with-sweet-chili-mayo-topping/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/04/creamy-baked-tahong-1-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Baked Tahong with Sweet Chili-Mayo Topping are the ultimate seafood appetizer! These stuffed mussels are easy to make, creamy, cheesy, and seriously addictive.",
         "ingredients": [
             "mussel",
             "mayonnaise",
@@ -1329,17 +2051,24 @@
             "sweet chili sauce",
             "green onion",
             "onion",
-            "ice",
             "lime",
             "lime juice"
-        ]
+        ],
+        "ingredientList": [
+            "24 pieces frozen half-shell mussels, thawed ",
+            "1 cup mayonnaise",
+            "\u00bd cup Cheddar cheese, shredded",
+            "2 tablespoons sweet chili sauce",
+            "1 tablespoon green onions, chopped",
+            "1 teaspoon lime juice"
+        ],
+        "serving": "4"
     },
     {
         "title": "Pork Chicharon",
         "recipe-link": "https://www.kawalingpinoy.com/pork-chicharon/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/03/pork-chicharon-1-1-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Homemade Chicharon made of pork rinds deep-fried to golden perfection! Crunchy and tasty, these cracklings are the ultimate low-carb treat and best served with spicy vinegar dip.",
         "ingredients": [
             "pork",
             "pork rind",
@@ -1352,20 +2081,28 @@
             "water",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "2 pounds pork rinds, cut into 2-inch sizes",
+            "\u00bc cup vinegar",
+            "1 head garlic, peeled and crushed",
+            "1 tablespoon salt",
+            "1 teaspoon  peppercorns",
+            "water",
+            "canola oil"
+        ],
+        "serving": "4"
     },
     {
         "title": "Southwestern Chicken Egg Rolls",
         "recipe-link": "https://www.kawalingpinoy.com/southwestern-chicken-egg-rolls/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/02/southwestern-chicken-egg-rolls-6-1.jpg",
         "meal": "appetizer",
-        "summary": "Southwestern Chicken Egg Rolls are the perfect snack or appetizer! Golden, crunchy and stuffed with chicken, vegetables, beans, and cheese, they're a guaranteed crowd pleaser!",
         "ingredients": [
             "canola oil",
             "oil",
             "onion",
             "bell pepper",
-            "ice",
             "pepper",
             "red bell pepper",
             "chicken",
@@ -1382,14 +2119,29 @@
             "egg",
             "egg roll wrapper",
             "cheese"
-        ]
+        ],
+        "ingredientList": [
+            "canola oil",
+            "1 small onion, peeled and chopped",
+            "1 cup red bell pepper, diced",
+            "4 cups cooked chicken, chopped",
+            "1 cup black beans, rinsed and drained",
+            "1 cup cut corn",
+            "2 cups fresh baby spinach",
+            "1 teaspoon chili powder",
+            "1 teaspoon salt",
+            "\u00bd teaspoon garlic powder",
+            "\u00bc teaspoon pepper",
+            "1 package (21 count) egg roll wrappers",
+            "2 cups Monterey Jack cheese, shredded"
+        ],
+        "serving": "21"
     },
     {
         "title": "Lumpiang Prito with Pork",
         "recipe-link": "https://www.kawalingpinoy.com/lumpiang-prito-with-pork/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/01/crispy-lumpiang-prito-with-pork-1-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Lumpiang Prito with Pork filled with a colorful medley of bean sprouts, sweet potatoes, carrots, green beans, and ground pork. These vegetable spring rolls are crunchy, tasty, and delicious midday snacks or appetizers.",
         "ingredients": [
             "canola oil",
             "oil",
@@ -1408,14 +2160,28 @@
             "pepper",
             "salt",
             "spring roll wrapper"
-        ]
+        ],
+        "ingredientList": [
+            "canola oil",
+            "2 cloves garlic, peeled and minced",
+            "1 onion, peeled and chopped",
+            "\u00bc pound ground pork",
+            "1 tablespoon fish sauce",
+            "1 medium camote , peeled and cut into 1-inch lengths matchsticks",
+            "\u00bc cup water",
+            "1 large carrot, peeled and cut into 1-inch lengths matchsticks",
+            "1 cup green beans, cut thinly on a bias",
+            "4 cups bean sprouts",
+            "salt and pepper to taste",
+            "12 spring roll wrappers"
+        ],
+        "serving": "12"
     },
     {
         "title": "Chicken Sisig",
         "recipe-link": "https://www.kawalingpinoy.com/chicken-sisig/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/spicy-chicken-sisig-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Chicken Sisig with mayo, lime juice, and chili peppers is easy to make with leftover rotisserie. It's creamy, spicy, and delicious as an appetizer or main dish.",
         "ingredients": [
             "canola oil",
             "oil",
@@ -1426,7 +2192,6 @@
             "chicken liver",
             "onion",
             "calamansi",
-            "ice",
             "lime",
             "lime juice",
             "pepper",
@@ -1435,24 +2200,34 @@
             "chili",
             "chili pepper",
             "pepper"
-        ]
+        ],
+        "ingredientList": [
+            "1 /2 cup canola oil",
+            "3 cloves garlic, peeled and minced",
+            "4 cups cooked chicken",
+            "1 tablespoon soy sauce",
+            "\u00bc pound chicken livers",
+            "1 onion, peeled and chopped",
+            "\u00bc cup calamansi or lime juice",
+            "salt and pepper to taste",
+            "\u00bc cup mayonnaise",
+            "2 Thai chili peppers, chopped"
+        ],
+        "serving": "6"
     },
     {
         "title": "Plum Sauce Chicken Lollipops",
         "recipe-link": "https://www.kawalingpinoy.com/plum-sauce-chicken-lollipops/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/03/plum-sauce-chicken-lollipops-1-2.jpg",
         "meal": "appetizer",
-        "summary": "Plum Sauce Chicken Lollipops are super fun and tasty appetizers that are sure to be a hit with the crowd. Baked in a sweet and savory sauce, they're finger-licking, lip-smacking addicting!",
         "ingredients": [
             "chicken",
             "chicken wing",
             "plum sauce",
             "calamansi",
-            "ice",
             "lemon",
             "lemon juice",
             "soy sauce",
-            "ice",
             "rice",
             "rice vinegar",
             "vinegar",
@@ -1465,21 +2240,34 @@
             "salt",
             "pepper",
             "sesame seed"
-        ]
+        ],
+        "ingredientList": [
+            "1 pound chicken wing drumettes",
+            "\u00bd cup plum sauce",
+            "3 tablespoons calamansi or lemon juice",
+            "2 tablespoons soy sauce",
+            "2 tablespoons honey",
+            "1 tablespoon rice vinegar",
+            "1 tablespoon chili oil",
+            "1 thumb-size ginger, peeled and grated",
+            "3 cloves garlic, peeled and grated",
+            "1 teaspoon salt",
+            "\u00bc teaspoon pepper",
+            "sesame seeds, toasted"
+        ],
+        "serving": "4"
     },
     {
         "title": "Steamed Spareribs with Black Beans",
         "recipe-link": "https://www.kawalingpinoy.com/steamed-spareribs-with-black-beans/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/10/asian-steamed-spare-ribs-7-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Steamed Spareribs with Black Beans is your favorite dim sum made quick and easy right in your own home! With juicy pork ribs and flavorful sauce, they're delicious as an appetizer or as a main dish.",
         "ingredients": [
             "pork",
             "ube",
             "garlic",
             "gin",
             "ginger",
-            "ice",
             "rice",
             "wine",
             "light soy sauce",
@@ -1494,14 +2282,27 @@
             "fermented black bean",
             "green onion",
             "onion"
-        ]
+        ],
+        "ingredientList": [
+            "2 pounds pork spareribs, cut into 1-inch cubes",
+            "3 cloves garlic, peeled and minced",
+            "1 teaspoon ginger, peeled and minced",
+            "2 Tablespoons Chinese rice cooking wine",
+            "2 Tablespoons light soy sauce",
+            "1 teaspoon sesame oil",
+            "2 teaspoons sugar",
+            "\u00bd teaspoon Salt",
+            "2 tablespoons cornstarch",
+            "2 Tablespoons fermented black beans, drained and rinsed",
+            "2 tablespoons green onions, chopped"
+        ],
+        "serving": "6"
     },
     {
         "title": "Sizzling Balut",
         "recipe-link": "https://www.kawalingpinoy.com/sizzling-balut/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/08/sizzling-balut-8-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Sizzling Balut takes our classic balut to a whole new level of yum! Fried until golden and cooked in a spicy sauce, it makes a tasty appetizer or main dish.",
         "ingredients": [
             "balut",
             "flour",
@@ -1524,18 +2325,32 @@
             "green onion",
             "onion",
             "pepper"
-        ]
+        ],
+        "ingredientList": [
+            "4 balut, cooked and peeled",
+            "\u00bc cup flour",
+            "\u00bc cup canola oil",
+            "2 shallots, peeled and chopped",
+            "2 cloves garlic, peeled and minced",
+            "1 thumb-size ginger, peeled and minced",
+            "3 Thai chili peppers, minced",
+            "\u00bd small red bell pepper, seeded and chopped",
+            "1 tablespoon soy sauce",
+            "3 tablespoons oyster sauce",
+            "\u00bc cup water",
+            "1 tablespoon green onions, chopped",
+            "pepper to taste"
+        ],
+        "serving": "4"
     },
     {
         "title": "Minced Chicken in Lettuce Cups",
         "recipe-link": "https://www.kawalingpinoy.com/minced-chicken-in-lettuce-wraps/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/04/minced-chicken-in-lettuce-cups-4-1.jpg",
         "meal": "appetizer",
-        "summary": "Minced chicken in lettuce cups with hoisin-flavored chicken and crunchy vermicelli noodles served taco-style in crisp lettuce leaves. It's budget-friendly, tasty, and easy to make weeknight dinner!",
         "ingredients": [
             "mushroom",
             "mushroom",
-            "ice",
             "noodles",
             "vermicelli noodle",
             "oil",
@@ -1545,7 +2360,6 @@
             "corn",
             "cornstarch",
             "hoisin sauce",
-            "ice",
             "rice",
             "rice vinegar",
             "vinegar",
@@ -1557,16 +2371,31 @@
             "green onion",
             "onion",
             "butter",
-            "ice",
             "lettuce"
-        ]
+        ],
+        "ingredientList": [
+            "3 pieces dried shitake mushrooms",
+            "2 ounces vermicelli noodles",
+            "oil",
+            "1 pound boneless, skinless chicken, finely minced",
+            "2 tablespoons soy sauce",
+            "1 tablespoon Chinese cooking wine",
+            "1 teaspoon cornstarch",
+            "\u00bc cup hoisin sauce",
+            "1 tablespoon rice vinegar",
+            "2 cloves garlic, peeled and minced",
+            "1 thumb-size ginger, peeled and grated",
+            "1 can (8 ounces)  water chestnuts, drained and finely chopped",
+            "2 pieces green onions, finely choped",
+            "1 head iceberg, green leaf, or butter lettuce, leaves separated"
+        ],
+        "serving": "4"
     },
     {
         "title": "Ukoy na Togue",
         "recipe-link": "https://www.kawalingpinoy.com/ukoy-na-togue/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2018/03/crispy-ukoy-na-togue-2-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Ukoy na Togue, made of beans sprouts, carrots, and shrimp, are crispy, tasty, and filling snacks or appetizers. Enjoy these vegetable and shrimp fritters with spicy vinegar for the best experience!",
         "ingredients": [
             "egg",
             "corn",
@@ -1583,19 +2412,33 @@
             "bean sprout",
             "mung bean",
             "carrot",
-            "ice",
             "shallot",
             "canola oil",
             "oil",
             "shrimp"
-        ]
+        ],
+        "ingredientList": [
+            "1 egg, beaten",
+            "1 cup cornstarch",
+            "\u00bd cup flour",
+            "1 cup water",
+            "1 teaspoon fish sauce",
+            "1 teaspoon salt",
+            "\u00bd teaspoon pepper",
+            "1  teaspoon annatto powder",
+            "1 pound mung bean sprouts",
+            "2 large carrots, peeled and julienned",
+            "4 shallots, peeled and sliced thinly",
+            "canola oil",
+            "\u00bd pound medium shrimps, tendrils trimmed"
+        ],
+        "serving": "6"
     },
     {
         "title": "Crispy Fried Calamari",
         "recipe-link": "https://www.kawalingpinoy.com/fried-calamari/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/10/crispy-fried-calamari-3-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Crispy Fried Calamari is a delicious way to enjoy your favorite squid! Learn the simple tricks on how to make this seafood appetizer super tender yet deliciously golden and crunchy.",
         "ingredients": [
             "squid",
             "milk",
@@ -1609,20 +2452,29 @@
             "pepper",
             "salt",
             "lemon"
-        ]
+        ],
+        "ingredientList": [
+            "3 pounds large squid",
+            "1 cup milk",
+            "1 cup flour",
+            "1 cup cornstarch",
+            "canola oil",
+            "garlic powder to taste",
+            "salt and pepper to taste",
+            "lemons, cut into wedges"
+        ],
+        "serving": "6"
     },
     {
         "title": "Lumpiang Togue",
         "recipe-link": "https://www.kawalingpinoy.com/lumpiang-togue/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/05/prito-lumpiang-togue-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Lumpiang Togue is filled with bean sprouts, carrots, green beans, pork, and shrimp for a hearty and filling treat. Golden, crunchy and delicious, these Filipino-style vegetable spring rolls are the perfect snack or appetizer!",
         "ingredients": [
             "canola oil",
             "oil",
             "onion",
             "garlic",
-            "ice",
             "pork",
             "pork belly",
             "fish",
@@ -1637,14 +2489,28 @@
             "pepper",
             "salt",
             "spring roll wrapper"
-        ]
+        ],
+        "ingredientList": [
+            "canola oil",
+            "1 onion, peeled and chopped",
+            "2 cloves garlic, peeled and minced",
+            "\u00bd pound pork belly or butt, diced",
+            "1 tablespoon fish sauce",
+            "\u00bd cup water",
+            "\u00bd pound shrimps, peeled, deveined, and chopped",
+            "1 large carrot, peeled and julienned",
+            "1 cup green beans, stemmed and cut thinly on a bias",
+            "4 cups bean sprouts",
+            "salt and pepper to taste",
+            "12 pieces spring roll wrappers"
+        ],
+        "serving": "12"
     },
     {
         "title": "Lumpiang Galunggong",
         "recipe-link": "https://www.kawalingpinoy.com/lumpiang-galunggong/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/03/lumpiang-galunggong-13-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Lumpiang Galunggong for a delicious meatless spring roll variety. Golden, crispy, and filled with flaked fish, water chestnuts, mushrooms, and celery, they're delicious and absolutely addictive!",
         "ingredients": [
             "mushroom",
             "mushroom",
@@ -1661,14 +2527,27 @@
             "pepper",
             "salt",
             "springroll wrapper"
-        ]
+        ],
+        "ingredientList": [
+            "6 pieces dried shiitake mushrooms",
+            "1 pound (about 5 to 6 large pieces) galunggong, cleaned, gutted, and heads removed",
+            "\u00bd cup soy sauce",
+            "water",
+            "canola oil",
+            "1 onion, peeled and chopped",
+            "3 cloves garlic, peeled and minced",
+            "1 cup water chestnuts, chopped",
+            "2 cups Chinese celery, chopped",
+            "salt and pepper to taste",
+            "1 package (24 pieces) springroll wrappers"
+        ],
+        "serving": "12"
     },
     {
         "title": "Bangus Sisig",
         "recipe-link": "https://www.kawalingpinoy.com/bangus-sisig/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2017/03/sisig-bangus-2-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Bangus Sisig is easy to make and delicious as an appetizer or main dish.  Made with flaked fish, citrus juices, and peppers, it's a delicious medley of tangy, savory, and spicy flavors sure to hit the spot!",
         "ingredients": [
             "bangus",
             "fish",
@@ -1690,23 +2569,35 @@
             "pepper",
             "chili",
             "chili pepper",
-            "ice",
             "pepper",
             "calamansi",
             "calamansi juice",
-            "ice",
             "seasoning",
             "seasoning sauce",
             "pepper",
             "salt"
-        ]
+        ],
+        "ingredientList": [
+            "2 whole bangus (milkfish), scaled, gutted, and cut into serving parts",
+            "salt and pepper to taste",
+            "canola oil",
+            "1 onion,  peeled and chopped",
+            "3 cloves garlic, peeled and minced",
+            "\u00bd medium green bell pepper, seeded and chopped",
+            "\u00bd medium red bell pepper, seeded and chopped",
+            "4 Thai chili peppers, finely chopped",
+            "2 finger chili peppers (siling haba), sliced thinly",
+            "\u00bc cup calamansi juice",
+            "2 tablespoons seasoning sauce (Knorr)",
+            "salt and pepper to taste"
+        ],
+        "serving": "4"
     },
     {
         "title": "Homemade Fish Balls with Spicy Fish Ball Sauce",
         "recipe-link": "https://www.kawalingpinoy.com/homemade-fish-balls-with-spicy-fish-ball-sauce/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/09/homemade-fish-balls-6-1.jpg",
         "meal": "appetizer",
-        "summary": "Homemade Fish Balls are as fun to make as they are to eat! Soft and bouncy, they're popular as street food with spicy fish ball sauce but just as delicious in soups or stir-fries.",
         "ingredients": [
             "fish",
             "corn",
@@ -1715,15 +2606,37 @@
             "sugar",
             "water",
             "canola oil",
-            "oil"
-        ]
+            "oil",
+            "water",
+            "soy sauce",
+            "garlic",
+            "shallot",
+            "chili",
+            "chili pepper",
+            "pepper",
+            "brown sugar",
+            "sugar",
+            "flour",
+            "corn",
+            "cornstarch",
+            "salt",
+            "pepper"
+        ],
+        "ingredientList": [
+            "1 pound fish flesh",
+            "2 tablespoons cornstarch",
+            "2 teaspoons salt",
+            "1 teaspoon sugar",
+            "\u00bc cup cold water",
+            "canola oil"
+        ],
+        "serving": "4"
     },
     {
         "title": "BBQ Pork Ears",
         "recipe-link": "https://www.kawalingpinoy.com/bbq-pork-ears/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2016/03/bbq-pork-ears-2-680x884.jpg",
         "meal": "appetizer",
-        "summary": "In the mood for street food? BBQ Pork Ears are stewed a la adobo and then grilled to golden perfection. Soft and chewy with a sweet and savory flavor, they're delicious as a snack or appetizer.",
         "ingredients": [
             "pork",
             "pork ear",
@@ -1741,25 +2654,65 @@
             "ketchup",
             "oil",
             "sesame oil"
-        ]
+        ],
+        "ingredientList": [
+            "2 pounds pork ears",
+            "1 cup vinegar",
+            "1 cup water",
+            "\u00bd cup soy sauce",
+            "1 head garlic",
+            "2 bay leaves",
+            "1 teaspoon salt",
+            "\u00bd teaspoon pepper",
+            "\u00bd cup oyster sauce",
+            "\u00bd cup banana ketchup",
+            "\u00bc cup sesame oil"
+        ],
+        "serving": "15"
     },
     {
         "title": "Chizza",
         "recipe-link": "https://www.kawalingpinoy.com/chizza/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/07/chizza71.jpg",
         "meal": "appetizer",
-        "summary": "Soooo, what do we have here? Chizza, my friends! It's chicken + pizza rolled into one fun bite (or bites, if we want to be technical).\u00a0I've been seeing commercials and promotions for this ingenious mash up all over the internet these past few weeks and naturally, I was very much intrigued. KFC Philippines\u00a0rolled out their newest menu item a day or two after I left the country so I wasn't able to try it. And to add to my disappointment, the chicken-pizza wonder is not even available in U.S. markets!\u00a0The pimply-faced teenager behind the counter of our neighborhood KFC stared at me like I was from Mars\u00a0and spoke an alien language when I tried to order myself a Chizza. Drat! The craziest thing to happen to chicken and pizza and I am going to miss it? No way, Jose! Time to break out the cast iron skillet and get a-frying!",
         "ingredients": [
             "chicken",
-            "chicken breast"
-        ]
+            "chicken breast",
+            "butter",
+            "buttermilk",
+            "milk",
+            "salt",
+            "pepper",
+            "flour",
+            "corn",
+            "cornstarch",
+            "salt",
+            "pepper",
+            "egg",
+            "butter",
+            "buttermilk",
+            "milk",
+            "canola oil",
+            "oil",
+            "pizza sauce",
+            "cheese",
+            "mozzarella cheese",
+            "pineapple",
+            "ham",
+            "cheese",
+            "hot sauce",
+            "pepper"
+        ],
+        "ingredientList": [
+            "4 pieces 4 ounces ounces each boneless, skinless chicken breasts or cutlets"
+        ],
+        "serving": "4"
     },
     {
         "title": "Dynamite Lumpia",
         "recipe-link": "https://www.kawalingpinoy.com/dynamite-lumpia/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2015/04/crispy-dynamite-lumpia-2-680x884.jpg",
         "meal": "appetizer",
-        "summary": "Dynamite Lumpia are a must for any party! Made with finger chili peppers and meat filling, they're crispy, crunchy, slightly spicy, and the ultimate beer match!",
         "ingredients": [
             "chili",
             "chili pepper",
@@ -1774,35 +2727,60 @@
             "spring roll wrapper",
             "canola oil",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "30 pieces finger chili peppers (siling haba)",
+            "1 pound ground pork",
+            "2 cloves garlic, peeled and minced",
+            "\u00bd cup green onion, chopped",
+            "1 teaspoon salt",
+            "\u00bc teaspoon pepper",
+            "30 pieces spring roll wrappers",
+            "canola oil"
+        ],
+        "serving": "30"
     },
     {
         "title": "Longganisa Wontons",
         "recipe-link": "https://www.kawalingpinoy.com/longganisa-wontons/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/09/longganisawonton11.jpg",
         "meal": "appetizer",
-        "summary": "As you know, I had enough longganisa over the weekend to feed an army. An army of friends and family who begrudgingly sat through my self-propping tale of how I successfully made Filipino sausages complete with casing for the first time. But after I've divided among them the hefty batch and enjoyed some myself, I had about six links needing another purpose other than a \"silog\" meal for breakfast.",
         "ingredients": [
+            "raw longganisa casing",
             "chestnut",
             "water",
             "green onion",
             "onion",
             "wonton wrapper",
             "oil"
-        ]
+        ],
+        "ingredientList": [
+            "6 raw longganisa casing removed and meat crumbled",
+            "1 cup water chestnuts chopped",
+            "\u00bd cup green onions chopped",
+            "24 wonton wrappers",
+            "oil"
+        ],
+        "serving": "24"
     },
     {
         "title": "Honey Bagoong Chicken Wings",
         "recipe-link": "https://www.kawalingpinoy.com/honey-bagoong-chicken-wings/",
         "image": "https://www.kawalingpinoy.com/wp-content/uploads/2014/08/honeybagoongchickenwings3a1.jpg",
         "meal": "appetizer",
-        "summary": "Sweet honey and pungent bagoong is a blend of flavors we'd last expect on a pair of chicken wings. I saw these honey bagoong chicken wings on\u00a0Pepper.ph the other day and with such\u00a0a weird combination, I just had to try them for myself. In the original recipe, the wings were done ala Bonchon, breaded, deep-fried and drizzled with the bagoong sauce. I was, however, not in the mood to tackle sizzling oil splattering on my face and our freshly-painted kitchen walls so I decided to do the chicken in the oven instead.",
         "ingredients": [
             "chicken",
             "shrimp",
             "shrimp paste",
             "pepper",
             "salt"
-        ]
+        ],
+        "ingredientList": [
+            "3 lbs chicken drumettes",
+            "\u00bd cup sauteed shrimp paste",
+            "\u00bc cup honey",
+            "salt and pepper to taste"
+        ],
+        "serving": "4"
     }
 ]

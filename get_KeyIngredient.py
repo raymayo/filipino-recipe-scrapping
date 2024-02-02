@@ -135,24 +135,25 @@ with open(json_file_path, "r") as json_file:
         with open(path, "w", encoding="utf-8") as json_file:
             json.dump(data, json_file, indent=4)
 
-    # def get_recipe_ingredients(res):
-    #     soup = BeautifulSoup(res.text, "html.parser")
-    #     recipe_array = []
+    def get_recipe_ingredients(res):
+        soup = BeautifulSoup(res.text, "html.parser")
+        recipe_array = []
 
-    #     ingredients_list = soup.find("ul", class_="wprm-recipe-ingredients")
+        ingredients_container = soup.find(
+            "div", class_="wprm-recipe-ingredients-container"
+        )
 
-    #     for ingredient in ingredients_list.find_all(
-    #         "li", class_="wprm-recipe-ingredient"
-    #     ):
-    #         ingredient_name = ingredient.find(
-    #             "span", class_="wprm-recipe-ingredient-name"
-    #         )
+        # Find all list items within the container
+        ingredients_list = ingredients_container.find_all(
+            "li", class_="wprm-recipe-ingredient"
+        )
 
-    #         if ingredient_name:
-    #             if ingredient_name.text not in ingredients_array:
-    #                 recipe_array.append(ingredient_name.text)
+        # Print the text content of each ingredient
+        for ingredient in ingredients_list:
 
-    #     return recipe_array
+            recipe_array.append(ingredient.text.strip())
+
+        return recipe_array
 
     # def filter_ingredients(data, filters):
     #     for ingr in data:
