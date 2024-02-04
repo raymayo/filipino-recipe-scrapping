@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-base_url = "https://www.kawalingpinoy.com/category/appetizers/page/"
+base_url = "https://www.kawalingpinoy.com/category/main-dishes/page/"
 page_number = 1  # Start from the first page
 all_recipes = []  # To store recipes from all pages
 
@@ -33,13 +33,13 @@ while page_number <= 25:
                         "title": recipe_title,
                         "recipe-link": recipe_link,
                         "image": image_src,
-                        "meal": "lunch",
+                        "meal": "main dish",
                     }
                 )
 
         all_recipes.extend(current_recipes)
     page_number += 1
 
-    with open("prototype_appetizers_recipes.json", "w", encoding="utf-8") as json_file:
+    with open("prototype_main_recipes.json", "w", encoding="utf-8") as json_file:
         json.dump(all_recipes, json_file, indent=4, ensure_ascii=False)
 print("ALL FINISHED")

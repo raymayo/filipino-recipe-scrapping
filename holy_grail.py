@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 
 def GET_SUMMARY():
-    json_file_path = "./prototype/prototype_appetizers_recipes.json"
+    json_file_path = "./prototype/prototype_main_recipes.json"
 
     # Open the JSON file for reading
     with open(json_file_path, "r") as json_file:
@@ -387,3 +387,10 @@ def GET_SERVING():
         serving = get_recipe_serving(response)
 
         json_dump(json_file_path, "serving", serving)
+
+
+GET_SUMMARY()
+GET_INGREDIENTS()
+GET_INSTRUCTION()
+GET_INGREDIENT_LIST()
+GET_SERVING()
